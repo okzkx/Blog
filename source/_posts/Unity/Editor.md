@@ -84,6 +84,16 @@ public class $TargetClass$Editor : Editor {
 
 
 
+
+
+## 界面渲染
+
+
+
+移步 [Unity/OnGUI](/2020/06/17/Unity/OnGUI/)
+
+
+
 ## 资料
 
 
@@ -106,17 +116,7 @@ https://docs.unity3d.com/ScriptReference/EditorWindow.html
 
 
 
-## 界面渲染
-
-
-
-移步 OnGUI
-
-
-
-## 资源管理
-
-# Project
+### 资源管理
 
 [Unity编辑器扩展之Project视图面板](https://blog.csdn.net/weixin_42540271/article/details/90761102)
 
