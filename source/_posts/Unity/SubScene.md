@@ -1,9 +1,6 @@
 ---
-title: SubScene
 date: 2020-06-19 10:00:05
 categories: Unity
-description:
-
 ---
 
 
@@ -316,17 +313,17 @@ UnityEditor.Experimental.AssetImporters.ScriptedImporter:GenerateAssetData(Asset
 
 
 
-- 1. OnImportAsset 预处理, 获取场景文件, 依赖关系, 序列化设置等
-  2. 打开场景, 加载YAML场景文件到内存中 
+1. OnImportAsset 预处理, 获取场景文件, 依赖关系, 序列化设置等
+2. 打开场景, 加载YAML场景文件到内存中 
 
 Scene scene = EditorSceneManager.OpenScene(scenePath, OpenSceneMode.Additive);
 
-- 1. WriteEntityScene 生成 Entity 场景
+1. WriteEntityScene 生成 Entity 场景
 
 EditorEntityScenes.WriteEntityScene(scene, settings);
 
-- - 1. 创建一个临时的场景转换的世界 “ConversionWorld
-    2. 将 scene 在 ConversionWorld 中生成所有实体
+1. 创建一个临时的场景转换的世界 “ConversionWorld
+2. 将 scene 在 ConversionWorld 中生成所有实体
 
 ConvertScene(scene, settings);{
 
@@ -336,22 +333,22 @@ Update GameObjectConversionGroup 中的系统
 
 }
 
-- - 1. 所有的实体都具有共享组件 SceneSection, 获取所有的 SceneSection
-    2. 对于每种共享组件 SceneSection, 都创建一个部分场景世界  “SectionWorld”
-    3. 从 “ConversionWorld” 转移相应实体到 “SectionWorld”
-    4. 保存 SectionWorld 成二进制文件
+1. 所有的实体都具有共享组件 SceneSection, 获取所有的 SceneSection
+2. 对于每种共享组件 SceneSection, 都创建一个部分场景世界  “SectionWorld”
+3. 从 “ConversionWorld” 转移相应实体到 “SectionWorld”
+4. 保存 SectionWorld 成二进制文件
 
 var fileSize = WriteEntityScene(sectionManager, sceneGUID, subSection.Section.ToString(), settings, out var objectRefCount, entityRemapping);
 
-- - - 1. 序列化 场景物体
+序列化 场景物体
 
 SerializeUtilityHybrid.Serialize(scene, writer, out objRefs, entityRemapInfos);
 
-- - - 1. 序列化  objRefs
+序列化  objRefs
 
 UnityEditorInternal.InternalEditorUtility.SaveToSerializedFileAndForget(serializedObjectArray.ToArray(), objRefsPath, false);
 
-- - - 1. 序列化所有 SceneSection 成二进制文件
+序列化所有 SceneSection 成二进制文件
 
 WriteHeader(sceneGUID, sceneSectionsArray, scene.name, settings.AssetImportContext); 
 
@@ -379,13 +376,13 @@ SubScene
 
 ResolveSceneReferenceSystem
 
-1. 序列化存储 SceneWithBuildSettingsGUIDs{sceneGUID, buildSettingGUID}
+2. 序列化存储 SceneWithBuildSettingsGUIDs{sceneGUID, buildSettingGUID}
 
 "Assets/SceneDependencyCache”
 
 ResolveSceneReferenceSystem
 
-1. 场景序列化操作, 并返回 **ArtifactHash** 
+3. 场景序列化操作, 并返回 **ArtifactHash** 
 
 **AssetDatabase.Experimental.GetArtifactHash(**SceneWithBuildSettingsGUIDs**)**
 
@@ -418,18 +415,18 @@ ResolveSceneReferenceSystem
 
 1. 通过 **ArtifactHash** 获得 entityHeader 文件来加载场景
 
-- ResolveSceneReferenceSystem
+ResolveSceneReferenceSystem
 
-- 1. 加载出所有 SceneSection 实体, 添加相应组件
+加载出所有 SceneSection 实体, 添加相应组件
 
-- SceneSectionStreamingSystem 
+SceneSectionStreamingSystem 
 
-- 1. 创建 4 个异步加载世界(LoadingWorld), 1 个同步加载世界
+创建 4 个异步加载世界(LoadingWorld), 1 个同步加载世界
 
-- AsyncLoadSceneOperation 
+AsyncLoadSceneOperation 
 
-- 1. 按照优先级,依次加载每个 SceneSection 关联的实体到 LoadingWorld
+按照优先级,依次加载每个 SceneSection 关联的实体到 LoadingWorld
 
-- SceneSectionStreamingSystem
+SceneSectionStreamingSystem
 
-- 1. 异步加载结束后, 移动所有实体到主世界 DefaultWorld
+异步加载结束后, 移动所有实体到主世界 DefaultWorld

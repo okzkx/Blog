@@ -1,26 +1,21 @@
 ---
-title: JobSystem
 date: 2020-06-19 10:00:02
 categories: Unity
-description:
-
 ---
 
 
 
-# Jobsystem
+## JobSystem
 
-**文档**
+#### **文档**
 
-JobSystem
+[JobSystem](https://docs.unity3d.com/Manual/JobSystem.html)
 
-https://docs.unity3d.com/Manual/JobSystem.html
+[JobSystem in ECS](https://docs.unity3d.com/Packages/com.unity.entities@0.1/manual/entity_iteration_job.html)
 
-JobSystem in ECS
 
-https://docs.unity3d.com/Packages/com.unity.entities@0.1/manual/entity_iteration_job.html
 
-**3 种多线程执行方式**
+#### **3 种多线程执行方式**
 
 1. 立即执行
 
@@ -50,7 +45,9 @@ JobForEachExtensions::
 
 IBaseJobForEach.Schedule()
 
-**托管线程调度模式**
+
+
+#### **托管线程调度模式**
 
 托管单线程一次性调度一个作业，
 
@@ -68,7 +65,9 @@ Job Queue 将所有将调度的 Batch 分为 Native job， Native job 为cup 核
 
  Native Job System 将所有 Native job 按照顺序和依赖调度给空闲的线程执行
 
-**Native Memory**
+
+
+#### **Native Memory**
 
 作业作为方法执行，其指令不在栈上，没有返回值。
 
@@ -86,27 +85,28 @@ Native Container 是一种数据结构，用来将主线程的栈的数据共享
 
 作业可以用其来操作主线程中的栈实现通过共享内存的数据互通。
 
-**作业限制**
+
+
+#### **作业限制**
 
 有些主线程可以做的操作，在 Burst 的条件下，在作业，或者多线程作业中不可做。
 
 1. 作业不可操作堆内存
-
-1. 作业不可使用 EntityManager
-
+2. 作业不可使用 EntityManager
 2. 多线程作业不可同时写同一个共享内存
 
-**作业限制的迂回方式**
+
+
+#### **作业限制的迂回方式**
 
 1. 使用 NativeContainer 操作共享栈代替操作共享堆
-
 2. 使用 EntityCommandBuffer 代替 EntityManager，
-
-1. 使用栈上的数据代替堆上的数据，
-
+3. 使用栈上的数据代替堆上的数据，
 2. 将场景数据的操作推迟到**同步点**交给主线程操作
 
-**作业调度**
+
+
+#### **作业调度**
 
 主线程中完成作业调度，禁止在作业中生成作业或进行作业调度。
 
