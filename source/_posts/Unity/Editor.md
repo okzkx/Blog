@@ -1,14 +1,94 @@
 ---
-title: Editor
 date: 2020-06-19 10:00:06
 categories: Unity
 description:
-
 ---
 
 
 
-# 资料
+# Editor 的调用及初始化
+
+
+
+## Editor 界面点击调用静态方法
+
+
+
+#### 菜单栏静态方法
+
+```c#
+[MenuItem("Tools/Init")]
+static void Init() {}
+```
+
+
+#### Hierachy 或 Project 右键静态方法
+
+实际上就是菜单栏的 Assets 中的方法
+
+```c#
+[MenuItem("Assets/Create/Init")]
+static void Init() {}
+```
+
+
+
+## EditorWindow
+
+提供  snippet 
+
+```C#
+using UnityEditor;
+using UnityEngine;
+
+public class $WindowName$EditorWindow : EditorWindow {
+    public $WindowName$EditorWindow() {
+        titleContent = new GUIContent("$WindowName$");
+    }
+
+    [MenuItem("Tools/$WindowName$")]
+    static void Init() {
+        var window = GetWindow<$WindowName$EditorWindow>();
+        window.Show();
+    }
+
+    private void OnGUI() {
+        
+		$selected$ $end$
+    }
+}
+```
+
+
+
+## EditorInspector
+
+提供  snippet 
+
+```c#
+using UnityEditor;
+using UnityEngine;
+
+[CustomEditor(typeof($TargetClass$))]
+public class $TargetClass$Editor : Editor {
+    public override void OnInspectorGUI() {
+        serializedObject.Update();
+        $TargetClass$ comp = target as $TargetClass$;
+
+		$selected$ $end$
+
+        serializedObject.ApplyModifiedProperties();
+    }
+}
+```
+
+
+
+## 资料
+
+
+
+### 综合
 
 [UnityEditor-Windows编辑器与Inspector编辑器详细教程](https://www.jianshu.com/p/97520d98a1f2)
 
@@ -16,7 +96,7 @@ description:
 
 
 
-# Window
+### EditorWindow
 
 https://blog.csdn.net/qq_35030499/article/details/88350521
 
@@ -24,57 +104,23 @@ https://docs.unity3d.com/ScriptReference/EditorWindow.html
 
 
 
-GUILayout
-
-EditorGUILayout
 
 
-
-**1. GUILayout.BeginScrollView/GUILayout.EndScrollView**
-
-**2、GUILayout.BeginVertical/GUILayout.EndVertical**
-
-​	  该控件是垂直布局控件，也就是说在这个区域内的控件，都将垂直排列。
-
-**3、GUILayout.BeginHorizontal/GUILayout.EndHorizontal**
-
-​	  该控件是水平布局控件，在这个区域内的控件，都将水平排列。
-
-**4、GUILayout.Button：按钮**
-
-**5、GUILayout.Box：Box区域**
-
-**6、EditorGUILayout.LabelField：文本信息**
-
-**7、GUILayout.HelpBox：帮助信息**
-
-**8、TextArea：文本输入框**
-
-**9、Toggle：单选框**
-
-**10、Slider：进度条**
-
-**11、EditorGUILayout.EnumPopup：枚举框**
-
-**12、DropdownButton：下拉框**
-
-**13、EditorGUILayout.ObjectField 序列化Object物体**
-
-**14、GUIContent：控件文字提示**
-
-**15、GUIStyle控件样式**
+## 界面渲染
 
 
 
+移步 OnGUI
 
 
 
+## 资源管理
 
-# Inspector
+# Project
 
+[Unity编辑器扩展之Project视图面板](https://blog.csdn.net/weixin_42540271/article/details/90761102)
 
+[原创 （二）Unity编辑器扩展之Hierarchy视图面板](https://blog.csdn.net/weixin_42540271/article/details/90815480)
 
-# Hierarchy
-
-
+[原创 Unity小工具一 自动改变导入图片类型为sprite模式](https://blog.csdn.net/weixin_42540271/article/details/104622939)
 
