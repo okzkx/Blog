@@ -1,10 +1,6 @@
 ---
-date: 2020-06-19 10:00:04
 categories: Unity
 ---
-
-
-
 
 
 # SRP
