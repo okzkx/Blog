@@ -1,4 +1,3 @@
 ---
-date: {{ date }}
 categories: Unity
 ---
