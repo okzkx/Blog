@@ -3,7 +3,7 @@ categories: Blog
 description: 博客美化攻略
 ---
 
-# 美化
+# Decoration
 
 ## Hexo
 
