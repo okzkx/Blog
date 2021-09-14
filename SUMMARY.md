@@ -17,7 +17,7 @@
     * [ProceduralAnimation](unity/research/proceduralanimation.md)
     * [Flow](unity/research/flow.md)
   * [学习材料](unity/xue-xi-cai-liao.md)
-  * [结束介绍](unity/introduse/README.md)
+  * [技术介绍](unity/introduse/README.md)
     * [技术总览](unity/introduse/ji-shu-zong-lan.md)
     * [SRP](unity/introduse/srp.md)
     * [JobSystem](unity/introduse/jobsystem.md)
