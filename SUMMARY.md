@@ -25,6 +25,7 @@
     * [Unity 开放日 - 厦门分享总结](unity/introduse/meetingxiamen.md)
     * [SubScene](unity/introduse/subscene.md)
 * [Git](git/README.md)
+  * [图形客户端工具](git/tu-xing-ke-hu-duan-gong-ju.md)
   * [基础](git/ji-chu.md)
   * [Github](git/github.md)
   * [同步](git/tong-bu.md)
