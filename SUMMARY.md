@@ -10,6 +10,7 @@
     * [资源管理](unity/skill/zi-yuan-guan-li.md)
     * [调试安卓机](unity/skill/tiao-shi-an-zhuo-ji.md)
   * [研究](unity/research/README.md)
+    * [SSR](unity/research/ssr.md)
     * [Batch](unity/research/batch.md)
     * [事件系统](unity/research/ugui.md)
     * [MeshSplit](unity/research/meshsplit.md)
