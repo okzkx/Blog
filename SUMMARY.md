@@ -40,6 +40,6 @@
 * [游戏](you-xi/README.md)
   * [2077](you-xi/2077.md)
 * [博客搭建](da-jian-ge-ren-bo-ke/README.md)
-  * [Decoration](da-jian-ge-ren-bo-ke/mei-hua.md)
+  * [美化](da-jian-ge-ren-bo-ke/mei-hua.md)
   * [基础](da-jian-ge-ren-bo-ke/ji-chu.md)
 
