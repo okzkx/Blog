@@ -1,12 +1,6 @@
 # 水面
 
-效果参考
 
-{% embed url="https://www.youtube.com/watch?v=h9kfy408b90" %}
-https://www.youtube.com/watch?v=KRVMvEsmtkU
-{% endembed %}
-
-{% embed url="https://www.youtube.com/watch?v=KRVMvEsmtkU" %}
 
 [【Unity Shader】unity海边波浪效果的实现\_MrASL的博客-CSDN博客\_unity 海浪](https://blog.csdn.net/mobilebbki399/article/details/50493117)
 
@@ -17,3 +11,23 @@ https://www.youtube.com/watch?v=KRVMvEsmtkU
 [River tool plus | 建模 | Unity Asset Store](https://assetstore.unity.com/packages/tools/modeling/river-tool-plus-148634)
 
 [分享一个有趣的水着色器 - 知乎](https://zhuanlan.zhihu.com/p/142199258)
+
+[Unity只在一个面片上实现真实水体渲染 - 知乎](https://zhuanlan.zhihu.com/p/148651836)
+
+[真实感水体渲染技术总结 - 知乎](https://zhuanlan.zhihu.com/p/95917609)
+
+[Unity Shader 水体渲染 - 知乎](https://zhuanlan.zhihu.com/p/179249031)
+
+[(3) Making a Water Shader in Unity with URP! (Tutorial) - YouTube](https://www.youtube.com/watch?v=gRq-IdShxpU)
+
+[Unity-Technologies/BoatAttack: Demo Project using the Universal RP from Unity3D](https://github.com/Unity-Technologies/BoatAttack)
+
+
+
+效果参考
+
+{% embed url="https://www.youtube.com/watch?v=h9kfy408b90" %}
+https://www.youtube.com/watch?v=KRVMvEsmtkU
+{% endembed %}
+
+{% embed url="https://www.youtube.com/watch?v=KRVMvEsmtkU" %}
