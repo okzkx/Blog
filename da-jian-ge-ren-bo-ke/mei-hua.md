@@ -9,7 +9,7 @@ description: 博客美化攻略
 
 ### 基础使用
 
-[ **hexo-github**](https://github.com/hexojs/hexo)
+[** hexo-github**](https://github.com/hexojs/hexo)
 
 [文档](https://hexo.io/zh-cn/docs/)
 
@@ -17,19 +17,19 @@ description: 博客美化攻略
 
 [**Hexo-设置阅读全文**](https://www.jianshu.com/p/78c218f9d1e7)
 
-[Hexo使用攻略-添加分类及标签](https://linlif.github.io/2017/05/27/Hexo使用攻略-添加分类及标签/)
+[Hexo使用攻略-添加分类及标签](https://linlif.github.io/2017/05/27/Hexo%E4%BD%BF%E7%94%A8%E6%94%BB%E7%95%A5-%E6%B7%BB%E5%8A%A0%E5%88%86%E7%B1%BB%E5%8F%8A%E6%A0%87%E7%AD%BE/)
 
 ## NexT
 
 ### 基础使用
 
-[ **hexo-theme-next-github**](https://github.com/theme-next/hexo-theme-next)
+[** hexo-theme-next-github**](https://github.com/theme-next/hexo-theme-next)
 
 [文档](http://theme-next.iissnan.com/getting-started.html)
 
 ### 常用配置
 
-进入 \themes\next\\_config.yml
+进入 \themes\next\\\_config.yml
 
 * 打开 menu 的菜单栏中需要的菜单
 * Schemes 设置主题
@@ -63,7 +63,7 @@ description: 博客美化攻略
 
 根据 \_config.yml 中配置即可
 
-```text
+```
 # Dependencies: https://github.com/willin/hexo-wordcount
 post_wordcount:
   item_text: true
@@ -80,4 +80,3 @@ Gitee 需要新建仓库名与个人名 Gitee 域名相同，其他与部署 Git
 #### 背景图片
 
 [Hexo 添加背景图片并自适应](https://vonsdite.github.io/posts/c08e78b.html)
-

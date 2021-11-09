@@ -10,6 +10,7 @@
     * [资源管理](unity/skill/zi-yuan-guan-li.md)
     * [调试安卓机](unity/skill/tiao-shi-an-zhuo-ji.md)
   * [研究](unity/research/README.md)
+    * [曲线](unity/research/qu-xian.md)
     * [SSR](unity/research/ssr.md)
     * [Batch](unity/research/batch.md)
     * [事件系统](unity/research/ugui.md)
@@ -45,4 +46,3 @@
 * [博客搭建](da-jian-ge-ren-bo-ke/README.md)
   * [美化](da-jian-ge-ren-bo-ke/mei-hua.md)
   * [基础](da-jian-ge-ren-bo-ke/ji-chu.md)
-
