@@ -24,3 +24,9 @@ B-Spline
 
 全部为输入点，全部为控制点
 
+{% embed url="https://www.freesion.com/article/6828246732" %}
+
+{% embed url="https://blog.csdn.net/wsf09/article/details/103453496" %}
+
+{% embed url="https://blog.csdn.net/u012154588/article/details/98977717" %}
+
