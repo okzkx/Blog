@@ -41,7 +41,7 @@
   * [代码配色](skills/dai-ma-pei-se.md)
   * [Office](skills/office.md)
 * [游戏](game/README.md)
-  * [Untitled](game/untitled.md)
+  * [怪物猎人世界](game/untitled.md)
   * [2077](game/2077.md)
 * [博客搭建](blog/README.md)
   * [美化](blog/mei-hua.md)
