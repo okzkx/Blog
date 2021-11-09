@@ -10,7 +10,12 @@ https://www.youtube.com/watch?v=KRVMvEsmtkU
 
 
 
-海浪
+[【Unity Shader】unity海边波浪效果的实现_MrASL的博客-CSDN博客_unity 海浪](https://blog.csdn.net/mobilebbki399/article/details/50493117)
 
-{% embed url="https://www.zhihu.com/question/26220601/answer/32873654" %}
+[fft海面模拟(一) - 知乎](https://zhuanlan.zhihu.com/p/64414956)
 
+[Unity Shader Tutorial River Fluss - YouTube](https://www.youtube.com/watch?v=fmhjq6_caIQ)
+
+[River tool plus | 建模 | Unity Asset Store](https://assetstore.unity.com/packages/tools/modeling/river-tool-plus-148634)
+
+[分享一个有趣的水着色器 - 知乎](https://zhuanlan.zhihu.com/p/142199258)
