@@ -69,3 +69,17 @@ Games 101
 3D游戏与计算机图形学中的数学方法
 
 Fundamentals of Computer Graphics
+
+
+
+### Games
+
+[GAMES202-高质量实时渲染_哔哩哔哩 (゜-゜)つロ 干杯~-bilibili](https://www.bilibili.com/video/BV1YK4y1T7yY/?spm_id_from=333.788.recommend_more_video.0)
+
+[课程PPT和视频 – 计算机图形学与混合现实研讨会](http://games-cn.org/games202-slidesandvideo/)
+
+[GAMES202: 高质量实时渲染](https://sites.cs.ucsb.edu/~lingqi/teaching/games202.html)
+
+[3D Reconstruction and Understanding](https://www.cs.utexas.edu/~huangqx/Games_3D_Recons_Understanding.html)
+
+[GAMES203: 三维重建和理解_哔哩哔哩_bilibili](https://www.bilibili.com/video/BV1pw411d7aS)
