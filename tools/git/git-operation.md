@@ -1,8 +1,4 @@
----
-categories: Git
----
-
-# 操作
+# Git 操作
 
 [C\#/.NET使用git命令行来操作git仓库的方法示例](https://www.jb51.net/article/158808.htm)
 

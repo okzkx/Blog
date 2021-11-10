@@ -1,18 +1,12 @@
-# 制图
+# 图片
 
 ## draw.io
 
-## 数据流图
-
-方形：类
-
-圆角方形：对象
-
-箭头：数据流传递
-
-方框：所属区域
-
-## Draw.io  制图
+#### 个人规范
+- 方形：类
+- 圆角方形：对象
+- 箭头：数据流传递
+- 方框：所属区域
 
 
 ## MarkDown 制图
@@ -53,3 +47,7 @@ sequenceDiagram
 [都都网](http://www.topdodo.com/meditor)
 
 [Photopea \| Online Photo Editor](https://www.photopea.com/)
+
+## 图片压缩
+
+[图压](https://tuya.xinxiao.tech/)

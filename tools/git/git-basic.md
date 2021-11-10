@@ -1,8 +1,4 @@
----
-categories: Git
----
-
-# 基础
+# Git 基础
 
 ## 基础教程
 
@@ -20,15 +16,24 @@ categories: Git
 * [git diff的用法](https://www.cnblogs.com/cb0327/p/5051197.html)
 * [git原理图解](https://www.cnblogs.com/cb0327/p/5066685.html)
 
-## Git GUI
+## Git 图形客户端工具
 
 一个好的 GUI 不仅能极大提高工作效率，还能反过来更直观的学习 Git 原理和命令行指令。
 
-[git-fork](https://www.git-fork.com/)（推荐）
+1. [git-fork](https://www.git-fork.com/)（推荐）
+2. TortoiseGit \(主流\)
+3. Github Destop
 
-TortoiseGit \(主流\)
+### 同步
 
-### [Git-同步篇](https://github.com/okzkx/Blog/tree/a336a6991dae53d05a744c68889c42072bb07c75/2020/06/18/Git/同步/README.md)
+[Git-同步篇](git-sync.md)
 
-### [Git-分支篇](https://github.com/okzkx/Blog/tree/a336a6991dae53d05a744c68889c42072bb07c75/2020/06/18/Git/分支/README.md) TODO
+### 操作
 
+[C\#/.NET使用git命令行来操作git仓库的方法示例](https://www.jb51.net/article/158808.htm)
+
+[C\#中运行命令获取Git commit id的方法](https://blog.csdn.net/lingyanpi/article/details/72472958)
+
+### 分支
+
+[**git merge 和 git rebase 小结**](https://www.cnblogs.com/cb0327/p/5065579.html)

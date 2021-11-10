@@ -1,8 +1,3 @@
----
-categories: Blog
-description: 打造一套完整的、免费的、从零开始的，博客建站、配置、美化、优化以及文章写作与发布工作流。
----
-
 # 基础
 
 ## 简介
@@ -94,5 +89,5 @@ Hexo 的一个插件，改变渲染样式
 
 1. 安装 [Typora](https://typora.io/)
 2. 根据 [使用Github搭建属于自己的博客](https://www.jianshu.com/p/4f56cf990bba) 直到博客发布成功
-3. 美化 [搭建个人博客-美化篇](https://github.com/okzkx/Blog/tree/a336a6991dae53d05a744c68889c42072bb07c75/2020/06/18/搭建个人博客-美化篇/README.md)
+3. 美化 [搭建个人博客-美化篇](blog-decorate.md)
 

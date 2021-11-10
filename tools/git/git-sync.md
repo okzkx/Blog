@@ -1,8 +1,4 @@
----
-categories: Git
----
-
-# 同步
+# Git 同步
 
 ## Git 远端同步理解
 
