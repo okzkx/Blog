@@ -4,7 +4,7 @@
 
 ### 基础使用
 
-[** hexo-github**](https://github.com/hexojs/hexo)
+[hexo-github](https://github.com/hexojs/hexo)
 
 [文档](https://hexo.io/zh-cn/docs/)
 
@@ -18,7 +18,7 @@
 
 ### 基础使用
 
-[** hexo-theme-next-github**](https://github.com/theme-next/hexo-theme-next)
+[hexo-theme-next-github](https://github.com/theme-next/hexo-theme-next)
 
 [文档](http://theme-next.iissnan.com/getting-started.html)
 
