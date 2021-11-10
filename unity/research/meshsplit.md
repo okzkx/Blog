@@ -1,6 +1,4 @@
-# MeshSplit
-
-Unity Mesh 切割
+# Unity Mesh 切割
 
 ### Reference
 

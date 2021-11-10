@@ -1,7 +1,3 @@
----
-categories: Unity
----
-
 # Unity 开放日 - 厦门分享总结
 
 ## Road Map:Unity 接下来的开发方向展望

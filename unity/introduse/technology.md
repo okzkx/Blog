@@ -1,7 +1,3 @@
----
-categories: Unity
----
-
 # 技术总览
 
 ## addressable

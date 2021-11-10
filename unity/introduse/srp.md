@@ -1,7 +1,3 @@
----
-categories: Unity
----
-
 # SRP
 
 ## SRP

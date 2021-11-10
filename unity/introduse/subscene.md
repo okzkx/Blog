@@ -1,7 +1,3 @@
----
-categories: Unity
----
-
 # SubScene
 
 ## 1. 资料
