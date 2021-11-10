@@ -1,3 +1,5 @@
 # SD
 
-[Substance Designer 中文教程](https://www.bilibili.com/video/BV1zW411V7ZH?p=2")
+{% embed url="https://www.bilibili.com/video/BV1zW411V7ZH?p=2" %}
+SD Chinese Tutorial
+{% endembed %}
