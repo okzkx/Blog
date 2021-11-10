@@ -21,7 +21,7 @@
   * [同步](git/tong-bu.md)
   * [图形客户端工具](git/tu-xing-ke-hu-duan-gong-ju.md)
 * [工具](tools/README.md)
-  * [equation](tools/equation.md)
+  * [公式](tools/equation.md)
   * [houdini](tools/houdini.md)
   * [RenderDoc](tools/renderdoc.md)
   * [Rider](tools/rider.md)
