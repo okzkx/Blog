@@ -1,7 +1,3 @@
----
-categories: Unity
----
-
 # 调试安卓机
 
 ## 使用 profiler 调试

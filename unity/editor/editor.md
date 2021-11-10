@@ -1,7 +1,3 @@
----
-categories: Unity
----
-
 # Editor 的调用及初始化
 
 ## Editor 界面点击调用静态方法
