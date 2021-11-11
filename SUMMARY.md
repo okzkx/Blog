@@ -28,7 +28,6 @@
     * [Git 操作](tools/git/git-operation.md)
     * [Git 同步](tools/git/git-sync.md)
 * [Unity](unity/README.md)
-  * [学习材料](unity/xue-xi-cai-liao.md)
   * [综合分享](unity/comprehensive/README.md)
     * [Unity 开放日 - 厦门分享总结](unity/comprehensive/meeting-xiamen.md)
     * [技术总览](unity/comprehensive/technology.md)
