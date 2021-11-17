@@ -6,7 +6,7 @@
 
 [Code Monkey](https://www.youtube.com/c/CodeMonkeyUnity)
 
-Games 101
+[*GAMES101* -现代计算机图形学入门-闫令琪](https://www.bilibili.com/video/BV1X7411F744?from=search&seid=7975210152003625023 "GAMES101-现代计算机图形学入门-闫令琪")
 
 [李宏毅机器学习](https://www.bilibili.com/video/BV1JE411g7XF)
 
@@ -26,19 +26,13 @@ Games 101
 
 [游戏引擎架构](https://www.cnblogs.com/yeqluofwupheng/tag/%E5%BC%95%E6%93%8E/)
 
-{% embed url="https://blog.csdn.net/honeycat/article/details/3970532" %}
+[3D地形编程——之GeoMipMap基础（2）](https://blog.csdn.net/honeycat/article/details/3970532)
 
-{% embed url="https://www.kdocs.cn/l/cm2ItbXNC1aF" %}
-\[只读]samlee的秘密SD笔记 - 金山文档
-{% endembed %}
+[Samlee 的秘密SD笔记 - 金山文档](https://www.kdocs.cn/l/cm2ItbXNC1aF)
 
 ### 程序化生成
 
-{% embed url="https://zhuanlan.zhihu.com/p/94690064" %}
-
-{% embed url="https://www.zhihu.com/column/PCGMobile" %}
-
-###
+[移动端程序化生成技术](https://www.zhihu.com/column/PCGMobile)
 
 ### 综合
 
@@ -69,8 +63,6 @@ Games 101
 3D游戏与计算机图形学中的数学方法
 
 Fundamentals of Computer Graphics
-
-
 
 ### Games
 
