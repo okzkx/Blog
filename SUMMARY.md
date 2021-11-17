@@ -9,7 +9,7 @@
   * [下载](tools/download.md)
   * [公式](tools/equation.md)
   * [文件管理](tools/file.md)
-  * [houdini](tools/houdini.md)
+  * [Houdini](tools/houdini.md)
   * [数学可视化](tools/math-visual.md)
   * [Office](tools/office.md)
   * [图片](tools/picture.md)
