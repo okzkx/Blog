@@ -1,6 +1,6 @@
 # 曲线
 
-![](../../../../.gitbook/assets/a592dd03ded9aa6.jpg)
+![](../../../.gitbook/assets/a592dd03ded9aa6.jpg)
 
 这里简单介绍 4 种曲线
 
@@ -10,7 +10,7 @@ Bezier
 
 曲线具有原子性
 
-![](../../../../.gitbook/assets/-7e2c1f463d9be134%20\(1\).png)
+![](../../../.gitbook/assets/-7e2c1f463d9be134.png)
 
 Hermite
 
