@@ -35,9 +35,9 @@
 ### System
 - 在 System 创建时获得实体集合, OnCreate(){ GetEntityQuery }
 - 在每帧执行 Job 任务, OnUpdate
-- - 获得组件集合, GetArchetypeChunkComponentType
-- - 创建和初始化 Job  
-- - Job 执行, job.Schedule(m_Group, Dependency);
+    - 获得组件集合, GetArchetypeChunkComponentType
+    - 创建和初始化 Job  
+    - Job 执行, job.Schedule(m_Group, Dependency);
 
 ## 3. SubScene
 
@@ -60,10 +60,10 @@
 - OnCreate 获取系统类 BeginInitializationEntityCommandBufferSystem 作为属性
 - World.GetOrCreateSystem<BeginInitializationEntityCommandBufferSystem>()
 - OnUpdate
-- 1. commandBuffer = CreateCommandBuffer().ToConcurrent();
-- 2. 使用 ForEach 找到 SpawnerEntity
-- 3. Create Entitys
-- 4. Destroy Entity
+    1. commandBuffer = CreateCommandBuffer().ToConcurrent();
+    2. 使用 ForEach 找到 SpawnerEntity
+    3. Create Entitys
+    4. Destroy Entity
 
 ### Commend Buffer
 - 为了防止竞争条件, Unity 事先对多线程进行调度

@@ -13,16 +13,16 @@
 
 #### School
 1. GameObject 转 Entity
-- - BoidSchoolAuthoring -> BoidSchoolSpawn
+    BoidSchoolAuthoring -> BoidSchoolSpawn
 2. 创建足够数量的鱼 Entity 
-- - Instantiate(boidSchool.Prefab, boidEntities); 
+    - Instantiate(boidSchool.Prefab, boidEntities); 
 3. 多线程任务 SetBoidLocalToWorld 为这些鱼附上位置组件 
-- - LocalToWorldFromEntity[entity] = localToWorld;
+    - LocalToWorldFromEntity[entity] = localToWorld;
 4. 销毁 School 自身
 
 #### BoidConversion 
 1. 将鱼的 BoidAuthoring -> Boid
-- - BoidAuthoring 没有实现 IConvertGameObjectToEntity, 需要 System 手动转为组件
+    - BoidAuthoring 没有实现 IConvertGameObjectToEntity, 需要 System 手动转为组件
 2. 删除鱼的 Translation, Rotation 组件? 为什么?
 
 #### SampledAnimationClipPlaybackSystem
@@ -49,9 +49,9 @@ v.vertex.x += sin((cycleOffset + _Time.y) * _TimeScale + v.vertex.z * _Amount) *
 3. 存储目标位置信息, copyTargetPositions
 4. 存储障碍位置信息, copyObstaclePositions
 5. 按区域将鱼放入不同的桶中, hashMap
-- - NativeMultiHashMap, 多键哈希表(键可重复,桶结构),
-- - 键相同的鱼表明其在同一区域
-- - key 算法:
+    - NativeMultiHashMap, 多键哈希表(键可重复,桶结构),
+    - 键相同的鱼表明其在同一区域
+    - key 算法:
 ```
  var hash = (int)math.hash(new int3(math.floor(localToWorld.Position / settings.CellRadius)));
 ```
@@ -65,23 +65,23 @@ v.vertex.x += sin((cycleOffset + _Time.y) * _TimeScale + v.vertex.z * _Amount) *
 - HashMap 中 key 相同的鱼,包含在一个 Cell 中
 - Cell 作为一个区域内鱼的集合
 - 遍历所有 Cell
-- 1. ExecuteNext 对于一个桶中的每个对象
-- - 1. 计算(鱼数量,总朝向 alignment,总位置 separation)
-- 2. ExecuteFirst 方法: 对于每个Cell
-- - 1. Cell.position = avg(separation)
-- - 2. 计算最近的目标和障碍物
+    1. ExecuteNext 对于一个桶中的每个对象
+        1. 计算(鱼数量,总朝向 alignment,总位置 separation)
+    2. ExecuteFirst 方法: 对于每个Cell
+        1. Cell.position = avg(separation)
+        2. 计算最近的目标和障碍物
 
 8. **参数都准备好了,开始进行鱼的行为控制(Steer)**
 - 获取外部变量,相当于往Job中赋值, WithReadOnly
 - 对于每只鱼, WithSharedComponentFilter(settings) 
 - 群聚算法三个参数
-- 1. 获取其 Cell 方向与自身方向的偏移, alignmentResult
-- 2. 获取其 Cell 位置与自身位置的偏移, separationResult
-- 3. 获取朝向目标位置的向量, targetHeading
-- 4. 将以上三者按照权重结合, normalHeading
-- 5. 获取避障向量. 朝向最近障碍物反方向, 离障碍物越近其越大, avoidObstacleHeading
-- 6. 根据与障碍物的距离选择采用哪种向量作为最终向量, targetForward
-- 7. 由 targetForward 计算下一帧的朝向, nextHeading
-- 8. 根据 nextHeading 计算 translation 和 quaternion ,填入 TRS
-- - 前方向由 (0,0,1) 转到 nextHeading 的函数
-- - quaternion.LookRotationSafe(nextHeading, math.up()) ??
+    1. 获取其 Cell 方向与自身方向的偏移, alignmentResult
+    2. 获取其 Cell 位置与自身位置的偏移, separationResult
+    3. 获取朝向目标位置的向量, targetHeading
+    4. 将以上三者按照权重结合, normalHeading
+    5. 获取避障向量. 朝向最近障碍物反方向, 离障碍物越近其越大, avoidObstacleHeading
+    6. 根据与障碍物的距离选择采用哪种向量作为最终向量, targetForward
+    7. 由 targetForward 计算下一帧的朝向, nextHeading
+    8. 根据 nextHeading 计算 translation 和 quaternion ,填入 TRS
+    - 前方向由 (0,0,1) 转到 nextHeading 的函数
+    - quaternion.LookRotationSafe(nextHeading, math.up()) ??
