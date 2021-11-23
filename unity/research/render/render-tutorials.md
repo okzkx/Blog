@@ -8,6 +8,8 @@
 
 [蒸汽机车](https://www.zhihu.com/column/noobdawn)
 
+[Cg Programming/Unity - Wikibooks, open books for an open world](https://en.wikibooks.org/wiki/Cg_Programming/Unity)
+
 ## Games
 
 [GAMES101-现代计算机图形学入门-闫令琪](https://www.bilibili.com/video/BV1X7411F744)

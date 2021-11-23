@@ -44,3 +44,6 @@ NativeContainer 集合系列包括 Array , List, HashMap 等常用集合结构�
 * Burst 编译器无法编译堆区内容（类？），可以使用 Native Container 来代替 STL Container。
 * 对多线程的支持，这边涉及到 GC 的回收机制，GC 通常会在 main 方法中遍历出所有引用到的堆内存中的对象，对于没有遍历到的对象，将进行自动垃圾回收。在多线程中，子线程引用的对象可能不会被主线程引用到，为了不被回收，使用 NativeContainer
 
+### Reference
+
+[Struct NativeStream.Writer | Package Manager UI website](https://docs.unity3d.com/Packages/com.unity.collections@0.1/api/Unity.Collections.NativeStream.Writer.html)
