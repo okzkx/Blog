@@ -12,6 +12,7 @@ description: 学习，记录，分享
 
 * DebugDraw -> xrp 迭代两个版本
 * Blog 整理
+* HDRP 书籍
 
 #### 学习计划
 
