@@ -91,3 +91,12 @@ public class $TargetClass$Editor : Editor {
 
 [原创 Unity小工具一 自动改变导入图片类型为sprite模式](https://blog.csdn.net/weixin_42540271/article/details/104622939)
 
+### Addressable
+
+[Unity Addressable Asset system](https://docs.unity3d.com/Packages/com.unity.addressables@1.7/manual/index.html) 
+
+### Input System
+
+### Asset Import Pipline
+[The new Asset Import Pipeline: Solid foundation for speeding up asset imports](https://blog.unity.com/technology/the-new-asset-import-pipeline-solid-foundation-for-speeding-up-asset-imports)
+
