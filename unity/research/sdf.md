@@ -1,3 +1,7 @@
 # 有向距离场
 
-{% embed url="https://www.iquilezles.org/www/articles/intersectors/intersectors.htm" %}
+[iquilezles SDF Index](https://www.iquilezles.org/www/index.htm)
+
+- [3D SDFs](https://www.iquilezles.org/www/articles/distfunctions/distfunctions.htm)
+
+- [2D SDFs](https://www.iquilezles.org/www/articles/distfunctions2d/distfunctions2d.htm)
