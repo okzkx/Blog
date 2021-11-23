@@ -1,4 +1,4 @@
-# ScriptableRenderPipline
+# Scriptable Render Pipline
 
 ## SRP
 

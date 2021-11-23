@@ -2,8 +2,6 @@
 
 ## Mesh 切割
 
-### Reference
-
 [Mesh的平面切割算法](https://blog.csdn.net/xoyojank/article/details/54030418?utm_source=blogxgwz2)
 
 [Unity中Mesh切割的实现](https://zhuanlan.zhihu.com/p/125857028)
@@ -17,10 +15,3 @@
 [unity模型任意无限切割插件](http://www.demodashi.com/demo/11343.html)
 
 [耳切法处理多边形三角划分](https://blog.csdn.net/u010019717/article/details/52753855)
-
-## 其他 Mesh 相关
-
-[Mesh siki](http://www.sikiedu.com/course/655)
-
-[Mesh Basics \(catlikecoding\)](https://catlikecoding.com/unity/tutorials/mesh-basics/)
-
