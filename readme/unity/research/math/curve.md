@@ -1,16 +1,16 @@
 # 曲线
 
-![](../../.gitbook/assets/a592dd03ded9aa6.jpg)
+![](../../../../.gitbook/assets/a592dd03ded9aa6.jpg)
 
 这里简单介绍 4 种曲线
 
-Bezier&#x20;
+Bezier
 
 贝塞尔曲线，4 个输入点，1，4 为路径点，2、3 为控制点。
 
 曲线具有原子性
 
-![](<../../.gitbook/assets/-7e2c1f463d9be134 (1).png>)
+![](../../../../.gitbook/assets/-7e2c1f463d9be134%20\(1\).png)
 
 Hermite
 
@@ -32,5 +32,4 @@ B-Spline
 
 [(2 封私信) 如何得到贝塞尔曲线的曲线长度和 t 的近似关系？ - 知乎](https://www.zhihu.com/question/27715729)
 
-[三阶贝塞尔曲线一分为二的一般公式](http://www.360doc.com/content/16/0101/20/1489589_524673502.shtml)
-
+[三阶贝塞尔曲线一分为二的一般公式](http://www.360doc.com/content/16/0101/20/1489589\_524673502.shtml)

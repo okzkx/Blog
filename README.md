@@ -1,16 +1,14 @@
-# HEADER
+---
+description: 学习，记录，分享
+---
+
+# ZKX'S BLOG
+
+### HEADER
 
 `000000000019d6689c085ae165831e934ff763ae46a2a6c172b3f1b60a8ce26f`
 
-## ZKX'S BLOG
-
-### PLAN
-
-**个人**
-
-* 
-
-**学习计划**
+#### 学习计划
 
 * 小型
   * 二次元 Shader
