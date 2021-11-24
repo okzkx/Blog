@@ -59,3 +59,21 @@
 
 
 
+### 换行配置
+
+大括号不换行
+
+<img src="../.gitbook/assets/image-20211124112422416.png" alt="image-20211124112422416"  />
+
+Braces Layout 更改为 K&R style
+
+
+
+else 不换行
+
+![image-20211124141751298](../.gitbook/assets/image-20211124141751298.png)
+
+### 快捷键
+
+<img src="../.gitbook/assets/image-20211124134504133.png" alt="image-20211124134504133"  />
+
