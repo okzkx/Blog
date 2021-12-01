@@ -7,3 +7,6 @@
 [Unity-一个简单的水墨渲染方法](https://zhuanlan.zhihu.com/p/98948117)
 
 [《原神》部分效果的个人理解](https://zhuanlan.zhihu.com/p/246531456)
+
+[【Unity技术美术】 *原神Shader*渲染还原解析](https://zhuanlan.zhihu.com/p/435005339)
+
