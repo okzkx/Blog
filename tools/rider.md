@@ -69,16 +69,24 @@ Braces Layout 更改为 K&R style
 
 
 
-else 不换行
+#### else 不换行
 
 ![image-20211124141751298](../.gitbook/assets/image-20211124141751298.png)
 
-### 快捷键
+#### 快捷键
 
 <img src="../.gitbook/assets/image-20211124134504133.png" alt="image-20211124134504133"  />
 
 
 
+#### 改变字体大小
+
+[idea 改变*字体大小*_ChanYee的博客-CSDN博客_*rider* *字体大小*](https://www.baidu.com/link?url=-SCQAPneO3prshBYvYNHdZN0DSL7oD94q-20imy8tBglk6UWqub5JKGWjWSFvR3hjuaVzPDcEVjR5inxRQ6JsQCYYBuoiD1ROWYwR2DvrcG&wd=&eqid=961cb35c00012a040000000661a07f7b)
 
 
-### [idea 改变*字体大小*_ChanYee的博客-CSDN博客_*rider* *字体大小*](https://www.baidu.com/link?url=-SCQAPneO3prshBYvYNHdZN0DSL7oD94q-20imy8tBglk6UWqub5JKGWjWSFvR3hjuaVzPDcEVjR5inxRQ6JsQCYYBuoiD1ROWYwR2DvrcG&wd=&eqid=961cb35c00012a040000000661a07f7b)
+
+#### 总是打开选中文件
+
+![image-20211129112457130](../.gitbook/assets/image-20211129112457130.png)
+
+#### 不显示 Var 转换
