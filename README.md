@@ -10,14 +10,14 @@ description: 学习，记录，分享
 
 #### 日常计划
 
-* DebugDraw -> xrp 迭代两个版本
-* Blog 整理
-* HDRP 书籍
+* URP shader 整理和工程（二次元 Shader）
+* 3D 数学技巧整理博客
+* 物理模拟工程
 
 #### 学习计划
 
 * 小型
-  * 二次元 Shader
+  * HDRP 书籍
 * 大型
   * [GAMES103-基于物理的计算机动画入门](https://www.bilibili.com/video/BV12Q4y1S73g)
   * 庄懂
