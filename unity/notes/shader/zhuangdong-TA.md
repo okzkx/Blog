@@ -41,15 +41,12 @@
 #### 卡通渲染
 
 - 卡通渲染不止一种风格
-
 - 技术不止一种风格
   - ![image-20211202214853695](../../../.gitbook/assets/image-20211202214853695.png)
   - ![image-20211202214915336](../../../.gitbook/assets/image-20211202214915336.png)
-
 - 常用技术 · Cell / ToonShading
   - [罪恶装备](https://gdcvault.com/play/1022031/GuiltyGearXrd-s-Art-Style-The)
   - [火影·究极风暴](http://psv.tgbus.com/news/ynzx/201306/20130603141025.shtml)
-
 - 常用技术 - HatchingShading
 
   - ![image-20211202215400923](../../../.gitbook/assets/image-20211202215400923.png)
@@ -70,11 +67,12 @@
 
 - 关联编辑器
 
-- SF 新建最简 Shader 模板![image-20211202220034604](../../../.gitbook/assets/image-20211202220034604.png)
+- SF 新建最简 Shader 模板
+
+  ![image-20211202220034604](../../../.gitbook/assets/image-20211202220034604.png)
 
 - HelloWorld
   
-
 ```clike
 Shader "AP1/L03/Lambert"
 {
@@ -246,7 +244,10 @@ Shader "AP1/L03/Lambert"
     观察方向的不同而发生了改变。然后你站着不动，改变激光发射方向和桌面的夹角，你又会发现亮
     点的亮度发生了改变。这就是说，一个表面对不同的光线入射角和反射角的组合，拥有不同的反射
     率。BRDF就是用来对这种反射性质进行定义的。---- 知乎用户
-- 一些分布函数![image-20211202223558829](../../../.gitbook/assets/image-20211202223558829.png)
+- 一些分布函数
+
+  ![image-20211202223558829](../../../.gitbook/assets/image-20211202223558829.png)
+
 - [BRDF Explorer](https://github.com/wdas/brdf/downloads)
 
 ## 七
@@ -265,8 +266,6 @@ Shader "AP1/L03/Lambert"
   11. 采样Occlusion图，获得环境遮挡信息；采样贴图方法：tex2D(_Texture, uv)；
   ```
 
-  
-
 #### 投影
 
 - Unity 内置投影调用
@@ -279,15 +278,15 @@ Shader "AP1/L03/Lambert"
   8. 像素Shader中获取投影信息同样通过Unity提供的方法：LIGHT_ATTENUATION(i)；
   ```
 
-
-
 #### OldSchoolPlus
 
 - 简化理解光照的构成
 
   ![image-20211202224802199](../../../.gitbook/assets/image-20211202224802199.png)
 
-- OldSchoolPlus![image-20211202224850232](../../../.gitbook/assets/image-20211202224850232.png)
+- OldSchoolPlus
+
+  ![image-20211202224850232](../../../.gitbook/assets/image-20211202224850232.png)
 
 ## 八
 
