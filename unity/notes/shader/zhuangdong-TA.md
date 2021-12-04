@@ -14,7 +14,7 @@
 
 模型 > input > vertex shader > output > fragment shader > color
 
-#### 值结构
+#### 值结构g
 
 - 标量 Scalar
 - 向量 Vector
@@ -280,7 +280,7 @@ Shader "AP1/L03/Lambert"
 
 #### OldSchoolPlus
 
-- 简化理解光照的构成
+- 光照的构成
 
   ![image-20211202224802199](../../../.gitbook/assets/image-20211202224802199.png)
 
@@ -317,5 +317,524 @@ Shader "AP1/L03/Lambert"
 6. 输出结构追加：
     1. UV0：用于采样法线贴图；
     2. tDirWS，bDirWS，nDirWS：切线空间3轴向方向，用于构建TBN矩阵；
+```
+
+## 九
+
+#### 菲涅尔现象
+
+真实世界中，除了金属之外其它物质，视线垂直于表面时，反射较弱，而当视线非垂直表面时，夹角越小，反射越明显。
+
+#### Matcap
+
+- 一种无视BRDF，将BRDF渲染结果，用View空间法线朝向，直接映射到模型表面的流氓算法；
+-  常用来模拟环境反射；
+
+```
+1. 将nDir从切线空间转到观察空间；
+2. 取RG通道Remap到(0~1)，作为UV对Matcap图采样；
+3. 叠加菲涅尔效果，以模拟金属和非金属不同质感；
+```
+
+Cubemap
+
+```
+采样Cubemap；
+• 采样方法：texCUBElod(_Cubemap, float4)；
+• Float4参数：xyz：vrDir；w：mip等级；
+```
+
+## 十
+
+#### OldSchoolPro
+
+- 构成
+
+![image-20211203181043123](../../../.gitbook/assets/image-20211203181043123.png)
+
+```
+3. 定义面板参数
+• [Header(XXX)] 排版
+4. 为产生投影，包含以下文件：
+• AutoLight.cginc
+• Lighting.cginc
+```
+
+## 十一、Shader 常用的写作技巧
+
+#### 面板参数声明格式
+
+```
+数值，范围：
+• _Name (“标签名”, float) = defaultVal
+• _Name (“标签名”, range(min, max)) = defaultVal
+• _Name (“标签名”, int) = defaultVal
+位置，向量，颜色：
+• _Name (“标签名”, vector) = (xVal, yVal, zVal, wVal)
+• _Name (“标签名”, color) = (rVal, gVal, bVal, aVal)
+2D，3D纹理，环境球：
+• _Name (“标签名”, 2d) = “defaultTex” {}
+• _Name (“标签名”, 3d) = “defaultTex” {}
+• _Name (“标签名”, cube) = “defaultTex” {}
+```
+
+#### 参数属性
+
+```
+[HideInInspect]
+• 用途：在面板上隐藏该参数；
+• 可用于：任何参数；
+• 例：[HideInInspect] _FakeLightDir (“伪光方向”, vector) = (0.0, 1.0, 0.0, 1.0)
+[NoScaleOffset]
+• 用途：禁用纹理的TilingOffset面板；不需要做TilingOffset的纹理，比如大部分的角色纹理，防止美术误设置；
+• 可用于：纹理参数；
+• 例：[NoScaleOffset] _MainTex (“主贴图”, 2d) = “white” {}
+[Normal]
+• 用途：标示该纹理参数为法线贴图，以激活相关自检功能；
+• 可用于：2D纹理参数；
+• 例：[Normal] _NormTex (“法线贴图”, 2d) = “bump”{}
+[HDR]
+• 用途：用于设置高动态范围颜色值；如：灯光颜色，自发光颜色等；
+• 可用于：颜色参数；
+• 例：[HDR] _EmitCol (“自发光颜色”, color) = (1.0, 1.0, 1.0, 1.0)
+[Gamma]
+• 用途：用于颜色参数的色彩空间的转换；一般用于色彩空间为Linear的项目；
+• 可用于：颜色参数；
+• 例：[Gamma] _EmitCol (“自发光颜色”, color) = (1.0, 1.0, 1.0, 1.0)
+[PowerSlider(value)]
+• 用途：对范围参数做Power处理后再传入Shader；纠正部分参数调节手感；
+• 可用于：范围参数；
+• 例：[PowerSlider(0.5)] _SpecPow (“高光次幂”, range(1, 90)) = 30
+[Header(Label)]
+• 用途：标签，用于排版；
+• 可用于：单独使用；
+• 例：[Header(Texture)]
+[Space(value)]
+• 用途：空行，用于排版；
+• 可用于：单独使用；
+• 例：[Space(50)]
+其他：[Toggle] [Enum] [Keyword] 配合宏使用，暂时不用知道；自定义Drawer需要一定C#能力，暂时不用知道；
+```
+
+#### 参数类型
+
+```
+• fixed： 11位定点数，-2.0~2.0，精度1/256；
+• half： 16位浮点数，-60000~60000，精度约3位小数；
+• float： 32位浮点数，-3.4E38~3.4E38，精度约6，7位小数；
+• Int： 32位整形数，较少使用；
+• bool： 布尔型数，较少使用；
+• 矩阵：
+• float2x2, float3x3, float4x4, float2x3 诸如此类格式；
+• half2x2, half3x3, half4x4, half2x3 诸如此类格式；
+• 纹理对象：
+• sampler2D： 2D纹理
+• sampler3D： 3D纹理
+• samplerCUBE： Cube纹理
+```
+
+#### 精度选择
+
+```
+• 原则上优先使用精度最低的数据类型；
+• 经验：
+• 世界空间位置和UV坐标，使用float；
+• 向量，HDR颜色，使用half；视情况升到float；
+• LDR颜色，简单乘子，可使用fixed；
+```
+
+#### 可访问的顶点 Input 数据
+
+```
+• POSITION 顶点位置float3 float4
+• TEXCOORD0 UV通道1 float2 float3 float4
+• TEXCOORD1 UV通道2 float2 float3 float4
+• TEXCOORD2 UV通道3 float2 float3 float4
+• TEXCOORD3 UV通道4 float2 float3 float4
+• NORMAL 法线方向float3
+• TANGENT 切线方向float4
+• COLOR 顶点色float4
+```
+
+#### 常用的顶点 Output 数据
+
+```
+• pos 顶点位置CS float4
+• uv0 一般纹理UV float2
+• uv1 LighmapUV float2
+• posWS 顶点位置WS float3
+• nDirWS 法线方向WS half3
+• tDirWS 切线方向WS half3
+• bDirWS 副切线方向WS half3
+• color 顶点色fixed4
+```
+
+#### 常用的顶点 Shader 操作
+
+```
+注：Unity2019.3.2f1版本
+• pos o.pos = UnityObjectToClipPos(v.vertex);
+• uv0 o.uv0 = v.uv0; o.uv0 = TRANSFORM_TEX(v.uv0, _MainTex);
+• uv1 o.uv1 = v.uv1; o.uv1 = v.uv1 * unity_LightmapST.xy + unity_LightmapST.zw;
+• posWS o.posWS = mul(unity_ObjectToWorld, v.vertex);
+• nDirWS o.nDirWS = UnityObjectToWorldNormal(v.normal);
+• tDirWS o.tDirWS = normalize(mul(unity_ObjectToWorld, float4(v.tangent.xyz, 0.0)).xyz);
+• bDirWS o.bDirWS = normalize(cross(o.nDirWS, o.tDirWS) * v.tangent.w);
+• color o.color = v.color;
+```
+
+## 十二、渲染大作业
+
+### 双头食人魔渲染
+
+#### 效果图
+
+![image-20211203203426849](../../../.gitbook/assets/image-20211203203426849.png)
+
+#### 纹理资源
+
+![image-20211203203610732](../../../.gitbook/assets/image-20211203203610732.png)
+
+#### 资源优化
+
+![image-20211203203704094](../../../.gitbook/assets/image-20211203203704094.png)
+
+#### 光照模型
+
+![image-20211203203730938](../../../.gitbook/assets/image-20211203203730938.png)
+
+#### Code
+
+##### Prepare
+
+- Properties
+
+  ```
+  Properties {
+      _MainTex ("RGB:颜色A:透贴", 2d) = "white"{}
+      _MaskTex ("R:高光强度G:边缘光强度B:高光染色A:高光次幂", 2d) = "black"{}
+      _NormTex ("RGB:法线贴图", 2d) = "bump"{}
+      _MatelnessMask ("金属度遮罩", 2d) = "black"{}
+      _EmissionMask ("自发光遮罩", 2d) = "black"{}
+      _DiffWarpTex ("颜色Warp图", 2d) = "gray"{}
+      _FresWarpTex ("菲涅尔Warp图", 2d) = "gray"{}
+      _Cubemap ("环境球", cube) = "_Skybox"{}
+  }
+  ```
+
+- property input
+
+  ```
+  #pragma target 3.0
+  // 输入参数
+  uniform sampler2D _MainTex;
+  uniform sampler2D _MaskTex;
+  uniform sampler2D _NormTex;
+  uniform sampler2D _MatelnessMask;
+  uniform sampler2D _EmissionMask;
+  uniform sampler2D _DiffWarpTex;
+  uniform sampler2D _FresWarpTex;
+  uniform samplerCUBE _Cubemap;
+  ```
+
+- 向量准备
+
+  ```
+  half3 nDirTS = UnpackNormal(tex2D(_NormTex, i.uv0));
+  half3x3 TBN = half3x3(i.tDirWS, i.bDirWS, i.nDirWS);
+  half3 nDirWS = normalize(mul(nDirTS, TBN));
+  half3 vDirWS = normalize(_WorldSpaceCameraPos.xyz - i.posWS);
+  half3 vrDirWS = reflect(-vDirWS, nDirWS);
+  half3 lDirWS = _WorldSpaceLightPos0.xyz;
+  half3 lrDirWS = reflect(-lDirWS, nDirWS);
+  // 中间量准备
+  half ndotl = dot(nDirWS, lDirWS);
+  half ndotv = dot(nDirWS, vDirWS);
+  half vdotr = dot(vDirWS, lrDirWS);
+  ```
+
+- 纹理采样
+
+  ```
+  // 采样纹理
+  half4 var_MainTex = tex2D(_MainTex, i.uv);
+  half4 var_MaskTex = tex2D(_MaskTex, i.uv);
+  half var_MatelnessMask = tex2D(_MatelnessMask, i.uv).r;
+  half var_EmissionMask = tex2D(_EmissionMask, i.uv).r;
+  half3 var_FresWarpTex = tex2D(_FresWarpTex, ndotv).rgb;
+  half3 var_Cubemap = texCUBElod(_Cubemap, float4(vrDirWS, lerp(8.0, 0.0, var_MaskTex.a))).rgb;
+  // 提取信息
+  half3 baseCol = var_MainTex.rgb;
+  half opacity = var_MainTex.a;
+  half specInt = var_MaskTex.r;
+  half rimInt = var_MaskTex.g;
+  half specTint = var_MaskTex.b;
+  half specPow = var_MaskTex.a;
+  half matellic = var_MatelnessMask;
+  half emitInt = var_EmissionMask;
+  half3 envCube = var_Cubemap;
+  half shadow = LIGHT_ATTENUATION(i);
+  ```
+
+##### Light Mode
+
+- DiffCol SpecCol
+
+  ```
+  // 漫反射颜色镜面反射颜色
+  half3 diffCol = lerp(baseCol, half3(0.0, 0.0, 0.0), matellic);
+  half3 specCol = lerp(baseCol, half3(0.3, 0.3, 0.3), specTint) * specInt;
+  ```
+
+- Fresnel Power
+
+  ```
+  // 菲涅尔强度
+  half3 fresnel = lerp(var_FresWarpTex, 0.0, matellic);
+  half fresnelCol = fresnel.r; // 无实际用途
+  half fresnelRim = fresnel.g;
+  half fresnelSpec = fresnel.b;
+  ```
+
+- DirDiff 
+
+  ```
+  // 光源漫反射
+  half halfLambert = ndotl * 0.5 + 0.5;
+  half3 var_DiffWarpTex = tex2D(_DiffWarpTex, half2(halfLambert, 0.2));
+  half3 dirDiff = diffCol * var_DiffWarpTex * _LightCol;
+  ```
+
+- DirSpec 
+
+  ```
+  // 光源镜面反射
+  half phong = pow(max(0.0, vdotr), specPow * _SpecPow);
+  half spec = phong * max(0.0, ndotl);
+  spec = max(spec, fresnelSpec);
+  spec = spec * _SpecInt;
+  half3 dirSpec = specCol * spec * _LightCol;
+  ```
+
+- EnvDiff
+
+  ```
+  // 环境漫反射
+  half3 envDiff = diffCol * _EnvCol * _EnvDiffInt;
+  ```
+
+- EnvSpec
+
+  ```
+  // 环境镜面反射
+  half reflectInt = max(fresnelSpec, matellic) * specInt;
+  half3 envSpec = specCol * reflectInt * envCube * _EnvSpecInt;
+  ```
+
+- RimLight
+
+  ```
+  // 轮廓光
+  half3 rimLight = _RimCol * fresnelRim * rimInt * max(0.0, nDirWS.g) * _RimInt;
+  ```
+
+- Emission
+
+  ```
+  // 自发光
+  half3 emission = diffCol * emitInt * _EmitInt;
+  ```
+
+- 最终混合
+
+  ```
+  // 混合
+  half3 finalRGB = (dirDiff + dirSpec) * shadow + envDiff + envSpec + rimLight + emission;
+  ```
+
+  ![image-20211203210147607](../../../.gitbook/assets/image-20211203210147607.png)
+
+#### 其他细节
+
+- Clip
+
+  ```
+  // 透明剪切
+  clip(opacity - _Cutoff);
+  ```
+
+- 透明剪切投影修正
+
+  - 如果是透明就丢弃该片段的渲染，但是还是需要写入 ShadowMap，退回到一个简单的也能写入 ShadowMap 的 Shader
+
+  ```
+  // 声明回退Shader
+  FallBack "Legacy Shaders/Transparent/Cutout/VertexLit"
+  ```
+
+- 双面显示
+
+  ```
+  PassTags 后声明 Cull 模式 - Cull Off；
+  ```
+
+#### 效果完成
+
+![image-20211203210749349](../../../.gitbook/assets/image-20211203210749349.png)
+
+### 开源 Shader 
+
+SP，SD都有 GLSL 的 Shader 源码
+
+## 十三、特效
+
+#### 特效分类
+
+- 透
+
+  - AB
+  - AD
+  - AC
+
+  ![image-20211203211416842](../../../.gitbook/assets/image-20211203211416842.png)
+
+- 动
+
+  - 参数动画
+  - UV动画
+    - UV流动
+    - UV扰动
+    - 序列帧动画
+  - 顶点动画
+    - 顶点位置动画
+    - 顶点颜色动画
+
+- 映
+
+  - 极坐标
+  - 屏幕坐标 UV
+  - 透明扭曲
+
+#### 透切 AlphaCutout ：AC
+
+渲染实体，透明度小于阈值，丢弃该片段渲染
+
+- 优点：
+  - 没有排序问题；
+- 缺点：
+  - 边缘效果太实，锯齿
+  - 移动端性能较差；
+
+```
+Tags {
+    "RenderType"="TransparentCutout" // 对应改为Cutout
+    "ForceNoShadowCasting"="True" // 关闭阴影投射
+    "IgnoreProjector"="True" // 不响应投射器
+}
+```
+
+```
+half4 var_MainTex = tex2D(_MainTex, i.uv); // 采样贴图RGB颜色A透贴
+clip(var_MainTex.a - _Cutoff); // 透明剪切
+```
+
+#### 透混 AlphaBlend AB
+
+- 优点：
+  - 移动端性能较好；
+  - 边缘效果较好
+- 缺点：
+  - 有排序问题；
+
+```
+Tags {
+"Queue"="Transparent" // 调整渲染顺序
+"RenderType"="Transparent" // 对应改为Cutout
+"ForceNoShadowCasting"="True" // 关闭阴影投射
+"IgnoreProjector"="True" // 不响应投射器
+}
+```
+
+```
+Blend One OneMinusSrcAlpha // 修改混合方式One/SrcAlpha OneMinusSrcAlpha
+```
+
+#### 透叠
+
+- 用途：
+  - 常用于发光体，辉光的表现；
+  - 一般的特效表现，提亮用；
+- 问题：
+  - 有排序问题；
+  - 多层叠加容易堆爆性能(OverDraw)；
+  - 作为辉光效果，通常可用后处理代替；
+
+```
+Blend One One // 修改混合方式
+```
+
+#### 更多混合模式
+
+![image-20211203213005760](../../../.gitbook/assets/image-20211203213005760.png)
+
+#### Shader 面板
+
+```
+Properties {
+    _MainTex ("RGB：颜色A：透贴", 2d) = "gray"{}
+    [Enum(UnityEngine.Rendering.BlendMode)]
+    _BlendSrc ("混合源乘子", int) = 0
+    [Enum(UnityEngine.Rendering.BlendMode)]
+    _BlendDst ("混合目标乘子", int) = 0
+    [Enum(UnityEngine.Rendering.BlendOp)]
+    _BlendOp ("混合算符", int) = 0
+}
+```
+
+```
+BlendOp [_BlendOp] // 可自定义混合算符
+Blend [_BlendSrc] [_BlendDst] // 可自定义混合模式
+```
+
+#### 常用混合模式
+
+![image-20211203214500320](../../../.gitbook/assets/image-20211203214500320.png)
+
+![image-20211203214508744](../../../.gitbook/assets/image-20211203214508744.png)
+
+## 十四、无
+
+## 十五、透明问题和 UV 流动
+
+#### UV 流动
+
+##### GhostFlow
+
+```
+o.uv0 = v.uv; // uv0 为原生 uv
+o.uv1 = TRANSFORM_TEX(v.uv, _WarpTex); // UV1支持TilingOffset
+o.uv1.y = o.uv1.y + frac(-_Time.x * _FlowSpeed);// UV1 用来流动 UV
+```
+
+```
+// 噪声处理
+half3 finalRGB = var_MainTex.rgb;
+half noise = lerp(1.0, var_NoiseTex * 2.0, _NoiseInt); // Remap噪声
+noise = max(0.0, noise); // 截去负值
+half opacity = var_MainTex.a * _Opacity * noise;
+```
+
+#### UV 扰动
+
+##### GhostWrap
+
+vertex shader 与 GhostFlow 类似
+
+```
+// 使用 WarpTex 来扰动 UV
+half3 var_WarpTex = tex2D(_WarpTex, i.uv1).rgb; // 噪声图
+float2 uvBias = (var_WarpTex - 0.5) * _WarpInt; // 计算UV偏移值
+float2 uv0 = i.uv0 + uvBias; // 应用UV偏移量
+half4 var_MainTex = tex2D(_MainTex, uv0); // 偏移后UV采样MainTex
 ```
 
