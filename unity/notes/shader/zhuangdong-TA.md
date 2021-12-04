@@ -1,6 +1,6 @@
 # 庄懂-美术向 TA 课程
 
-## 零
+## 零、课程介绍
 
 - 自我介绍 开课目的
 - 课程内容 授课方式
@@ -8,7 +8,7 @@
 - 学员抽取 分组
 - 答疑
 
-## 一
+## 一、TA 基础
 
 #### 抽象的渲染过程
 
@@ -36,7 +36,7 @@
 
 - 将半 Lambert(0~1) 的调子视为 uv 坐标的 u 坐标，再附加一个常量作为 v 轴，得到的 uv 坐标对 RampTex 采样，假SSS的透光效果。
 
-## 二
+## 二、渲染技术
 
 #### 卡通渲染
 
@@ -59,7 +59,7 @@
 - 命名规范
 - 提交形式规范
 
-##  三
+##  三、兰伯特光照模型
 
 #### Lambert
 
@@ -137,7 +137,7 @@ Shader "AP1/L03/Lambert"
 
 
 
-## 四
+## 四、半兰伯特光照模型
 
 #### HalfLambert
 
@@ -181,7 +181,7 @@ Shader "AP1/L03/Lambert"
 - 预积分皮肤渲染：Pre-Integrated Skin Shading
 - 2 维的 RampTex，可以根据不同的情况采样不同的 RampTex
 
-## 五
+## 五、OldSchool
 
 #### 漫反射和镜面反射
 
@@ -223,7 +223,7 @@ Shader "AP1/L03/Lambert"
 - Lambert 漫反射 + Blinn-Phong 镜面反射
 - 这样一个光照模型相对完善的Shader；这是一种上古套路，所以吾称之为OldSchool；
 
-## 六
+## 六、OldSchoolP
 
 #### OldSchoolP
 
@@ -250,7 +250,7 @@ Shader "AP1/L03/Lambert"
 
 - [BRDF Explorer](https://github.com/wdas/brdf/downloads)
 
-## 七
+## 七、环境光和投影
 
 #### 环境光
 
@@ -288,7 +288,7 @@ Shader "AP1/L03/Lambert"
 
   ![image-20211202224850232](../../../.gitbook/assets/image-20211202224850232.png)
 
-## 八
+## 八、OldSchoolPlus
 
 #### OldSchoolPlus
 
@@ -319,7 +319,7 @@ Shader "AP1/L03/Lambert"
     2. tDirWS，bDirWS，nDirWS：切线空间3轴向方向，用于构建TBN矩阵；
 ```
 
-## 九
+## 九、菲涅尔项
 
 #### 菲涅尔现象
 
@@ -344,7 +344,7 @@ Cubemap
 • Float4参数：xyz：vrDir；w：mip等级；
 ```
 
-## 十
+## 十、OldSchoolPro
 
 #### OldSchoolPro
 
@@ -888,11 +888,11 @@ o.uv = v.uv; // UV信息
 o.grabPos = ComputeGrabScreenPos(o.pos); // 背景纹理采样坐标
 ```
 
-## 十八、
+## 十八、走马灯与极坐标效果
 
 走马灯与极坐标效果
 
-## 十九、
+## 十九、顶点运算
 
 #### 顶点移动
 
