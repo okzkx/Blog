@@ -838,3 +838,247 @@ float2 uv0 = i.uv0 + uvBias; // 应用UV偏移量
 half4 var_MainTex = tex2D(_MainTex, uv0); // 偏移后UV采样MainTex
 ```
 
+## 十六、无
+
+## 十七、屏幕 UV
+
+#### 屏幕纹理采样
+
+ScreenUV
+
+```
+uniform sampler2D _ScreenTex; uniform float4 _ScreenTex_ST;
+```
+
+```
+// vert
+float3 posVS = UnityObjectToViewPos(v.vertex).xyz; // 顶点位置OS>VS
+float originDist = UnityObjectToViewPos(float3(0.0, 0.0, 0.0)).z; // 原点位置OS>VS
+o.screenUV = posVS.xy / posVS.z; // VS空间畸变校正
+o.screenUV *= originDist; // 纹理大小按距离锁定
+o.screenUV = o.screenUV * _ScreenTex_ST.xy - frac(_Time.x * _ScreenTex_ST.zw); // 启
+用屏幕纹理ST
+```
+
+```
+// frag
+half var_ScreenTex = tex2D(_ScreenTex, i.screenUV).r; // 采样屏幕纹理
+```
+
+#### 屏幕扰动
+
+ScreenWarp
+
+```
+// 获取背景纹理
+GrabPass {
+"_BGTex"
+}
+```
+
+```
+uniform sampler2D _BGTex;
+```
+
+```
+// vert
+VertexOutput o = (VertexOutput)0;
+o.pos = UnityObjectToClipPos( v.vertex); // 顶点位置OS>CS
+o.uv = v.uv; // UV信息
+o.grabPos = ComputeGrabScreenPos(o.pos); // 背景纹理采样坐标
+```
+
+## 十八、
+
+走马灯与极坐标效果
+
+## 十九、
+
+#### 顶点移动
+
+AB基础上，追加Y轴向上周期性位移；
+
+```
+// 声明常量
+#define TWO_PI 6.283185
+// 顶点动画方法
+void Translation (inout float3 vertex) {
+vertex.y += _MoveRange * sin(frac(_Time.z * _MoveSpeed) * TWO_PI);
+}
+```
+
+```
+1. 常量声明方法：#define 常量名常量值
+2. void声明无返回值方法；
+3. Inout修饰：参数的出入证；
+4. frac(…)：浮点精度保护；
+5. sin(…)：产生波动的常用方法；
+6. 计算偏移值，并加到顶点对应轴，以实现平移效果；
+```
+
+```
+AB基础上，混合各种基本动画形式为复杂动画；
+• 动画拆分：
+1. 天使圈：缩放；
+2. 身子：X轴摆动，Z轴摆动；
+3. 头部：Y轴旋转；
+4. 全身：Y轴起伏。
+```
+
+```
+1. _ScaleParams：天使圈缩放相关参数；
+2. _SwingXParams：X轴扭动相关参数；
+3. _SwingZParams：Z轴扭动相关参数；
+4. _SwingYParams：Y轴起伏相关参数；
+5. _ShakeYParams：Y轴摇头相关参数；
+```
+
+#### 顶点旋转
+
+```
+// 声明常量
+#define TWO_PI 6.283185
+// 顶点动画方法
+void Rotation (inout float3 vertex) {
+    float angleY = _RotateRange * sin(frac(_Time.z * _RotateSpeed) * TWO_PI);
+    float radY = radians(angleY);
+    float sinY, cosY = 0;
+    sincos(radY, sinY, cosY);
+    vertex.xz = float2(
+    vertex.x * cosY - vertex.z * sinY,
+    vertex.x * sinY + vertex.z * cosY
+    );
+}
+```
+
+![image-20211204170310012](../../../.gitbook/assets/image-20211204170310012.png)
+
+#### 幽灵动画
+
+AnimGhost
+
+```
+1. 天使圈：用顶点色遮罩缩放动画；校正放缩后的位置；
+2. 摆动：用Y轴值偏移出正弦波摆动；用顶点色遮罩摆动；
+3. 摇头：用顶点色遮罩头部实现摇头；用顶点色实现天使圈滞后；
+4. 起伏：用顶点色实现天使圈滞后；
+5. 顶点色：计算天使圈亮度值；
+```
+
+## 二十、钟表小人
+
+#### 钟表小人 Shader
+
+1. 建模时用顶点色涂抹指针位置，表示哪些顶点是时针、分针、秒针
+2. vertex shader 旋转指针相关顶点
+
+#### 时间同步系统时间
+
+1. C# 代码当前系统时间计算好角度传入材质给着色器计算
+
+## 二十一、赛博小人
+
+#### 特效纹理
+
+EffectMap ： EffMap
+
+## 二十二、Unity内置Lightmap的使用
+
+#### LightMap
+
+Lightmap 作为记录光照结果或部分光照结果的一种载体方式，常用来替代
+实时渲染中性能昂贵的计算部分
+
+### 场景搭建
+
+1. 资产准备
+
+   - 场景免费资产
+
+     - 建筑资产：3D Free Modular Kit
+
+       1. 模组化资源；
+       2. 基于Unity Standard Shader；
+       3. 免费资源，作者：Barking Dog；
+
+     - 天空资产：AllSky Free
+
+       1. 传统6面盒Cubemap；
+       2. 基于Unity Skybox/Cubemap Shader；
+       3. 免费资源，作者：rpgwhitelock；
+
+2. 天空盒材质
+
+3. 安装 ProGrids
+
+4. ProGrids 搭建场景原型
+
+5. 静态 GameObject 设置
+
+    ```
+    Nothing：全不选；
+    Everything：全选；
+    Contribute GI：响应全局光照；
+    Occluder/ Occludee Static：响应OccCulling；
+    Batching Static：响应合批；
+    Navigation Static/Off Mesh Link Generation：响应导航；
+    Reflection Probe Static：响应反射探头；
+    ```
+
+    课程案例中：
+
+    - 将所有场景物件都设置为静态；
+    - 仅渲染效果相关，启用ContributeGI，ReflectionProbeStatic即可；
+
+6. 场景烘培、打光
+
+    1. 创建主平行光源
+    2. 设置自发光材质
+    3. 创建反射探针
+
+7. Mixed Lighting
+   ![image-20211204173555660](../../../.gitbook/assets/image-20211204173555660.png)
+
+8. Lightmapping Setting 中的烘培设置
+   1. 使用Progressive CPU烘培；
+   2. Lightmap Resolution为烘培精度，可以调低预览调整打光，确定后调高输出成品；
+   3. DirectionalMode手游一般不开启，效果改善有限，Lightmap翻倍；
+   4. 其他参数按效果需要调整；
+
+9. 合批
+
+   合并渲染，减少渲染批次，以优化性能；
+   常用策略：
+
+   1. Unity提供的静态核批；
+   2. Unity提供的SRPBatching（SRP管线支持）；
+   3. GPU Instancing；
+   4. 手动合批；
+
+## 二十三、其他软件生成 Lightmap 的使用
+
+#### Corona2 烘培 LightMap
+
+#### SD 自定义 Lightmap 贴图
+
+#### 手写建筑物 Shader
+
+Building
+
+![image-20211204174530843](../../../.gitbook/assets/image-20211204174530843.png)
+
+
+
+10.法线解码方法：
+• 纹理中法线信息值域为(0~1)，映射到(-1~1)；
+• 根据法线信息length为1的特性，求出nDirTS；
+
+```
+// 法线信息解码方法
+float3 DecodeNormal(float2 maskXY) {
+    float2 nDirTSxy = maskXY * 2.0 - 1.0;
+    float nDirTSz = sqrt(1.0 - nDirTSxy.x * nDirTSxy.x + nDirTSxy.y * nDirTSxy.y);
+    return float3(nDirTSxy, nDirTSz);
+}
+```
+
