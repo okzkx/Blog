@@ -90,3 +90,7 @@ Braces Layout 更改为 K&R style
 ![image-20211129112457130](../.gitbook/assets/image-20211129112457130.png)
 
 #### 不显示 Var 转换
+
+#### intellij 关闭自动保存和标志修改文件为星号
+
+![intellij 关闭自动保存和标志修改文件为星号](https://blog.csdn.net/wangjun5159/article/details/55223630)
