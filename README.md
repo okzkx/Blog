@@ -11,7 +11,23 @@ description: 学习，记录，分享
 #### 日常计划
 
 - HDRP 研究
-- URP shader （Samlee）
+- HDRP-Custom-Passes
+  - [ ] Tips
+  - [ ] Selection
+  - [ ] SeeThrough
+  - [ ] Blur
+  - [ ] Glass
+  - [ ] Glitch
+  - [ ] Liquid
+  - [ ] ScrolingFormulas
+  - [ ] CameraDepthBaking
+  - [ ] AR
+  - [ ] VR
+  - [ ] RnderNormalBuffer
+  - [ ] UI_ScreenSpaceBlur
+  - [ ] VideoPlaybackWithoutTAA
+  - [ ] RenderMotionVectors
+  - [x] Foregound Camera
 
 #### 学习计划
 
