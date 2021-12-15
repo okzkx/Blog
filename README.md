@@ -11,6 +11,7 @@ description: 学习，记录，分享
 #### 日常计划
 
 - HDRP 研究
+- HDRP Shader 移植
 - HDRP-Custom-Passes
   - [ ] Tips
   - [ ] Selection
@@ -32,7 +33,7 @@ description: 学习，记录，分享
 #### 学习计划
 
 - 小型
-  - HDRP 书籍
+  - 
 - 大型
   - [GAMES103-基于物理的计算机动画入门](https://www.bilibili.com/video/BV12Q4y1S73g)
     - 物理模拟工程
