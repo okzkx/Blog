@@ -13,22 +13,25 @@ description: 学习，记录，分享
 - HDRP 研究
 - HDRP Shader 移植
 - HDRP-Custom-Passes
-  - [ ] Tips
+- High priority
+  - [x] RnderNormalBuffer
+  - [x] Foregound Camera
+  - [ ] Tips Effect 边缘罩效果
+  - [ ] SeeThrough 透视效果
+  - [ ] Glitch 脉冲效果
+  - [ ] ScrolingFormulas 滚动公式
+  - [ ] Liquid 液体
+  - [ ] Glass 玻璃
+  - [ ] Copy Buffer 纹理拷贝
+- Low priority
   - [ ] Selection
-  - [ ] SeeThrough
   - [ ] Blur
-  - [ ] Glass
-  - [ ] Glitch
-  - [ ] Liquid
-  - [ ] ScrolingFormulas
   - [ ] CameraDepthBaking
   - [ ] AR
   - [ ] VR
-  - [ ] RnderNormalBuffer
   - [ ] UI_ScreenSpaceBlur
   - [ ] VideoPlaybackWithoutTAA
   - [ ] RenderMotionVectors
-  - [x] Foregound Camera
 
 #### 学习计划
 
