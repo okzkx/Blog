@@ -16,20 +16,20 @@ description: 学习，记录，分享
 - High priority
   - [x] RnderNormalBuffer
   - [x] Foregound Camera
-  - [ ] Tips Effect 边缘罩效果
-  - [ ] SeeThrough 透视效果
-  - [ ] Glitch 脉冲效果
-  - [ ] ScrolingFormulas 滚动公式
-  - [ ] Liquid 液体
-  - [ ] Glass 玻璃
-  - [ ] Copy Buffer 纹理拷贝
+  - [x] Tips Effect 边缘罩效果
+  - [x] SeeThrough 透视效果
+  - [x] Glitch 脉冲效果
+  - [x] ScrolingFormulas 滚动公式
+  - [x] Liquid 液体
+  - [x] Glass 玻璃
+  - [x] Copy Buffer 纹理拷贝
 - Low priority
-  - [ ] Selection
-  - [ ] Blur
-  - [ ] CameraDepthBaking
+  - [x] Selection
+  - [x] UI_ScreenSpaceBlur
+  - [x] Blur
+  - [x] CameraDepthBaking
   - [ ] AR
   - [ ] VR
-  - [ ] UI_ScreenSpaceBlur
   - [ ] VideoPlaybackWithoutTAA
   - [ ] RenderMotionVectors
 
