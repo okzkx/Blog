@@ -10,9 +10,8 @@ description: 学习，记录，分享
 
 #### 日常计划
 
-- HDRP 研究
-- XRP 流程研究
-- 典型的 HDRP Shader 存储库
+- XRP 新功能开发
+- 经典的 HDRP Shader 存储库
 
 #### 学习计划
 
