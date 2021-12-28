@@ -11,14 +11,14 @@ description: 学习，记录，分享
 #### 日常计划
 
 - HDRP 研究
-- HDRP Shader 移植
-- HDRP-Custom-Passes
+- XRP 流程研究
+- 典型的 HDRP Shader 存储库
 
 #### 学习计划
 
-- 小型
-  - 
-- 大型
+- P0
+  - Shader Book 公式推导
+- P1
   - [GAMES103-基于物理的计算机动画入门](https://www.bilibili.com/video/BV12Q4y1S73g)
     - 物理模拟工程
   - [李宏毅机器学习](https://www.bilibili.com/video/BV1JE411g7XF)
