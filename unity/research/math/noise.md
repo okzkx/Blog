@@ -7,3 +7,7 @@
 [（十七）unity shader之——————高级纹理之程序纹理](https://blog.csdn.net/cgy56191948/article/details/101641140)
 
 [Unity Shader学习：噪声noise](https://blog.csdn.net/qq_36107199/article/details/87191348)
+
+ Low-discrepancy 的点序列，如 Halton 或者 Sobol 分布。
+
+ worley noise
