@@ -1,3 +1,5 @@
+
+
 # 渲染管线
 
 * SRP 管线搭建
@@ -41,3 +43,7 @@
 [我看过的关于游戏设计的书籍以及推荐](https://zhuanlan.zhihu.com/p/25168484)
 
 [游戏客户端进阶之路](https://zhuanlan.zhihu.com/p/74739364)
+
+[Class RenderGraph | Core RP Library | 10.8.0](https://docs.unity3d.com/Packages/com.unity.render-pipelines.core@10.8/api/UnityEngine.Experimental.Rendering.RenderGraphModule.RenderGraph.html)
+
+[Benefits of the render graph system | Core RP Library | 12.1.2](https://docs.unity3d.com/Packages/com.unity.render-pipelines.core@12.1/manual/render-graph-benefits.html)
