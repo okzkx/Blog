@@ -19,6 +19,7 @@ description: 学习，记录，分享
   - 微积分
   - Games202
   - 经典的 HDRP Shader 存储库
+  - NoobRP
 - P1
   - [GAMES103-基于物理的计算机动画入门](https://www.bilibili.com/video/BV12Q4y1S73g)
   - [李宏毅机器学习](https://www.bilibili.com/video/BV1JE411g7XF)
