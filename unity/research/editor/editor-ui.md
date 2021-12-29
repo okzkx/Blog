@@ -18,11 +18,18 @@ static void Init() {}
 static void Init() {}
 ```
 
+#### 
+
+```c#
+[CreateAssetMenu("Assets/Create/Init")]
+static void Init() {}
+```
+
 ## EditorWindow
 
 提供 snippet
 
-```text
+```csharp
 using UnityEditor;
 using UnityEngine;
 
