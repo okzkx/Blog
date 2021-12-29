@@ -78,3 +78,25 @@ Unity 使用的是左手坐标系，但对于观察空间来说， Unity 使用�
 
 
 4.6.7 裁剪空间
+
+![image-20211229094705200](../../../.gitbook/assets/image-20211229094705200.png)![image-20211229094718746](../../../.gitbook/assets/image-20211229094718746.png)
+
+
+
+4.8.1 变换矩阵
+
+![image-20211229094958689](../../../.gitbook/assets/image-20211229094958689.png)
+
+
+
+4.8.2 摄像机和屏幕参数
+
+![image-20211229095053592](../../../.gitbook/assets/image-20211229095053592.png)
+
+![image-20211229095102596](../../../.gitbook/assets/image-20211229095102596.png)
+
+4.9.3 Unity 中的屏幕坐标 ComputeScreenPos
+
+
+
+[透视投影(Perspective Projection)变换推导](https://blog.csdn.net/linuxheik/article/details/78969526)
