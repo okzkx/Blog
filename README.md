@@ -16,8 +16,8 @@ description: 学习，记录，分享
 #### 目标计划
 
 - P0
-  - 微积分
   - Games202
+  - 微积分
   - 经典的 HDRP Shader 存储库
   - NoobRP
 - P1
