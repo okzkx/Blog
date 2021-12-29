@@ -12,6 +12,10 @@
 
 [ProceduralPrimitives - Unify Community Wiki](http://wiki.unity3d.com/index.php/ProceduralPrimitives?_ga=2.186651816.1816904423.1617240964-426189473.1585532237#C.23_-_Sphere)
 
+[UnityProceduralPrimitives/Primitive.cs at master · GlitchEnzo/UnityProceduralPrimitives](https://github.com/GlitchEnzo/UnityProceduralPrimitives/blob/master/Assets/Procedural Primitives/Scripts/Primitive.cs)
+
+[Unity Procedural Meshes Tutorials](https://catlikecoding.com/unity/tutorials/procedural-meshes/)
+
 ### 多线程 Mesh 生成 
 [Procedural Meshes](https://catlikecoding.com/unity/tutorials/procedural-meshes/) 
 
