@@ -10,4 +10,6 @@
 
  Low-discrepancy 的点序列，如 Halton 或者 Sobol 分布。
 
- worley noise
+## Perlin Noise
+
+## Worley Noise
