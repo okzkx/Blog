@@ -47,3 +47,23 @@
 [Class RenderGraph | Core RP Library | 10.8.0](https://docs.unity3d.com/Packages/com.unity.render-pipelines.core@10.8/api/UnityEngine.Experimental.Rendering.RenderGraphModule.RenderGraph.html)
 
 [Benefits of the render graph system | Core RP Library | 12.1.2](https://docs.unity3d.com/Packages/com.unity.render-pipelines.core@12.1/manual/render-graph-benefits.html)
+
+## Render Graph
+
+[MUR都能学会的DX12,图形的里技(1) - 知乎](https://zhuanlan.zhihu.com/p/356687489)
+
+[Benefits of the render graph system | Core RP Library | 12.1.2](https://docs.unity3d.com/Packages/com.unity.render-pipelines.core@12.1/manual/render-graph-benefits.html)
+
+## Batch
+
+[SRP Batcher & GPU Instancing - 知乎](https://zhuanlan.zhihu.com/p/265153591)
+
+## Occlusion Culling
+
+[Introduction to Occlusion Culling | by Umbra 3D | Medium](https://medium.com/@Umbra3D/introduction-to-occlusion-culling-3d6cfb195c79)
+
+## 阴影
+
+[图形学基础 - 阴影 - ShadowMap及其延伸 - 知乎](https://zhuanlan.zhihu.com/p/384446688)
+
+[Chapter 8. Summed-Area Variance Shadow Maps | NVIDIA Developer](https://developer.nvidia.com/gpugems/gpugems3/part-ii-light-and-shadows/chapter-8-summed-area-variance-shadow-maps)
