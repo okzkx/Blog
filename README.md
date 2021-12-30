@@ -1,7 +1,6 @@
 ---
 description: 学习，记录，分享
 ---
-
 # ZKX'S BLOG
 
 ### HEADER
@@ -11,7 +10,7 @@ description: 学习，记录，分享
 #### 日常计划
 
 - XRP 新功能开发
-- [数学视频 3Blue1Brown](https://space.bilibili.com/88461692/)
+- [**数学视频 3Blue1Brown**](https://www.bilibili.com/video/BV1ys411472E?spm_id_from=333.999.0.0)
 
 #### 目标计划
 
