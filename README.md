@@ -17,7 +17,7 @@ description: 学习，记录，分享
 #### 目标计划
 
 - P0
-  - Hodini
+  - Houdini
 - P1
   - 微积分
   - [GAMES103-基于物理的计算机动画入门](https://www.bilibili.com/video/BV12Q4y1S73g)
