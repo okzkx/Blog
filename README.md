@@ -9,10 +9,8 @@ description: 学习，记录，分享
 
 #### 日常计划
 
-  - 凉鞋
-  - XRP
-  - NoobRP
-  - HDRP
+- HDRP
+- NoobRP
 
 #### 目标计划
 
