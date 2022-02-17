@@ -10,14 +10,22 @@ description: 学习，记录，分享
 #### 日常计划
 
 - HDRP
-- NoobRP
 
 #### 目标计划
 
 - P0
-  - [Shader 偏导数fwidth/DDXY的原理及应用](https://www.bilibili.com/video/BV1ar4y127eu)
-  - https://github.com/cinight/CustomSRP
+  - NoobRP
+    - 代码整理
+  - 笔记整理
+    - Blender
+    - NoobRP
+    - Games 202 笔记整理
+    - 网址
+    - b 站视频 [Shader 偏导数fwidth/DDXY的原理及应用](https://www.bilibili.com/video/BV1ar4y127eu)
+    - Blog 整理
+  - NoobRP v2 https://github.com/cinight/CustomSRP
 - P1
+  - DebugDraw 持久绘制
   - 微积分
   - [GAMES103-基于物理的计算机动画入门](https://www.bilibili.com/video/BV12Q4y1S73g)
   - [李宏毅机器学习](https://www.bilibili.com/video/BV1JE411g7XF)
