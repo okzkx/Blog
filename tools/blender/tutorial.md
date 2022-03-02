@@ -4,5 +4,5 @@
 
 随时查阅的工具视频
 
-[Blender 2.9-3.1黑铁骑士Ⅱ系统零基础入门](https://www.bilibili.com/video/BV1zh411Y7LX?spm_id_from=333.999.0.0)
+[Blender 2.9-3.1黑铁骑士Ⅱ系统零基础入门](https://www.bilibili.com/video/BV1zh411Y7LX)
 

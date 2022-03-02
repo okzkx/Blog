@@ -1,8 +1,6 @@
-# Scriptable Render Pipline
+# SRP 概览
 
-## SRP
-
-### 1.简介
+## 1. 简介
 
 渲染管线 RenderPipline
 
@@ -11,7 +9,7 @@
 从 CPU 到 GPU
 
 1. 模型渲染前的准备
-2. 获取模型 \(VBO\)
+2. 获取模型 (VBO)
 3. 模型信息传入着色器
 4. 着色器根据该模型对每个光源进行渲染
 
@@ -20,14 +18,14 @@
 [https://docs.unity3d.com/Manual/ScriptableRenderPipeline.html](https://docs.unity3d.com/Manual/ScriptableRenderPipeline.html)
 
 
-//CBUFFER_START和CBUFFER_END,对于变量是单个材质独有的时候建议放在这里面，以提高性能。
+CBUFFER_START和CBUFFER_END,对于变量是单个材质独有的时候建议放在这里面，以提高性能。
 
-//CBUFFER(常量缓冲区)的空间较小，不适合存放纹理贴图这种大量数据的数据类型，适合存放float，
+CBUFFER(常量缓冲区)的空间较小，不适合存放纹理贴图这种大量数据的数据类型，适合存放float，
 half之类的不占空间的数据，关于它的官方文档在下有详细说明。
 
-//https://blogs.unity3d.com/2019/02/28/srp-batcher-speed-up-your-rendering
+https://blogs.unity3d.com/2019/02/28/srp-batcher-speed-up-your-rendering
 
-### 2. 代码示例
+## 2. 代码示例
 
 全部的代码示例如下
 
@@ -49,7 +47,7 @@ public override void Render (ScriptableRenderContext context, Camera[] cameras)
 
 2.清除屏幕颜色缓存
 
-context.DrawSkybox\(camera\);
+context.DrawSkybox(camera);
 
 可以采用 ComdBuffer 写法
 
@@ -91,9 +89,9 @@ foreach (var camera in cameras){
 
 从裁剪出的模型 挑选出此次需要渲染的模型,根据:
 
-\(1\) 渲染队列中的位置
+(1) 渲染队列中的位置
 
-\(2\) layer的序号
+(2) layer的序号
 
 示例1
 
@@ -149,12 +147,12 @@ drs.sorting.flags = SortFlags.CommonOpaque;
 context.DrawRenderers(cullResults.visibleRenderers, ref drs, opaqueRange);
 ```
 
-1. 代码中 new ShaderPassName\("Opaque"\) 要和 Shader 中的 Pass{Tags { "LightMode" = "Opaque"} 相对应,表示此时采用的是模型的Shasder中 名为 Opaque 的 Pass 进行计算
+1. 代码中 new ShaderPassName("Opaque") 要和 Shader 中的 Pass{Tags { "LightMode" = "Opaque"} 相对应,表示此时采用的是模型的Shasder中 名为 Opaque 的 Pass 进行计算
 2. DrawRendererFlags 中 :
 3. None : 不合批,
 4. EnableDynamicBatching: 动态合批 
 5. EnableInstancing: 手动合批
-6. Note : 合批: 多个模型合成一个模型一次性传递给GPU,一次 DrawCall,要求同一个 Material\(Sahder/Pass\)
+6. Note : 合批: 多个模型合成一个模型一次性传递给GPU,一次 DrawCall,要求同一个 Material(Sahder/Pass)
 7. RendererConfiguration : 为模型加入光照贴图,泛光点?
 8. SortFlags 物体排序
 
@@ -173,8 +171,4 @@ context.DrawRenderers(cullResults.visibleRenderers, ref drs, opaqueRange);
 commands. context.Submit();
 }//End Foreach Camera
 ```
-
-## SRP Batcher
-
-[SRP Batcher：加速渲染](https://connect.unity.com/p/srp-batcher-jia-su-xuan-ran)
 

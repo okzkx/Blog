@@ -15,7 +15,6 @@ description: 学习，记录，分享
 
 - P0
   - 笔记整理
-    - Blender
     - NoobRP
     - Games 202 笔记整理
     - 网址
