@@ -35,3 +35,7 @@
 [(2 封私信) 如何得到贝塞尔曲线的曲线长度和 t 的近似关系？ - 知乎](https://www.zhihu.com/question/27715729)
 
 [三阶贝塞尔曲线一分为二的一般公式](http://www.360doc.com/content/16/0101/20/1489589\_524673502.shtml)
+
+[Hermite （埃尔米特）曲线 - 那些消散不去的是寂寞 - 博客园](https://www.cnblogs.com/jqm304775992/p/5044728.html)
+
+[(13条消息) Hermite 与 Bezier 曲线的转换公式_Hustlion 的技术博客-CSDN博客_hermite转bezier](https://blog.csdn.net/techfield/article/details/113744152)

@@ -48,6 +48,8 @@
 
 [Benefits of the render graph system | Core RP Library | 12.1.2](https://docs.unity3d.com/Packages/com.unity.render-pipelines.core@12.1/manual/render-graph-benefits.html)
 
+[Unity 技术开放日 | 绝对干货 - 基于Unity SRP 的 RenderGraph - 技术专栏 - Unity官方开发者社区](https://developer.unity.cn/projects/612741adedbc2a484ade66de)
+
 ## Occlusion Culling
 
 [Introduction to Occlusion Culling | by Umbra 3D | Medium](https://medium.com/@Umbra3D/introduction-to-occlusion-culling-3d6cfb195c79)
@@ -63,3 +65,7 @@
 [图形学基础 - 阴影 - ShadowMap及其延伸 - 知乎](https://zhuanlan.zhihu.com/p/384446688)
 
 [Chapter 8. Summed-Area Variance Shadow Maps | NVIDIA Developer](https://developer.nvidia.com/gpugems/gpugems3/part-ii-light-and-shadows/chapter-8-summed-area-variance-shadow-maps)
+
+## 渲染路径
+
+[剖析虚幻渲染体系（04）- 延迟渲染管线 - 0向往0 - 博客园](https://www.cnblogs.com/timlly/p/14732412.html)

@@ -4,3 +4,4 @@
 
 [关于静态批处理/动态批处理/*GPU* *Instancing* /*SRP* *Batcher*的详细剖析](https://zhuanlan.zhihu.com/p/98642798)
 
+[Unity - Manual: Scriptable Render Pipeline Batcher](https://docs.unity3d.com/Manual/SRPBatcher.html)

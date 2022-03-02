@@ -9,3 +9,5 @@
 [Edge Detection Outlines](https://alexanderameye.github.io/notes/edge-detection-outlines/)
 
 [(13条消息) Unity URP中的Post-processing_bommy游戏的博客-CSDN博客_unity urp](https://blog.csdn.net/qq_17347313/article/details/106846631)
+
+[spark-piyush-nitnaware/PostProcessComputeShader](https://github.com/spark-piyush-nitnaware/PostProcessComputeShader)

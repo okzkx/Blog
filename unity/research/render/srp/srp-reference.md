@@ -19,3 +19,5 @@
 [Unity-Research-NoobRP](https://github.com/okzkx/Unity-Research-NoobRP)
 
 [CustomSRP](https://github.com/cinight/CustomSRP)
+
+[catlike coding unity tutorials custom render pipeline](https://bitbucket.org/catlikecodingunitytutorials/workspace/projects/CSRP)

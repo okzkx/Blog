@@ -21,3 +21,5 @@
 3D游戏与计算机图形学中的数学方法
 
 Fundamentals of Computer Graphicss
+
+[系统的学习计算机图形学，有哪些不同阶段的书籍的推荐？](https://www.zhihu.com/question/26720808/answer/761502017)
