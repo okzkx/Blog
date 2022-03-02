@@ -53,3 +53,9 @@ https://github.com/protectwise/troika/tree/master/packages/troika-three-text
 [Unity URP 后处理RayMarching体积雾的实践](https://zhuanlan.zhihu.com/p/266867676)
 
 [一个接近无偏的低成本体积光](https://zhuanlan.zhihu.com/p/301438994)
+
+## 其他
+
+[弧形世界](https://www.bilibili.com/video/BV1r54y1R7SQ/?spm\_id\_from=333.788.videocard.0)
+
+[Unity urp环境下实现默认管线的GrabPass功能](https://zhuanlan.zhihu.com/p/415817720)

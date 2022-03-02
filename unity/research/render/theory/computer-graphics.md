@@ -1,14 +1,4 @@
-# 渲染教程
-
-## blogs
-
-[浅墨的渲染 github](https://github.com/QianMo/Game-Programmer-Study-Notes)
-
-[学无止境](https://www.zhihu.com/people/suan-fa-gong-cheng-shi/posts)
-
-[蒸汽机车](https://www.zhihu.com/column/noobdawn)
-
-[Cg Programming/Unity - Wikibooks, open books for an open world](https://en.wikibooks.org/wiki/Cg_Programming/Unity)
+# 计算机图形学
 
 ## Games
 
@@ -21,6 +11,10 @@
 [课程PPT和视频 – 计算机图形学与混合现实研讨会](http://games-cn.org/games202-slidesandvideo/)
 
 [GAMES103-基于物理的计算机动画入门](https://www.bilibili.com/video/BV12Q4y1S73g)
+
+## Blogs
+
+[图形学|renderpipline | 自制超详细渲染管线流程图：常打开看看，有益身心。](https://zhuanlan.zhihu.com/p/261688968)
 
 ## books
 
