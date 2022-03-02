@@ -14,8 +14,6 @@ description: 学习，记录，分享
 #### 目标计划
 
 - P0
-  - NoobRP
-    - 代码整理
   - 笔记整理
     - Blender
     - NoobRP
