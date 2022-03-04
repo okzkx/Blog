@@ -23,8 +23,9 @@
   - 创建骨骼开启 x 轴对称
   - 骨骼去掉多余部位
   - 骨骼设置为 Mesh 父物体
-  - 给 Mesh 刷骨骼顶点权重
+  - 先选骨骼再选 Mesh，给 Mesh 刷骨骼顶点权重
 - Animations
-  - 记录骨骼关键帧位置
+  - 在时间轴上记录骨骼关键帧位置，让动画时间包括所有关键帧
 - Export
-  - 直接导出 Blender 文件到 Unity 工程里可以直接使用
+  - 直接导出 Blender 文件到 Unity 工程里
+  - 在 Unity 里分割 Blender 文件动画
