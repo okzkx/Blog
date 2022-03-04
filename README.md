@@ -9,7 +9,6 @@ description: 学习，记录，分享
 
 #### 日常计划
 
-- Custom Pass 记录
 - Games 202 笔记整理
 
 #### 目标计划
