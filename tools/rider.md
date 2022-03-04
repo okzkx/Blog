@@ -4,6 +4,7 @@
 
 [Jetbrains系列产品重置试用方法 | 知了](https://zhile.io/2020/11/18/jetbrains-eval-reset-da33a93d.html)
 
+[so easy！一键安装 永久激活 告别繁琐配置](https://mp.weixin.qq.com/s/P80mKniggyygOLYRatm6Xg)
 
 ## 配置
 
@@ -57,8 +58,6 @@
 
 ![image-20210913195548067](https://image-1253155090.cos.ap-nanjing.myqcloud.com/image-20210913195548067.png)
 
-
-
 ### 换行配置
 
 大括号不换行
@@ -66,8 +65,6 @@
 <img src="../.gitbook/assets/image-20211124112422416.png" alt="image-20211124112422416"  />
 
 Braces Layout 更改为 K&R style
-
-
 
 #### else 不换行
 
@@ -77,13 +74,9 @@ Braces Layout 更改为 K&R style
 
 <img src="../.gitbook/assets/image-20211124134504133.png" alt="image-20211124134504133"  />
 
-
-
 #### 改变字体大小
 
 [idea 改变*字体大小*_ChanYee的博客-CSDN博客_*rider* *字体大小*](https://www.baidu.com/link?url=-SCQAPneO3prshBYvYNHdZN0DSL7oD94q-20imy8tBglk6UWqub5JKGWjWSFvR3hjuaVzPDcEVjR5inxRQ6JsQCYYBuoiD1ROWYwR2DvrcG&wd=&eqid=961cb35c00012a040000000661a07f7b)
-
-
 
 #### 总是打开选中文件
 
@@ -93,4 +86,4 @@ Braces Layout 更改为 K&R style
 
 #### intellij 关闭自动保存和标志修改文件为星号
 
-![intellij 关闭自动保存和标志修改文件为星号](https://blog.csdn.net/wangjun5159/article/details/55223630)
+[intellij 关闭自动保存和标志修改文件为星号](https://blog.csdn.net/wangjun5159/article/details/55223630)
