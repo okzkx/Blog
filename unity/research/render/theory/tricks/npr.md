@@ -10,3 +10,4 @@
 
 [【Unity技术美术】 *原神Shader*渲染还原解析](https://zhuanlan.zhihu.com/p/435005339)
 
+[UnityURPToonLitShaderExample](https://github.com/ColinLeung-NiloCat/UnityURPToonLitShaderExample)
