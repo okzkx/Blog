@@ -47,7 +47,7 @@ w_h = \frac {w_i + w_o}2
 $$
 
 
-Trowbridge-Reitz GGX:![image-20211207222925985](../../../../.gitbook/assets/image-20211207222925985.png)
+Trowbridge-Reitz GGX:![image-20211207222925985](../../../../../.gitbook/assets/image-20211207222925985.png)
 
 F 为菲涅尔项，菲涅尔代表反射和折射对颜色贡献的占比，
 
@@ -55,17 +55,17 @@ F 为菲涅尔项，菲涅尔代表反射和折射对颜色贡献的占比，
 
 漫反射项中默认菲涅尔项为 1，因为当其值小的时候，会在物体边缘，此时反射光强度大，会改过漫反射
 
-Schlick近似来表示菲涅尔系数:![image-20211207223431912](../../../../.gitbook/assets/image-20211207223431912.png)
+Schlick近似来表示菲涅尔系数:![image-20211207223431912](../../../../../.gitbook/assets/image-20211207223431912.png)
 
 G 几何衰减项
 
-Schlick-GGX近似:![image-20211207223736808](../../../../.gitbook/assets/image-20211207223736808.png)
+Schlick-GGX近似:![image-20211207223736808](../../../../../.gitbook/assets/image-20211207223736808.png)
 
 综合公式
 
-- ![image-20211207224647020](../../../../.gitbook/assets/image-20211207224647020.png)- 
-- ![image-20211207205148722](../../../../.gitbook/assets/image-20211207205148722.png)
-- ![image-20211207214017494](../../../../.gitbook/assets/image-20211207214017494.png)
+- ![image-20211207224647020](../../../../../.gitbook/assets/image-20211207224647020.png)- 
+- ![image-20211207205148722](../../../../../.gitbook/assets/image-20211207205148722.png)
+- ![image-20211207214017494](../../../../../.gitbook/assets/image-20211207214017494.png)
 
 ## 全局光照
 
