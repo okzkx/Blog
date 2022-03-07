@@ -10,6 +10,7 @@ description: 学习，记录，分享
 #### 日常计划
 
 - Games 202 笔记整理
+- DebugDraw 通过修改 HDRP 源码的方式接入
 
 #### 目标计划
 
