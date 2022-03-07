@@ -147,7 +147,7 @@ EnvMap 可以是天空盒，也可以是实际用摄像机渲染出的 6 面的�
 
 多光源的可见性不好表达，需要大量 ShadowMap，当前是使用一个直接光的级联阴影作为主光源阴影，另外用一张大的合并的 shadow map 做点光源和聚光源阴影。
 
-### Fourier Transform 
+### Fourier Transform 傅里叶变换
 
 高频信号能用多个低频信号累加来表达
 
@@ -155,7 +155,7 @@ EnvMap 可以是天空盒，也可以是实际用摄像机渲染出的 6 面的�
 
 频域上的相乘具有滤波意义，只留下低频或高频信号
 
-### Shperical Harmonics 球面斜坡函数球谐函数
+### Shperical Harmonics 球谐函数
 
 SH 是定义在球面上的一组正交基函数 f(θ, φ)，即球面上的低频信号。
 
@@ -164,3 +164,64 @@ SH 是定义在球面上的一组正交基函数 f(θ, φ)，即球面上的低�
 三阶 SH 9 个系数，还原成 3 通道 EnvMap 需要 27 个系数，即 7 个 float4
 
 每个 Reflection Probe 都会使用 7 个 float4 拟合烘培好的 EnvMap 
+
+### Prefiltering 预过滤
+
+使用低频信号表示 EnvMap 就是预过滤的思想
+
+Prefiltering  + single query = no filtering + multiple queries
+
+#### Analytic Irradiance Formula (WIP)
+
+- BRDF 用公式不好表达，对于从二维方向进入，二维方向出去的四元方法。可能没有什么公式能去精准的表达 BRDF。
+- 这时候就使用预计算的方式，将相应的输入在纹理上用坐标表示，将输出用 RGBA 表示，离线记录在纹理上。理论上，一张纹理通过离散化加线性插值的方式可以记录任意多输入和任意多的输出。
+- 当使用纹理记录 BRDF 后，还能使用 SH 去拟合这张纹理，光滑程度低，接近漫反射的 BRDF 投影到三阶 SH 足够了
+
+### Rendering under environment lighting
+
+#### Precomputed Radiance Transfer (PRT)
+
+##### Abstract
+
+PRT 是一个基于预计算的快速的全局光照渲染方案
+
+##### Diffuse case
+
+假定物体的 BRDF 是 Diffuse 的，Diffuse 的特点就是 BRDF 公式和出射方向无关，所以变成了二元公式。
+
+对所有需要用到的数据其进行预烘培成纹理，再用 SH 拟合
+
+- EnvSH 环境光，对于物体所在的位置，
+
+- VisibilitySH 可见性，对于物体的每个顶点，
+
+- BRDFSH 反射函数，对于整个物体， 
+
+所以 VisibilitySH 占用的空间是最多的，每个顶点需要 9 个系数 （3 阶 SH 拟合出单通道结果）
+
+着色的计算就是 EnvSH * VisibilitySH * BRDFSH，非常快。
+
+通常还会把 VisibilitySH * BRDFSH 会预先计算好为一个 SH，称为 TransportSH
+
+考虑到环境光的变化导致重新烘培或者旋转 EnvSH ，所以不提前乘好 EnvSH 与别的 SH
+
+##### Glossy case
+
+在 Diffuse 下，3 阶 SH 可以表示球面光照输入，9 个系数，在使用 9 个系数作为入射方向组成 TransportMatrix。
+
+最后通过输入方向选择基函数得到特定方向 BRDF
+
+##### Summary
+
+PRT 速度快，但是只适用于渲染粗糙的静态场景。
+
+### Wavelet 二维小波
+
+Jpeg 离散余弦变换，类似小波变换
+
+类似 Mipmap，高频留右下加，能保留全部高频信息
+
+旋转光照需要重新生成纹理
+
+
+
