@@ -270,5 +270,187 @@ Jpeg 离散余弦变换，类似小波变换
 
 ### Screen Space
 
-#### SSAO
+#### Screen Space Ambient Occlusion (SSAO)
+
+屏幕空间的环境光遮蔽
+
+##### feature
+
+- 物体接触的中间看上去有阴影
+- 容易实现
+- 对于全局光照的近似
+
+##### key idea
+
+- 表面一点对于任意方向收到的光强一致
+- 是 Diffuse 物体
+- 各个方向可见性不一致
+
+##### Theory
+
+- 通过 z-buffer 以及 normal-buffer 大致模拟出像素点周围区域形状
+- 像素周围球体范围内随机采样点，判断点是否处于物体内部，判断接收光线的数量
+- 相隔较远的物体，不应当发生遮蔽
+- 可以先少量采样加速，再统一模糊一遍
+
+#### Screen Space Directional Occlusion （SSDO）
+
+屏幕空间的直接光遮蔽
+
+##### Theory
+
+- AO 和 DO 的假设是相反的
+  - DO 假设光照来源于附近物体的反射
+  - AO 假设光照来源于非常远处，会被附近物体阻挡
+
+- DO 在像素点附近的采样点，向光源处 trace 光线，将结果对像素点的着色做贡献
+
+##### result
+
+- 质量不错，比 AO 好
+- Screen Space 会丢失表面之外的信息
+- 只能表现出小范围内的全局光照
+- 本质是在屏幕空间上，从着色点开始的光线追踪
+
+#### Screen Space Reflection (SSR)
+
+##### overview
+
+- Shadedscene + Normal + Depth => SSR => Shaded scene with SSR
+
+##### function
+
+- Linear Raymarch
+- Hierarchical ray march 层级步长方法
+  - 先将场景中的深度做 Mip map，不是取平均而是最小值
+  - 快速跳过不相交的格子
+  - 从低到高找到前进不会产生交点的层级
+  - 再从高到低找到有交点的最低层级，即像素
+
+##### limitation
+
+- 没法反射物体内部
+- 没法反射屏幕外像素
+- 只能假设被反射物是 Diffuse 的，因为已经着色了，没法使用 BRDF。反射物可以是 BRDF 的
+
+##### Improvements
+
+- Glossy 物体的重要性采样
+- 空间上结果的复用，可以用周围 shading point 的结果
+
+## Real-Time Physically-Based Materials
+
+##### overview
+
+- PBR 材质
+- 种类和质量比离线渲染查，头发很明显
+- 实际上的实现没法完完全全基于物理，只是相对于 NPR 更接近物理真实
+
+##### target
+
+- 在保证速度的条件下提高质量
+- 体积上的渲染比表面难
+
+### Microfacet BRDF 微表面模型
+
+- F : Fresnel term
+- G ：shadowing - masking term
+- D : distribution of normals
+
+#### D : Normal Distribution Function (NDF) 法线分布函数
+
+- Backmann
+  - Similar to a Gaussian
+  - But defined on the slope space
+- GGX
+  - long tail
+- Exxtending GGX
+  - GTR
+  - Even longer tails
+
+### G : Shadowing Masking Term 微表面自遮挡
+
+##### overview
+
+- 在 grazing angle 处，表面接收到的能量会剧烈减少
+- 在光线与法线成直角时，近乎无法接收到能量
+
+##### problem
+
+- 直接应用 shadow masking 会使材质变粗糙，出现能量损失，变暗，
+- 使用白炉测试，可以看到颜色与周围不一致，变暗
+- 微表面粗糙，只考虑一次 bounce 导致光线被挡住
+
+#### the kulla-conty Approximation（WIP）
+
+- 经验性的方法，补全微表面的能量损失
+- 希望设计一个 BRDF 积分起来能弥补能量损失
+- 计算公式过于复杂，所以预先计算好
+- 物体表面有颜色，颜色意味着能量的吸收
+- 递归考虑所有反射的可能性
+
+### An Undesirable Hack
+
+- BRDF 加上 Diffuse 是完全错误的，在物理上不正确。
+- 但是对于 disney's principled brdf 加个 Diffuse 比较好调美术效果。
+
+### Linearly Transformed Cosines (LTC) 线性余弦变换 （WIP）
+
+优化微表面模型
+
+- 对于一个微表面，光线的接收区域呈现花瓣状，
+- 对多边形光源进行采样
+
+##### Observations
+
+- 任意固定视角的 BRDF lobe 经过某种变换可以变成 cos
+- 由于有不同视角，需要预计算成为
+- 变量替换后，只剩 Cos 可以有解析解
+
+### Disney's principled BRDF 迪士尼原则的 BRDF
+
+- 微表面模型没法表示真是材质，它忽略了支持内部
+- 艺术家不好调 PBR
+- 先艺术家友好，其次在一定程度上保证物理的正确性
+- 很多经验性的东西，有开源的的公式
+
+##### 有代表性的效果 image
+
+- 工业界名词：可能会影响到同个物理量，还有以 brdf 对效果进行模拟
+- 次表面散射：光会进入材质，感觉会比漫反射还扁。金属性，高光性，粗糙度，各向异性
+- sheen：天鹅绒，边缘雾效
+- Tint ：颜色对效果光影响程度
+- Cleurcoat ：清漆
+- 不同参数组合可能出现相同效果，造成冗余
+
+## Non-Photorealistic Rendering
+
+快速、可靠、风格化
+
+在风格化之前，有个好的真实感渲染也很重要
+
+#### NPR 风格的重点
+
+- 人物描边
+- 草一整块
+- 明暗离散
+
+### Outline Rendering 外描边
+
+Silhouette 边界，共享边且在整个物体的外边界
+
+- Shading ：使用类似菲涅尔的方式，无法控制描边粗细
+- Geometry ：增加一个 Outline pass，把背向的面扩大一个距离渲染
+- Image ：Sober 算子后处理提取轮廓，图像锐化。也可以从法线、深度综合考虑
+
+### Color blocks 色块
+
+- 阈值化：量化，离散化
+
+### Strokes Surface Stylization 素描效果
+
+- 通过纹理查询来着色格子
+- MipMap 方式缩小纹理分辨率，不改变素描线的密度，从而实现远处的素描效果
+
+#### 
 
