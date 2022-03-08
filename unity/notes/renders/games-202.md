@@ -223,5 +223,52 @@ Jpeg 离散余弦变换，类似小波变换
 
 旋转光照需要重新生成纹理
 
+## Real-Time Global illumination 实时全局光照
 
+### 3D Space
+
+#### Reflective Shadow Maps （RSM）
+
+##### Theory
+
+- ShadowMap 上的每个像素点都看作次级光源，都看成漫反射，能对目标着色像素作贡献。
+
+##### Steps
+
+- 着色点附近点的离散采样
+- 通过 Depth,l world coordinate, normal, flux 等 G-Buffer 调整贡献
+
+#### Light Propagation Volumes（LPV）
+
+- 在三维空间中的光线传播场
+
+- 好又快，广泛应用
+- 3D 网格中的 Radiance
+
+##### Steps
+
+哪些点发出间接光，注入格子，传播光线
+
+1. Generation of raidance opint set scene representation
+2. Injection of point cloud of virtual lisght sources into radiance volume
+3. Volumetric radiance propagation
+4. Scene lighting with final light propagation volume
+
+##### Problems
+
+漏光现象，light leaking
+
+#### Voxel Global illumination (VXGI)
+
+场景体素化，存储光照信息。
+
+本质就是用 3D 纹理表示 Directional ShadowMap，然后进行 RSM。
+
+从摄像机接收光的像素开始对场景进行 cone tracing，圆锥体光线追踪，
+
+遇到反射介质，可以继续向四周进行 cone tracing
+
+### Screen Space
+
+#### SSAO
 
