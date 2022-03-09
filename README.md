@@ -11,7 +11,6 @@ description: 学习，记录，分享
 
 - Games 202 笔记整理
   - 笔记图片整理
-- DebugDraw 通过修改 HDRP 源码的方式接入
 - pdf 书籍
 
 #### 目标计划
