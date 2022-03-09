@@ -15,11 +15,11 @@
 - Real -Time Ray Tracing
 - Participating Media Rendering, Image Space Effects
 - Non-Photorealistic Rendering
-- Antialiasing and supersampling
+- Anti-Aliasing and super-sampling
 
 ## Recap of CG Basics
 
-1. Graphics Pipline
+1. Graphics Pipeline
 2. OpenGL
 3. Shader Languages
 4. The Rendering Equation
@@ -40,8 +40,8 @@
 1. Self occlusion ：shadowmap 分辨率造成自遮挡条纹，shadow map 上一个像素表示的表面距离只是实际表示平面的中心点距离
    1. Bias 解决自遮挡问题，会有漏光问题
    2. Second-depth shadow mapping，实际上没人用
-2. Aliasing：shadowmap 分辨率造成锯齿，
-   1. 使用级联阴影解决，cascade shadowmap
+2. Aliasing ：shadow map 分辨率造成锯齿，
+   1. 使用级联阴影解决，cascade shadow map 
 
 ### Inequalities in Calculus (WIT)
 
@@ -511,7 +511,7 @@ Silhouette 边界，共享边且在整个物体的外边界
 - motion vector 是准确的，不像深度学习的光流，只有图像信息，没有物体信息
 - 也可以通过 z-buffer 里的深度信息求像素点的世界坐标
 
-#### Temporal Accum Denoising
+### Temporal Accum Denoising
 
 1. 当前帧自己的降噪
 2. 和上一帧的输出 Color Buffer 线性混合
@@ -546,4 +546,189 @@ Silhouette 边界，共享边且在整个物体的外边界
 #### TAA
 
 时间上的抗锯齿 Temporal anti-aliasing 和时间上的降噪 Temporal denoise 原理几乎是一样的
+
+### Implementation of Filtering 
+
+#### 空间上的降噪技术
+
+- 通过模糊操作去掉噪声
+- 由滤波核决定如何滤波
+
+#### 高斯滤波核
+
+- 对于每个像素，以高斯滤波核，取附近像素的加权和，归一化
+- 理论上是无限远的，通常只考虑 3 sigma 内
+
+#### Bilateral Filtering 双边滤波
+
+- 希望高斯去噪声的同时保留边界，使图片不模糊
+- 使用颜色差异指导滤波核大小，动态滤波核
+
+##### options
+
+- 滤波核贡献变小
+- 不适合降噪，分不出明显的噪声和边界
+- 认为颜色剧烈变化时是图像边界
+- 颜色剧烈变化时，周围像素给予权重变小，更似原图
+
+#### Joint Bilateral Filtering 联合双边滤波
+
+- 在双边滤波的基础上，使用更多的 Buffer 指导滤波核强度
+- 在 ColorBuffer 和 DepthBuffer 之上
+- 取各个滤波方式的加权和
+
+##### G-Buffer
+
+- 使用 G-Buffer 中的各种信息指导
+- Position Normal Albedo
+- G-Buffer 本身是无噪声的
+
+##### metric
+
+- 定义函数，从周围像素到中心像素，任意变量上的距离和贡献的关系
+- 不一定同高斯函数指导滤波
+- image
+
+### Implement Large Filters 大型滤波器优化
+
+- 大型滤波器减少采样次数优化
+- 拆成多个 pass 执行
+
+#### Solution 1 ：Separate Passes
+
+- 将维度拆成次数
+- 减少一个维度数量级 Mnxn -> Mi x n + Mn x i 
+- 二维高斯描述为两个一维高斯相乘
+
+#### Solution 2 ：Progressively Growing Sizes
+
+- 使用逐步增大的滤波器
+- 同样大小的滤波器，采样的距离逐渐增大
+- 多趟统一形成大的 filter image
+- 如果滤波器大小为 5x5，采样 5 层，那么每个像素相当在一次 pass 中采样了 64 x 64 
+
+##### deeper understanding
+
+- 每次使用越来越大的 Filter，过滤掉越来越低的频率
+- 每迭代一次，图就越模糊
+- image
+
+### Outlier Removal
+
+- 非常亮的点，不但没被过滤，还会在过滤时摊开影响到周围 ：Blocky
+
+##### solution
+
+- 预处理，滤波前处理掉 outlier
+- Removal 实际上做的是 clamp，通过均值方差描述值范围
+
+### Specific Filtering Approaches for RTRT
+
+- 对于 RTRT 选用的过滤方法
+
+#### Spatiotemporal Variance-Guided Filtering （SVGF ）
+
+一种当期效果最好的联合双边滤波
+
+- Depth
+  - 以深度值，根据贡献函数得到对当前点的贡献
+  - 考虑贡献点在切平面法线方向上的深度，而不是朝向摄像机方向的深度
+- Normal
+  - 考虑用点击代替法线纹理
+- Color
+  - 用灰度表示差异，用方差防止噪声，灰度或者方差越大贡献能力越低
+
+#### Recurrent denoising AutoEncoder （RAE）
+
+基于 G-Buffer 和神经网络的图像降噪
+
+- 使用 AutoEncoder 结构，
+- 使用 G-Buffer 以及上一帧的图像信息
+- 可能出现 Ghosting，来回抖，看起来像沸腾的水
+- RAE 可以在任意数量的 SPP 中运行
+- 英伟达 RAE 去掉了时间上的自循环部分
+
+### Practical Industrial solutions
+
+实际上工业解决方案
+
+#### Temporal Anti-Aliasing （TAA）
+
+- 四帧一个循环，每帧都进行四分之一个采样 image
+- 移动的物体使用 Motion vector 找到上一帧着色像素对应的屏幕位置
+- 对于 Jitter sampling pattern 的处理和 RTRT filter 基本一致
+
+#### Space Anti-Aliasing 
+
+- SSAA ：渲染高分辨率的纹理后，双线性插值降采样
+- MSAA ：在同个像素对于每个对这个像素参与贡献的三角形都会进行采样，在硬件光栅化的时候实现
+- FXAA -> MLAA -> SMAA ：基于图像的抗锯齿
+  - SMAA：图象矢量化，提取为无限分辨率，离散变连续
+
+G-Buffer 不能进行抗锯齿，一定是得走样的
+
+#### Temporal Super Resolution 超分辨率方案
+
+- DLSS ：基于当前输出的图像信息和时间上的图像信息
+
+#### 避免没有意义的着色
+
+##### Deferred Shading 延时渲染
+
+- 只 shading 可见的 Fragment ，通过 GBuffer 中的 Depth Buffer 时间
+- 光栅化两次，第一次着色 G-Buffer，第二次通过了深度测试才着色 ColorBuffer
+- 延时着色也只能对写入深度的不透明物体起作用，前向渲染需要在延时着色之后执行。
+
+##### Deferred Lighting 延时光照 （这块是我自己的理解课外的内容）
+
+- 在默认都是 PBR 着色的时候，只需要将 PBR 着色所需的所有数据存储在 G-Buffer 内
+- 光照着色时通过 G-Buffer 内的数据完成所有像素点着色
+- 优点是速度快，一个材质渲染整个屏幕上的所有像素
+- 缺点是所需 G-Buffer 数量多，着色材质需求不灵活
+
+#### Tiled Shading
+
+- image
+- 屏幕中的每个条不会被所有的光源影响
+- Tiled Shading 在 deferred shading 的基础上，对所需的光源做优化
+
+#### Clustered Shading
+
+- image 
+- 深度上继续切片
+- 这两渲染管线都是在延时渲染中基于 G-Buffer 实现的，此时已经没有网格物体，三角形的概念了
+
+### Level of Detail Solution
+
+多层次细节 ：近处精细，远处粗糙，再远不可见
+
+#### Cascaded 级联
+
+Cascaded shadow map
+
+image
+
+- 使用多张 ShadowMap
+- 离摄像机越远的区域采样表示范围越大的 ShadowMap
+
+#### Geometry LOD
+
+- Nanite，UE5 的无限精度几何体 LOD 算法
+- LOD 方法最大的问题是在线性插值不好起作用时的精度突变
+- 可以采用 TAA 来模糊突变
+- 可以考虑三角形的调度，纹理的调度，虚拟纹理
+- 几何纹理也可以来表示 Geometry
+
+### Global illumination Solution
+
+- 全部实时光追太慢，采用混合模式的性能光追
+- 先光栅化，再 SRR，再 RTRT
+- 用场景 SDF Trace 光线，RSM 反光手电
+- DDGI，用 probe 记录并发射间接光
+- 光照探针，低模近似
+- Lumen 是全局光照，是以上方式的结合
+
+
+
+
 
