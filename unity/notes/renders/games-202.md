@@ -19,10 +19,10 @@
 
 ## Recap of CG Basics
 
-1. Graphics Pipeline
+1. Graphics Pipeline![image-20220309185601639](../../../.gitbook/assets/image-20220309185601639.png)
 2. OpenGL
 3. Shader Languages
-4. The Rendering Equation
+4. The Rendering Equation![image-20220309185817742](../../../.gitbook/assets/image-20220309185817742.png)
 5. Environment Lighting
 
 ## Real-Time Shadow
@@ -37,7 +37,7 @@
 
 #### Issues in Shadow Mapping
 
-1. Self occlusion ：shadowmap 分辨率造成自遮挡条纹，shadow map 上一个像素表示的表面距离只是实际表示平面的中心点距离
+1. Self occlusion ：shadowmap 分辨率造成自遮挡条纹，shadow map 上一个像素表示的表面距离只是实际表示平面的中心点距离![image-20220309185934736](../../../.gitbook/assets/image-20220309185934736.png)
    1. Bias 解决自遮挡问题，会有漏光问题
    2. Second-depth shadow mapping，实际上没人用
 2. Aliasing ：shadow map 分辨率造成锯齿，
@@ -56,6 +56,8 @@
 3. take avg to get visibility atten
 
 #### Percentage closer soft shadows (PCSS)
+
+![image-20220309190047502](../../../.gitbook/assets/image-20220309190047502.png)
 
 离遮挡物越远使用 PCF 的卷积核就越大
 
@@ -84,6 +86,8 @@ Quickly compute the mean and variance of depths in an area
 
 ##### Function
 
+![image-20220309190232299](../../../.gitbook/assets/image-20220309190232299.png)
+
 - PDF : 概率分布函数，Gaussian 是一种 PDF
 - CDF : 概率积分函数，误差函数
 
@@ -91,15 +95,31 @@ Quickly compute the mean and variance of depths in an area
 
 根据这个概率来决定光线的衰减值，PCF 是通过 Blocker Search 的方式来通过像素点测试和权重累加来确定概率。
 
-##### 切比雪夫不等式 （WIP）
+##### 切比雪夫不等式
+
+![image-20220309190247856](../../../.gitbook/assets/image-20220309190247856.png)
 
 快速得到当前距离大于 ShadowMap 距离的概率，非常的近似。
 
 容易出现 Light Leaking，当遮挡物分布与高斯分布不符合
 
+##### MIPMAP for Range Query
+
+MipMap 预处理图片保存均值来支持大范围查找
+
+![image-20220309190414008](../../../.gitbook/assets/image-20220309190414008.png)
+
+##### SAT for Range Query
+
+Sum Area Table ，提前保存累加信息到纹理上来支持大范围查找
+
+![image-20220309190742728](../../../.gitbook/assets/image-20220309190742728.png)
+
 #### Moment Shadow Mapping
 
 使用多项式来近似 PCF
+
+![image-20220309190807153](../../../.gitbook/assets/image-20220309190807153.png)
 
 #### Distance field soft shadow
 
@@ -133,43 +153,45 @@ Quickly compute the mean and variance of depths in an area
 
 #### Image base lighting (IBL)
 
-基于图的环境光，可以为整个场景原点烘培一个 CubeMap，表示 Environment map，也可以为环境中的一个点烘培 EnvMap
+基于图的环境光
 
-EnvMap 可以是天空盒，也可以是实际用摄像机渲染出的 6 面的结果，缺点是不知道光源距离
+- 可以为整个场景原点烘培一个 CubeMap，表示 Environment map，也可以为环境中的一个点烘培 EnvMap
+- EnvMap 可以是天空盒，也可以是实际用摄像机渲染出的 6 面的结果，缺点是不知道光源距离
 
 #### The Classic Approxiamtion
 
 对物体表面的渲染要考虑到整个环境的光照对其的贡献，蒙特卡洛积分需求对 EnvMap 进行多次采样，所以提前对 EnvMap 生成 MipMap，提前对其模糊。
 
+![image-20220309190934912](../../../.gitbook/assets/image-20220309190934912.png)
+
 同时可以预计算出 BRDF 对 Roughness 和 Cosθ 的 LUT
 
 ### Shadow from Environment Lighting
 
-多光源的可见性不好表达，需要大量 ShadowMap，当前是使用一个直接光的级联阴影作为主光源阴影，另外用一张大的合并的 shadow map 做点光源和聚光源阴影。
+- 多光源的可见性不好表达，需要大量 ShadowMap，
+- 当前 Unity 是使用一个直接光的级联阴影作为主光源阴影，另外用一张大的合并的 shadow map 做点光源和聚光源阴影。
 
-### Fourier Transform 傅里叶变换
+### Fourier Transform  傅里叶变换
 
-高频信号能用多个低频信号累加来表达
+- 高频信号能用多个低频信号累加来表达
+- 时域上的卷积为频域上的乘积
+- 频域上的相乘具有滤波意义，只留下低频或高频信号
 
-时域上的卷积为频域上的乘积
+![image-20220309191041736](../../../.gitbook/assets/image-20220309191041736.png)
 
-频域上的相乘具有滤波意义，只留下低频或高频信号
+### Shperical Harmonics  球谐函数
 
-### Shperical Harmonics 球谐函数
+- SH 是定义在球面上的一组正交基函数 f(θ, φ)，即球面上的低频信号。
+- 三阶 SH 可以还原成模糊的 EnvMap 中的一个通道，
+- 三阶 SH 9 个系数，还原成 3 通道 EnvMap 需要 27 个系数，即 7 个 float4
+- 每个 Reflection Probe 都会使用 7 个 float4 拟合烘培好的 EnvMap 
 
-SH 是定义在球面上的一组正交基函数 f(θ, φ)，即球面上的低频信号。
+![image-20220309191158145](../../../.gitbook/assets/image-20220309191158145.png)
 
-三阶 SH 可以还原成模糊的 EnvMap 中的一个通道，
+### Prefiltering  预过滤
 
-三阶 SH 9 个系数，还原成 3 通道 EnvMap 需要 27 个系数，即 7 个 float4
-
-每个 Reflection Probe 都会使用 7 个 float4 拟合烘培好的 EnvMap 
-
-### Prefiltering 预过滤
-
-使用低频信号表示 EnvMap 就是预过滤的思想
-
-Prefiltering  + single query = no filtering + multiple queries
+- 使用低频信号表示 EnvMap 就是预过滤的思想
+- Prefiltering  + single query = no filtering + multiple queries
 
 #### Analytic Irradiance Formula (WIP)
 
@@ -179,71 +201,72 @@ Prefiltering  + single query = no filtering + multiple queries
 
 ### Rendering under environment lighting
 
+![image-20220309191251229](../../../.gitbook/assets/image-20220309191251229.png)
+
 #### Precomputed Radiance Transfer (PRT)
 
-##### Abstract
+##### overview
 
-PRT 是一个基于预计算的快速的全局光照渲染方案
+- PRT 是一个基于预计算的快速的全局光照渲染方案
+
+![image-20220309191612039](../../../.gitbook/assets/image-20220309191612039.png)
 
 ##### Diffuse case
 
-假定物体的 BRDF 是 Diffuse 的，Diffuse 的特点就是 BRDF 公式和出射方向无关，所以变成了二元公式。
-
-对所有需要用到的数据其进行预烘培成纹理，再用 SH 拟合
-
-- EnvSH 环境光，对于物体所在的位置，
-
-- VisibilitySH 可见性，对于物体的每个顶点，
-
-- BRDFSH 反射函数，对于整个物体， 
-
-所以 VisibilitySH 占用的空间是最多的，每个顶点需要 9 个系数 （3 阶 SH 拟合出单通道结果）
-
-着色的计算就是 EnvSH * VisibilitySH * BRDFSH，非常快。
-
-通常还会把 VisibilitySH * BRDFSH 会预先计算好为一个 SH，称为 TransportSH
-
-考虑到环境光的变化导致重新烘培或者旋转 EnvSH ，所以不提前乘好 EnvSH 与别的 SH
+- 假定物体的 BRDF 是 Diffuse 的，Diffuse 的特点就是 BRDF 公式和出射方向无关，所以变成了二元公式。
+- 对所有需要用到的数据其进行预烘培成纹理，再用 SH 拟合
+  - EnvSH 环境光，对于物体所在的位置
+  - VisibilitySH 可见性，对于物体的每个顶点
+  - BRDFSH 反射函数，对于整个物体 
+- 所以 VisibilitySH 占用的空间是最多的，每个顶点需要 9 个系数 （3 阶 SH 拟合出单通道结果）
+- 着色的计算就是 EnvSH * VisibilitySH * BRDFSH，非常快。
+- 通常还会把 VisibilitySH * BRDFSH 会预先计算好为一个 SH，称为 TransportSH
+- 考虑到环境光的变化导致重新烘培或者旋转 EnvSH ，所以不提前乘好 EnvSH 与别的 SH
+- ![image-20220309191809061](../../../.gitbook/assets/image-20220309191809061.png)
+- ![image-20220309191838603](../../../.gitbook/assets/image-20220309191838603.png)
 
 ##### Glossy case
 
-在 Diffuse 下，3 阶 SH 可以表示球面光照输入，9 个系数，在使用 9 个系数作为入射方向组成 TransportMatrix。
-
-最后通过输入方向选择基函数得到特定方向 BRDF
+- 在 Diffuse 下，3 阶 SH 可以表示球面光照输入，9 个系数，在使用 9 个系数作为入射方向组成 TransportMatrix。
+- 最后通过输入方向选择基函数得到特定方向 BRDF
 
 ##### Summary
 
-PRT 速度快，但是只适用于渲染粗糙的静态场景。
+- PRT 速度快，但是只适用于渲染粗糙的静态场景。
 
 ### Wavelet 二维小波
 
-Jpeg 离散余弦变换，类似小波变换
+![image-20220309191920557](../../../.gitbook/assets/image-20220309191920557.png)
 
-类似 Mipmap，高频留右下加，能保留全部高频信息
+- Jpeg 离散余弦变换，类似小波变换\
+- 类似 Mipmap，高频留右下加，能保留全部高频信息
+- 旋转光照需要重新生成纹理
 
-旋转光照需要重新生成纹理
-
-## Real-Time Global illumination 实时全局光照
+## Real-Time Global illumination  实时全局光照
 
 ### 3D Space
+
+![image-20220309192013150](../../../.gitbook/assets/image-20220309192013150.png)
 
 #### Reflective Shadow Maps （RSM）
 
 ##### Theory
 
 - ShadowMap 上的每个像素点都看作次级光源，都看成漫反射，能对目标着色像素作贡献。
+- ![image-20220309192055936](../../../.gitbook/assets/image-20220309192055936.png)
 
 ##### Steps
 
 - 着色点附近点的离散采样
+- ![image-20220309192116503](../../../.gitbook/assets/image-20220309192116503.png)
 - 通过 Depth,l world coordinate, normal, flux 等 G-Buffer 调整贡献
 
 #### Light Propagation Volumes（LPV）
 
 - 在三维空间中的光线传播场
-
 - 好又快，广泛应用
 - 3D 网格中的 Radiance
+- ![image-20220309192219292](../../../.gitbook/assets/image-20220309192219292.png)
 
 ##### Steps
 
@@ -256,17 +279,17 @@ Jpeg 离散余弦变换，类似小波变换
 
 ##### Problems
 
-漏光现象，light leaking
+- 漏光现象，light leaking
 
 #### Voxel Global illumination (VXGI)
 
 场景体素化，存储光照信息。
 
-本质就是用 3D 纹理表示 Directional ShadowMap，然后进行 RSM。
+![image-20220309192717434](../../../.gitbook/assets/image-20220309192717434.png)
 
-从摄像机接收光的像素开始对场景进行 cone tracing，圆锥体光线追踪，
-
-遇到反射介质，可以继续向四周进行 cone tracing
+- 本质就是用 3D 纹理表示 Directional ShadowMap，然后进行 RSM。
+- 从摄像机接收光的像素开始对场景进行 cone tracing，圆锥体光线追踪，
+- 遇到反射介质，可以继续向四周进行 cone tracing
 
 ### Screen Space
 
@@ -287,6 +310,8 @@ Jpeg 离散余弦变换，类似小波变换
 - 各个方向可见性不一致
 
 ##### Theory
+
+![image-20220309192635261](../../../.gitbook/assets/image-20220309192635261.png)
 
 - 通过 z-buffer 以及 normal-buffer 大致模拟出像素点周围区域形状
 - 像素周围球体范围内随机采样点，判断点是否处于物体内部，判断接收光线的数量
@@ -317,10 +342,11 @@ Jpeg 离散余弦变换，类似小波变换
 ##### overview
 
 - Shadedscene + Normal + Depth => SSR => Shaded scene with SSR
+- ![image-20220309193216182](../../../.gitbook/assets/image-20220309193216182.png)
 
 ##### function
 
-- Linear Raymarch
+- Linear Raymarch![image-20220309193237397](../../../.gitbook/assets/image-20220309193237397.png)
 - Hierarchical ray march 层级步长方法
   - 先将场景中的深度做 Mip map，不是取平均而是最小值
   - 快速跳过不相交的格子
@@ -368,18 +394,24 @@ Jpeg 离散余弦变换，类似小波变换
   - GTR
   - Even longer tails
 
+![image-20220309193351292](../../../.gitbook/assets/image-20220309193351292.png)
+
 ### G : Shadowing Masking Term 微表面自遮挡
+
+![image-20220309193411744](../../../.gitbook/assets/image-20220309193411744.png)
 
 ##### overview
 
 - 在 grazing angle 处，表面接收到的能量会剧烈减少
 - 在光线与法线成直角时，近乎无法接收到能量
+- ![image-20220309193451083](../../../.gitbook/assets/image-20220309193451083.png)
 
 ##### problem
 
 - 直接应用 shadow masking 会使材质变粗糙，出现能量损失，变暗，
 - 使用白炉测试，可以看到颜色与周围不一致，变暗
 - 微表面粗糙，只考虑一次 bounce 导致光线被挡住
+- ![image-20220309193536509](../../../.gitbook/assets/image-20220309193536509.png)
 
 #### the kulla-conty Approximation（WIP）
 
@@ -394,7 +426,7 @@ Jpeg 离散余弦变换，类似小波变换
 - BRDF 加上 Diffuse 是完全错误的，在物理上不正确。
 - 但是对于 disney's principled brdf 加个 Diffuse 比较好调美术效果。
 
-### Linearly Transformed Cosines (LTC) 线性余弦变换 （WIP）
+### Linearly Transformed Cosines (LTC)  线性余弦变换 （WIP）
 
 优化微表面模型
 
@@ -403,18 +435,22 @@ Jpeg 离散余弦变换，类似小波变换
 
 ##### Observations
 
+![image-20220309193714385](../../../.gitbook/assets/image-20220309193714385.png)
+
 - 任意固定视角的 BRDF lobe 经过某种变换可以变成 cos
 - 由于有不同视角，需要预计算成为
 - 变量替换后，只剩 Cos 可以有解析解
 
-### Disney's principled BRDF 迪士尼原则的 BRDF
+### Disney's principled BRDF  迪士尼原则的 BRDF
 
 - 微表面模型没法表示真是材质，它忽略了支持内部
 - 艺术家不好调 PBR
 - 先艺术家友好，其次在一定程度上保证物理的正确性
 - 很多经验性的东西，有开源的的公式
 
-##### 有代表性的效果 image
+##### 有代表性的效果
+
+![image-20220309183420564](../../../.gitbook/assets/image-20220309183420564.png)
 
 - 工业界名词：可能会影响到同个物理量，还有以 brdf 对效果进行模拟
 - 次表面散射：光会进入材质，感觉会比漫反射还扁。金属性，高光性，粗糙度，各向异性
@@ -445,12 +481,18 @@ Silhouette 边界，共享边且在整个物体的外边界
 
 ### Color blocks 色块
 
-- 阈值化：量化，离散化
+- 阈值化：量化，离散化![image-20220309183520034](../../../.gitbook/assets/image-20220309183520034.png)
+
+### Different styles on different components 不同渲染方式的组合
+
+![image-20220309183659914](../../../.gitbook/assets/image-20220309183659914.png)
 
 ### Strokes Surface Stylization 素描效果
 
 - 通过纹理查询来着色格子
 - MipMap 方式缩小纹理分辨率，不改变素描线的密度，从而实现远处的素描效果
+
+![image-20220309183829814](../../../.gitbook/assets/image-20220309183829814.png)
 
 ## Real-Time Ray Tracing
 
@@ -462,9 +504,15 @@ Silhouette 边界，共享边且在整个物体的外边界
 - RTX 专门遍历树，GPU 遍历树较慢
 - 100 亿跟光线每秒，约等于每帧每像素一条光线
 
-#### SPP image
+#### SPP 
+
+![image-20220309184452095](../../../.gitbook/assets/image-20220309184452095.png)
 
 - 光路样本
+  1. 1 rasterization primary
+  2. 1 ray primary visibility
+  3. 1 ray secondary bounce
+  4. 1 ray secondary visibility
 - 最基本的两次弹射光路
 - 第一条 primary 等价于光栅化
 - 1 SPP 看作 3 条光线求交
@@ -495,9 +543,11 @@ Silhouette 边界，共享边且在整个物体的外边界
 - 廉价，屏幕空间信息
 - 光栅化时顺带记录的像素信息
 
+![image-20220309184150731](../../../.gitbook/assets/image-20220309184150731.png)
+
 #### Motion vector
 
-- 当前帧某像素坐标，对于上帧同 mesh 位置所对应的像素坐标，在屏幕空间上的偏移
+- 当前帧某像素坐标，对于上帧同 mesh 位置所对应的像素坐标，在屏幕空间上的偏移![image-20220309184556558](../../../.gitbook/assets/image-20220309184556558.png)
 
 ##### Back projection 方法求 motion vector
 
@@ -586,8 +636,7 @@ Silhouette 边界，共享边且在整个物体的外边界
 ##### metric
 
 - 定义函数，从周围像素到中心像素，任意变量上的距离和贡献的关系
-- 不一定同高斯函数指导滤波
-- image
+- 不一定同高斯函数指导滤波![image-20220309184720379](../../../.gitbook/assets/image-20220309184720379.png)
 
 ### Implement Large Filters 大型滤波器优化
 
@@ -599,6 +648,7 @@ Silhouette 边界，共享边且在整个物体的外边界
 - 将维度拆成次数
 - 减少一个维度数量级 Mnxn -> Mi x n + Mn x i 
 - 二维高斯描述为两个一维高斯相乘
+- ![image-20220309184759096](../../../.gitbook/assets/image-20220309184759096.png)
 
 #### Solution 2 ：Progressively Growing Sizes
 
@@ -606,12 +656,13 @@ Silhouette 边界，共享边且在整个物体的外边界
 - 同样大小的滤波器，采样的距离逐渐增大
 - 多趟统一形成大的 filter image
 - 如果滤波器大小为 5x5，采样 5 层，那么每个像素相当在一次 pass 中采样了 64 x 64 
+- ![image-20220309184822115](../../../.gitbook/assets/image-20220309184822115.png)
 
 ##### deeper understanding
 
 - 每次使用越来越大的 Filter，过滤掉越来越低的频率
 - 每迭代一次，图就越模糊
-- image
+- ![image-20220309184834255](../../../.gitbook/assets/image-20220309184834255.png)
 
 ### Outlier Removal
 
@@ -640,7 +691,7 @@ Silhouette 边界，共享边且在整个物体的外边界
 
 #### Recurrent denoising AutoEncoder （RAE）
 
-基于 G-Buffer 和神经网络的图像降噪
+基于 G-Buffer 和神经网络的图像降噪![image-20220309184939045](../../../.gitbook/assets/image-20220309184939045.png)
 
 - 使用 AutoEncoder 结构，
 - 使用 G-Buffer 以及上一帧的图像信息
@@ -654,16 +705,19 @@ Silhouette 边界，共享边且在整个物体的外边界
 
 #### Temporal Anti-Aliasing （TAA）
 
-- 四帧一个循环，每帧都进行四分之一个采样 image
+- 四帧一个循环，每帧都进行四分之一个采样
+- ![image-20220309185009121](../../../.gitbook/assets/image-20220309185009121.png)
 - 移动的物体使用 Motion vector 找到上一帧着色像素对应的屏幕位置
 - 对于 Jitter sampling pattern 的处理和 RTRT filter 基本一致
 
 #### Space Anti-Aliasing 
 
 - SSAA ：渲染高分辨率的纹理后，双线性插值降采样
-- MSAA ：在同个像素对于每个对这个像素参与贡献的三角形都会进行采样，在硬件光栅化的时候实现
+- MSAA ：
+  - 在同个像素对于每个对这个像素参与贡献的三角形都会进行采样，在硬件光栅化的时候实现![image-20220309185035560](../../../.gitbook/assets/image-20220309185035560.png)
+  - 对于采样点的复用![image-20220309185143137](../../../.gitbook/assets/image-20220309185143137.png)
 - FXAA -> MLAA -> SMAA ：基于图像的抗锯齿
-  - SMAA：图象矢量化，提取为无限分辨率，离散变连续
+  - SMAA：图象矢量化，提取为无限分辨率，离散变连续![image-20220309185218053](../../../.gitbook/assets/image-20220309185218053.png)
 
 G-Buffer 不能进行抗锯齿，一定是得走样的
 
@@ -688,13 +742,13 @@ G-Buffer 不能进行抗锯齿，一定是得走样的
 
 #### Tiled Shading
 
-- image
+- ![image-20220309185301500](../../../.gitbook/assets/image-20220309185301500.png)
 - 屏幕中的每个条不会被所有的光源影响
 - Tiled Shading 在 deferred shading 的基础上，对所需的光源做优化
 
 #### Clustered Shading
 
-- image 
+- ![image-20220309185309838](../../../.gitbook/assets/image-20220309185309838.png)
 - 深度上继续切片
 - 这两渲染管线都是在延时渲染中基于 G-Buffer 实现的，此时已经没有网格物体，三角形的概念了
 
@@ -704,9 +758,7 @@ G-Buffer 不能进行抗锯齿，一定是得走样的
 
 #### Cascaded 级联
 
-Cascaded shadow map
-
-image
+Cascaded shadow map![image-20220309185342093](../../../.gitbook/assets/image-20220309185342093.png)
 
 - 使用多张 ShadowMap
 - 离摄像机越远的区域采样表示范围越大的 ShadowMap
