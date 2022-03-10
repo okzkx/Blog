@@ -9,13 +9,9 @@ description: 学习，记录，分享
 
 #### 日常计划
 
-- Games 202 笔记整理
-  - 笔记图片整理
-
 #### 目标计划
 
 - P0
-  - HDRP DebugDraw
   - HDRP Debug Frame
 - P1
   - DebugDraw 持久绘制
