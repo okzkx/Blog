@@ -73,3 +73,9 @@
 ## 渲染管线
 
 [Unity URP 渲染管线解析(I)](https://zhuanlan.zhihu.com/p/115080701)
+
+## Color Space
+
+[Unity - Manual: Working with linear Textures](https://docs.unity3d.com/Manual/LinearRendering-LinearTextures.html)
+
+[Unity - Manual: Linear or gamma workflow](https://docs.unity3d.com/Manual/LinearRendering-LinearOrGammaWorkflow.html)

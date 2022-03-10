@@ -14,6 +14,16 @@
 
 [Shader面板上常用的一些内置Enum - 知乎](https://zhuanlan.zhihu.com/p/93194054)
 
+[Unity - Manual: Writing shaders for different graphics APIs](https://docs.unity3d.com/Manual/SL-PlatformDifferences.html)
+
+[浅谈后处理技术中的各种坑 - 知乎](https://zhuanlan.zhihu.com/p/29228304)
+
+[Unity - Manual: Cameras and depth textures](https://docs.unity3d.com/Manual/SL-CameraDepthTexture.html)
+
+[Unity - Manual: Shader semantics](https://docs.unity3d.com/Manual/SL-ShaderSemantics.html)
+
+[Unity - Manual: Replacing shaders at runtime](https://docs.unity3d.com/Manual/SL-ShaderReplacement.html)
+
 ## 常用宏指令
 
 UNITY_UV_STARTS_AT_TOP D3d

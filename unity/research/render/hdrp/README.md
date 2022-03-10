@@ -10,6 +10,8 @@ The High Definition Render Pipeline (HDRP) is a high-fidelity Scriptable Render 
 
 [Lighting & rendering tutorial for HDRP | Unite Now 2020](https://www.youtube.com/watch?v=yqCHiZrgKzs) 较为完整的 HDRP 使用教程视频 
 
+[Unity AOV Recorder V0.1.0 User Manual | Unity AOV Recorder | 0.1.1-preview.2](https://docs.unity3d.com/Packages/com.unity.aovrecorder@0.1/manual/index.html)
+
 ## HDRP 研究 
 
 ### 视频内容摘要

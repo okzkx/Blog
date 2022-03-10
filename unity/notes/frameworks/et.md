@@ -1,4 +1,9 @@
 # ET Framework
+
+[ET 视频教程](https://edu.uwa4d.com/course-intro/1/375)
+
+[egametang/ET: Unity3D Client And C# Server Framework](https://github.com/egametang/ET)
+
 ## 01 ET 框架以及课程介绍
 
 ### 什么是 ET 框架
