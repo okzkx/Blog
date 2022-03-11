@@ -24,3 +24,22 @@
 • 基于快速可靠的KCP协议，强劲且稳定的网络传输性能，更低的服务器性能消耗
 • 经过完整的大型MMORPG的上线商业项目的锤炼与验证(前后端均使用ET框架进行开发)
 
+## 02 环境安装
+
+#### .Net SDK 6.0
+cmd => dotnet --version
+
+#### vs 
+.net 桌面开发，通用 windows 平台开发，Unity 游戏开发
+
+#### rider
+
+#### Mongodb
+
+https://www.mongodb.com/try/download/community
+不需要可视化软件
+环境变量 > 系统变量 > Path > 添加 C:\Program Files\MongoDB\Server\5.0\bin
+cmd => mongo
+
+#### robo3t
+https://robomongo.org/
