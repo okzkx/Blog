@@ -9,12 +9,11 @@ description: 学习，记录，分享
 
 #### 日常计划
 
-  - ET
+  - DX
 
 #### 目标计划
 
 - P0
-  - DX
   - 特效
   - netcode
 - P1
