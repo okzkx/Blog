@@ -46,3 +46,55 @@ Render
 
 学习路径：沿着主干道前进
 
+#### MVVM 模型
+
+![image-20220316105903407](../../../.gitbook/assets/image-20220316105903407.png)
+
+#### Cause about
+
+- Render 
+- Animation
+- Physics
+- Gameplay （Game World Rules）
+- MIsc Systems
+  - Effects
+  - Navigation
+  - Camera
+
+#### Tool Set
+
+- C++ Reflection
+- Data Schema
+
+#### Online Gameing
+
+- Lockstep Synchronization
+- State Synchronization
+
+#### Advanced Technology
+
+- Motion Matching
+- Procedural Content Generation
+- Data-Oriented Programming
+- Job System
+- Lumen
+- Nanite
+
+#### References
+
+- No required textbooks
+- Game Engine Architecture
+
+#### Mini Engine
+
+- Mini runtime framework
+- Mini editor
+- Building basic knowledge system of game engine
+
+![image-20220316112401142](../../../.gitbook/assets/image-20220316112401142.png)
+
+
+
+#### 作业目标
+
+联网对战游戏
