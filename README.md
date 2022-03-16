@@ -9,14 +9,14 @@ description: 学习，记录，分享
 
 #### 日常计划
 
-  - Games 104
+  - netcode
 
 #### 目标计划
 
 - P0
-  - 特效
-  - netcode
+  - Games 104
 - P1
+  - 特效
   - DebugDraw 持久绘制
   - UIWidges
   - 微积分
