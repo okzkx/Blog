@@ -9,13 +9,11 @@ description: 学习，记录，分享
 
 #### 日常计划
 
-  - DOTS
   - HDRP Shadow
 
 #### 目标计划
 
 - P0
-  - Qframework
   - netcode
   - Games 104
 - P1
