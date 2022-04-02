@@ -1,6 +1,12 @@
 # ET Framework
 
+## 相关资料
+
 [ET 视频教程](https://edu.uwa4d.com/course-intro/1/375)
+
+[egametang/ET: Unity3D Client And C# Server Framework](https://github.com/egametang/ET)
+
+[UWA 学堂](https://edu.uwa4d.com/course-intro/1/375)
 
 [egametang/ET: Unity3D Client And C# Server Framework](https://github.com/egametang/ET)
 
