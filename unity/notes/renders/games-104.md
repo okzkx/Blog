@@ -52,7 +52,7 @@ Render
 
 #### Cause about
 
-- Render 
+- Render
 - Animation
 - Physics
 - Gameplay （Game World Rules）
@@ -92,8 +92,6 @@ Render
 - Building basic knowledge system of game engine
 
 ![image-20220316112401142](../../../.gitbook/assets/image-20220316112401142.png)
-
-
 
 #### 作业目标
 
@@ -199,7 +197,7 @@ make an animate character
 - Access data in order 数据按顺序读写
 - Allocate and de-allocate as a block 按照块状分配内存
 
-#### Foundation of Game Engine 
+#### Foundation of Game Engine
 
 ### Platform Layer
 
@@ -215,7 +213,7 @@ make an animate character
 
 #### Allow artists to create game
 
-Manual Editors 
+Manual Editors
 
 - Level Editor
 - Logical Editor
@@ -275,14 +273,11 @@ tool chains
 ### How to Describe a GameObject
 
 - Name
-
 - Property
 
   - Shape
   - Position
-
   - Capacity of battery
-
 - Behavior
 
   - Move
@@ -336,3 +331,59 @@ tool chains
   - 挑战性是在多线程情况下执行还是确定性的
   - 需要有同步点，GameObject 间不能直接发送消息
   - 可能逻辑间有循环依赖，根据处理方式可能会导致延时情况
+
+## 第四章：游戏引擎中的渲染实现
+
+### 渲染概述
+
+#### Challenges on Game Rendering
+
+1. Complex render objects
+2. Deal with architecture of modern computer with a complex combination of CPU and GPU
+3. Commit a bullet-proof framerate, 
+   1. 30 or 60 or 120 fps
+   2. HD, 1080p, 4k, 8k
+4. CPU memory
+
+#### Rendering on Game Engine
+
+A heavily optimized parctical software framework to fulfill the critical rendering requirements of games on modern hadware
+
+#### Outline of Rendering
+
+1. Basics of Game Rendering
+   - Hardware architecture
+   - Render data organization
+   - Visibility
+2. Materials, Shaders and Lighting
+   - PBR
+   - Shader permutation
+   - Lighting
+   - Point / Directional lighting
+   - IBL / Simple GI
+3. Special Rendering
+   - Terrain
+   - Sky / Fog
+   - Postprocess
+4. Pipeline
+   - Forward, deferred rendering forward plus
+   - Real pipeline with mixed effects
+   - Ring buffer and V-Sync
+   - Tiled-based rendering
+
+### 渲染系统的对象
+
+#### Computation - Texture Sampling
+
+1. Use tow nearest mipmap levels
+2. Perform bilinear inerpolation in both mip-maps
+3. Linear interpolate between the results
+
+### GPU 架构
+
+The dedicated hardware to solve massive jobs
+
+#### SIMD and SIMT
+
+- SIMD 单指令多数据
+- SIMT 单指令多线程
