@@ -10,7 +10,7 @@ description: 学习，记录，分享
 #### 日常计划
 
 - Hybrid Render 
-  - Light Probe
+  - Reflection Probe
 
 #### 目标计划
 
