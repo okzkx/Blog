@@ -334,7 +334,7 @@ tool chains
   - 需要有同步点，GameObject 间不能直接发送消息
   - 可能逻辑间有循环依赖，根据处理方式可能会导致延时情况
 
-## 第四章：游戏引擎中的渲染实现
+## 第四节：游戏引擎中的渲染实现
 
 ### 渲染概述
 
@@ -531,3 +531,59 @@ The dedicated hardware to solve massive jobs
 
 小引擎项目 https://github.com/BoomingTech/Pilot
 
+## 第五节：光和材质
+
+### Participants of Rendering Computation
+
+#### The Rendering Equation
+
+![image-20220413220314499](../../../.gitbook/assets/image-20220413220314499.png)
+
+实时解渲染方程
+
+#### Three Main Challenges
+
+- Light Challenges 光的表现
+  - visibility to Lights
+  - Light Source Complex
+- How to do Integral Efficiently on Hardware 对光的积分
+- Any matter will be light source 全局光照
+  - Indirect illumination
+  - Global illumination
+
+### Simple Light Solution
+
+#### Simple Light
+
+- Using simple light source as main light
+- Using ambient light to hack others
+- Supported in graphics API
+
+#### Environment Map Reflection
+
+- Using environment map to enhance glossary surface reflection
+- Using environment mipmap to represent roughness of surface
+
+#### Blinn-Phone Materials
+
+- 基于光叠加原理，光的线性叠加
+- 漫反射 + 高光 + 环境光
+- 能量不守恒
+  - Unstable in ray-tracing
+  - non-energy conserving
+- 无法表达真实材质
+  - 都是塑料质感 
+
+#### ShadowMap
+
+- 使用纹理记录距离光源最近像素的深度
+- Resolution limit ，纹理精度导致阴影锯齿
+- Depth precision ，自遮挡，加 bias 和提高纹理精度解决
+
+#### Basic Shading Solution
+
+- Simple light + Ambient
+  - dominent light solves
+  - ambient and EnvMap solve
+- Blinn-Phong material
+- Shadow map
