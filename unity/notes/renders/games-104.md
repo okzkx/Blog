@@ -615,3 +615,56 @@ The dedicated hardware to solve massive jobs
   - 实时间接光照：LightProbe，Reflection Probe
   - 后处理光照：SSAO，SSR
 
+### Physicaly base rendering (PBR)
+
+#### Microfacet Theory 微表面理论
+
+#### BRDF Model Based on Microfacet
+
+- 常用 GGX 模型
+- ![image-20220414183745137](../../../.gitbook/assets/image-20220414183745137.png)
+
+#### Normal Distribution Function : D 法线分布函数，表示高光强度曲线
+
+- 相比 Phone 高光，高频波峰足够抖，高光逐渐消失的时候是柔和过度
+
+![image-20220414184304102](../../../.gitbook/assets/image-20220414184304102.png)
+
+#### Geometric attenuation term (self-shadowing) ：G，几何遮挡，表示能量损失
+
+![image-20220414184837548](../../../.gitbook/assets/image-20220414184837548.png)
+
+#### Fresnel Equation :
+
+F 菲涅尔现象，视线越垂直，折射越明显，反之反射越明显
+
+![image-20220414185056386](../../../.gitbook/assets/image-20220414185056386.png)
+
+#### Physical Measured Material 实际上去测量真实物理材质的 BRDF
+
+#### Disney Principled BRDF 迪士尼原则的 BRDF 模型
+
+- 每个参数必须符合迪士尼原则
+- 参数需要尽可能的少
+- 数值参数需要归一化到在 0 ~ 1
+- 参数的任意组合不能出现 BUG
+- 引擎不是真实世界模拟器，而是游戏程序创造工具
+
+- Disney Principle Material Parameters 迪士尼材质参数
+
+#### PBR Specular Glossiness
+
+SG 模型，全部参数都用纹理表达
+
+![image-20220414190145246](../../../.gitbook/assets/image-20220414190145246.png)
+
+#### PBR Metallic Roughness
+
+![image-20220414190714663](../../../.gitbook/assets/image-20220414190714663.png)
+
+convert MR to SG，MR 是对于 SG 的封装，依赖 SG，参数相对 SG 对艺术家更友好
+
+#### PBR Pipeline MR vs SG
+
+MR 在金属与非金属过度容易出现白边
+
