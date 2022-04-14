@@ -587,3 +587,31 @@ The dedicated hardware to solve massive jobs
   - ambient and EnvMap solve
 - Blinn-Phong material
 - Shadow map
+
+#### Precompute global illumination
+
+- 空间换时间
+- Good compression rate，存储百万个 probes
+- do integration with material function
+- Fourier Transform 傅里叶变换
+  - 任何频谱都是不同频率的波长的叠加，
+  - 图片由时域转到频域，去掉高频信息或低频信息，再转回时域，能对图片保留相应信息
+- Convolution Theorem 卷积
+- Spherial Harmonics 球谐函数
+  - 1阶 SH 只需要 9 个值，压缩后是 4 Bytes 就能存储一个 Diffuse 光场
+- SH Lightmap ：Precomputed GI
+  - LightMap 是预计算的，对静态物体的表面的每个点的环境光照存储
+  - 基于上面 SH 的理论，规定 LIghtMap 中一个 4 Bytes 颜色块定义了空间中的一个静态物体表面中的一个点接收到的全局光照
+  - 全局静态物体的表面需要二维展开到 LightMap 上，所以 LightMap 也是一个 Altas
+- Light Probe: Probes In Game Space
+  - Probe 在玩家感知强的地方，在环境光变换大的地方密集
+  - LightProbe 可以看作定义在 3 维空间的 LightMap，但不需要逐像素体素，所以可以实时预计算
+  - LIght Probe Point Generation 工业上需要自动化生成 LIghtProbe 采样点
+  - Reflection Probe：反射探针可以看作高精度的，做了范围限定的 LightProbe
+
+- 现代游戏入射光
+  - 直接光照：光源类型 + shadowmap
+  - 静态间接光照：LightMap
+  - 实时间接光照：LightProbe，Reflection Probe
+  - 后处理光照：SSAO，SSR
+
