@@ -668,3 +668,83 @@ convert MR to SG，MR 是对于 SG 的封装，依赖 SG，参数相对 SG 对�
 
 MR 在金属与非金属过度容易出现白边
 
+### Image-Based Lighting(IBL) 基于图像的光照
+
+#### Basic Idea of IBL 
+
+cube map，提前预处理环境光
+
+#### Diffuse Irradiance Map
+
+提前知道卷积，模糊的结果
+
+#### Specular 
+
+- 使用 MipMap 存储不同粗糙度的 Specular
+- LUT，提前存储这个 BRDF roughness 和 cosθ 的关系
+
+![image-20220415103912206](../../../.gitbook/assets/image-20220415103912206.png)
+
+#### Quick shading with precomputation
+
+![image-20220415104120942](../../../.gitbook/assets/image-20220415104120942.png)
+
+### Classis Shadow Solution
+
+#### Big World and Cascade Shadow
+
+级联阴影，视线所达到的地方，用多张 ShadowMap 表示，分辨率一样，表示的范围越来越大，精度越来越低
+
+![image-20220415104525286](../../../.gitbook/assets/image-20220415104525286.png)
+
+阴影是渲染管线中的最耗时的部分，场景中每个物体需要重画，同时存储量高
+
+#### Hard Shadow vs Realistic Shadow
+
+软阴影
+
+- Percentage Closer Soft Shadow , PCF
+- PCSS
+- Variance Soft Shadow Map
+
+#### Summary of Popular AAA Rendering
+
+- LIghtmap + Lightprobe
+- PBR + IBL
+- Cascade shadow + VSSM
+
+### Moving Wave of High Quality
+
+- quick evolving of GPU
+- Real-Time Ray-Tracing on GPU
+- Real-Time Global Illumination
+  - SCreen-space GI
+  - SDF Based GI
+  - Voxel-Based GI (SVOGI / VXGI)
+  - RSM / RTX GI
+
+#### More Complex Material Model
+
+- BSDF (Strand-based hair)
+- BSSRDF
+
+#### Virtual Shadow Maps
+
+ue5 的方法，平均分布 Shadow Map ，动态加载
+
+#### Ocean of Shader
+
+- 海量的不同的 Shader
+- Artist Create Infinite More Shaders
+- Uber Shader and Variants 使用宏定义产生不同的 Shader
+
+#### Cross Platform Shader Compile
+
+同一个 shader 可能可以编译到不同的 Graphics API
+
+### Pilot  Engine
+
+
+
+
+
