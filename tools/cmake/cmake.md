@@ -1,5 +1,7 @@
 # CMake
 
+[B 站教程](https://www.bilibili.com/video/BV1vR4y1u77h)
+
 # 说明
 
 cmake的定义是什么 ？-----高级编译配置工具
