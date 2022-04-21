@@ -7,9 +7,14 @@ description: 学习，记录，分享
 
 `000000000019d6689c085ae165831e934ff763ae46a2a6c172b3f1b60a8ce26f`
 
+### 日常计划
+
+- vscode 配置使用
+- b 站整理
+
 #### 目标计划
 - P0
-  - Unity dll
+  - Unity mod
   - cmake
   - vulkan vscode
   - Pilot
