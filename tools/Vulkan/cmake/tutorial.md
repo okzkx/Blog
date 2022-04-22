@@ -1,6 +1,6 @@
-# CMake
+# CMake 教程
 
-[B 站教程](https://www.bilibili.com/video/BV1vR4y1u77h)
+[快速入门 CMake](https://www.bilibili.com/video/BV1vR4y1u77h)
 
 # 说明
 
