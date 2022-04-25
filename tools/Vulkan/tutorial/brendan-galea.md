@@ -95,3 +95,29 @@
 ### Secondary command buffer
 
 ![](images/secondary-cmd.png)
+
+## Vertex buffers
+
+![](images/vertex-buffer.jpg)
+
+![](iamges/../images/saperate-vertex-buffer.jpg)
+
+vertex binding descriptions
+
+![](images/vertex-binding-descriptions.jpg)
+
+vertex attribute descriptions
+
+![](images/vertex-attribute-description.jpg)
+
+- float:VK_FORMAT_R32_SFLOAT
+- vec2:VK_FORMAT_R32G32_SFLOAT
+- vec3:VK_FORMAT_R32G32B32_SFLOAT
+- vec4:VK_FORMAT_R32G32B32A32_SFLOAT
+- ivec2:VK_FORMAT_R32G32_SINT (signed integer)
+- uvec2:VK_FORMAT_R32G32_UINT (unsigned integer)
+- double:VK_FORMAT_R32_SFLOAT (double precision float)
+
+![](images/binding-buffer.jpg)
+
+暂时没有那种更好的结论，一般使用交叉的大 vertex buffer 而不是 binding
