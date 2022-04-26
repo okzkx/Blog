@@ -1,6 +1,11 @@
 # rust
 
-### [Rusty Book 锈书](https://rusty.rs/about.html) 
+### 参考资料
+
+[Rusty Book 锈书](https://rusty.rs/about.html) 
+
+[Rust语言圣经 Rust Course](https://course.rs/about-book.html)
+
 
 ### Rust 项目的总览
 
@@ -29,7 +34,3 @@
 - [hecs](https://github.com/Ralith/hecs), 一个用Rust实现的ECS世界
 
 - ["Data-Oriented Design" web book by Richard Fabian](https://dataorienteddesign.com/dodbook/)
-
-
-
-[Rust语言圣经 Rust Course](https://course.rs/about-book.html)
