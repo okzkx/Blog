@@ -9,14 +9,10 @@ description: 学习，记录，分享
 
 ### 日常计划
 
-- vscode 配置使用
-- b 站整理
+  - vulkan youtube C++ 主要是看原理
 
 #### 目标计划
 - P0
-  - Unity mod
-  - cmake
-  - vulkan vscode
   - Pilot
   - [Games 104](https://www.bilibili.com/video/BV12Z4y1B7th)
 - P1
