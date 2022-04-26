@@ -121,3 +121,7 @@ vertex attribute descriptions
 ![](images/binding-buffer.jpg)
 
 暂时没有那种更好的结论，一般使用交叉的大 vertex buffer 而不是 binding
+
+### Host & device memory
+
+![](images/data-transfer.jpg)
