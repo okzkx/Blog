@@ -940,3 +940,67 @@ Speed Tree ，植被渲染中间件
 
 #### Procedure Terrain Creation
 
+### Atmosphere 大气散射
+
+#### Analytic Atmosphere Appearance Modeling
+
+![image-20220427225019614](../../../.gitbook/assets/image-20220427225019614.png)
+
+使用经验公式去拟合大气散射现象
+
+#### Participating Media
+
+![image-20220427225255363](../../../.gitbook/assets/image-20220427225255363.png)
+
+####  How Light Interacts with Participating Media 
+
+大气散射通过一个介质分为四个阶段
+
+![image-20220427231309822](../../../.gitbook/assets/image-20220427231309822.png)
+
+#### Volume Rendering Equation
+
+![image-20220427231524677](../../../.gitbook/assets/image-20220427231524677.png)
+
+- Transmittance ：光线被介质的衰减
+- Increase factor ：光线进入眼睛的能量
+
+#### Real Physics in Atmosphere
+
+1. 太阳光是由不同波长即不同颜色的光线组合而成的白色
+
+#### Scattering Types
+
+##### Rayleigh Scattering 瑞丽散射 
+
+- 介质直径小，光线波长越短散射越厉害
+- 蓝紫光波长短
+- 拟合方程
+- Rayleigh Scattering Equation
+- ![image-20220427232300675](../../../.gitbook/assets/image-20220427232300675.png)
+
+##### Mie scattering 米式散射 
+
+- 散射对光的波长不敏感
+- 雾 Fog，光晕 Halo of Sun
+- Mie Scattering Equation
+
+![image-20220427232916397](../../../.gitbook/assets/image-20220427232916397.png)
+
+#### Variant Air  Molecules Absorption
+
+大气的吸收效应
+
+- 臭氧
+- 甲烷
+
+#### Single Scattering vs Multi Scattering
+
+![image-20220427233253363](../../../.gitbook/assets/image-20220427233253363.png)
+
+#### Ray Marching
+
+沿着视线的方向，对太阳光的积分
+
+![image-20220427233606867](../../../.gitbook/assets/image-20220427233606867.png)
+
