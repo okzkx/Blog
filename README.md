@@ -9,7 +9,9 @@ description: 学习，记录，分享
 
 ### 日常计划
 
-  - vulkan youtube C++ 主要是看原理
+- rust 语法练习
+- rust vulkan 文档 ash
+- 硬盘整理
 
 #### 目标计划
 - P0
