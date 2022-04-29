@@ -1004,3 +1004,7 @@ Speed Tree ，植被渲染中间件
 
 ![image-20220427233606867](../../../.gitbook/assets/image-20220427233606867.png)
 
+#### Precomputed Atmospheric Scattering
+
+![image-20220429154220247](../../../.gitbook/assets/image-20220429154220247.png)
+
