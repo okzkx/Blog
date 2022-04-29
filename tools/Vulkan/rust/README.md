@@ -11,6 +11,7 @@
 
 - 游戏引擎： bevy， fyrox， ggez， oxygengine， macroquad， godot-rust， piston， amethyst
 - GPU和图形渲染： wgpu， rust-gpu，kajiya， lyon， ash， vulkano， rend3， rafx， gfx， luminance， miniquad， glow
+- 其他：![mdbook](https://github.com/rust-lang/mdBook)
 
 ### 精选渲染器
 
