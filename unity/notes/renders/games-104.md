@@ -1008,3 +1008,41 @@ Speed Tree ，植被渲染中间件
 
 ![image-20220429154220247](../../../.gitbook/assets/image-20220429154220247.png)
 
+![image-20220506101713410](../../../.gitbook/assets/image-20220506101713410.png)
+
+##### Challenges of Precomputed Atmospheric Scattering
+
+- Precomputation Cost
+- Authoring and Dynamic Adjustment of Environments
+- Runtime Rendering Cost
+
+#### Production Friendly Quick Sky and Atmosphere Rendering
+
+- Simplify Multi-scattering Assumption
+-  假设对于空间上某个点四面八方的入射光是均匀的
+- Fixed view position and sum position to remove 2 dimensions out of LUT
+- Generated a 3D LUT to evaluate aerial-perspective effects by ray marching
+
+### 云的渲染
+
+#### Cloud Type
+
+![image-20220506104023361](../../../.gitbook/assets/image-20220506104023361.png)
+
+#### Present Cloud
+
+- Mesh-Based Cloud Modeling
+- Billboard Cloud
+- Volumetric Cloud Modeling
+  - Weather Texture 存云的厚度
+  -  Noise Functions
+    - Perlin Noise 棉花丝感觉
+    - Worley Noise 泡泡感觉
+  - ![image-20220506104451054](../../../.gitbook/assets/image-20220506104451054.png)
+  - Cloud Density Model
+    - ![image-20220506104738431](../../../.gitbook/assets/image-20220506104738431.png)
+  - Rendering Cloud by Ray Marching
+    - ![image-20220506104925464](../../../.gitbook/assets/image-20220506104925464.png)
+
+
+
