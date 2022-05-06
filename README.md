@@ -11,7 +11,6 @@ description: 学习，记录，分享
  
 - Games 104
 - Vulkan C++
-- Pilot
 
 #### 目标计划
 
