@@ -10,7 +10,8 @@ description: 学习，记录，分享
 ### 日常计划
  
 - Games 104
-- Vulkan C++
+- Vulkano 代码跑通和读懂
+- Renderer 关键字理解
 
 #### 目标计划
 

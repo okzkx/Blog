@@ -1046,3 +1046,26 @@ Speed Tree ，植被渲染中间件
 
 
 
+## 第七课：游戏中渲染管线、后处理和其他
+
+Games 104 作为一个通识课
+
+### Ambient Occlusion 环境光遮蔽
+
+#### Precompute  AO
+
+模型细节烘培到纹理后，法向烘培在法线纹理上，但是却丢失了几何遮蔽细节。
+
+这时可以烘培 AO 图，烘培 AO 细节
+
+#### Realtime AO
+
+- Screen Space Ambient Occlusion
+  - SSAO Plus 半球面
+- HBAO Horizon-based Ambient Occlusion
+  - Use the depth buffer as a heightfield on 2D surface
+  - Trace rays directly in 2D and approximate AO from horizon angle
+- GTAO Ground Truth-based Ambient Occlusion
+
+### Depth Fog
+

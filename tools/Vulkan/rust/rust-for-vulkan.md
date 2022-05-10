@@ -23,6 +23,8 @@
 - [vulkano](https://github.com/vulkano-rs/vulkano) star 3.1k [tutorial](https://github.com/bwasty/vulkan-tutorial-rs)
 - [ash](https://github.com/ash-rs/ash) star 1k [tutorial](https://github.com/unknownue/vulkan-tutorial-rust)
 - [vulkanalia](https://github.com/KyleMayes/vulkanalia) star 27 [tutorial](https://kylemayes.github.io/vulkanalia/introduction.html)
+- [rust-gpu](https://github.com/EmbarkStudios/rust-gpu)
+- [kajiya](https://github.com/embarkstudios/kajiya/)
 
 ## Steps
 
