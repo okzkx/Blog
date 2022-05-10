@@ -6,6 +6,8 @@
 
 [Rust语言圣经 Rust Course](https://course.rs/about-book.html)
 
+[Visualizing memory layout of Rust's data types](https://www.bilibili.com/video/BV1KT4y167f1)
+
 
 ### Rust 项目的总览
 
