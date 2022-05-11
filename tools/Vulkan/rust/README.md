@@ -25,7 +25,7 @@
 - [wgpu](https://github.com/gfx-rs/wgpu) 可以运行在 Vulkan, Metal, WebGPU 上
 - [ash](https://github.com/MaikKlein/ash) 一个轻量级的 `Vulkan` 绑定。
 - [vulkano](https://github.com/vulkano-rs/vulkano) 一个安全、特性丰富的`Vulkan`绑定。
--  [vulkanalia](https://github.com/KyleMayes/vulkanalia) 也是一个轻量级的 `Vulkan` 绑定，但是用的人比 ash 少得多
+- [vulkanalia](https://github.com/KyleMayes/vulkanalia) 也是一个轻量级的 `Vulkan` 绑定，但是用的人比 ash 少得多
 
 ### 实际上的使用和参考
 
