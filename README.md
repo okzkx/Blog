@@ -10,8 +10,6 @@ description: 学习，记录，分享
 ### 日常计划
  
 - Games 104
-- TU Wien Turtorial
-- Rust menmory
 
 #### 目标计划
 

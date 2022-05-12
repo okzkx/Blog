@@ -23,8 +23,7 @@
 当前想法：
 - 主要是学习 Vulkanalia，Vulkano 作为附加的参考
 - 实际开发用哪个不一定
-
-## resp
+ ## resp
 
 - [vulkano](https://github.com/vulkano-rs/vulkano) star 3.1k [tutorial](https://github.com/bwasty/vulkan-tutorial-rs)
 - [ash](https://github.com/ash-rs/ash) star 1k [tutorial](https://github.com/unknownue/vulkan-tutorial-rust)
