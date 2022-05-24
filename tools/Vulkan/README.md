@@ -35,3 +35,35 @@ Fences
 VkSubmitInfo
 
 The vertex buffer we have right now works correctly, but the memory type that allows us to access it from the CPU may not be the most optimal memory type for the graphics card itself to read from. The most optimal memory has the VK_MEMORY_PROPERTY_DEVICE_LOCAL_BIT flag and is usually not accessible by the CPU on dedicated graphics cards. In this chapter we're going to create two vertex buffers. One staging buffer in CPU accessible memory to upload the data from the vertex array to, and the final vertex buffer in device local memory. We'll then use a buffer copy command to move the data from the staging buffer to the actual vertex buffer.https://vulkan-tutorial.com/Vertex_buffers/Staging_buffer
+
+The right way to tackle this in Vulkan is to use resource descriptors. A descriptor is a way for shaders to freely access resources like buffers and images.https://vulkan-tutorial.com/Uniform_buffers/Descriptor_layout_and_buffer
+
+descriptor，attachments 是接口，描述了可以访问的方法
+
+- Create an image object backed by device memory
+- Fill it with pixels from an image file
+- Create an image sampler
+- Add a combined image sampler descriptor to sample colors from the texture
+- https://vulkan-tutorial.com/Texture_mapping/Images#page_Introduction
+
+ We'll start by creating a staging resource and filling it with pixel data and then we copy this to the final image object that we'll use for rendering.
+
+Creating an image is not very different from creating buffers. It involves querying the memory requirements, allocating device memory and binding it, just like we've seen before.
+
+One of the most common ways to perform layout transitions is using an image memory barrier. 
+
+Barriers are primarily used for synchronization purposes, so you must specify which types of operations that involve the resource must happen before the barrier, and which operations that involve the resource must wait on the barrier. 
+
+#### Image View
+with the swap chain images and the framebuffer, that images are accessed through image views rather than directly. https://vulkan-tutorial.com/Texture_mapping/Image_view_and_sampler
+
+#### Samplers
+ Textures are usually accessed through samplers, which will apply filtering and transformations to compute the final color that is retrieved.
+- filter
+- addressing mode
+  - Repeat
+  - Mirrored repeat
+  - Clamp to edge
+  - Clamp to border 
+
+new type of descriptor: combined image sampler. This descriptor makes it possible for shaders to access an image resource through a sampler object like the one we created in the previous chapter.
