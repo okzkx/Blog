@@ -30,8 +30,12 @@ At a high level, rendering a frame in Vulkan consists of a common set of steps:
 
 Draw Frame
 
-Semaphores
-Fences
+https://vulkan-tutorial.com/Drawing_a_triangle/Drawing/Rendering_and_presentation#page_Semaphores
+
+- Semaphores :  is used to add order between queue operations. 
+- Fences : A fence has a similar purpose, in that it is used to synchronize execution, but it is for ordering the execution on the CPU, otherwise known as the host. Simply put, if the host needs to know when the GPU has finished something, we use a fence.
+
+
 VkSubmitInfo
 
 The vertex buffer we have right now works correctly, but the memory type that allows us to access it from the CPU may not be the most optimal memory type for the graphics card itself to read from. The most optimal memory has the VK_MEMORY_PROPERTY_DEVICE_LOCAL_BIT flag and is usually not accessible by the CPU on dedicated graphics cards. In this chapter we're going to create two vertex buffers. One staging buffer in CPU accessible memory to upload the data from the vertex array to, and the final vertex buffer in device local memory. We'll then use a buffer copy command to move the data from the staging buffer to the actual vertex buffer.https://vulkan-tutorial.com/Vertex_buffers/Staging_buffer
@@ -66,4 +70,4 @@ with the swap chain images and the framebuffer, that images are accessed through
   - Clamp to edge
   - Clamp to border 
 
-new type of descriptor: combined image sampler. This descriptor makes it possible for shaders to access an image resource through a sampler object like the one we created in the previous chapter.
+new type of descriptor: combined image sampler. This descriptor makes it possible for shaders to access an image resource through a sampler object like the one we created in the previous chapter.https://vulkan-tutorial.com/Texture_mapping/Combined_image_sampler
