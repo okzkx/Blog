@@ -9,8 +9,7 @@ description: 学习，记录，分享
 三维极坐标
 ### 日常计划
 
-- Vulkan Tutorial
-- Vulkan Specification
+- Cpp 和 Rust 对比
 
 #### 目标计划
 
