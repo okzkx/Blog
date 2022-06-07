@@ -10,6 +10,7 @@
 
 [Introduction - Vulkan Tutorial](https://vulkan-tutorial.com/Introduction)
 
+[Rusty Book](https://rusty.rs/about.html)
 
 
 [Rust 语言圣经 - Rust语言圣经(Rust Course)](https://course.rs/about-book.html)
@@ -22,7 +23,7 @@
 
 
 
-#### 跨平台
+### 跨平台
 
 [Rust Playground](https://play.rust-lang.org/)
 
