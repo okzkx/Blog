@@ -42,16 +42,16 @@
 
 - 卡通渲染不止一种风格
 - 技术不止一种风格
-  - ![image-20211202214853695](../../../.gitbook/assets/image-20211202214853695.png)
-  - ![image-20211202214915336](../../../.gitbook/assets/image-20211202214915336.png)
+  - ![image-20211202214853695](zhuangdong-ta.assets/image-20211202214853695.png)
+  - ![image-20211202214915336](zhuangdong-ta.assets/image-20211202214915336.png)
 - 常用技术 · Cell / ToonShading
   - [罪恶装备](https://gdcvault.com/play/1022031/GuiltyGearXrd-s-Art-Style-The)
   - [火影·究极风暴](http://psv.tgbus.com/news/ynzx/201306/20130603141025.shtml)
 - 常用技术 - HatchingShading
 
-  - ![image-20211202215400923](../../../.gitbook/assets/image-20211202215400923.png)
+  - ![image-20211202215400923](zhuangdong-ta.assets/image-20211202215400923.png)
 
-  - ![image-20211202215416844](../../../.gitbook/assets/image-20211202215416844.png)
+  - ![image-20211202215416844](zhuangdong-ta.assets/image-20211202215416844.png)
 
 #### 规范
 
@@ -69,7 +69,7 @@
 
 - SF 新建最简 Shader 模板
 
-  ![image-20211202220034604](../../../.gitbook/assets/image-20211202220034604.png)
+  ![image-20211202220034604](zhuangdong-ta.assets/image-20211202220034604.png)
 
 - HelloWorld
   
@@ -246,7 +246,7 @@ Shader "AP1/L03/Lambert"
     率。BRDF就是用来对这种反射性质进行定义的。---- 知乎用户
 - 一些分布函数
 
-  ![image-20211202223558829](../../../.gitbook/assets/image-20211202223558829.png)
+  ![image-20211202223558829](zhuangdong-ta.assets/image-20211202223558829.png)
 
 - [BRDF Explorer](https://github.com/wdas/brdf/downloads)
 
@@ -282,11 +282,11 @@ Shader "AP1/L03/Lambert"
 
 - 光照的构成
 
-  ![image-20211202224802199](../../../.gitbook/assets/image-20211202224802199.png)
+  ![image-20211202224802199](zhuangdong-ta.assets/image-20211202224802199.png)
 
 - OldSchoolPlus
 
-  ![image-20211202224850232](../../../.gitbook/assets/image-20211202224850232.png)
+  ![image-20211202224850232](zhuangdong-ta.assets/image-20211202224850232.png)
 
 ## 八、OldSchoolPlus
 
@@ -350,7 +350,7 @@ Cubemap
 
 - 构成
 
-![image-20211203181043123](../../../.gitbook/assets/image-20211203181043123.png)
+![image-20211203181043123](zhuangdong-ta.assets/image-20211203181043123.png)
 
 ```
 3. 定义面板参数
@@ -489,19 +489,19 @@ Cubemap
 
 #### 效果图
 
-![image-20211203203426849](../../../.gitbook/assets/image-20211203203426849.png)
+![image-20211203203426849](zhuangdong-ta.assets/image-20211203203426849.png)
 
 #### 纹理资源
 
-![image-20211203203610732](../../../.gitbook/assets/image-20211203203610732.png)
+![image-20211203203610732](zhuangdong-ta.assets/image-20211203203610732.png)
 
 #### 资源优化
 
-![image-20211203203704094](../../../.gitbook/assets/image-20211203203704094.png)
+![image-20211203203704094](zhuangdong-ta.assets/image-20211203203704094.png)
 
 #### 光照模型
 
-![image-20211203203730938](../../../.gitbook/assets/image-20211203203730938.png)
+![image-20211203203730938](zhuangdong-ta.assets/image-20211203203730938.png)
 
 #### Code
 
@@ -652,7 +652,7 @@ Cubemap
   half3 finalRGB = (dirDiff + dirSpec) * shadow + envDiff + envSpec + rimLight + emission;
   ```
 
-  ![image-20211203210147607](../../../.gitbook/assets/image-20211203210147607.png)
+  ![image-20211203210147607](zhuangdong-ta.assets/image-20211203210147607.png)
 
 #### 其他细节
 
@@ -680,7 +680,7 @@ Cubemap
 
 #### 效果完成
 
-![image-20211203210749349](../../../.gitbook/assets/image-20211203210749349.png)
+![image-20211203210749349](zhuangdong-ta.assets/image-20211203210749349.png)
 
 ### 开源 Shader 
 
@@ -696,7 +696,7 @@ SP，SD都有 GLSL 的 Shader 源码
   - AD
   - AC
 
-  ![image-20211203211416842](../../../.gitbook/assets/image-20211203211416842.png)
+  ![image-20211203211416842](zhuangdong-ta.assets/image-20211203211416842.png)
 
 - 动
 
@@ -775,7 +775,7 @@ Blend One One // 修改混合方式
 
 #### 更多混合模式
 
-![image-20211203213005760](../../../.gitbook/assets/image-20211203213005760.png)
+![image-20211203213005760](zhuangdong-ta.assets/image-20211203213005760.png)
 
 #### Shader 面板
 
@@ -798,9 +798,9 @@ Blend [_BlendSrc] [_BlendDst] // 可自定义混合模式
 
 #### 常用混合模式
 
-![image-20211203214500320](../../../.gitbook/assets/image-20211203214500320.png)
+![image-20211203214500320](zhuangdong-ta.assets/image-20211203214500320.png)
 
-![image-20211203214508744](../../../.gitbook/assets/image-20211203214508744.png)
+![image-20211203214508744](zhuangdong-ta.assets/image-20211203214508744.png)
 
 ## 十四、无
 
@@ -951,7 +951,7 @@ void Rotation (inout float3 vertex) {
 }
 ```
 
-![image-20211204170310012](../../../.gitbook/assets/image-20211204170310012.png)
+![image-20211204170310012](zhuangdong-ta.assets/image-20211204170310012.png)
 
 #### 幽灵动画
 
@@ -1037,7 +1037,7 @@ Lightmap 作为记录光照结果或部分光照结果的一种载体方式，�
     3. 创建反射探针
 
 7. Mixed Lighting
-   ![image-20211204173555660](../../../.gitbook/assets/image-20211204173555660.png)
+   ![image-20211204173555660](zhuangdong-ta.assets/image-20211204173555660.png)
 
 8. Lightmapping Setting 中的烘培设置
    1. 使用Progressive CPU烘培；
@@ -1065,7 +1065,7 @@ Lightmap 作为记录光照结果或部分光照结果的一种载体方式，�
 
 Building
 
-![image-20211204174530843](../../../.gitbook/assets/image-20211204174530843.png)
+![image-20211204174530843](zhuangdong-ta.assets/image-20211204174530843.png)
 
 
 
