@@ -10,7 +10,7 @@
 
 ### 单位
 
-![image-20211207183926205](../../../../.gitbook/assets/image-20211207183926205.png)
+![image-20211207183926205](brdf.assets/image-20211207183926205.png)
 
 ### 公式拆解
 
@@ -46,8 +46,9 @@ $$
 w_h = \frac {w_i + w_o}2
 $$
 
-
-Trowbridge-Reitz GGX:![image-20211207222925985](../../../../../.gitbook/assets/image-20211207222925985.png)
+$$
+D\left(\omega_{h}\right)=\frac{\alpha^{2}}{\pi\left(\cos \theta_{h}^{2}\left(\alpha^{2}-1\right)+1\right)^{2}}
+$$
 
 F 为菲涅尔项，菲涅尔代表反射和折射对颜色贡献的占比，
 
@@ -55,17 +56,31 @@ F 为菲涅尔项，菲涅尔代表反射和折射对颜色贡献的占比，
 
 漫反射项中默认菲涅尔项为 1，因为当其值小的时候，会在物体边缘，此时反射光强度大，会改过漫反射
 
-Schlick近似来表示菲涅尔系数:![image-20211207223431912](../../../../../.gitbook/assets/image-20211207223431912.png)
+Schlick近似来表示菲涅尔系数:
+$$
+F_{r} \approx F_{0}+\left(1-F_{0}\right)\left(1-\cos \theta_{i}\right)^{5}
+$$
+
 
 G 几何衰减项
 
-Schlick-GGX近似:![image-20211207223736808](../../../../../.gitbook/assets/image-20211207223736808.png)
+Schlick-GGX近似:
+
+$$
+G_{1}(\omega)=\frac{\cos \theta}{\cos \theta(1-k)+k}, k=\left\{\begin{array}{l}\frac{(\alpha+1)^{2}}{8} \\\frac{\alpha^{2}}{2}\end{array}\right.
+$$
 
 综合公式
 
-- ![image-20211207224647020](../../../../../.gitbook/assets/image-20211207224647020.png)- 
-- ![image-20211207205148722](../../../../../.gitbook/assets/image-20211207205148722.png)
-- ![image-20211207214017494](../../../../../.gitbook/assets/image-20211207214017494.png)
+$$
+L_{o}=\int_{\Omega}\left((1-\text { metallic }) \frac{\text { albedo }}{\pi}+\frac{D F G}{4 \cos \theta_{i} \cos \theta_{o}}\right) L_{i} \cos \theta_{i} d \omega_{i}
+$$
+
+$$
+L_{o}=\int_{\Omega} f_{r} L_{i} \cos \theta_{i} d \omega_{i}=\int_{\Omega}\left(k_{d} \frac{c}{\pi}+k_{s} \frac{D F G}{4 \cos \theta_{i} \cos \theta_{o}}\right) L_{i} \cos \theta_{i} d \omega_{i}
+$$
+
+![image-20211207214017494](brdf.assets/image-20211207214017494.png)
 
 ## 全局光照
 
