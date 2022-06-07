@@ -1,73 +1,49 @@
 # Vulkan
 
-## Benefit
+[Learn | Vulkan | Cross platform 3D Graphics](https://www.vulkan.org/learn#vulkan-tutorials)
 
-Validation layers are optional components that hook into Vulkan function calls to apply additional operations.https://vulkan-tutorial.com/Drawing_a_triangle/Setup/Validation_layers
+[SaschaWillems/Vulkan: Examples and demos for the new Vulkan API](https://github.com/SaschaWillems/Vulkan)
 
-Since Vulkan is a platform agnostic API, it can not interface directly with the window system on its own.https://vulkan-tutorial.com/Drawing_a_triangle/Presentation/Window_surface
+[blurrypiano/littleVulkanEngine: Code repo for video tutorial series teaching Vulkan and computer graphics](https://github.com/blurrypiano/littleVulkanEngine)
 
-Vulkan does not have the concept of a "default framebuffer", hence it requires an infrastructure that will own the buffers we will render to before we visualize them on the screen. This infrastructure is known as the swap chain and must be created explicitly in Vulkan. https://vulkan-tutorial.com/Drawing_a_triangle/Presentation/Swap_chain
+[Vulkan Game Engine Tutorial - YouTube](https://www.youtube.com/watch?v=Y9U9IE0gVHA&list=PL8327DO66nu9qYVKLDmdLW_84-yE4auCR)
 
- shader code in Vulkan has to be specified in a bytecode format as opposed to human-readable syntax like GLSL and HLSL.
- https://vulkan-tutorial.com/Drawing_a_triangle/Graphics_pipeline_basics/Shader_modules
-
-
-The older graphics APIs provided default state for most of the stages of the graphics pipeline. In Vulkan you have to be explicit about everything, from viewport size to color blending function.
-https://vulkan-tutorial.com/Drawing_a_triangle/Graphics_pipeline_basics/Fixed_functions
-
-You have to record all of the operations you want to perform in command buffer objects. The advantage of this is that when we are ready to tell the Vulkan what we want to do, all of the commands are submitted together and Vulkan can more efficiently process the commands since all of them are available together. In addition, this allows command recording to happen in multiple threads if so desired.https://vulkan-tutorial.com/Drawing_a_triangle/Drawing/Command_buffers
-
-Outline of a frame
-At a high level, rendering a frame in Vulkan consists of a common set of steps:
-
-Outline of a frame
-At a high level, rendering a frame in Vulkan consists of a common set of steps:
-- Wait for the previous frame to finish
-- Acquire an image from the swap chain
-- Record a command buffer which draws the scene onto that image
-- Submit the recorded command buffer
-- Present the swap chain image
-
-Draw Frame
-
-https://vulkan-tutorial.com/Drawing_a_triangle/Drawing/Rendering_and_presentation#page_Semaphores
-
-- Semaphores :  is used to add order between queue operations. 
-- Fences : A fence has a similar purpose, in that it is used to synchronize execution, but it is for ordering the execution on the CPU, otherwise known as the host. Simply put, if the host needs to know when the GPU has finished something, we use a fence.
+[(14条消息) 【Vulkan】- 001 VSCode Vulkan 环境搭建_爱睡觉的小哥哥的博客-CSDN博客_vscode vulkan](https://blog.csdn.net/weixin_43475995/article/details/121516284)
 
 
-VkSubmitInfo
 
-The vertex buffer we have right now works correctly, but the memory type that allows us to access it from the CPU may not be the most optimal memory type for the graphics card itself to read from. The most optimal memory has the VK_MEMORY_PROPERTY_DEVICE_LOCAL_BIT flag and is usually not accessible by the CPU on dedicated graphics cards. In this chapter we're going to create two vertex buffers. One staging buffer in CPU accessible memory to upload the data from the vertex array to, and the final vertex buffer in device local memory. We'll then use a buffer copy command to move the data from the staging buffer to the actual vertex buffer.https://vulkan-tutorial.com/Vertex_buffers/Staging_buffer
+[Vulkan - YouTube](https://www.youtube.com/channel/UCimEyovXN8JliEq49sqUGOQ)
 
-The right way to tackle this in Vulkan is to use resource descriptors. A descriptor is a way for shaders to freely access resources like buffers and images.https://vulkan-tutorial.com/Uniform_buffers/Descriptor_layout_and_buffer
+[Moving to Vulkan : How to make your 3D graphics more explicit - The Khronos Group Inc](https://www.khronos.org/events/moving-to-vulkan-how-to-make-your-3d-graphics-more-explicit)
 
-descriptor，attachments 是接口，描述了可以访问的方法
+[Vulkan Essentials | "First Steps as Vulkan Developer" | Vulkan Lecture Series, Episode 1 | ECG 2021 - YouTube](https://www.youtube.com/watch?v=tLwbj9qys18&list=PLmIqTlJ6KsE1Jx5HV4sd2jOe3V1KMHHgn&index=1)
 
-- Create an image object backed by device memory
-- Fill it with pixels from an image file
-- Create an image sampler
-- Add a combined image sampler descriptor to sample colors from the texture
-- https://vulkan-tutorial.com/Texture_mapping/Images#page_Introduction
+[Executing Vulkan Commands - Vulkan Guide](https://vkguide.dev/docs/chapter-1/vulkan_command_flow/)
 
- We'll start by creating a staging resource and filling it with pixel data and then we copy this to the final image object that we'll use for rendering.
+[Vulkan in 30 minutes](https://renderdoc.org/vulkan-in-30-minutes.html)
 
-Creating an image is not very different from creating buffers. It involves querying the memory requirements, allocating device memory and binding it, just like we've seen before.
+[mozilla/rust-android-gradle](https://github.com/mozilla/rust-android-gradle)
 
-One of the most common ways to perform layout transitions is using an image memory barrier. 
 
-Barriers are primarily used for synchronization purposes, so you must specify which types of operations that involve the resource must happen before the barrier, and which operations that involve the resource must wait on the barrier. 
 
-#### Image View
-with the swap chain images and the framebuffer, that images are accessed through image views rather than directly. https://vulkan-tutorial.com/Texture_mapping/Image_view_and_sampler
+### 对比
 
-#### Samplers
- Textures are usually accessed through samplers, which will apply filtering and transformations to compute the final color that is retrieved.
-- filter
-- addressing mode
-  - Repeat
-  - Mirrored repeat
-  - Clamp to edge
-  - Clamp to border 
+[(14条消息) Vulkan与OpenGL对比——Vulkan的全新渲染架构_徐福记456的博客-CSDN博客_opengl vulkan](https://blog.csdn.net/u011686167/article/details/122914604)
 
-new type of descriptor: combined image sampler. This descriptor makes it possible for shaders to access an image resource through a sampler object like the one we created in the previous chapter.https://vulkan-tutorial.com/Texture_mapping/Combined_image_sampler
+[Vulkan与OpenGL的对比|酷客网](https://www.coolcou.com/vulkan/vulkan-tutorials/vulkan-with-opengl.html)
+
+
+
+[Vulkan: High efficiency on mobile - Imagination](https://blog.imaginationtech.com/vulkan-high-efficiency-on-mobile/)
+
+[深入GPU硬件架构及运行机制 - 0向往0 - 博客园](https://www.cnblogs.com/timlly/p/11471507.html#11-为何要了解gpu)
+
+[(49 封私信 / 81 条消息) 移动端gpu架构中的onchip memory具体是如何运作的？ - 知乎](https://www.zhihu.com/question/499462755/answer/2237765936)
+
+[memory management - How should Staging Buffer be used performance-wise properly? - Stack Overflow](https://stackoverflow.com/questions/64887813/how-should-staging-buffer-be-used-performance-wise-properly)
+
+[Staging Buffer · Vulkan 学习笔记](https://gavinkg.github.io/ILearnVulkanFromScratch-CN/mdroot/Vulkan 基础/绘制几何体/Staging Buffer.html)
+
+[A Comparison of Modern Graphics APIs](https://alain.xyz/blog/comparison-of-modern-graphics-apis)
+
+[What’s your Vulkan Memory Type? | NVIDIA Developer](https://developer.nvidia.com/what’s-your-vulkan-memory-type)

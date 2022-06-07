@@ -7,3 +7,5 @@
 [vulkan-in-30-minutes](https://renderdoc.org/vulkan-in-30-minutes.html)
 
 [Vulkan Guide](https://vkguide.dev/docs/chapter-1/vulkan_command_flow/)
+
+[Vulkano Tutorial | Tutorial series for learning Vulkan with Vulkano and Rust](https://taidaesal.github.io/vulkano_tutorial/)
