@@ -9,7 +9,8 @@ description: 学习，记录，分享
 三维极坐标
 ### 日常计划
 
-- Cpp 和 Rust 对比
+- 整理书签
+- rust vulkan 中间件
 
 #### 目标计划
 
