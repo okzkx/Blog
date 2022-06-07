@@ -10,54 +10,54 @@
 ## 4. FIxed Function Pipeline Stages
 
 #### viewport transform
-![](images/viewport-transform.jpg)
+![](brendan-galea.assets/viewport-transform.jpg)
 
 
 #### frontFace
 
 `configInfo.rasterizationInfo.frontFace`
 
-![](images/clockwise.jpg)
+![](brendan-galea.assets/clockwise.jpg)
 
 #### Depth Buffer explained
 
-![](images/color-depth-duffer.jpg)
+![](brendan-galea.assets/color-depth-duffer.jpg)
 
 #### MSAA
 
-![](images/msaa.jpg)
+![](brendan-galea.assets/msaa.jpg)
 
 ## 5. Swap Chain
 
-![](images/swap-chain.jpg)
+![](brendan-galea.assets/swap-chain.jpg)
 
 1. We will have multiple framebuffers
 2. We can use wapChain.acquireNextImage() to get the next index of our framebuffers
 
 ### flow
 
-![](images/flow.jpg)
+![](brendan-galea.assets/flow.jpg)
 
 ### Double buffer vs Triple buffer
 
-![](images/double-buffering.jpg)
+![](brendan-galea.assets/double-buffering.jpg)
 
-![](images/triple-buffering.jpg)
+![](brendan-galea.assets/triple-buffering.jpg)
 
-![](images/triple-buffering-2.jpg)
+![](brendan-galea.assets/triple-buffering-2.jpg)
 
-![](images/vsync.jpg)
+![](brendan-galea.assets/vsync.jpg)
 
 
 ### Swap chain present modes explained
 
 #### fifo
 
-![](images/fifo.jpg)
+![](brendan-galea.assets/fifo.jpg)
 
 #### Mailbox
 
-![](images/mailbox.jpg)
+![](brendan-galea.assets/mailbox.jpg)
 
 #### Present Modes Comparison
 
@@ -83,34 +83,34 @@
 
 ### Render pass
 
-![](images/render-pass.jpg)
+![](brendan-galea.assets/render-pass.jpg)
 
 ## 5.2 Command Buffer Overview
 
-![](images\command-buffer.png)
+![](brendan-galea.assets\command-buffer.png)
 
 1. Record commands buffers once at initialization and then reuse for each frame
 2. Record command buffer every frame, just before submitting
 
-![](images/cmb-lifecycle.png)
+![](brendan-galea.assets/cmb-lifecycle.png)
 
 ### Secondary command buffer
 
-![](images/secondary-cmd.png)
+![](brendan-galea.assets/secondary-cmd.png)
 
 ## Vertex buffers
 
-![](images/vertex-buffer.jpg)
+![](brendan-galea.assets/vertex-buffer.jpg)
 
-![](iamges/../images/saperate-vertex-buffer.jpg)
+![](iamges/../brendan-galea.assets/saperate-vertex-buffer.jpg)
 
 vertex binding descriptions
 
-![](images/vertex-binding-descriptions.jpg)
+![](brendan-galea.assets/vertex-binding-descriptions.jpg)
 
 vertex attribute descriptions
 
-![](images/vertex-attribute-description.jpg)
+![](brendan-galea.assets/vertex-attribute-description.jpg)
 
 - float:VK_FORMAT_R32_SFLOAT
 - vec2:VK_FORMAT_R32G32_SFLOAT
@@ -120,10 +120,10 @@ vertex attribute descriptions
 - uvec2:VK_FORMAT_R32G32_UINT (unsigned integer)
 - double:VK_FORMAT_R32_SFLOAT (double precision float)
 
-![](images/binding-buffer.jpg)
+![](brendan-galea.assets/binding-buffer.jpg)
 
 暂时没有那种更好的结论，一般使用交叉的大 vertex buffer 而不是 binding
 
 ### Host & device memory
 
-![](images/data-transfer.jpg)
+![](brendan-galea.assets/data-transfer.jpg)
