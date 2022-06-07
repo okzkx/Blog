@@ -50,7 +50,7 @@ Render
 
 #### MVVM 模型
 
-![image-20220316105903407](../../../.gitbook/assets/image-20220316105903407.png)
+![image-20220316105903407](games-104.assets/image-20220316105903407.png)
 
 #### Cause about
 
@@ -93,7 +93,7 @@ Render
 - Mini editor
 - Building basic knowledge system of game engine
 
-![image-20220316112401142](../../../.gitbook/assets/image-20220316112401142.png)
+![image-20220316112401142](games-104.assets/image-20220316112401142.png)
 
 #### 作业目标
 
@@ -157,7 +157,7 @@ make an animate character
 ### Function Layer
 
 - How to Make the world alive
-- ![image-20220330202503555](../../../.gitbook/assets/image-20220330202503555.png)
+- ![image-20220330202503555](games-104.assets/image-20220330202503555.png)
 - 每个 Tick 进行一遍所有的系统执行
 
 #### Dive into Tick
@@ -165,7 +165,7 @@ make an animate character
 - tick logic 先世界模拟
 - tick render 再进行渲染
 
-![image-20220330202900803](../../../.gitbook/assets/image-20220330202900803.png)
+![image-20220330202900803](games-104.assets/image-20220330202900803.png)
 
 #### Heavy - duty Hotchpotch
 
@@ -183,7 +183,7 @@ make an animate character
 
 #### Data Structure and Container
 
-![image-20220330204838371](../../../.gitbook/assets/image-20220330204838371.png)
+![image-20220330204838371](games-104.assets/image-20220330204838371.png)
 
 需要重新写游戏引擎手动控制的容器数据结构，因为语言自带的托管内存的数据结构所占据的内存会产生很多空洞，内存的消耗是不可控的。
 
@@ -237,11 +237,11 @@ tool chains
 
 ### Mini Engine : Pilot
 
-![image-20220330211847914](../../../.gitbook/assets/image-20220330211847914.png)
+![image-20220330211847914](games-104.assets/image-20220330211847914.png)
 
 ### Simple ECS framework
 
-![image-20220330212201585](../../../.gitbook/assets/image-20220330212201585.png)
+![image-20220330212201585](games-104.assets/image-20220330212201585.png)
 
 ### Takeaways
 
@@ -293,9 +293,9 @@ tool chains
 
 组件化，通过组件组合成游戏对象
 
-![image-20220401185045234](../../../.gitbook/assets/image-20220401185045234.png)
+![image-20220401185045234](games-104.assets/image-20220401185045234.png)
 
-![image-20220401185248796](../../../.gitbook/assets/image-20220401185248796.png)
+![image-20220401185248796](games-104.assets/image-20220401185248796.png)
 
 #### Takeaways
 
@@ -324,7 +324,7 @@ tool chains
     - Quadtree
   - Hierarchical segmentation 树状结构划分
 
-![image-20220401191716648](../../../.gitbook/assets/image-20220401191716648.png)
+![image-20220401191716648](games-104.assets/image-20220401191716648.png)
 
 #### 复杂情况
 
@@ -377,11 +377,11 @@ A heavily optimized parctical software framework to fulfill the critical renderi
 
 #### Building Block of Rendering
 
-![image-20220413212212448](../../../.gitbook/assets/image-20220413212212448.png)
+![image-20220413212212448](games-104.assets/image-20220413212212448.png)
 
-![image-20220413212321697](../../../.gitbook/assets/image-20220413212321697.png)
+![image-20220413212321697](games-104.assets/image-20220413212321697.png)
 
-![image-20220413212331478](../../../.gitbook/assets/image-20220413212331478.png)
+![image-20220413212331478](games-104.assets/image-20220413212331478.png)
 
 #### Computation - Texture Sampling
 
@@ -398,15 +398,15 @@ The dedicated hardware to solve massive jobs
 - SIMD 单指令多数据
 - SIMT 单指令多线程
 
-![image-20220413212402439](../../../.gitbook/assets/image-20220413212402439.png)
+![image-20220413212402439](games-104.assets/image-20220413212402439.png)
 
 #### GPU Architecture
 
-![image-20220413212419569](../../../.gitbook/assets/image-20220413212419569.png)
+![image-20220413212419569](games-104.assets/image-20220413212419569.png)
 
-![image-20220413212434311](../../../.gitbook/assets/image-20220413212434311.png)
+![image-20220413212434311](games-104.assets/image-20220413212434311.png)
 
-![image-20220413212513383](../../../.gitbook/assets/image-20220413212513383.png)
+![image-20220413212513383](games-104.assets/image-20220413212513383.png)
 
 #### GPU Bounds and Performance
 
@@ -415,9 +415,9 @@ The dedicated hardware to solve massive jobs
 - TMU (Texture Mapping Unit) Bound
 - BW (Bandwidth) Bound
 
-![image-20220413212550528](../../../.gitbook/assets/image-20220413212550528.png)
+![image-20220413212550528](games-104.assets/image-20220413212550528.png)
 
-![image-20220413212555358](../../../.gitbook/assets/image-20220413212555358.png)
+![image-20220413212555358](games-104.assets/image-20220413212555358.png)
 
 ### Renderable
 可绘制的东西
@@ -438,17 +438,17 @@ The dedicated hardware to solve massive jobs
   - Vertex Datda
   - Index Data
   
-  ![image-20220413212626112](../../../.gitbook/assets/image-20220413212626112.png)
+  ![image-20220413212626112](games-104.assets/image-20220413212626112.png)
   
 - We Need Per-Vertex Normal
 
 - Materials
 
-  ![image-20220413212640347](../../../.gitbook/assets/image-20220413212640347.png)
+  ![image-20220413212640347](games-104.assets/image-20220413212640347.png)
 
 - Material Model
 
-  ![image-20220413212730864](../../../.gitbook/assets/image-20220413212730864.png)
+  ![image-20220413212730864](games-104.assets/image-20220413212730864.png)
 
 - Various Textures in Materials
 
@@ -465,9 +465,9 @@ The dedicated hardware to solve massive jobs
 - Resource Pool
   - Use Handle to Reuse Resources
   
-    ![image-20220413213129463](../../../.gitbook/assets/image-20220413213129463.png)
+    ![image-20220413213129463](games-104.assets/image-20220413213129463.png)
   
-    ![image-20220413213209476](../../../.gitbook/assets/image-20220413213209476.png)
+    ![image-20220413213209476](games-104.assets/image-20220413213209476.png)
   
 - Instancing 实例化，前边的都是物体绘制的定义，实际上绘制到屏幕上才是实例
 
@@ -475,7 +475,7 @@ The dedicated hardware to solve massive jobs
 
 - GPU Batch Rendering
 
-  ![image-20220413213223322](../../../.gitbook/assets/image-20220413213223322.png)
+  ![image-20220413213223322](games-104.assets/image-20220413213223322.png)
 
 ### Visibility Culling 可见性裁剪
 
@@ -522,7 +522,7 @@ The dedicated hardware to solve massive jobs
 
 - Mesh shader, cluster base mesh
 
-  ![image-20220413213322563](../../../.gitbook/assets/image-20220413213322563.png)
+  ![image-20220413213322563](games-104.assets/image-20220413213322563.png)
 
 - GPU Driven
   - 把越来越多 CPU 上的计算放到 GPU 上做
@@ -537,7 +537,7 @@ The dedicated hardware to solve massive jobs
 
 #### The Rendering Equation
 
-![image-20220413220314499](../../../.gitbook/assets/image-20220413220314499.png)
+![image-20220413220314499](games-104.assets/image-20220413220314499.png)
 
 实时解渲染方程
 
@@ -622,23 +622,23 @@ The dedicated hardware to solve massive jobs
 #### BRDF Model Based on Microfacet
 
 - 常用 GGX 模型
-- ![image-20220414183745137](../../../.gitbook/assets/image-20220414183745137.png)
+- ![image-20220414183745137](games-104.assets/image-20220414183745137.png)
 
 #### Normal Distribution Function : D 法线分布函数，表示高光强度曲线
 
 - 相比 Phone 高光，高频波峰足够抖，高光逐渐消失的时候是柔和过度
 
-![image-20220414184304102](../../../.gitbook/assets/image-20220414184304102.png)
+![image-20220414184304102](games-104.assets/image-20220414184304102.png)
 
 #### Geometric attenuation term (self-shadowing) ：G，几何遮挡，表示能量损失
 
-![image-20220414184837548](../../../.gitbook/assets/image-20220414184837548.png)
+![image-20220414184837548](games-104.assets/image-20220414184837548.png)
 
 #### Fresnel Equation :
 
 F 菲涅尔现象，视线越垂直，折射越明显，反之反射越明显
 
-![image-20220414185056386](../../../.gitbook/assets/image-20220414185056386.png)
+![image-20220414185056386](games-104.assets/image-20220414185056386.png)
 
 #### Physical Measured Material 实际上去测量真实物理材质的 BRDF
 
@@ -656,11 +656,11 @@ F 菲涅尔现象，视线越垂直，折射越明显，反之反射越明显
 
 SG 模型，全部参数都用纹理表达
 
-![image-20220414190145246](../../../.gitbook/assets/image-20220414190145246.png)
+![image-20220414190145246](games-104.assets/image-20220414190145246.png)
 
 #### PBR Metallic Roughness
 
-![image-20220414190714663](../../../.gitbook/assets/image-20220414190714663.png)
+![image-20220414190714663](games-104.assets/image-20220414190714663.png)
 
 convert MR to SG，MR 是对于 SG 的封装，依赖 SG，参数相对 SG 对艺术家更友好
 
@@ -683,11 +683,11 @@ cube map，提前预处理环境光
 - 使用 MipMap 存储不同粗糙度的 Specular
 - LUT，提前存储这个 BRDF roughness 和 cosθ 的关系
 
-![image-20220415103912206](../../../.gitbook/assets/image-20220415103912206.png)
+![image-20220415103912206](games-104.assets/image-20220415103912206.png)
 
 #### Quick shading with precomputation
 
-![image-20220415104120942](../../../.gitbook/assets/image-20220415104120942.png)
+![image-20220415104120942](games-104.assets/image-20220415104120942.png)
 
 ### Classis Shadow Solution
 
@@ -695,7 +695,7 @@ cube map，提前预处理环境光
 
 级联阴影，视线所达到的地方，用多张 ShadowMap 表示，分辨率一样，表示的范围越来越大，精度越来越低
 
-![image-20220415104525286](../../../.gitbook/assets/image-20220415104525286.png)
+![image-20220415104525286](games-104.assets/image-20220415104525286.png)
 
 阴影是渲染管线中的最耗时的部分，场景中每个物体需要重画，同时存储量高
 
@@ -768,7 +768,7 @@ ue5 的方法，平均分布 Shadow Map ，动态加载
 
 - Lod 近处密，远处稀疏
 - Adaptive Mesh Tessellation 网格细分
-- ![image-20220426213931304](../../../.gitbook/assets/image-20220426213931304.png)
+- ![image-20220426213931304](games-104.assets/image-20220426213931304.png)
 - 当 FOV 越来越窄的时候，地面在屏幕上显示的会越来越大，所以网格远处的精度需要相应的增大。
 - Two Golden Rules of Optimizatioin
 - View-dependent error bounds
@@ -782,7 +782,7 @@ ue5 的方法，平均分布 Shadow Map ，动态加载
 
 ##### T-Junction
 
-![image-20220426214615701](../../../.gitbook/assets/image-20220426214615701.png)
+![image-20220426214615701](games-104.assets/image-20220426214615701.png)
 
 - 相邻三角形需要切分的同样密，来防止裂边
 
@@ -795,7 +795,7 @@ ue5 的方法，平均分布 Shadow Map ，动态加载
 
 #### QuadTree-Based Subdivision 基于四叉树的地形表达
 
-![image-20220426215321576](../../../.gitbook/assets/image-20220426215321576.png)
+![image-20220426215321576](games-104.assets/image-20220426215321576.png)
 
 - 最大范围有个上线，不会完全归一，比如 512 * 512 米
 - 用磁盘上的一块区域，比如一张纹理来表达
@@ -805,7 +805,7 @@ ue5 的方法，平均分布 Shadow Map ，动态加载
 
 ###### Stitching
 
-![image-20220426220351731](../../../.gitbook/assets/image-20220426220351731.png)
+![image-20220426220351731](games-104.assets/image-20220426220351731.png)
 
 四叉树管理的地形数据反序列化成为不同密度的三角形。为了保持连续，可以使用 Stitching 方法，退化密度高的三角形，出现面积为 0 的三角形。来粘合不同密度的地块解决 T-junction 问题。
 
@@ -819,9 +819,9 @@ ue5 的方法，平均分布 Shadow Map ，动态加载
 - 借助 GPU 来程序化生成 LOD 地形
 - 即渐变的网格密度变化
 
-![image-20220426221350523](../../../.gitbook/assets/image-20220426221350523.png)
+![image-20220426221350523](games-104.assets/image-20220426221350523.png)
 
-![image-20220426221512303](../../../.gitbook/assets/image-20220426221512303.png)
+![image-20220426221512303](games-104.assets/image-20220426221512303.png)
 
 - Mesh Shader Pipeline DX12 以上
 
@@ -843,7 +843,7 @@ ue5 的方法，平均分布 Shadow Map ，动态加载
 
 ##### Marching Cube
 
-![image-20220426224113535](../../../.gitbook/assets/image-20220426224113535.png)
+![image-20220426224113535](games-104.assets/image-20220426224113535.png)
 
 空间上划分体素，每一个体素里大概总共可能会有 15 种不同的近似平面，每个体素用一个字节的数据记录近似平面的表示的编号。
 
@@ -851,13 +851,13 @@ ue5 的方法，平均分布 Shadow Map ，动态加载
 
 Transvoxel Algorithm, voxel 也可以做 LOD
 
-![image-20220426224501295](../../../.gitbook/assets/image-20220426224501295.png)
+![image-20220426224501295](games-104.assets/image-20220426224501295.png)
 
 基于 volumetric 的表达，在未来有希望做出纯动态地型
 
 ### Terrain Materials
 
-![image-20220426231148570](../../../.gitbook/assets/image-20220426231148570.png)
+![image-20220426231148570](games-104.assets/image-20220426231148570.png)
 
 材质混合
 
@@ -865,7 +865,7 @@ Transvoxel Algorithm, voxel 也可以做 LOD
 
 简单的 Alpha 混合，并不自然
 
-![image-20220426231437730](../../../.gitbook/assets/image-20220426231437730.png)
+![image-20220426231437730](games-104.assets/image-20220426231437730.png)
 
 
 
@@ -873,13 +873,13 @@ Transvoxel Algorithm, voxel 也可以做 LOD
 
 叠加高度后的混合
 
-![image-20220426231351002](../../../.gitbook/assets/image-20220426231351002.png)
+![image-20220426231351002](games-104.assets/image-20220426231351002.png)
 
 叠加 Bias，一点小 Hack
 
 #### Sampling from Material Texture Array
 
-![image-20220426231649827](../../../.gitbook/assets/image-20220426231649827.png)
+![image-20220426231649827](games-104.assets/image-20220426231649827.png)
 
 - 和 3D Texture 不一样，3D Texture 的采样需要三线性插值的采样。
 - Texture Array 每层之间没关系，是 Texture Index + 双线性插值采样
@@ -887,7 +887,7 @@ Transvoxel Algorithm, voxel 也可以做 LOD
 
 ####  Parallax and Displacement Mapping
 
-![image-20220426232055558](../../../.gitbook/assets/image-20220426232055558.png)
+![image-20220426232055558](games-104.assets/image-20220426232055558.png)
 
 - Color Mapping : Albedo 着色
 - Bump Mapping 法线纹理影响光照模型
@@ -903,7 +903,7 @@ Transvoxel Algorithm, voxel 也可以做 LOD
 
 #### Virtual Texture
 
-![image-20220426234404170](../../../.gitbook/assets/image-20220426234404170.png)
+![image-20220426234404170](games-104.assets/image-20220426234404170.png)
 
 最主流的地型绘制方案
 
@@ -924,17 +924,17 @@ Transvoxel Algorithm, voxel 也可以做 LOD
 
 #### Tree Rendering
 
-![image-20220427000307667](../../../.gitbook/assets/image-20220427000307667.png)
+![image-20220427000307667](games-104.assets/image-20220427000307667.png)
 
 Speed Tree ，植被渲染中间件
 
 #### Decorator Rendering
 
-![image-20220427000426246](../../../.gitbook/assets/image-20220427000426246.png)
+![image-20220427000426246](games-104.assets/image-20220427000426246.png)
 
 #### Road and Decals Rendering
 
-![image-20220427000733087](../../../.gitbook/assets/image-20220427000733087.png)
+![image-20220427000733087](games-104.assets/image-20220427000733087.png)
 
 场景中的细节可以预烘培进入 Virtual Texture
 
@@ -944,23 +944,23 @@ Speed Tree ，植被渲染中间件
 
 #### Analytic Atmosphere Appearance Modeling
 
-![image-20220427225019614](../../../.gitbook/assets/image-20220427225019614.png)
+![image-20220427225019614](games-104.assets/image-20220427225019614.png)
 
 使用经验公式去拟合大气散射现象
 
 #### Participating Media
 
-![image-20220427225255363](../../../.gitbook/assets/image-20220427225255363.png)
+![image-20220427225255363](games-104.assets/image-20220427225255363.png)
 
 ####  How Light Interacts with Participating Media 
 
 大气散射通过一个介质分为四个阶段
 
-![image-20220427231309822](../../../.gitbook/assets/image-20220427231309822.png)
+![image-20220427231309822](games-104.assets/image-20220427231309822.png)
 
 #### Volume Rendering Equation
 
-![image-20220427231524677](../../../.gitbook/assets/image-20220427231524677.png)
+![image-20220427231524677](games-104.assets/image-20220427231524677.png)
 
 - Transmittance ：光线被介质的衰减
 - Increase factor ：光线进入眼睛的能量
@@ -977,7 +977,7 @@ Speed Tree ，植被渲染中间件
 - 蓝紫光波长短
 - 拟合方程
 - Rayleigh Scattering Equation
-- ![image-20220427232300675](../../../.gitbook/assets/image-20220427232300675.png)
+- ![image-20220427232300675](games-104.assets/image-20220427232300675.png)
 
 ##### Mie scattering 米式散射 
 
@@ -985,7 +985,7 @@ Speed Tree ，植被渲染中间件
 - 雾 Fog，光晕 Halo of Sun
 - Mie Scattering Equation
 
-![image-20220427232916397](../../../.gitbook/assets/image-20220427232916397.png)
+![image-20220427232916397](games-104.assets/image-20220427232916397.png)
 
 #### Variant Air  Molecules Absorption
 
@@ -996,19 +996,19 @@ Speed Tree ，植被渲染中间件
 
 #### Single Scattering vs Multi Scattering
 
-![image-20220427233253363](../../../.gitbook/assets/image-20220427233253363.png)
+![image-20220427233253363](games-104.assets/image-20220427233253363.png)
 
 #### Ray Marching
 
 沿着视线的方向，对太阳光的积分
 
-![image-20220427233606867](../../../.gitbook/assets/image-20220427233606867.png)
+![image-20220427233606867](games-104.assets/image-20220427233606867.png)
 
 #### Precomputed Atmospheric Scattering
 
-![image-20220429154220247](../../../.gitbook/assets/image-20220429154220247.png)
+![image-20220429154220247](games-104.assets/image-20220429154220247.png)
 
-![image-20220506101713410](../../../.gitbook/assets/image-20220506101713410.png)
+![image-20220506101713410](games-104.assets/image-20220506101713410.png)
 
 ##### Challenges of Precomputed Atmospheric Scattering
 
@@ -1027,7 +1027,7 @@ Speed Tree ，植被渲染中间件
 
 #### Cloud Type
 
-![image-20220506104023361](../../../.gitbook/assets/image-20220506104023361.png)
+![image-20220506104023361](games-104.assets/image-20220506104023361.png)
 
 #### Present Cloud
 
@@ -1038,11 +1038,11 @@ Speed Tree ，植被渲染中间件
   -  Noise Functions
     - Perlin Noise 棉花丝感觉
     - Worley Noise 泡泡感觉
-  - ![image-20220506104451054](../../../.gitbook/assets/image-20220506104451054.png)
+  - ![image-20220506104451054](games-104.assets/image-20220506104451054.png)
   - Cloud Density Model
-    - ![image-20220506104738431](../../../.gitbook/assets/image-20220506104738431.png)
+    - ![image-20220506104738431](games-104.assets/image-20220506104738431.png)
   - Rendering Cloud by Ray Marching
-    - ![image-20220506104925464](../../../.gitbook/assets/image-20220506104925464.png)
+    - ![image-20220506104925464](games-104.assets/image-20220506104925464.png)
 
 
 
