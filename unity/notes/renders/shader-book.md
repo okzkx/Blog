@@ -6,7 +6,7 @@
 
 渲染流水线
 
-![image-20211228212603575](../../../.gitbook/assets/image-20211228212603575.png)
+![image-20211228212603575](shader-book.assets/image-20211228212603575.png)
 
 
 
@@ -20,7 +20,7 @@
 
 gpu 流水线
 
-![image-20211228212755437](../../../.gitbook/assets/image-20211228212755437.png)
+![image-20211228212755437](shader-book.assets/image-20211228212755437.png)
 
 
 
@@ -36,19 +36,19 @@ C# -》 引擎 C++ -》 OpenGL -》 显卡驱动 -》 显卡二进制
 
 3.3.2 材质和Unity Shader 的桥梁Properties
 
-![image-20211228213926419](../../../.gitbook/assets/image-20211228213926419.png)
+![image-20211228213926419](shader-book.assets/image-20211228213926419.png)
 
 
 
 3.3.3 重量级成员SubShader
 
-![image-20211228214037450](../../../.gitbook/assets/image-20211228214037450.png)
+![image-20211228214037450](shader-book.assets/image-20211228214037450.png)
 
-![image-20211228214202762](../../../.gitbook/assets/image-20211228214202762.png)
+![image-20211228214202762](shader-book.assets/image-20211228214202762.png)
 
 
 
-![image-20211228214300167](../../../.gitbook/assets/image-20211228214300167.png)
+![image-20211228214300167](shader-book.assets/image-20211228214300167.png)
 
 UsePass: 如我们之前提到的一样，可以使用该命令来复用其他Unity Shader 中的Pass:
 GrabPass: 该Pass 负责抓取屏称并将结果存储在一张纹理中，以用于后续的Pass 处理
@@ -79,21 +79,21 @@ Unity 使用的是左手坐标系，但对于观察空间来说， Unity 使用�
 
 4.6.7 裁剪空间
 
-![image-20211229094705200](../../../.gitbook/assets/image-20211229094705200.png)![image-20211229094718746](../../../.gitbook/assets/image-20211229094718746.png)
+![image-20211229094705200](shader-book.assets/image-20211229094705200.png)![image-20211229094718746](shader-book.assets/image-20211229094718746.png)
 
 
 
 4.8.1 变换矩阵
 
-![image-20211229094958689](../../../.gitbook/assets/image-20211229094958689.png)
+![image-20211229094958689](shader-book.assets/image-20211229094958689.png)
 
 
 
 4.8.2 摄像机和屏幕参数
 
-![image-20211229095053592](../../../.gitbook/assets/image-20211229095053592.png)
+![image-20211229095053592](shader-book.assets/image-20211229095053592.png)
 
-![image-20211229095102596](../../../.gitbook/assets/image-20211229095102596.png)
+![image-20211229095102596](shader-book.assets/image-20211229095102596.png)
 
 4.9.3 Unity 中的屏幕坐标 ComputeScreenPos
 
