@@ -62,7 +62,7 @@ https://robomongo.org/
 osi 模型，网络通信七层协议
 实际使用网络通信 四层模型，TCP/IP 协议
 
-![image-20220311145124223](../../../.gitbook/assets/image-20220311145124223.png)
+![image-20220311145124223](et.assets/image-20220311145124223.png)
 
 Socket 是应用程序调用操作系统的 API，用来调用 TCP/IP 协议的
 
@@ -73,7 +73,7 @@ Session.id -> channel -> socket
 
 ### Socket 通信模型
 
-![image-20220311145220691](../../../.gitbook/assets/image-20220311145220691.png)
+![image-20220311145220691](et.assets/image-20220311145220691.png)
 
 1. 游戏服务器端创建-Socket对象，绑定和监听IP地址，端口
 2. 游戏服务器端调用Accept方法监听和等待客户端的连接请
@@ -88,7 +88,7 @@ Session.id -> channel -> socket
 
 #### 第一代服务器架构
 
-![image-20220311150651475](../../../.gitbook/assets/image-20220311150651475.png)
+![image-20220311150651475](et.assets/image-20220311150651475.png)
 
 - 单台物理机，单进程，单线程，无阻塞 socket
 - 每隔一秒数据同步更新
@@ -96,7 +96,7 @@ Session.id -> channel -> socket
 
 #### 第二代服务器架构
 
-![image-20220311151032994](../../../.gitbook/assets/image-20220311151032994.png)
+![image-20220311151032994](et.assets/image-20220311151032994.png)
 
 - 分区分服，每个区服都是一个单独的进程，互不干涉，
 - 数据库软件
@@ -105,7 +105,7 @@ Session.id -> channel -> socket
 
 三层架构
 
-![image-20220311152828985](../../../.gitbook/assets/image-20220311152828985.png)
+![image-20220311152828985](et.assets/image-20220311152828985.png)
 
 增加 Gate 网关进程在服务器进程和玩家之间
 
@@ -117,7 +117,7 @@ Session.id -> channel -> socket
 
 #### 第三代服务器架构 （无缝地图）
 
-![image-20220311152713157](../../../.gitbook/assets/image-20220311152713157.png)
+![image-20220311152713157](et.assets/image-20220311152713157.png)
 
 游戏服务器进程进行拆分
 
@@ -137,11 +137,11 @@ Session.id -> channel -> socket
 
 ### ET 服务器 Demo 的登录流程
 
-![image-20220311161621663](../../../.gitbook/assets/image-20220311161621663.png)
+![image-20220311161621663](et.assets/image-20220311161621663.png)
 
 ### ET 框架，组件式架构
 
-![image-20220311162004433](../../../.gitbook/assets/image-20220311162004433.png)
+![image-20220311162004433](et.assets/image-20220311162004433.png)
 
 ## 当前总结
 
