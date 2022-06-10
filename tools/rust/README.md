@@ -21,7 +21,7 @@
 
 [常见的Rust lifetime误解 - 知乎](https://zhuanlan.zhihu.com/p/165976086)
 
-
+[Rust 算法](https://github.com/TheAlgorithms/Rust)
 
 ### 跨平台
 
