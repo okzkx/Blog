@@ -1,6 +1,6 @@
 # 包管理
 
-##  CMAKE
+## CMAKE
 
 [cmake快速入门](https://blog.csdn.net/kai_zone/article/details/82656964)
 
@@ -27,7 +27,6 @@
 [xmake使用初体验 - 知乎](https://zhuanlan.zhihu.com/p/473205876)
 
 [hikyuu/xmake.lua at master · fasiondog/hikyuu](https://github.com/fasiondog/hikyuu/blob/master/xmake.lua)
-
 
 ## Conan
 
