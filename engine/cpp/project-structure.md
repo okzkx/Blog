@@ -3,19 +3,19 @@
 ## 目录
 
 |-- project
-    |-- build   
-        |--  debug
+    |-- build
+    |--  debug
         |-- release
     |-- dist
     |-- doc
-    |-- include 
+    |-- include
         |-- module1
         |-- module2
     |-- lib
     |-- module1
     |-- module2
     |-- res
-    |-- samples 
+    |-- samples
         |-- sample1
         |-- sample2
     |-- tools
