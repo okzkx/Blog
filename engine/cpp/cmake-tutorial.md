@@ -458,9 +458,9 @@ VERSION 指代动态库版本，SOVERSION 指代 API 版本。
 
 ### 安装共享库和头文件
 
-本例中我们将 hello 的共享库安装到`<prefix>`/lib目录，
+本例中我们将 hello 的共享库安装到 `<prefix>`/lib目录，
 
-将 hello.h 安装到`<prefix>`/include/hello 目录
+将 hello.h 安装到 `<prefix>`/include/hello 目录
 
 ```cpp
 //文件放到该目录下
