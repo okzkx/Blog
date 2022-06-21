@@ -10,9 +10,7 @@
 - Programming
   - coding
 
-![image-20220124192208379](../../../.gitbook/assets/image-20220124192208379.png)
-
-
+![1655781719249](image/physics-animation/1655781719249.png)
 
 Computer Graphics or Computer Vision
 
@@ -21,15 +19,11 @@ Computer Graphics or Computer Vision
 
 两者算法输入输出刚好相反
 
-
-
 Computer Graphics Areas
 
 - Geometry
 - Render
 - Animation
-
-
 
 Geometry : Three Representations
 

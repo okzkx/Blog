@@ -11,7 +11,8 @@
 ### Custom Pass 相关特性
 
 - Workflow with volumes
-- Injection Points![HDRP-frame-graph-diagram](../../../../.gitbook/assets/HDRP-frame-graph-diagram.png)
+- Injection Points
+- ![1655781763163](image/custom-pass/1655781763163.png)
 - Custom Pass List
 - FullScreen Custom Pass
   - FullScreen Default Shader
