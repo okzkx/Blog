@@ -15,6 +15,7 @@
 #### 直接在百度云上搜
 
 #### 手动配置
+
 默认饱和度 ： 200 默认亮度：180
 
 H xx S 60 B 90
@@ -62,21 +63,23 @@ H xx S 150 B 180
 
 ![image-20210913195548067](https://image-1253155090.cos.ap-nanjing.myqcloud.com/image-20210913195548067.png)
 
+![1655780873502](image/rider/1655780873502.png)
+
 ### 换行配置
 
 大括号不换行
 
-<img src="../.gitbook/assets/image-20211124112422416.png" alt="image-20211124112422416"  />
+![1655780989474](image/rider/1655780989474.png)
 
 Braces Layout 更改为 K&R style
 
 #### else 不换行
 
-![image-20211124141751298](../.gitbook/assets/image-20211124141751298.png)
+![1655781030191](image/rider/1655781030191.png)
 
 #### 快捷键
 
-<img src="../.gitbook/assets/image-20211124134504133.png" alt="image-20211124134504133"  />
+![1655781057359](image/rider/1655781057359.png)
 
 #### 改变字体大小
 
@@ -84,7 +87,7 @@ Braces Layout 更改为 K&R style
 
 #### 总是打开选中文件
 
-![image-20211129112457130](../.gitbook/assets/image-20211129112457130.png)
+![1655781102906](image/rider/1655781102906.png)
 
 #### 不显示 Var 转换
 
