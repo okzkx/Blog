@@ -44,4 +44,3 @@
 ## 使用 ADB 安装应用
 
 > adb install -r D:\xmfunny\subscenedemo\Builds\es30.apk
-
