@@ -2,7 +2,7 @@
 
 ## 这里简单介绍 4 种曲线
 
-![](../../../.gitbook/assets/a592dd03ded9aa6.jpg)
+![curves](curve.assets/curves.jpg)
 
 ### Bezier
 
@@ -10,7 +10,7 @@
 
 曲线具有原子性
 
-![](../../../.gitbook/assets/-7e2c1f463d9be134.png)
+![bezier](curve.assets/bezier.png)
 
 ### Hermite
 
