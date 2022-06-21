@@ -1,4 +1,4 @@
-# Resource
+# 资源集合
 
 ## Model
 
@@ -17,3 +17,9 @@
 ## animation
 
 [BandaiNamcoResearchInc/Bandai-Namco-Research-Motiondataset：此存储库提供由 Bandai Namco Research Inc 收集的运动数据集](https://github.com/BandaiNamcoResearchInc/Bandai-Namco-Research-Motiondataset)
+
+## Unity plugins
+
+[unity-ugui-XCharts](https://github.com/monitor1394/unity-ugui-XCharts)
+
+[Odin Inspector](https://odininspector.com/)
