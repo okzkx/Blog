@@ -8,7 +8,7 @@
 
 ## sRGB  translation
 
-![colorspace-translate](../../../../../.gitbook/assets/colorspace-translate.jpg)
+![1655781486000](image/color-space/1655781486000.png)
 
 1. sRGB 颜色的纹理 （Gamma 0.45）将在变暗后输入 shader（Gamma 1.0）
 2. shader 的输出 （Gamma 1.0）传入显示器 BackBuffer 将会变亮 （Gamma 0.45）

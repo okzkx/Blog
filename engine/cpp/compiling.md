@@ -20,4 +20,4 @@
 
 ## Linux 下的文件类型
 
-![img](../../../.gitbook/assets/fc26e82beef3b0997acca71058d7d802_720w.jpg)
+![1655781431142](image/compiling/1655781431142.png)
