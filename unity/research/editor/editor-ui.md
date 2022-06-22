@@ -18,8 +18,6 @@ static void Init() {}
 static void Init() {}
 ```
 
-#### 
-
 ```c#
 [CreateAssetMenu("Assets/Create/Init")]
 static void Init() {}
@@ -74,7 +72,7 @@ public class $TargetClass$Editor : Editor {
 
 ## 界面渲染
 
-移步 [Unity/OnGUI](https://github.com/okzkx/Blog/tree/a336a6991dae53d05a744c68889c42072bb07c75/2020/06/17/Unity/OnGUI/README.md)
+查看同层级下的 OnGUI 内容
 
 ## 资料
 
