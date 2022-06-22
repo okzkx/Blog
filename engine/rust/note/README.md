@@ -1,4 +1,4 @@
-# Rust note
+# Rust 笔记
 
 [rust course](https://course.rs/basic/ownership/ownership.html)
 
