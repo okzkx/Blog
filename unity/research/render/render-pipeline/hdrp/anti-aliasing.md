@@ -1,4 +1,4 @@
-# Anti-Aliasing
+# HDRP 中的 Anti-Aliasing
 
 [Anti-Aliasing](https://docs.unity3d.com/Packages/com.unity.render-pipelines.high-definition@13.1/manual/Anti-Aliasing.html) 信号变化相对于采样频率变化过快产生锯齿
 
