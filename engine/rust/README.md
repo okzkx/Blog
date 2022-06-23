@@ -11,6 +11,7 @@
 - [Rust Design Patterns](https://rust-unofficial.github.io/patterns/intro.html)
 - [awesome-rust](https://github.com/rust-unofficial/awesome-rust)
 - [Rust 算法](https://github.com/TheAlgorithms/Rust)
+- [The Embedded Rust Book](https://docs.rust-embedded.org/book/intro/index.html)
 
 ### Rust Chinese
 
