@@ -13,3 +13,8 @@
 [Foreign Function Interface](https://doc.rust-lang.org/stable/nomicon/ffi.html#foreign-function-interface)
 
 [`-l` flag](https://doc.rust-lang.org/rustc/command-line-arguments.html#option-l-link-lib).
+
+
+[cmake](https://docs.rs/cmake/0.1.48/cmake/#)
+
+[Rust ❤️ C++](https://cxx.rs/index.html)
