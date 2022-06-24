@@ -8,8 +8,7 @@
 
 [call c in rust](https://liufuyang.github.io/2020/02/02/call-c-in-rust.html)
 
-https://kornel.ski/rust-sys-crate
-
+[rust-sys-crate](https://kornel.ski/rust-sys-crate)
 
 [Foreign Function Interface](https://doc.rust-lang.org/stable/nomicon/ffi.html#foreign-function-interface)
 
