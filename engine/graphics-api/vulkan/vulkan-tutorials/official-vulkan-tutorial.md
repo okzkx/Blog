@@ -1,4 +1,4 @@
-# Official Vulkan Tutorial
+# [Official Vulkan Tutorial](https://vulkan-tutorial.com/)
 
 ## 00 base code
 
@@ -6,7 +6,7 @@
 
 - initVulkan -> Clean up
 - RAII
-  - 
+  ----
 - vk
   - vkCreateXXX
   - vkAllocateXXX
@@ -24,11 +24,8 @@
 - Cleaning up
 
 ## 02 Validation layer
-- 
 
-
-
-## Benefit
+### Benefit
 
 Validation layers are optional components that hook into Vulkan function calls to apply additional operations.https://vulkan-tutorial.com/Drawing_a_triangle/Setup/Validation_layers
 
@@ -38,7 +35,6 @@ Vulkan does not have the concept of a "default framebuffer", hence it requires a
 
  shader code in Vulkan has to be specified in a bytecode format as opposed to human-readable syntax like GLSL and HLSL.
  https://vulkan-tutorial.com/Drawing_a_triangle/Graphics_pipeline_basics/Shader_modules
-
 
 The older graphics APIs provided default state for most of the stages of the graphics pipeline. In Vulkan you have to be explicit about everything, from viewport size to color blending function.
 https://vulkan-tutorial.com/Drawing_a_triangle/Graphics_pipeline_basics/Fixed_functions
@@ -61,9 +57,8 @@ Draw Frame
 
 https://vulkan-tutorial.com/Drawing_a_triangle/Drawing/Rendering_and_presentation#page_Semaphores
 
-- Semaphores :  is used to add order between queue operations. 
+- Semaphores :  is used to add order between queue operations.
 - Fences : A fence has a similar purpose, in that it is used to synchronize execution, but it is for ordering the execution on the CPU, otherwise known as the host. Simply put, if the host needs to know when the GPU has finished something, we use a fence.
-
 
 VkSubmitInfo
 
@@ -83,9 +78,9 @@ descriptor，attachments 是接口，描述了可以访问的方法
 
 Creating an image is not very different from creating buffers. It involves querying the memory requirements, allocating device memory and binding it, just like we've seen before.
 
-One of the most common ways to perform layout transitions is using an image memory barrier. 
+One of the most common ways to perform layout transitions is using an image memory barrier.
 
-Barriers are primarily used for synchronization purposes, so you must specify which types of operations that involve the resource must happen before the barrier, and which operations that involve the resource must wait on the barrier. 
+Barriers are primarily used for synchronization purposes, so you must specify which types of operations that involve the resource must happen before the barrier, and which operations that involve the resource must wait on the barrier.
 
 #### Image View
 
@@ -100,6 +95,6 @@ with the swap chain images and the framebuffer, that images are accessed through
   - Repeat
   - Mirrored repeat
   - Clamp to edge
-  - Clamp to border 
+  - Clamp to border
 
 new type of descriptor: combined image sampler. This descriptor makes it possible for shaders to access an image resource through a sampler object like the one we created in the previous chapter.https://vulkan-tutorial.com/Texture_mapping/Combined_imag

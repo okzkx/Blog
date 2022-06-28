@@ -1,6 +1,6 @@
 # Vulkan tutorials
 
-* [official tutorials](https://vulkan-tutorial.com/)
+* [Official Vulkan Tutorial](https://vulkan-tutorial.com/)
 * [vulkan-in-30-minutes](https://renderdoc.org/vulkan-in-30-minutes.html)
 * [Vulkan Guide](https://vkguide.dev/docs/chapter-1/vulkan_command_flow/)
 * [Vulkan Game Engine Tutorial -  Brendan Galea](https://www.youtube.com/watch?v=Y9U9IE0gVHA&list=PL8327DO66nu9qYVKLDmdLW_84-yE4auCR)
