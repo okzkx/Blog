@@ -1,6 +1,6 @@
 # Vulkano
 
-- [vulkano](https://github.com/vulkano-rs/vulkano) 
+- [vulkano](https://github.com/vulkano-rs/vulkano)
 - [tutorial](https://github.com/bwasty/vulkan-tutorial-rs)
 
 ## Key wordss
@@ -13,4 +13,3 @@
 - render pass
 - graphics pipeline
 - frame buffer
-- 
