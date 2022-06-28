@@ -16,7 +16,7 @@
 
 [Foreign Function Interface](https://doc.rust-lang.org/stable/nomicon/ffi.html#foreign-function-interface)
 
-[`-l` flag](https://doc.rust-lang.org/rustc/command-line-arguments.html#option-l-link-lib).
+[-l: link the generated crate to a native library]([https://doc.rust-lang.org/rustc/command-line-arguments.html#option-l-link-lib](https://doc.rust-lang.org/rustc/command-line-arguments.html#option-l-link-lib))
 
 [cmake](https://docs.rs/cmake/0.1.48/cmake/#)
 
