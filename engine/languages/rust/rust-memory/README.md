@@ -46,11 +46,13 @@ align_of 得到对其单位
 
 ## Struct
 
+一个 Struct 类型的变量占据的空间是其所有成员占据的空间总和
+
 ![image-20220530104207536](rust-memory.assets/image-20220530104207536.png)
 
 ## Enum
 
-一个 Enum 类型所占据的空间根据它最大的成员决定
+一个 Enum 类型所占据的空间是它占据空间最大的成员的空间
 
 ![image-20220530104431399](rust-memory.assets/image-20220530104431399.png)
 
@@ -60,7 +62,9 @@ align_of 得到对其单位
 
 ## Option Box
 
-Option<Box<?>> 不需要序号占据枚举位
+* Option 是一个描述是否有值的枚举
+* 使用 Option <Box `<>>` 描述一个可空的指针
+* Option<Box<?>> 不需要序号占据枚举位
 
 ![image-20220530110559528](rust-memory.assets/image-20220530110559528.png)
 
