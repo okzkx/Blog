@@ -1,4 +1,4 @@
-# Comparison of graphics apis
+# [Comparison of graphics apis](https://alain.xyz/blog/comparison-of-modern-graphics-apis)
 
 ## Import
 
@@ -26,7 +26,7 @@
 - **Command Buffer** : is an asynchronous computing unit, where you describe procedures for the GPU to execute, such as draw calls, copying data from CPU-GPU accessible memory to GPU exclusive memory, and set various aspects of the graphics pipeline dynamically such as the current scissor.
 - **Command Lists** : are groups of command buffers pushed in batches to the GPU. The reason for doing this is to keep the GPU constantly busy, leading to less de-synchronization between the CPU and GPU
 - **Fences** : are objects used to synchronize the CPU and GPU. Both the CPU and GPU can be instructed to wait at a fence so that the other can catch up. This can be used to manage resource allocation and deallocation, making it easier to manage overall graphics memory usage. [Satran et al. 2018]
-- **Barriers** : A more granular form of synchronization, inside command buffers. 
+- **Barriers** : A more granular form of synchronization, inside command buffers.
 - **Semaphores** : are objects used introduce dependencies between operations, such as waiting before acquiring the next image in the swapchain before submitting command buffers to your device queue.
 
 ## Spaces, Alignments
