@@ -1,6 +1,8 @@
-# TU Turtorial
+# Vulkan Lecture Series
 
-## 1. Vulkan Essentials
+[Vulkan Lecture Series - TU Wien](https://www.youtube.com/watch?v=tLwbj9qys18&list=PLmIqTlJ6KsE1Jx5HV4sd2jOe3V1KMHHgn&index=1)
+
+## Vulkan Essentials
 
 ### Vulkan 简介
 
@@ -32,13 +34,15 @@
 - 根据硬件提供的 Queue Family 来创建 Queue
 - Queue 用来执行 Command Buffer
 - Queue 中的 Command Buffer 按照顺序执行，但是是异步执行，不是串行
- 
+
 ### Vulkan Hardware Capbility Viewer
+
 - 查看 GPU 提供的 QueueFamily
 - 查看 Instance Extensions
 - 查看 Device Extensions
 
 ### 启用硬件特性
+
 - instance-level, device-level extensions
 - enable extensions
   1. list extensions you need
@@ -54,12 +58,13 @@
 ## Resources & Descriptors
 
 Types of resources
-  - Buffer
-    - 无格式的字节数组
-  - Image
-    - 有格式，有信息，有维度的字节数组
-  - Samplers
-  - Acceleration Structures
+
+- Buffer
+  - 无格式的字节数组
+- Image
+  - 有格式，有信息，有维度的字节数组
+- Samplers
+- Acceleration Structures
 
 Descriptors : Where to find resource
 
