@@ -1,10 +1,10 @@
 # Rust 内存管理
 
+[Visualizing memory layout of Rust&#39;s data types](https://www.bilibili.com/video/BV1KT4y167f1)
+
 ## Stack & Heap
 
 ![image-20220530134620352](rust-memory.assets/image-20220530134620352.png)
-
-
 
 ## Stack
 
@@ -26,8 +26,6 @@ align_of 得到对其单位
 
 ![image-20220530140111330](rust-memory.assets/image-20220530140111330.png)
 
-
-
 ## Ref
 
 ![image-20220530140332029](rust-memory.assets/image-20220530140332029.png)
@@ -42,18 +40,13 @@ align_of 得到对其单位
 
 ![image-20220530140944920](rust-memory.assets/image-20220530140944920.png)
 
-
 ## String, str, &str
 
 ![image-20220530103931430](rust-memory.assets/image-20220530103931430.png)
 
-
-
 ## Struct
 
 ![image-20220530104207536](rust-memory.assets/image-20220530104207536.png)
-
-
 
 ## Enum
 
@@ -71,8 +64,6 @@ Option<Box<?>> 不需要序号占据枚举位
 
 ![image-20220530110559528](rust-memory.assets/image-20220530110559528.png)
 
-
-
 ## Copy & Move
 
 ### 值类型拷贝
@@ -87,7 +78,7 @@ Option<Box<?>> 不需要序号占据枚举位
 
 - RC 是智能指针指向内存区域一个类型，并多一个字节记录引用计数
 - 相比于 Box 是使用引用计数来释放内存
-- 当使用 clone 后将会浅拷贝指向的地址并让引用计数增加 
+- 当使用 clone 后将会浅拷贝指向的地址并让引用计数增加
 
 ![image-20220530111603625](rust-memory.assets/image-20220530111603625.png)
 
@@ -125,7 +116,7 @@ Rust 中使用 dyn 声明
 
 Fn,FnOnce, FnMut
 
-#### FnOnce 
+#### FnOnce
 
 创建 struct 存储外部变量，相当于移动值或引用
 
