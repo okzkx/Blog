@@ -1,3 +1,7 @@
+# FFI
+
+## 静态链接
+
 [rust ffi guide](https://michael-f-bryan.github.io/rust-ffi-guide/)
 
 [rust-ffi-examples](https://github.com/alexcrichton/rust-ffi-examples/tree/master/rust-to-c)
@@ -14,7 +18,10 @@
 
 [`-l` flag](https://doc.rust-lang.org/rustc/command-line-arguments.html#option-l-link-lib).
 
-
 [cmake](https://docs.rs/cmake/0.1.48/cmake/#)
 
 [Rust ❤️ C++](https://cxx.rs/index.html)
+
+## 动态加载
+
+[Rust 实现动态库加载和基于此功能实现的插件管理 - 灵感 - 来自生活的馈赠](https://www.insp.top/content/how-to-implement-dynamical-loading-and-plugin-manager-for-rust)
