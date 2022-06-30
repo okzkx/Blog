@@ -2,103 +2,6 @@
 
 [Games 104](https://www.bilibili.com/video/BV12Z4y1B7th)
 
-## 第一节：游戏引擎导论
-
-### 历史
-
-Engine ，商业，inhouse，免费
-Middlewares 中间件公司
-
-### 游戏引擎
-
-制作游戏的框架和工具合集
-
-世界中的无限细节
-
-### Complexity of Simulation
-
-Combat
-
-**Interaction**
-
-Reaction
-
-**Net Sync**
-
-Prediction
-
-Render
-
-- Animation
-- **Motor**
-- *Camera
-- Effect**
-- Cloth
-- **Sound**
-
-### Developer Platform
-
-为了艺术家，设计师，程序员设计工具
-
-非常复杂的工具
-
-#### 如何学习游戏引擎
-
-需要学习几乎所有计算机科学知识
-
-学习路径：沿着主干道前进
-
-#### MVVM 模型
-
-![image-20220316105903407](games-104.assets/image-20220316105903407.png)
-
-#### Cause about
-
-- Render
-- Animation
-- Physics
-- Gameplay （Game World Rules）
-- MIsc Systems
-  - Effects
-  - Navigation
-  - Camera
-
-#### Tool Set
-
-- C++ Reflection
-- Data Schema
-
-#### Online Gameing
-
-- Lockstep Synchronization
-- State Synchronization
-
-#### Advanced Technology
-
-- Motion Matching
-- Procedural Content Generation
-- Data-Oriented Programming
-- Job System
-- Lumen
-- Nanite
-
-#### References
-
-- No required textbooks
-- Game Engine Architecture
-
-#### Mini Engine
-
-- Mini runtime framework
-- Mini editor
-- Building basic knowledge system of game engine
-
-![image-20220316112401142](games-104.assets/image-20220316112401142.png)
-
-#### 作业目标
-
-联网对战游戏
-
 ## 第二节：引擎架构分层
 
 ### 游戏引擎分层简介
@@ -342,7 +245,7 @@ tool chains
 
 1. Complex render objects
 2. Deal with architecture of modern computer with a complex combination of CPU and GPU
-3. Commit a bullet-proof framerate, 
+3. Commit a bullet-proof framerate,
    1. 30 or 60 or 120 fps
    2. HD, 1080p, 4k, 8k
 4. CPU memory
@@ -420,75 +323,64 @@ The dedicated hardware to solve massive jobs
 ![image-20220413212555358](games-104.assets/image-20220413212555358.png)
 
 ### Renderable
+
 可绘制的东西
 
 - Mesh Render Component
-
 - Building Blocks of Renderable
-
 - Mesh Primitive
+
   - struct Vertex
     - position
     - color
     - normal
   - struct Triangle
     - Vertex[3]
-  
 - Vertex and Index Buffer
+
   - Vertex Datda
   - Index Data
-  
-  ![image-20220413212626112](games-104.assets/image-20220413212626112.png)
-  
-- We Need Per-Vertex Normal
 
+  ![image-20220413212626112](games-104.assets/image-20220413212626112.png)
+- We Need Per-Vertex Normal
 - Materials
 
   ![image-20220413212640347](games-104.assets/image-20220413212640347.png)
-
 - Material Model
 
   ![image-20220413212730864](games-104.assets/image-20220413212730864.png)
-
 - Various Textures in Materials
-
 - Variety of Shaders
-
-
 
 ### Render Objects on Engine
 
 - Coordinate System and Transformation
-
 - Object with Many Materials
-
 - Resource Pool
+
   - Use Handle to Reuse Resources
-  
+
     ![image-20220413213129463](games-104.assets/image-20220413213129463.png)
-  
+
     ![image-20220413213209476](games-104.assets/image-20220413213209476.png)
-  
 - Instancing 实例化，前边的都是物体绘制的定义，实际上绘制到屏幕上才是实例
-
 - Sort by Material
-
 - GPU Batch Rendering
 
   ![image-20220413213223322](games-104.assets/image-20220413213223322.png)
 
 ### Visibility Culling 可见性裁剪
 
-  - Culling One Object
-    - View Frustum
-    - Bounding Box
-    - Hierarchial View Frustum Culling
-    - Construction and Insertion of BVH in GameEngine
-      - BVH 在动态物体多的情况下构建成本低
-      - PVS (Potential Visibility Set) 对于空间上的一点关于其他物体的潜在可见性，即是否不会被其他物体遮挡
-      - The Idea of Using PVS in Stand-alone Games
-    - GPU Culling
-      - Depth pre pass / early z 提前渲染深度到 z buffer，防止重复像素点着色
+- Culling One Object
+  - View Frustum
+  - Bounding Box
+  - Hierarchial View Frustum Culling
+  - Construction and Insertion of BVH in GameEngine
+    - BVH 在动态物体多的情况下构建成本低
+    - PVS (Potential Visibility Set) 对于空间上的一点关于其他物体的潜在可见性，即是否不会被其他物体遮挡
+    - The Idea of Using PVS in Stand-alone Games
+  - GPU Culling
+    - Depth pre pass / early z 提前渲染深度到 z buffer，防止重复像素点着色
 
 ### Texture Compression
 
@@ -513,18 +405,14 @@ The dedicated hardware to solve massive jobs
 ### Cluster-Based Mesh Pipeline
 
 - Sculpting Tools Create Infinite Details 无数的细节
-
 - GPU-Driven Rendering Pipeline
-
 - Geometry Rendering Pipeline Architecture
-
 - Programmable Mesh Pipeline
-
 - Mesh shader, cluster base mesh
 
   ![image-20220413213322563](games-104.assets/image-20220413213322563.png)
-
 - GPU Driven
+
   - 把越来越多 CPU 上的计算放到 GPU 上做
 
 ### PILOT
@@ -572,7 +460,7 @@ The dedicated hardware to solve massive jobs
   - Unstable in ray-tracing
   - non-energy conserving
 - 无法表达真实材质
-  - 都是塑料质感 
+  - 都是塑料质感
 
 #### ShadowMap
 
@@ -594,22 +482,26 @@ The dedicated hardware to solve massive jobs
 - Good compression rate，存储百万个 probes
 - do integration with material function
 - Fourier Transform 傅里叶变换
+
   - 任何频谱都是不同频率的波长的叠加，
   - 图片由时域转到频域，去掉高频信息或低频信息，再转回时域，能对图片保留相应信息
 - Convolution Theorem 卷积
 - Spherial Harmonics 球谐函数
+
   - 1阶 SH 只需要 9 个值，压缩后是 4 Bytes 就能存储一个 Diffuse 光场
 - SH Lightmap ：Precomputed GI
+
   - LightMap 是预计算的，对静态物体的表面的每个点的环境光照存储
   - 基于上面 SH 的理论，规定 LIghtMap 中一个 4 Bytes 颜色块定义了空间中的一个静态物体表面中的一个点接收到的全局光照
   - 全局静态物体的表面需要二维展开到 LightMap 上，所以 LightMap 也是一个 Altas
 - Light Probe: Probes In Game Space
+
   - Probe 在玩家感知强的地方，在环境光变换大的地方密集
   - LightProbe 可以看作定义在 3 维空间的 LightMap，但不需要逐像素体素，所以可以实时预计算
   - LIght Probe Point Generation 工业上需要自动化生成 LIghtProbe 采样点
   - Reflection Probe：反射探针可以看作高精度的，做了范围限定的 LightProbe
-
 - 现代游戏入射光
+
   - 直接光照：光源类型 + shadowmap
   - 静态间接光照：LightMap
   - 实时间接光照：LightProbe，Reflection Probe
@@ -649,7 +541,6 @@ F 菲涅尔现象，视线越垂直，折射越明显，反之反射越明显
 - 数值参数需要归一化到在 0 ~ 1
 - 参数的任意组合不能出现 BUG
 - 引擎不是真实世界模拟器，而是游戏程序创造工具
-
 - Disney Principle Material Parameters 迪士尼材质参数
 
 #### PBR Specular Glossiness
@@ -670,7 +561,7 @@ MR 在金属与非金属过度容易出现白边
 
 ### Image-Based Lighting(IBL) 基于图像的光照
 
-#### Basic Idea of IBL 
+#### Basic Idea of IBL
 
 cube map，提前预处理环境光
 
@@ -678,7 +569,7 @@ cube map，提前预处理环境光
 
 提前知道卷积，模糊的结果
 
-#### Specular 
+#### Specular
 
 - 使用 MipMap 存储不同粗糙度的 Specular
 - LUT，提前存储这个 BRDF roughness 和 cosθ 的关系
@@ -761,7 +652,7 @@ ue5 的方法，平均分布 Shadow Map ，动态加载
 #### Heightfield 高度图，地形渲染的主力
 
 - Height Map
-- Contour Map 
+- Contour Map
 - Expressive Heightfield Terrains
 
 #### 使用 Mesh Grid 生成网格
@@ -867,8 +758,6 @@ Transvoxel Algorithm, voxel 也可以做 LOD
 
 ![image-20220426231437730](games-104.assets/image-20220426231437730.png)
 
-
-
 ##### Advanced Texture Splatting
 
 叠加高度后的混合
@@ -885,7 +774,7 @@ Transvoxel Algorithm, voxel 也可以做 LOD
 - Texture Array 每层之间没关系，是 Texture Index + 双线性插值采样
 - 使用 IndexMap + TextureArray 采样地面纹理
 
-####  Parallax and Displacement Mapping
+#### Parallax and Displacement Mapping
 
 ![image-20220426232055558](games-104.assets/image-20220426232055558.png)
 
@@ -952,7 +841,7 @@ Speed Tree ，植被渲染中间件
 
 ![image-20220427225255363](games-104.assets/image-20220427225255363.png)
 
-####  How Light Interacts with Participating Media 
+#### How Light Interacts with Participating Media
 
 大气散射通过一个介质分为四个阶段
 
@@ -971,7 +860,7 @@ Speed Tree ，植被渲染中间件
 
 #### Scattering Types
 
-##### Rayleigh Scattering 瑞丽散射 
+##### Rayleigh Scattering 瑞丽散射
 
 - 介质直径小，光线波长越短散射越厉害
 - 蓝紫光波长短
@@ -979,7 +868,7 @@ Speed Tree ，植被渲染中间件
 - Rayleigh Scattering Equation
 - ![image-20220427232300675](games-104.assets/image-20220427232300675.png)
 
-##### Mie scattering 米式散射 
+##### Mie scattering 米式散射
 
 - 散射对光的波长不敏感
 - 雾 Fog，光晕 Halo of Sun
@@ -1019,7 +908,7 @@ Speed Tree ，植被渲染中间件
 #### Production Friendly Quick Sky and Atmosphere Rendering
 
 - Simplify Multi-scattering Assumption
--  假设对于空间上某个点四面八方的入射光是均匀的
+- 假设对于空间上某个点四面八方的入射光是均匀的
 - Fixed view position and sum position to remove 2 dimensions out of LUT
 - Generated a 3D LUT to evaluate aerial-perspective effects by ray marching
 
@@ -1035,16 +924,14 @@ Speed Tree ，植被渲染中间件
 - Billboard Cloud
 - Volumetric Cloud Modeling
   - Weather Texture 存云的厚度
-  -  Noise Functions
-    - Perlin Noise 棉花丝感觉
-    - Worley Noise 泡泡感觉
+  - Noise Functions
+  - Perlin Noise 棉花丝感觉
+  - Worley Noise 泡泡感觉
   - ![image-20220506104451054](games-104.assets/image-20220506104451054.png)
   - Cloud Density Model
     - ![image-20220506104738431](games-104.assets/image-20220506104738431.png)
   - Rendering Cloud by Ray Marching
     - ![image-20220506104925464](games-104.assets/image-20220506104925464.png)
-
-
 
 ## 第七课：游戏中渲染管线、后处理和其他
 
@@ -1079,8 +966,8 @@ Games 104 作为一个通识课
 - Voxel-based Volumetric Fog
   - 基于视锥体的空间划分
   - 然后进行 Ray marching
-- Precompute 
-  - 使用 3D Texture 提前存储计算结果 
+- Precompute
+  - 使用 3D Texture 提前存储计算结果
 
 ### Anti-aliasing 反走样
 
@@ -1092,7 +979,7 @@ Games 104 作为一个通识课
   - Texture
   - Specular
 
-####  Anti-aliasing
+#### Anti-aliasing
 
 - 对于一个像素进行多次采样，让后颜色平均
 - 使颜色过度更加平滑
@@ -1105,7 +992,7 @@ Games 104 作为一个通识课
     - 缺陷是场景中的三角形会特别多
 - 基于图像的抗锯齿
   - FXAA : Fast Approximate Anti-aliasing 最常用的抗锯齿算法
-    -  通过亮度 Luma 和色差定义 Contrast 边缘检测，
+    - 通过亮度 Luma 和色差定义 Contrast 边缘检测，
     - 对于每个像素找到周围 9 格中梯度最大的像素方向
     - 再沿梯度垂直方向找到边缘的端点
     - 以整条边进行模糊，一半部分加亮，一半部分变暗
@@ -1120,6 +1007,3 @@ Games 104 作为一个通识课
 - Bloom
 - Tone Mapping
 - Color Grading
-
-
-
