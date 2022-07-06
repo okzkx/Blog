@@ -19,5 +19,6 @@ Rust 中的引用
 
 Vulkan 初始化
 
-* Validation Layer，检测
-* Extension 检测，Extension 配置
+* Validation Layer 检测
+* Extension 开启，Extension 配置
+* 选择物理设备时对检测 Extension 支持
