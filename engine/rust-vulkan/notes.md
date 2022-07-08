@@ -2,9 +2,7 @@
 
 **let** **mut** x 指在栈区的 x 指向的指是可变的
 
-
 ### [What’s the difference between `Copy` and `Clone`?](https://doc.rust-lang.org/core/marker/trait.Copy.html#whats-the-difference-between-copy-and-clone)
-
 
 Rust 中的引用
 
@@ -16,9 +14,50 @@ Rust 中的引用
 6. &T 任意传入方法都不会影响到内存块所有权变更，保护内存不被随意释放
 7. 形参传入方法会自动解引用到对应需要的类型
 
-
 Vulkan 初始化
 
 * Validation Layer 检测
 * Extension 开启，Extension 配置
 * 选择物理设备时对检测 Extension 支持
+
+Create Render Pass
+
+##### * color_attachment
+
+* AttachmentDescription
+* AttachmentReference
+
+  123123
+* swap chain
+
+  * swapchain helper
+    * -> instance , device
+  * swapchain khr
+    * images
+* imageview
+
+  * image -> swapchain khr images
+  * 
+* render pass
+
+  * color attachment
+    * desc
+    * ref
+  * subpass
+    * desc
+      * -> color attachment ref -> render pass create info -> color attachment
+    * deps
+* Frame Buffer
+
+  * render pass -> render pass
+  * attachments -> Image view
+* Graphic pipeline
+
+  * shader stages
+    * shader modules
+  * -> Render pass
+* Command Buffer
+
+  * begin render pass -> render passs
+  * bind pipeline -> graphic pipeline
+*
