@@ -70,11 +70,15 @@ align_of 得到对其单位
 
 ## Copy & Move
 
-### 值类型拷贝
+### 栈类型拷贝
+
+栈类型赋值会拷贝，但没有自动生成拷贝函数。需要手动实现 Copy Trail 拷贝才不会报错
 
 ![image-20220530110817028](rust-memory.assets/image-20220530110817028.png)
 
 ### 引用类型移动
+
+所以引用类型不能实现 Copy Trail
 
 ![image-20220530111349236](rust-memory.assets/image-20220530111349236.png)
 
