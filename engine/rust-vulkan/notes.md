@@ -22,24 +22,19 @@ Vulkan 初始化
 
 Create Render Pass
 
-##### * color_attachment
+## Vulkan words
 
-* AttachmentDescription
-* AttachmentReference
-
-  123123
+* color_attachment
+  * desc
+  * ref
 * swap chain
-
   * swapchain helper
     * -> instance , device
   * swapchain khr
     * images
 * imageview
-
   * image -> swapchain khr images
-  * 
 * render pass
-
   * color attachment
     * desc
     * ref
@@ -48,16 +43,21 @@ Create Render Pass
       * -> color attachment ref -> render pass create info -> color attachment
     * deps
 * Frame Buffer
-
   * render pass -> render pass
   * attachments -> Image view
 * Graphic pipeline
-
   * shader stages
     * shader modules
   * -> Render pass
 * Command Buffer
-
   * begin render pass -> render passs
   * bind pipeline -> graphic pipeline
-*
+  * vertex buffer
+  * index buffer
+  * descriptor sets
+* descriptor sets (per image)
+  * -> descriptor set layout
+  * write descriptor set -> uniform buffer
+* uniform buffer
+  * uniform buffer memory
+    * ubo
