@@ -49,6 +49,7 @@ Create Render Pass
   * shader stages
     * shader modules
   * -> Render pass
+  * descripter set layout -> pipeline layout
 * Command Buffer
   * begin render pass -> render passs
   * bind pipeline -> graphic pipeline
@@ -58,6 +59,7 @@ Create Render Pass
 * descriptor sets (per image)
   * -> descriptor set layout
   * write descriptor set -> uniform buffer
+  * pipeline_layout
 * uniform buffer
   * uniform buffer memory
     * ubo
