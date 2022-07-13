@@ -84,14 +84,13 @@ Descriptors : Where to find resource
   - Timeline
 - PipelineBarriers(command sync)
 
-![1656924147273](image/vulkan-lecture-series/1656924147273.png)
+![1656924147273](image/1656924147273.png)
 
 #### Binary Semaphores
 
-![1656921670422](image/vulkan-lecture-series/1656921670422.png)
+![1656921670422](image/1656921670422.png)
 
-![1656921768061](image/vulkan-lecture-series/1656921768061.png)
-
+![1656921768061](image/1656921768061.png)
 
 1. presentation queue : acquire image signals Image Available Semaphore
 2. graphics queue : waits on Image Available Semaphore
