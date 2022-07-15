@@ -75,7 +75,6 @@ Descriptors : Where to find resource
 ## Vulkan Synchronization
 
 - Wait Idle (host sync)
-  - vkQueueWaitIdle(queue)
   - vkDeviceWaitIdle(queue)
 - Fences (host sync)
   - Batch -> signal Fence
