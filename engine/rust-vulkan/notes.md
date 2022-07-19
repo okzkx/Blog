@@ -32,26 +32,28 @@ Create Render Pass
     * -> instance , device
   * swapchain khr
     * images
-* imageview
+* image view
   * image -> swapchain khr images
 * render pass
-  * color attachment
-    * desc
-    * ref
+  * attachments
+    * 1 -> color_attachment -> subpass attachment(0)
+    * 2 -> depth_attachment -> subpass attachment(1)
   * subpass
-    * desc
-      * -> color attachment ref -> render pass create info -> color attachment
-    * deps
+    * -> color_attachments -> color_attachment_references -> attachment(0)
+    * -> depth_stencil_attachment -> depth_stencil_attachment_references -> attachment(1)
+  * dependencies (Subpass Dependency))
 * Frame Buffer
   * render pass -> render pass
-  * attachments -> Image view
+  * attachments -> [color image view , depth image view]
 * Graphic pipeline
   * shader stages
     * shader modules
   * -> Render pass
   * descripter set layout -> pipeline layout
 * Command Buffer
-  * begin render pass -> render passs
+  * begin render pass
+    * -> render passs
+    * -> frame buffer
   * bind pipeline -> graphic pipeline
   * vertex buffer
   * index buffer
@@ -63,3 +65,7 @@ Create Render Pass
 * uniform buffer
   * uniform buffer memory
     * ubo
+
+Command buffer -> begin render passes -> frame buffer -> image view -> image (从 Swapchain 中获取或自己创建)
+
+Command buffer -> begin render passes -> render passs -> attachments （attachments 需要和 framebuffer 格式一致）
