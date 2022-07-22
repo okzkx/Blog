@@ -30,3 +30,12 @@
 
 * [Embark Studios Open Source | embark.dev](https://embark.dev/)
 * [Rust 明星项目](https://rusty.rs/superstar.html)
+
+## Blogs
+
+* [Clear explanation of Rust’s module system](https://www.sheshbabu.com/posts/rust-module-system/)
+* [debugging - How to check release / debug builds using cfg in Rust? - Stack Overflow](https://stackoverflow.com/questions/39204908/how-to-check-release-debug-builds-using-cfg-in-rust)
+* [Rust语言：解引用详述，搞不明白这个概念，趁早放弃Rust - 知乎](https://zhuanlan.zhihu.com/p/161551523)
+* [Rust Language Cheat Sheet](https://cheats.rs/)
+* [Rust：用问号 ？操作符简化错误信息的判断](https://blog.csdn.net/quicmous/article/details/124711911)
+* [Rust 中的序列化和反序列化](https://blog.csdn.net/hualuohuakai2014/article/details/112787047)

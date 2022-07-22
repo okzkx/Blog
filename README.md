@@ -9,14 +9,14 @@ description: 学习，记录，分享
 
 ### 日常计划
 
-* FBX 渲染
+* Blender Lowpoly tech
 
 #### 目标计划
 
 - P0
   - [Games 104](https://www.bilibili.com/video/BV12Z4y1B7th)
-- P1
   - Blender
+- P1
   - UE5
 - P2
   - 特效
