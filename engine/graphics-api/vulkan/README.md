@@ -8,6 +8,11 @@
 
 * [VSCode Vulkan 环境搭建](https://blog.csdn.net/weixin_43475995/article/details/121516284)
 * [Vulkan 学习笔记 - Gavin_KG](https://gavinkg.github.io/ILearnVulkanFromScratch-CN/)
+* [vulkan 简单心得 - 知乎](https://zhuanlan.zhihu.com/p/461859413)
+* [Shader modules - Vulkan Tutorial](https://vulkan-tutorial.com/Drawing_a_triangle/Graphics_pipeline_basics/Shader_modules)
+* [一张图形象理解Vulkan Sub Pass - 知乎](https://zhuanlan.zhihu.com/p/461097833)
+* [【Vulkan】那些年我们错过的Vulkan同步 - 知乎](https://zhuanlan.zhihu.com/p/436033612)
+* [Understanding Vulkan® Objects - GPUOpen](https://gpuopen.com/learn/understanding-vulkan-objects/)
 
 ## Comparison
 

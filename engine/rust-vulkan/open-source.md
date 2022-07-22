@@ -30,6 +30,7 @@
 * [tobj](https://crates.io/crates/tobj) : A lightweight OBJ loader in the spirit of tinyobjloader
 * [gltf ](https://github.com/gltf-rs/gltf)：glTF 2.0 loader
 * [fbx](https://crates.io/crates/fbx) : Autodesk FBX parser for Rust
+* **[fbx-viewer](https://github.com/lo48576/fbx-viewer)** : FBX viewer. Demo (and test) of `fbxcel` and `fbxcel-dom` crates.
 
 #### shader 编译
 
