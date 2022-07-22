@@ -2,7 +2,7 @@
 
 ## 教程
 
-[十分钟演示 Blender 游戏角色建模并导入 Unity 的全流程_哔哩哔哩_bilibili](https://www.bilibili.com/video/BV1XA4117737?spm_id_from=333.1007.top_right_bar_window_default_collection.content.click)
+[十分钟演示 Blender 游戏角色建模并导入 Unity 的全流程](https://www.bilibili.com/video/BV1XA4117737?spm_id_from=333.1007.top_right_bar_window_default_collection.content.click)
 
 [Blender和Unity之间导入导出那些事儿 - 知乎](https://zhuanlan.zhihu.com/p/348423432?ivk_sa=1024320u)
 
