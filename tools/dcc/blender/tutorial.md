@@ -11,8 +11,8 @@
 
 ## Lowpoly
 
-* [Low Poly Island | Beginner | Blender 2.8 Tutorial - YouTube](https://www.youtube.com/watch?v=0lj643VmTsg)
-* [Learn Low Poly Modeling in Blender 2.9 / 2.8 - YouTube](https://www.youtube.com/watch?v=1jHUY3qoBu8)
+* [Low Poly Island | Beginner | Blender 2.8 Tutorial](https://www.youtube.com/watch?v=0lj643VmTsg)
+* [Learn Low Poly Modeling in Blender 2.9 / 2.8](https://www.youtube.com/watch?v=1jHUY3qoBu8)
 
 ## Imphenzia
 
