@@ -11,9 +11,9 @@ description: 学习，记录，分享
 
 * Blender Lowpoly tech
 * renderer optimize
-  * log
-  * oop
+  * args
   * result
+  * oop ref
 
 #### 目标计划
 
