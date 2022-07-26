@@ -11,7 +11,6 @@ description: 学习，记录，分享
 
 * Blender Lowpoly tech
 * renderer optimize
-  * args
   * result
   * oop ref
 
