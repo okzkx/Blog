@@ -39,3 +39,6 @@
 * [Rust Language Cheat Sheet](https://cheats.rs/)
 * [Rust：用问号 ？操作符简化错误信息的判断](https://blog.csdn.net/quicmous/article/details/124711911)
 * [Rust 中的序列化和反序列化](https://blog.csdn.net/hualuohuakai2014/article/details/112787047)
+* [Argument requires that ... is borrowed for `&#39;static` - help - The Rust Programming Language Forum](https://users.rust-lang.org/t/argument-requires-that-is-borrowed-for-static/66503/2)
+* [rust - Which files from the target directory are actually required by the executable? - Stack Overflow](https://stackoverflow.com/questions/47528244/which-files-from-the-target-directory-are-actually-required-by-the-executable)
+* [RUST编写和调用DLL - pu369com - 博客园](https://www.cnblogs.com/pu369/p/15238880.html)
