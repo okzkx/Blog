@@ -1,27 +1,68 @@
 # 常用记录
 
-## 快捷键
+## 功能
 
 - 选择
 
-  - l : 选中所有连接起来的顶点
-  - ctrl + i : 反选
-  - a : 全选
-  - b ：框选
+  - Select Linked : 选中所有连接起来的几何项 : l
+  - 反选 ：ctrl + i
+  - 全选 : a
+  - 添加连续几何项到选择集合 : ctrl + mbl
+  - 添加几何项到选择集合 : shift + mbl
+  - 选择循环几何项 : alt + mbl
+  - 自定义形状选择 : ctrl + mbr
+  - 坐标轴位移 ：Transform
 - 编辑
 
-  - g r s : 位移，旋转，缩放
-  - e : 挤出
-  - ctrl + r : 环切
-  - f : 点相连
-  - Ctrl + p : 设置层级关系，先选子物体，再选父物体
+  - 添加网格 : shift a
+  - 位移 : g
+    - 沿着线段移动
+  - 旋转 : r
+  - 缩放 s : s
+    - pivot point 可实现各自缩放 : .
+  - 挤出 extrude region and move : e
+    - 高级挤出 ：alt + e
+      - 沿着法向挤出
+  - 环切 : ctrl + r
+  - 手动切割：ctrl + k
+  - 内插面 : i
+    - 各自内插面 : i
+  - 填充面或者线 : f
+  - 设置层级关系，先选子物体，再选父物体 ：ctrl + p
+  - 合并顶点，根据距离合并消除多余顶点 : m
+  - 复制 ：shift + d
+  - 隐藏， 显示 ：h, alt + h
 - 环境选择
 
-  - 大键盘 1,2,3 ：点线面选择
-  - 小键盘 1,3,7 ：绘制平面选择
-  - Tab ：切换交互模式
-  - alt + z : 透视模式
-  - z : 切换渲染模式
+  - 正面，侧面，顶面 ：1'，3'，7'
+  - 切换透视 : 5'
+  - 切换交互模式 : Tab
+  - x-ray ：alt + z
+  - 切换渲染模式 : z
+- Move
+
+  - 视角绕中心旋转 ：mbm
+  - 视角上下左右平移 ：shift mbm
+- 摄像机
+
+  - 摄像机视角 ：0'
+  - 第一人称飞行 : shift + `
+  - 物体对其当前视图 : ctrl + alt + 0'
+- Cursor 游标操作 ：shift + s
+
+  - Cursor to sele
+- Center
+
+  - Snap 位移对齐
+  - Proportion Editing 比例编辑
+- Left
+- Viewport
+
+  - Gizmos
+- Overlay
+- Shading
+- Tool Bar 显示隐藏 ：t
+- Manu Bar 显示隐藏 ：n
 
 ## 修改器
 
@@ -36,10 +77,3 @@
 
   - 使用骨骼来控制顶点偏移
   - 选中骨骼在 PosMode 改变姿势进行预览
-
-## Lowpoly
-
-* Loop Cut : Ctrl + R
-* Delete Side vertices
-* Mirror Modifier :
-* Selection Mode
