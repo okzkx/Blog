@@ -69,3 +69,36 @@ Create Render Pass
 Command buffer -> begin render passes -> frame buffer -> image view -> image (从 Swapchain 中获取或自己创建)
 
 Command buffer -> begin render passes -> render passs -> attachments （attachments 需要和 framebuffer 格式一致）
+
+
+Create Instance
+
+Validation layer
+
+* 从 entry 得到这个机器可以使用的 validation layers
+* 检测是否具有需要的 validation layer
+* 一般在 Debug build 里会开启 VK_LAYER_KHRONOS_validation 用来检测是否具有 vulkan sdk
+
+Pick phsical device 
+
+Queue Family
+
+* 遍历所有的 Queue Family
+* 找到具有 graphics 和 present 的 Queue Family Index
+
+Device Extension
+
+* instance 遍历每个 physical_device 具有的所有所有拓展
+* 检测每个 physical_device 的拓展是否包含有需要的，当前只有一个 Swapchian.name
+* 选择具有所需要的拓展的 physical_device
+
+Create Device 
+
+创建 device，需要启用
+
+* Queue Family Index
+* 所需要的 layer
+* 所需要的 Extension
+* 所需要的 feature，现在只有各向异性采样
+
+使用 QueueFamily 创建对应的 Graphics Present WWqueue
