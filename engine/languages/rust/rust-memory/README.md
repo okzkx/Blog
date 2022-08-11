@@ -85,13 +85,12 @@ Stack 存储数据和待执行的方法地址
 
 rust 中变量类型可分为两种：可复制和不可复制
 
-### 可复制类型赋值
+### 可复制类型拷贝
 
 * 可复制类型赋值会进行拷贝
-* 实现了 Copy Trail 的类型称为可复制类型
-* Struct 默认是没有实现 Copy Trail，Copy Trail 需要实现 clone 方法，这个方法调用消耗大
-* 非必要就使用转移所有权的 move 来代替 clone
-* 运行时不能确定大小的类型才需要作为引用类型
+* 实现了 Copy Trait 的类型称为可复制类型，Copy Trait 表示这个类型可拷贝可克隆
+* Copy Trail 需要实现 clone 方法，这个方法调用消耗大比 move 大，非必要就使用转移所有权的 move 来代替 clone
+* 值类型和数组默认实现了 Copy Trait，Struct 默认是没有实现 Copy Trait，
 
 ![image-20220530110817028](rust-memory.assets/image-20220530110817028.png)
 
@@ -99,9 +98,12 @@ rust 中变量类型可分为两种：可复制和不可复制
 
 * 没有实现 Copy Trail 的 Struct 称为不可复制类型
 * 不可复制类型的赋值执行移动操作，转移所有权
+* 不想对不可复制类型移动来赋值，要显式调用 clone 方法
+* 实现 Clone Trait 来表示这个类型是不可拷贝但可克隆
 * Box 类型和 Box 类型的父类型使用了堆内存
 * Box 类型不能实现 Copy Trail，防止重复引用，所以一定是不可复制类型
 * 一般是在运行时无法确定类型大小的时候，比如动态集合数据结构、字符串，才会使用 Box
+* Drive 生成的 Copy 和 Clone 是递归调用的，要求 Struct 内的所有字段类型都要实现对应的 Trait
 
 ![image-20220530111349236](rust-memory.assets/image-20220530111349236.png)
 
