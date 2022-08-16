@@ -44,3 +44,7 @@ Result handle
   * or 如果为 err 替换 error
   * or_else 如果为 err 操作 error
 * contains 比较 result 内的值
+
+map 取得 result 内其中一个位置值，返回 result 对应位置值，
+
+and then，or_else 取得 result 内其中一个位置值，返回一个新的 result

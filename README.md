@@ -9,7 +9,9 @@ description: 学习，记录，分享
 
 ### 日常计划
 
-* 
+* log
+* result
+* ui
 * Blender Lowpoly tech
 
 #### 目标计划
