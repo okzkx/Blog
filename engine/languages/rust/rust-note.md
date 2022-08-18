@@ -48,3 +48,15 @@ Result handle
 map 取得 result 内其中一个位置值，返回 result 对应位置值，
 
 and then，or_else 取得 result 内其中一个位置值，返回一个新的 result
+
+## resut 处理
+
+当一个方法返回一个 Result 时，
+
+* 如果需要将 Result 向上传递，
+  * 使用 map_err 将 Result 的 Error 使用 anyhow 的 Error 包裹，(没信息可省略这步)
+  * 如果本身就是 anyhow 的 Result，上面这步可简写把 map_err 替换为 context
+  * 然后使用 ？解 Result 取到 ok 值，或者将封装后的 Error 向上传递。
+* 如果不需要向上传递，
+  * 就使用 or_else 处理 Err(Error) 后返回 Ok，
+  * 使用 ？解 Result
