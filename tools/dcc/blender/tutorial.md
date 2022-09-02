@@ -14,6 +14,9 @@
 * [Low Poly Island | Beginner | Blender 2.8 Tutorial](https://www.youtube.com/watch?v=0lj643VmTsg)
 * [Learn Low Poly Modeling in Blender 2.9 / 2.8](https://www.youtube.com/watch?v=1jHUY3qoBu8)
 * [Low Poly Vehicles | Easy Beginner | Blender Tutorial - YouTube](https://www.youtube.com/watch?v=Zkg7Ol2jEjs)
+* [(7) Rig a Low Poly Character in Blender 2.9x - YouTube](https://www.youtube.com/watch?v=XkiWBSSuxLw)
+* [(7) Intro to Rigging an Armature to a character in Blender 3.0 - YouTube](https://www.youtube.com/watch?v=9dZjcFW3BRY)
+* [(7) How To Easily RIG Characters With RIGIFY in BLENDER 3 - YouTube](https://www.youtube.com/watch?v=snvlZcQUoXs)
 
 ## Imphenzia
 

@@ -1,8 +1,11 @@
 # Vulkan
 
-## Examples
+## Projects
 
 * [Vulkan C++ examples and demos](https://github.com/SaschaWillems/Vulkan)
+* [KhronosGroup/Vulkan-Samples: One stop solution for all Vulkan samples](https://github.com/KhronosGroup/Vulkan-Samples)
+* [SaschaWillems/Vulkan: Examples and demos for the new Vulkan API](https://github.com/SaschaWillems/Vulkan)
+* [NVIDIA DesignWorks Samples](https://github.com/nvpro-samples)
 
 ## Blogs
 
@@ -13,6 +16,8 @@
 * [一张图形象理解Vulkan Sub Pass - 知乎](https://zhuanlan.zhihu.com/p/461097833)
 * [【Vulkan】那些年我们错过的Vulkan同步 - 知乎](https://zhuanlan.zhihu.com/p/436033612)
 * [Understanding Vulkan® Objects - GPUOpen](https://gpuopen.com/learn/understanding-vulkan-objects/)
+* [(35) 2017 DevU - 04 - Syncronization - YouTube](https://www.youtube.com/watch?v=YkJ4hKCPjm0&t=2225s)
+* [Yet another blog explaining Vulkan synchronization – Maister&#39;s Graphics Adventures](http://themaister.net/blog/2019/08/14/yet-another-blog-explaining-vulkan-synchronization/)
 
 ## Comparison
 

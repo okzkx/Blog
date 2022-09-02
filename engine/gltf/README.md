@@ -4,6 +4,8 @@
 
 [glTF-Sample-Models/2.0 at master · KhronosGroup/glTF-Sample-Models](https://github.com/KhronosGroup/glTF-Sample-Models/tree/master/2.0)
 
+[glTF™ 2.0 Specification](https://registry.khronos.org/glTF/specs/2.0/glTF-2.0.html#foreword)
+
 ![1656475310569](image/README/1656475310569.png)
 
 ### fbx to GLTF

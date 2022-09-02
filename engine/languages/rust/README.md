@@ -42,3 +42,12 @@
 * [Argument requires that ... is borrowed for `&#39;static` - help - The Rust Programming Language Forum](https://users.rust-lang.org/t/argument-requires-that-is-borrowed-for-static/66503/2)
 * [rust - Which files from the target directory are actually required by the executable? - Stack Overflow](https://stackoverflow.com/questions/47528244/which-files-from-the-target-directory-are-actually-required-by-the-executable)
 * [RUST编写和调用DLL - pu369com - 博客园](https://www.cnblogs.com/pu369/p/15238880.html)
+* [Category: Rust](https://colobu.com/categories/Rust/)
+
+## Spec
+
+* [Procedural Macros - The Rust Reference](https://doc.rust-lang.org/reference/procedural-macros.html)
+* [Source Analysis - The Little Book of Rust Macros](https://veykril.github.io/tlborm/syntax-extensions/source-analysis.html)
+* [Macros - The Rust Programming Language](https://web.mit.edu/rust-lang_v1.25/arch/amd64_ubuntu1404/share/doc/rust/html/book/first-edition/macros.html)
+* [Enumerate in std::iter - Rust](https://doc.rust-lang.org/std/iter/struct.Enumerate.html)
+* [Iterator in std::iter - Rust](https://doc.rust-lang.org/std/iter/trait.Iterator.html)
