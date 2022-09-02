@@ -60,3 +60,15 @@ and then，or_else 取得 result 内其中一个位置值，返回一个新的 r
 * 如果不需要向上传递，
   * 就使用 or_else 处理 Err(Error) 后返回 Ok，
   * 使用 ？解 Result
+* 常用 Result 方法集合
+  * 取 Result 值
+    * unwrap_or_default() 取值要是错误返回默认值
+    * unwarp_or(T t) 取值要是错误返回 t
+    * ? 取值要是错误返回错误
+  * Rusult 内部值替换
+    * map
+    * map error
+  * Result 整体修改
+    * and then
+    * or_else
+  *
