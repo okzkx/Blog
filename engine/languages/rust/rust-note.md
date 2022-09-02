@@ -2,17 +2,16 @@
 
 记录 Rust 一些需要重点理解的地方
 
-path 和 pathBuf 的关系类似 str 和 String，
+* path 和 pathBuf 的关系类似 str 和 String，
+* 模式匹配的时候字段名称，结构体名称和类名，都不能遗漏。
 
-模式匹配的时候字段名称，结构体名称和类名，都不能遗漏。
-
-借用
+## 借用
 
 * 在可变借用持续的时间内，不可再对这个变量进行借用
 * 任何借用持续的时间内不能操作原变量
 * 对借用的取值可以自动解引用，对借用的赋值需要手动解引用
 
-Result handle
+## Result handle
 
 * is_ 判断后续表达式成立
 * _and 表达式同时成立
@@ -71,4 +70,22 @@ and then，or_else 取得 result 内其中一个位置值，返回一个新的 r
   * Result 整体修改
     * and then
     * or_else
-  *
+  * 
+
+## Mut
+
+**let** **mut** x 指在栈区的 x 指向的指是可变的
+
+## Rust 中的引用
+
+1. 解引用使用 * 符号
+2. 当 T 实现了 Deref 这个 Trait ，* 符号调用 deref 函数返回的值就是解引用结果
+3. &T 是引用了 T 的一个结构体，Box `<T>`  也是一样，* 可用来消除 & 或 Box<>
+4. 一般解引用后的最终结果要是单层引用，而不能把所有权给出去，所以自己写 deref 在返回的所有权的变量前要加上 &，类似 &*x，这么写是因为不能直接把自己的变量给出去改变所有权，所以会绕一圈
+5. Option< T > 提供了方法直接对 T 进行引用相关操作，as_ref, as_deref
+6. &T 任意传入方法都不会影响到内存块所有权变更，保护内存不被随意释放
+7. 形参传入方法会自动解引用到对应需要的类型
+
+## Copy Clone
+
+[What’s the difference between Copy and Clone?](https://doc.rust-lang.org/core/marker/trait.Copy.html#whats-the-difference-between-copy-and-clone)

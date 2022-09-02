@@ -13,11 +13,6 @@
 * [Vulkan 学习笔记 - Gavin_KG](https://gavinkg.github.io/ILearnVulkanFromScratch-CN/)
 * [vulkan 简单心得 - 知乎](https://zhuanlan.zhihu.com/p/461859413)
 * [Shader modules - Vulkan Tutorial](https://vulkan-tutorial.com/Drawing_a_triangle/Graphics_pipeline_basics/Shader_modules)
-* [一张图形象理解Vulkan Sub Pass - 知乎](https://zhuanlan.zhihu.com/p/461097833)
-* [【Vulkan】那些年我们错过的Vulkan同步 - 知乎](https://zhuanlan.zhihu.com/p/436033612)
-* [Understanding Vulkan® Objects - GPUOpen](https://gpuopen.com/learn/understanding-vulkan-objects/)
-* [(35) 2017 DevU - 04 - Syncronization - YouTube](https://www.youtube.com/watch?v=YkJ4hKCPjm0&t=2225s)
-* [Yet another blog explaining Vulkan synchronization – Maister&#39;s Graphics Adventures](http://themaister.net/blog/2019/08/14/yet-another-blog-explaining-vulkan-synchronization/)
 
 ## Comparison
 
