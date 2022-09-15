@@ -9,17 +9,16 @@ description: 学习，记录，分享
 
 ### 日常计划
 
-* Rust 数据结构
-* top down 调研
+* gltf Skin mesh
 
 #### 目标计划
 
 - P0
   - [Games 104](https://www.bilibili.com/video/BV12Z4y1B7th)
   - Blender
-  - Rust 练习
 - P1
   - UE5
+  - Rust 数据结构
 - P2
   - 特效
   - UIWidges
