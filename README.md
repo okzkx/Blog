@@ -16,17 +16,12 @@ description: 学习，记录，分享
 #### 目标计划
 
 - P0
-  --
-
-
   - 照相笔记
   - 照相书 2
   - Dots
 - P1
-
   - [Games 104](https://www.bilibili.com/video/BV12Z4y1B7th)
 - P2
-
   - [AI 绘画](https://www.bilibili.com/video/BV1aN4y1A7j1/?vd_source=ebf06d572d5366b5ef7bc5032fefb08d)
   - 特效
   - UE5
