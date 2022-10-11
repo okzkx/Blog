@@ -13,6 +13,9 @@
 * [Vulkan 学习笔记 - Gavin_KG](https://gavinkg.github.io/ILearnVulkanFromScratch-CN/)
 * [vulkan 简单心得 - 知乎](https://zhuanlan.zhihu.com/p/461859413)
 * [Shader modules - Vulkan Tutorial](https://vulkan-tutorial.com/Drawing_a_triangle/Graphics_pipeline_basics/Shader_modules)
+* [Vulkan 学习指南 - 知乎](https://www.zhihu.com/column/c_1033291907413250048)
+* [【GPU】目录与前言 - 知乎](https://zhuanlan.zhihu.com/p/403345668)
+* 
 
 ## Comparison
 
@@ -24,3 +27,4 @@
 # Others
 
 * [What’s your Vulkan Memory Type? | NVIDIA Developer](https://developer.nvidia.com/what’s-your-vulkan-memory-type)
+* [Understanding Vulkan® Objects - GPUOpen](https://gpuopen.com/learn/understanding-vulkan-objects/)
