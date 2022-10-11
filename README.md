@@ -9,8 +9,7 @@ description: 学习，记录，分享
 
 ### 日常计划
 
-* vulkan util
-* muti skin
+* muti skin0
 
 #### 目标计划
 
