@@ -18,6 +18,10 @@
 
 * extremely detailed CG unity 8k wallpaper,black long hair,cute face,1 adlut girl,happy, green skirt dress, flower pattern in dress,solo,green gown,art of light novel,in field
 * 1girl, beadbracelet, beads, blackheadwear, bootao(genshin, bracelet, brownhair, brownshirt, bug, butterfly, clothing, female, flower, ghost, hat, hatflower, headwear, jewelry, longhair, longsleeves, lookingatviewer, openmouth, open-mouthsmile, redeyes, ring, shirt, smile, solo, star, star-shapedpupils, star(symbol), symbol-shapedpupils, thighs,
+* 约稿 1 girl, jelly, shouder bearness, kneeling, face to viewer, sweat, blush
+* 约稿 black long hear, extremely detailed CG unity 8k wallpaper, 1 adlut girl, in street, milky tea on hands, cute face, art of light novel, {snowflake}, sweet face, happy, thighs
+* 约稿 game_cg, witch, pumpkin head, gothic_lolita, eyepatch, robe, bandages, devils, halloween, navel
+
 
 ### bad
 
