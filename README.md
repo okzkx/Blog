@@ -11,6 +11,7 @@ description: 学习，记录，分享
 
 * Dots
 * Material
+* 删掉私信 tag
 
 #### 目标计划
 
@@ -20,7 +21,7 @@ description: 学习，记录，分享
 - P1
   - [Games 104](https://www.bilibili.com/video/BV12Z4y1B7th)
 - P2
-  - [AI 绘画](https://www.bilibili.com/video/BV1aN4y1A7j1/?vd_source=ebf06d572d5366b5ef7bc5032fefb08d)
+  - [AI 绘画]()
   - 特效
   - UE5
   - UIWidges
