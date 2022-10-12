@@ -61,7 +61,7 @@ Unity/Editor/Data/Tools/binary2text
 
 **引擎端**
 
-Unity C++ 端的引擎根据序列化后的文件 Library 赋值给 C\# Monobehaviour 实例化
+Unity C++ 端的引擎根据序列化后的文件 Library 赋值给 C# Monobehaviour 实例化
 
 Script Asset 转化到 Library 中的程序集。
 
@@ -79,7 +79,7 @@ Unity 后端进入 Play Mode 后从 Library 处
 
 [Unity 的 Asset 管理和序列化](https://connect.unity.com/p/unity-de-asset-guan-li-he-xu-lie-hua)
 
-[\[官方直播\] 详解Unity Asset的一生](https://www.bilibili.com/video/BV1Wv41167i2)
+[[官方直播] 详解Unity Asset的一生](https://www.bilibili.com/video/BV1Wv41167i2)
 
 ### AssetBundle
 
@@ -91,7 +91,7 @@ Unity 后端进入 Play Mode 后从 Library 处
 
 [Unity 资源管理 AssetBundle使用详解](https://zhuanlan.zhihu.com/p/102273941)
 
-[\[2018 TGDF\] AssetBundle 细节解析](https://www.bilibili.com/video/BV17t411H74C?t=2)
+[[2018 TGDF] AssetBundle 细节解析](https://www.bilibili.com/video/BV17t411H74C?t=2)
 
 **siki 学院**
 
@@ -104,10 +104,10 @@ Unity 后端进入 Play Mode 后从 Library 处
 
 **基于 AssetBundle 的资源加载框架**
 
-* [_游戏底层资源管理加载框架_\(一\) ------ 架构以及预备知识](https://blog.csdn.net/dengshunhao/article/details/84831760?ops_request_misc=%7B%22request%5Fid%22%3A%22159427655319724845061952%22%2C%22scm%22%3A%2220140713.130102334.pc%5Fblog.%22%7D&request_id=159427655319724845061952&biz_id=0&utm_medium=distribute.pc_search_result.none-task-blog-2~blog~first_rank_v2~rank_blog_v1-1-84831760.pc_v2_rank_blog_v1&utm_term=游戏底层资源管理加载框架)
-* [_游戏底层资源管理加载框架_\(二\) ------ AssetBundle打包管理](https://blog.csdn.net/dengshunhao/article/details/84889498?ops_request_misc=%7B%22request%5Fid%22%3A%22159427655319724845061952%22%2C%22scm%22%3A%2220140713.130102334.pc%5Fblog.%22%7D&request_id=159427655319724845061952&biz_id=0&utm_medium=distribute.pc_search_result.none-task-blog-2~blog~first_rank_v2~rank_blog_v1-3-84889498.pc_v2_rank_blog_v1&utm_term=游戏底层资源管理加载框架)
-* [_游戏底层资源管理加载框架_\(三\) ------ 基于AssetBundle的资源管理池](https://blog.csdn.net/dengshunhao/article/details/85332361?ops_request_misc=%7B%22request%5Fid%22%3A%22159427655319724845061952%22%2C%22scm%22%3A%2220140713.130102334.pc%5Fblog.%22%7D&request_id=159427655319724845061952&biz_id=0&utm_medium=distribute.pc_search_result.none-task-blog-2~blog~first_rank_v2~rank_blog_v1-4-85332361.pc_v2_rank_blog_v1&utm_term=游戏底层资源管理加载框架)
-* [_游戏底层资源管理加载框架_\(四\) ------ ResourceManager](https://blog.csdn.net/dengshunhao/article/details/85333935?ops_request_misc=%7B%22request%5Fid%22%3A%22159427655319724845061952%22%2C%22scm%22%3A%2220140713.130102334.pc%5Fblog.%22%7D&request_id=159427655319724845061952&biz_id=0&utm_medium=distribute.pc_search_result.none-task-blog-2~blog~first_rank_v2~rank_blog_v1-2-85333935.pc_v2_rank_blog_v1&utm_term=游戏底层资源管理加载框架)
+* [_游戏底层资源管理加载框架_(一) ------ 架构以及预备知识](https://blog.csdn.net/dengshunhao/article/details/84831760?ops_request_misc=%7B%22request%5Fid%22%3A%22159427655319724845061952%22%2C%22scm%22%3A%2220140713.130102334.pc%5Fblog.%22%7D&request_id=159427655319724845061952&biz_id=0&utm_medium=distribute.pc_search_result.none-task-blog-2~blog~first_rank_v2~rank_blog_v1-1-84831760.pc_v2_rank_blog_v1&utm_term=游戏底层资源管理加载框架)
+* [_游戏底层资源管理加载框架_(二) ------ AssetBundle打包管理](https://blog.csdn.net/dengshunhao/article/details/84889498?ops_request_misc=%7B%22request%5Fid%22%3A%22159427655319724845061952%22%2C%22scm%22%3A%2220140713.130102334.pc%5Fblog.%22%7D&request_id=159427655319724845061952&biz_id=0&utm_medium=distribute.pc_search_result.none-task-blog-2~blog~first_rank_v2~rank_blog_v1-3-84889498.pc_v2_rank_blog_v1&utm_term=游戏底层资源管理加载框架)
+* [_游戏底层资源管理加载框架_(三) ------ 基于AssetBundle的资源管理池](https://blog.csdn.net/dengshunhao/article/details/85332361?ops_request_misc=%7B%22request%5Fid%22%3A%22159427655319724845061952%22%2C%22scm%22%3A%2220140713.130102334.pc%5Fblog.%22%7D&request_id=159427655319724845061952&biz_id=0&utm_medium=distribute.pc_search_result.none-task-blog-2~blog~first_rank_v2~rank_blog_v1-4-85332361.pc_v2_rank_blog_v1&utm_term=游戏底层资源管理加载框架)
+* [_游戏底层资源管理加载框架_(四) ------ ResourceManager](https://blog.csdn.net/dengshunhao/article/details/85333935?ops_request_misc=%7B%22request%5Fid%22%3A%22159427655319724845061952%22%2C%22scm%22%3A%2220140713.130102334.pc%5Fblog.%22%7D&request_id=159427655319724845061952&biz_id=0&utm_medium=distribute.pc_search_result.none-task-blog-2~blog~first_rank_v2~rank_blog_v1-2-85333935.pc_v2_rank_blog_v1&utm_term=游戏底层资源管理加载框架)
 
 **可能存在的问题**
 

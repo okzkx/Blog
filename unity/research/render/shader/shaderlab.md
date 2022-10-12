@@ -10,7 +10,7 @@
 
 [Unity shader中的#if和#ifdef - 简书](https://www.jianshu.com/p/8006145bb01e)
 
-[(13条消息) 【Unity Shader】自定义材质面板的小技巧_candycat-CSDN博客_shader 面板](https://blog.csdn.net/candycat1992/article/details/51417965)
+[【Unity Shader】自定义材质面板的小技巧_candycat](https://blog.csdn.net/candycat1992/article/details/51417965)
 
 [Shader面板上常用的一些内置Enum - 知乎](https://zhuanlan.zhihu.com/p/93194054)
 

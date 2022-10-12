@@ -39,10 +39,10 @@ IJobForEachExtensions :: IBaseJobForEach.Schedule()
 
 ![A ParallelFor job dividing batches across cores](https://docs.unity3d.com/uploads/Main/jobsystem_parallelfor_job_batches.svg)
 
-#### 4 个泳道，MainThread , C\# JobSystem, Job Queue, Native Job System
+#### 4 个泳道，MainThread , C# JobSystem, Job Queue, Native Job System
 
 * MainThread 创建作业，安排作业依赖
-* C\# JobSystem 将所有将调度的作业分成 Batch
+* C# JobSystem 将所有将调度的作业分成 Batch
 * Job Queue 将所有将调度的 Batch 分为 Native job， Native job 为cup 核心的作业执行单元
 * Native Job System 将所有 Native job 按照顺序和依赖调度给空闲的线程执行
 

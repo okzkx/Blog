@@ -18,7 +18,7 @@ Stack 分配给默认实例化的值类型，包括结构体和地址。
 
 ### Heap
 
-Heap 分配给 new 出来的类型（注意：C\# new Struct 是在 Stack，而 C++ new Struct 是在 Heap）
+Heap 分配给 new 出来的类型（注意：C# new Struct 是在 Stack，而 C++ new Struct 是在 Heap）
 
 在不确定的时间由 CLR 回收所有未受到引用的实例化后的对象，这操作称为 GC。
 
@@ -28,9 +28,9 @@ Heap 分配给 new 出来的类型（注意：C\# new Struct 是在 Stack，而 
 
 这边的实例化后的内存占用不会被自动释放。
 
-在语言设计方面，C\# 不允许在 Native 处申請分配内存，因为这可能会导致内存泄漏。
+在语言设计方面，C# 不允许在 Native 处申請分配内存，因为这可能会导致内存泄漏。
 
-UnityEngine 利用 C\# 的 unsafe 代码，构建出了 NativeContainer 系列结构。
+UnityEngine 利用 C# 的 unsafe 代码，构建出了 NativeContainer 系列结构。
 
 NativeContainer 在 Native 区域分配和释放内存。
 

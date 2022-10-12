@@ -14,9 +14,9 @@
 
 [CMakeLists.txt的写法 - stardsd - 博客园](https://www.cnblogs.com/sddai/p/10328977.html)
 
-[(14条消息) CMakeLists.txt 语法介绍与实例演练_阿飞__的博客-CSDN博客_cmakelist](https://blog.csdn.net/afei__/article/details/81201039)
+[CMakeLists.txt 语法介绍与实例演练_阿飞__的博客](https://blog.csdn.net/afei__/article/details/81201039)
 
-[(14条消息) 【CMake】cmake的add_custom_command和add_custom_target指令_Yngz_Miao的博客-CSDN博客_add_custom_command](https://blog.csdn.net/qq_38410730/article/details/102797448)
+[【CMake】cmake的add_custom_command和add_custom_target指令_Yngz_Miao的博客](https://blog.csdn.net/qq_38410730/article/details/102797448)
 
 [cmake：添加自定义操作 - 知乎](https://zhuanlan.zhihu.com/p/95771200)
 
@@ -34,7 +34,7 @@
 
 [conan-io/conan: Conan - The open-source C/C++ package manager](https://github.com/conan-io/conan)
 
-[(14条消息) conan-c++包管理工具安装及使用指南_早睡的叶子的博客-CSDN博客_conan](https://blog.csdn.net/sexyluna/article/details/115428572)
+[conan-c++包管理工具安装及使用指南_早睡的叶子的博客](https://blog.csdn.net/sexyluna/article/details/115428572)
 
 [C++ 包管理器 conan (wtih cmake) 简介 - 知乎](https://zhuanlan.zhihu.com/p/308733954)
 

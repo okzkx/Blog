@@ -38,4 +38,4 @@
 
 [Hermite （埃尔米特）曲线 - 那些消散不去的是寂寞 - 博客园](https://www.cnblogs.com/jqm304775992/p/5044728.html)
 
-[(13条消息) Hermite 与 Bezier 曲线的转换公式_Hustlion 的技术博客-CSDN博客_hermite转bezier](https://blog.csdn.net/techfield/article/details/113744152)
+[Hermite 与 Bezier 曲线的转换公式_Hustlion 的技术博客](https://blog.csdn.net/techfield/article/details/113744152)
