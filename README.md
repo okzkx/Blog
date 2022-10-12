@@ -9,9 +9,8 @@ description: 学习，记录，分享
 
 ### 日常计划
 
+* Drop
 * Dots
-* Material
-* 删掉私信 tag
 * Funny Land
 
 #### 目标计划
