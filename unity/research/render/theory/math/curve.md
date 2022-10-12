@@ -32,7 +32,7 @@
 
 [Bezier曲线与Catmull-Rom曲线](https://blog.csdn.net/u012154588/article/details/98977717)
 
-[(2 封私信) 如何得到贝塞尔曲线的曲线长度和 t 的近似关系？ - 知乎](https://www.zhihu.com/question/27715729)
+[ 如何得到贝塞尔曲线的曲线长度和 t 的近似关系？ - 知乎](https://www.zhihu.com/question/27715729)
 
 [三阶贝塞尔曲线一分为二的一般公式](http://www.360doc.com/content/16/0101/20/1489589\_524673502.shtml)
 

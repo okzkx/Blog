@@ -22,7 +22,7 @@
 
 [Brian Will - YouTube](https://www.youtube.com/channel/UCseUQK4kC3x2x543nHtGpzw)
 
-[(43 封私信 / 81 条消息) 游戏《戴森球计划》这么火，它的一些细节在技术上是怎么实现的？ - 知乎](https://www.zhihu.com/question/442555442/answer/1711890146)
+[ 游戏《戴森球计划》这么火，它的一些细节在技术上是怎么实现的？ - 知乎](https://www.zhihu.com/question/442555442/answer/1711890146)
 
 ## Hybrid Renderer
 
