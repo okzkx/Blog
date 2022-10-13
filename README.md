@@ -9,9 +9,7 @@ description: 学习，记录，分享
 
 ### 日常计划
 
-* Drop
-* Dots
-* Funny Land
+* 动画文档
 
 #### 目标计划
 
@@ -24,7 +22,7 @@ description: 学习，记录，分享
   - [AI 绘画]()
   - 特效
   - UE5
-  - UIWidges
+  - UIWidgets
   - Addressable
   - 微积分
   - [GAMES103-基于物理的计算机动画入门](https://www.bilibili.com/video/BV12Q4y1S73g)
