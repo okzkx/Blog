@@ -22,7 +22,6 @@
 * 约稿 black long hear, extremely detailed CG unity 8k wallpaper, 1 adlut girl, in street, milky tea on hands, cute face, art of light novel, {snowflake}, sweet face, happy, thighs
 * 约稿 game_cg, witch, pumpkin head, gothic_lolita, eyepatch, robe, bandages, devils, halloween, navel
 
-
 ### bad
 
 * lowres, bad anatomy, bad hands, text, error, missing fingers, extra digit, fewer digits, cropped, worst quality, low quality, normal quality, jpeg artifacts, signature, watermark, username, blurry
@@ -51,3 +50,7 @@ drawn anus, bad collarbone, fused collarbone, missing collarbone, liquid collarb
 约稿 orgy, inside,pussy，sleeping,, girl，dog，fuck，missionary position, naked, tits,, pussy， miku，fuck，cat
 
 约稿 beautiful mature female, 1885 Victorian dress with {{{bustle}}}, hair bun, lips, garden, sunlight, {{{{{{{{detailed}}}}}}}}, {{{{{{{{by Steve Henderson}}}}}}}}, {{{{{{{{by Paul Hedley}}}}}}}}, {{{{{{{{by Andrew Atroshenko}}}}}}}}
+
+prompt = blasphemy, mysterious, sacred, holy, divine, antichrist, illustration, {mechanicalmonster)), fextremely detailed cgl, non-humanoid, {fremus god machine-fenrirl), masterpiece, powerful, extremely detailed cg unity 8k wallpaper, art oflight, artist style, hyper machine. transformation by mechanization, mechanicalweapon, masterpiece, best quality
+
+约稿 blasphemy, mysterious,sacred, holy, divine,antichrist, illustration,{MechanicalMonster)), fextremely detailed cgl, non-humanoid,{fRemus GOD machine-Fenrirl), masterpiece, powerful,extremely detailed CG unity 8k wallpaper,art oflight, artist style, hyper machine. Transformation by mechanization, Mechanicalweapon
