@@ -14,13 +14,11 @@ description: 学习，记录，分享
 #### 目标计划
 
 - P0
-  - 照相笔记
-  - 照相书 2
-- P1
   - [Games 104](https://www.bilibili.com/video/BV12Z4y1B7th)
-- P2
-  - 特效
+- P1
   - UE5
+  - 特效
+- P2
   - UIWidgets
   - Addressable
   - 微积分
