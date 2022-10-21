@@ -24,6 +24,8 @@
 
 [ 游戏《戴森球计划》这么火，它的一些细节在技术上是怎么实现的？ - 知乎](https://www.zhihu.com/question/442555442/answer/1711890146)
 
+[flecs 是⼀个 c 写的 ECS 框架](https://github.com/SanderMertens/flecs)
+
 ## Hybrid Renderer
 
 [Unity大世界超多物体渲染---BatchRendererGroup - 知乎](https://zhuanlan.zhihu.com/p/105616808)
