@@ -5,8 +5,12 @@
 * [Unity - Manual: Material charts](https://docs.unity3d.com/Manual/StandardShaderMaterialCharts.html)
 * [Physically Based - The PBR values database](https://physicallybased.info/)
 
-
 ## 参考项目源码
 
-* **[Vulkan](https://github.com/SaschaWillems/Vulkan)**
+* [Vulkan](https://github.com/SaschaWillems/Vulkan)
 * [filament](https://github.com/google/filament)
+
+## Filament
+
+* [Filament](https://google.github.io/filament/Filament.html)
+* [Materials](https://google.github.io/filament/Materials.html)
