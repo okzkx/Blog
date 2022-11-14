@@ -82,3 +82,78 @@ Unreal Animation Blueprint
 
 - 各个动画 Clip 通过中间节点混合
 - 通过外部变量来控制中间节点的功能
+
+## IK
+
+反向动力学
+
+- IK (Inverse Kinematics)
+- FK (Forward Kinematics)
+
+### Two Bones IK
+
+3D space
+
+![image.png](assets/two-bones-ik.png)
+
+Complexity of Multi-Joint IK Solving
+
+### Constraints of joints
+
+![image.png](assets/constraints-of-joints.png)
+
+### Heuristics Algorithm
+
+- CCD （Cyclic Coordinate Decent） 迭代
+- FABRIK (Forward And Backward Reaching Inverse Kinematics)
+
+Multiple End-Efectors
+
+多控制点
+
+##### Jacobian Matrix 雅可比矩阵
+
+approaching to target step
+
+Other IK
+
+- Physics-based
+- PBD
+- Fullboody
+
+IK is still Challenge
+
+- Self collisioin avoidace
+- IK with predication during moving
+- Natural human behaviour
+
+## Facial Animation
+
+Facial Action Coding System
+
+- 表情系统，46 个表情单元，Action Units Combination
+- 28 Core Action Unit，28 个核心表情单元，删去了对称的表情
+- Key Pose Blending，简单的对表情过度进行线性叠加，称为 Morph Target Animation，
+- 大的动作，眼球，捏脸，用骨骼动画
+
+表情动画系统
+
+- Morph Target Animation，
+- Bone Animation
+- UV Texture Facial Animation
+- Muscle Model Animation
+
+## Shade Animation Among Charactor
+
+- 动画重定向
+  - source charactor -> target animation
+  - 需要应用的是动画相对父节点的位移，local space trans
+- Align movement by pelvis height
+  - 需要骨骼动画频率一致
+  - 两个角色体型差很多的情况下
+- Lock Feet by IK after Retargeting
+  - 使用 IK 把脚锁在地面
+- Retargeting with Different Skeleton Hierarchy
+  - 骨骼无法一一对应
+  - Easy Solution
+  - Morph Animation Retargeting problem
