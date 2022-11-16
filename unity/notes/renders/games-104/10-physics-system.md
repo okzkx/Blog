@@ -71,3 +71,66 @@ Solar System movement
 - 半隐式欧拉积分,结果最稳定
 
 ![image.png](assets/Semi-implicit-eular.png)
+
+## Rigid Body dynamic
+
+假设所有的对象都是质点,质点动力学
+
+![image.png](assets/practical-dynamic.png)
+
+刚体动力学，
+
+![image.png](assets/rigibody-dynamic.png)
+
+Rotational Inertia 转动惯量
+
+![image.png](assets/rotational.png)
+
+Angular momenturn 角动量守恒
+
+![image.png](assets/angular-momenturn.png)
+
+力臂越长，转动惯量越大，角速度越小
+
+Torque 力矩
+
+![image.png](assets/torque.png)
+
+![image.png](assets/angular-linear.png)
+
+
+Colliction Detection
+
+碰撞检测
+
+Two Phases
+
+- Broad phase
+  - Find intersectied rigid body AABBs
+  - Potentianl overlapped rigid body pairs
+- Narrow phase
+  - Detect overlapping precisely
+  - Generate contact information
+
+![image.png](assets/two-phases.png)
+
+
+#### Broad Phase
+
+- BVH Tree 树状结构存储 AABB ，更新成本低，一个物体移动只要更新一到两个节点
+- Sort and Sweep ：对各个轴向排序，判断是否在某个轴上是否重叠。更新成本更低。
+
+#### 基础的碰撞检测算法使用
+
+##### Minkowski Difference-based Methods
+
+- Minkowski Sum 闵可夫和
+- Minkowski Difference 闵可夫减法
+
+
+
+- 闵可夫和和减生成的图形都是闭包
+- 闵可夫减所表示的图形如果有过原点，说明这两个图形存在交点
+  - GJK 算法，迭代判断三角形是否包括原点
+- SAT 算法，两个凸多面体不相交，一定沿着一个凸多面体一条边，另外一个多面体所有顶点在另外一侧。
+  - 3D 需要使用面来判断，还要面中间的边判断
