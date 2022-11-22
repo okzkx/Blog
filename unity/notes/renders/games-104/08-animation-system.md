@@ -188,3 +188,76 @@ T-pose 肩膀皮肤会被挤压，A-pose 现在更加适合
 ![1656587250681](image/08-animation-system/1656587250681.png)
 
 ![1656587379769](image/08-animation-system/1656587379769.png)
+
+## 蒙皮动画的实现：关节和蒙皮
+
+### Skinning
+
+* Skinning Matrix
+* Skinning Matrix Palete
+* Representing a Skeleton in Memory
+
+### Clip
+
+clip : asequence of skeleton poses,动作序列
+
+### interpolation between poses
+
+#### linear interpolation (LERP)
+
+#### quaternion interpolation
+
+旋转插值是在线性插值基础上加向量归一化
+
+![image.png](./assets/image1234.png)
+
+需要选择最短路径插值
+
+![image.png](./assets/1666487959904-image.png)
+
+插值时圆弧上移动速度不一致
+
+SLERP : Uniform Rotation Interpolation
+
+夹角的角度插值
+
+SLERP 比较费，在比较明显的地方用 SLERP，不明显用 NLERP
+
+![image.png](./assets/1666488264981-image.png)
+
+实时动画系统
+
+![image.png](./assets/1666488322927-image.png)
+
+## Animation Compression
+
+动画压缩
+
+![image.png](./assets/1666490144859-image.png)
+
+动画一秒要存 30 帧，数据量大
+
+大部分骨骼在 LocalSpace 数据是不变的，同时大部分数据是旋转。
+
+### Keyframe
+
+通过不均等的某些帧的关键帧，插值采样出当前帧数据
+
+#### Catmull-Rom Spline
+
+线性插值不平滑，使用样条曲线插值来使插值出来的结果平滑
+
+Float Quatization
+
+浮点数需要 32 位，可以使用 16 位的定点数来代替这个浮点数。
+
+Error Propagation
+
+压缩后由于每个 LocalPostion 都有精度问题，所以传到骨骼末端误差很大
+
+### Animation DCC Process
+
+* 动画制作流程，Lowpoly mesh 做动画，
+* 关节需要额外顶顶点，防止网格变形
+* 骨骼绑定，加武器骨骼，
+* 蒙皮，自动蒙皮
