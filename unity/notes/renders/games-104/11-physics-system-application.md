@@ -26,3 +26,9 @@ vs Rigid Body
 把关节加上铰链和 rigidbody，同时要制定旋转约束
 
 ![image.png](assets/human-joint-constraints.png)
+
+## 车辆载具
+
+- 轮胎
+- 悬挂
+- 车身
