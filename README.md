@@ -9,14 +9,11 @@ description: 学习，记录，分享
 
 ### 日常计划
 
-* 
-
 #### 目标计划
 
 - P0
   - [Games 104](https://www.bilibili.com/video/BV12Z4y1B7th)
 - P1
-  - 特效
 - P2
   - UIWidgets
   - Addressable
