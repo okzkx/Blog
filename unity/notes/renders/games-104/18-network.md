@@ -1,0 +1,82 @@
+﻿# Network
+
+- Network Synchronization
+- Reliability
+  - Network latency
+  - Drop and Reconnect
+- Security
+  - Cheat
+  - Account hacked
+- Diversities
+  - 跨平台
+  - 热更新
+- Complexities 复杂性
+
+![image.png](assets/online-outline.png)
+
+#### OSI Model
+
+![image.png](assets/osi.png)
+
+Network Socket-based Communication
+
+### Transmissin Control Protocol (TCP)
+
+安全可靠的长连接
+
+Tcp congestion control
+
+使用 congestion window (CWND) 进行流量控制
+
+### User Datagram Protocol (UDP)
+
+端到端协议，不安全的短连接
+
+### Compare
+
+![image.png](assets/network-protocol-compare.png)
+
+UDP 快速实时响应，其他用 TCP
+
+### Reliable UDP
+
+TCP is not time critical
+
+基于 udp 构建可靠链接，自己写或者使用第三方
+
+![image.png](assets/need.png)
+
+如何建立可靠通讯
+
+![image.png](assets/udp-custom.png)
+
+1. 确认收到
+2. 什么没有收到
+3. 序列号
+4. 过时
+
+Sliding window protocol
+
+滑动窗口协议
+
+一次发送窗口内的所有包体，有包没有回应就重传该窗口
+
+### Forward Error Correction (FEC)
+
+xor-fec
+
+![image.png](assets/xor-fec.png)
+
+异或出唯一缺失的包，并重传
+
+#### Reed-Solomon Codes 多包恢复
+
+![image.png](assets/reed-solomon.png)
+
+构建 B 矩阵
+
+B 矩阵任意抽调 3 行，都是可逆矩阵
+
+通过冗余数据 C，和抽调后的逆矩阵 B'，可以恢复原始信息
+
+![image.png](assets/custom-udp.png)
