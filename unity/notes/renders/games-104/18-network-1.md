@@ -80,3 +80,39 @@ B 矩阵任意抽调 3 行，都是可逆矩阵
 通过冗余数据 C，和抽调后的逆矩阵 B'，可以恢复原始信息
 
 ![image.png](assets/custom-udp.png)
+
+## Clock Synchronization
+
+时钟同步
+
+RTT
+
+![image.png](assets/RTT.png)
+
+### Network Time Protocol
+
+NTP Algorithm
+
+![image.png](assets/ntp-algorithm.png)
+
+多次 RTT，丢弃不可靠 RTT，计算 Offset，对其时钟
+
+### Remote Procedure Call RPC
+
+彼此通信，OSM 模型，Socket 不适合写游戏业务逻辑
+
+远程调用方法适合游戏
+
+应用层写起来简单
+
+#### Interface Definition Language（IDL）
+
+Protobuf ：Google 的数据定义格式
+
+#### RPC Stubs
+
+票据存根，客户端和服务端建立连接后，注册好所有的 RPC
+
+#### Stub compiler
+
+把 IDL 编译成为对应的语言传输结构
