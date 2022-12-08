@@ -6,6 +6,7 @@
 * [人物角色 2d素材 免费下载 - 爱给网](https://www.aigei.com/s?dim=persona&type=2d)
 * [Quixel Megascans](https://quixel.com/megascans/collections)
 * [sketchfab](https://sketchfab.com/)
+* [Scenario AI](https://www.scenario.gg/)
 
 ## 天空盒
 
