@@ -13,3 +13,7 @@
 [Chapter 2. Terrain Rendering Using GPU-Based Geometry Clipmaps | NVIDIA Developer](https://developer.nvidia.com/gpugems/gpugems2/part-i-geometric-complexity/chapter-2-terrain-rendering-using-gpu-based-geometry)
 
 [Adaptive Virtual Texture Rendering In Far Cry 4](https://ubm-twvideo01.s3.amazonaws.com/o1/vault/gdc2015/presentations/Chen\_Ka\_AdaptiveVirtualTexture.pdf)
+
+### Shader 地形
+
+[Painting a Landscape with Maths](https://www.youtube.com/watch?v=BFld4EBO2RE&t=1414s)
