@@ -18,10 +18,6 @@
 
 [Tools Tutorial Day: A Tale ofThree Data Schemas](https://www.gdcvault.com/play/1025284/Tools-Tutorial-Day-A-Tale)
 
-### Toml
-
-[Project Anni 之旅（2）ValueAfterTable——toml-rs的实现与限制 – (o・∇・o)](https://blog.mmf.moe/post/project-anni-02-toml-rs-value-after-table/)
-
 ## 物理
 
 [【游戏流体力学基础及Unity代码（一）】热传导方程](https://zhuanlan.zhihu.com/p/263053689)
