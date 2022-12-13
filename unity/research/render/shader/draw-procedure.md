@@ -1,1 +1,0 @@
-﻿# Draw procedure
