@@ -12,8 +12,13 @@ description: 学习，记录，分享
 #### 目标计划
 
 - P0
-  - Rust 光线追踪
-  - Rust imgui
+  - 写作
+    - Rust 光线追踪
+    - Rust imgui
+  - 学习
+    - Games 202 DFG
+    - Vulkan image barrier
+    - kajiya 源码
 - P1
 - P2
   - UIWidgets
