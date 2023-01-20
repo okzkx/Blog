@@ -18,7 +18,13 @@ description: 学习，记录，分享
   - 学习
     - Games 202 DFG
     - Vulkan image barrier
-    - kajiya 源码
+    - kajiya
+      - rust gpu
+      - 用到的库
+    - gltf-viewer-rs
+      - dynamic rendering
+      - align
+    - poll-promise 
 - P1
 - P2
   - UIWidgets
