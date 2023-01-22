@@ -24,7 +24,7 @@ description: 学习，记录，分享
     - gltf-viewer-rs
       - dynamic rendering
       - align
-    - poll-promise 
+    - poll-promise 多线程背景工作
 - P1
 - P2
   - UIWidgets
