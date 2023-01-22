@@ -25,6 +25,7 @@ description: 学习，记录，分享
       - dynamic rendering
       - align
     - poll-promise 多线程背景工作
+    - Filament 理论
 - P1
 - P2
   - UIWidgets
