@@ -3,10 +3,9 @@
 ## 计划
 
 - P0
-  - Blog 整理，game tech
   - 学习
-    - Games 202，5~11
-    - Vulkan image barrier
+    - Games 202，5~6
+    - Vulkan image barrier, sync
     - Filament 理论
 - P1
   - 写作
