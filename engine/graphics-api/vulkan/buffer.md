@@ -1,4 +1,4 @@
-# Buffer
+# buffer
 
 1. Vertex Buffer : Device visit, stable,
 2. Joint Matrix Buffer: Host visit, global same
