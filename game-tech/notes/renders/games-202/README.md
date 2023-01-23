@@ -38,10 +38,10 @@
 #### Issues in Shadow Mapping
 
 1. Self occlusion ：shadowmap 分辨率造成自遮挡条纹，shadow map 上一个像素表示的表面距离只是实际表示平面的中心点距离![image-20220309185934736](games-202.assets/image-20220309185934736.png)
-   1. Bias 解决自遮挡问题，会有漏光问题
-   2. Second-depth shadow mapping，实际上没人用
+    1. Bias 解决自遮挡问题，会有漏光问题
+    2. Second-depth shadow mapping，实际上没人用
 2. Aliasing ：shadow map 分辨率造成锯齿，
-   1. 使用级联阴影解决，cascade shadow map 
+    1. 使用级联阴影解决，cascade shadow map
 
 ### Inequalities in Calculus (WIT)
 
@@ -51,7 +51,7 @@
 
 使用卷积核，对 shadow map 比较后的结果进行平均
 
-1. compare its depth with all pixels in the box 
+1. compare its depth with all pixels in the box
 2. get the compared results
 3. take avg to get visibility atten
 
@@ -70,19 +70,20 @@ Slow steps
 1. 像素点 Blocker 太大导致采样多速度慢
 2. 通过稀疏采样提速，可能出现 Flicker，每帧的噪声不同导致画面抖动
 
-####  Variance soft shadow mapping (VSM)
+#### Variance soft shadow mapping (VSM)
 
 使用正态分布近似 Blocker 中的阴影分布
 
 Quickly compute the mean and variance of depths in an area
 
 - Mean : Map pre compute
-  - Hardware  MIPMAPing
-  - Summed Area Tables （SAT）
 
+    - Hardware  MIPMAPing
+    - Summed Area Tables （SAT）
 - Variance
-  - Var(X) = E(X^2) - E(X)^2
-  - generate a square-depth map along with the shadow map
+
+    - Var(X) = E(X^2) - E(X)^2
+    - generate a square-depth map along with the shadow map
 
 ##### Function
 
@@ -140,12 +141,12 @@ Sum Area Table ，提前保存累加信息到纹理上来支持大范围查找
 受光强度可以通过最小 SDF 距离得到。
 
 - Pros
-  - Fast
-  - High quality
+    - Fast
+    - High quality
 - Cons
-  - Precomputation
-  - heavy stoage
-  - Artifact
+    - Precomputation
+    - heavy stoage
+    - Artifact
 
 ## Real-Time Environment Mapping
 
@@ -184,7 +185,7 @@ Sum Area Table ，提前保存累加信息到纹理上来支持大范围查找
 - SH 是定义在球面上的一组正交基函数 f(θ, φ)，即球面上的低频信号。
 - 三阶 SH 可以还原成模糊的 EnvMap 中的一个通道，
 - 三阶 SH 9 个系数，还原成 3 通道 EnvMap 需要 27 个系数，即 7 个 float4
-- 每个 Reflection Probe 都会使用 7 个 float4 拟合烘培好的 EnvMap 
+- 每个 Reflection Probe 都会使用 7 个 float4 拟合烘培好的 EnvMap
 
 ![image-20220309191158145](games-202.assets/image-20220309191158145.png)
 
@@ -215,9 +216,9 @@ Sum Area Table ，提前保存累加信息到纹理上来支持大范围查找
 
 - 假定物体的 BRDF 是 Diffuse 的，Diffuse 的特点就是 BRDF 公式和出射方向无关，所以变成了二元公式。
 - 对所有需要用到的数据其进行预烘培成纹理，再用 SH 拟合
-  - EnvSH 环境光，对于物体所在的位置
-  - VisibilitySH 可见性，对于物体的每个顶点
-  - BRDFSH 反射函数，对于整个物体 
+    - EnvSH 环境光，对于物体所在的位置
+    - VisibilitySH 可见性，对于物体的每个顶点
+    - BRDFSH 反射函数，对于整个物体
 - 所以 VisibilitySH 占用的空间是最多的，每个顶点需要 9 个系数 （3 阶 SH 拟合出单通道结果）
 - 着色的计算就是 EnvSH * VisibilitySH * BRDFSH，非常快。
 - 通常还会把 VisibilitySH * BRDFSH 会预先计算好为一个 SH，称为 TransportSH
@@ -325,9 +326,9 @@ Sum Area Table ，提前保存累加信息到纹理上来支持大范围查找
 ##### Theory
 
 - AO 和 DO 的假设是相反的
-  - DO 假设光照来源于附近物体的反射
-  - AO 假设光照来源于非常远处，会被附近物体阻挡
 
+    - DO 假设光照来源于附近物体的反射
+    - AO 假设光照来源于非常远处，会被附近物体阻挡
 - DO 在像素点附近的采样点，向光源处 trace 光线，将结果对像素点的着色做贡献
 
 ##### result
@@ -348,10 +349,10 @@ Sum Area Table ，提前保存累加信息到纹理上来支持大范围查找
 
 - Linear Raymarch![image-20220309193237397](games-202.assets/image-20220309193237397.png)
 - Hierarchical ray march 层级步长方法
-  - 先将场景中的深度做 Mip map，不是取平均而是最小值
-  - 快速跳过不相交的格子
-  - 从低到高找到前进不会产生交点的层级
-  - 再从高到低找到有交点的最低层级，即像素
+    - 先将场景中的深度做 Mip map，不是取平均而是最小值
+    - 快速跳过不相交的格子
+    - 从低到高找到前进不会产生交点的层级
+    - 再从高到低找到有交点的最低层级，即像素
 
 ##### limitation
 
@@ -386,13 +387,13 @@ Sum Area Table ，提前保存累加信息到纹理上来支持大范围查找
 #### D : Normal Distribution Function (NDF) 法线分布函数
 
 - Backmann
-  - Similar to a Gaussian
-  - But defined on the slope space
+    - Similar to a Gaussian
+    - But defined on the slope space
 - GGX
-  - long tail
+    - long tail
 - Exxtending GGX
-  - GTR
-  - Even longer tails
+    - GTR
+    - Even longer tails
 
 ![image-20220309193351292](games-202.assets/image-20220309193351292.png)
 
@@ -504,15 +505,15 @@ Silhouette 边界，共享边且在整个物体的外边界
 - RTX 专门遍历树，GPU 遍历树较慢
 - 100 亿跟光线每秒，约等于每帧每像素一条光线
 
-#### SPP 
+#### SPP
 
 ![image-20220309184452095](games-202.assets/image-20220309184452095.png)
 
 - 光路样本
-  1. 1 rasterization primary
-  2. 1 ray primary visibility
-  3. 1 ray secondary bounce
-  4. 1 ray secondary visibility
+    1. 1 rasterization primary
+    2. 1 ray primary visibility
+    3. 1 ray secondary bounce
+    4. 1 ray secondary visibility
 - 最基本的两次弹射光路
 - 第一条 primary 等价于光栅化
 - 1 SPP 看作 3 条光线求交
@@ -531,7 +532,7 @@ Silhouette 边界，共享边且在整个物体的外边界
 - 不模糊，没 Bug，具有细节，速度快
 - 当前方法都不可能在短时间内实现
 
-#### Temporal 
+#### Temporal
 
 - 时间上的滤波，时间上的复用
 - 认为前一帧已经滤波完毕
@@ -577,16 +578,16 @@ Silhouette 边界，共享边且在整个物体的外边界
 #### Temporal Failure 时间方法的缺陷
 
 - 画面巨变，需要预热 burn-in period
-  - 换场景
-  - 镜头切换
+    - 换场景
+    - 镜头切换
 - 屏幕外信息
-  - 看前方，倒着走
+    - 看前方，倒着走
 - 出现原本被遮挡的位置
-  - 容易出现残影（拖影、鬼影）
+    - 容易出现残影（拖影、鬼影）
 - 阴影出现滞后情况
 - 反射也会出现滞后情况
-  - 任何与环境光相关的着色改变，都会出现滞后
-  - 因为在物体与环境光相对移动后，上一帧的像素着色和当前帧的输入已经是不同了，没有对当前帧贡献的意义
+    - 任何与环境光相关的着色改变，都会出现滞后
+    - 因为在物体与环境光相对移动后，上一帧的像素着色和当前帧的输入已经是不同了，没有对当前帧贡献的意义
 
 #### Adjustments to temporal failure
 
@@ -597,7 +598,7 @@ Silhouette 边界，共享边且在整个物体的外边界
 
 时间上的抗锯齿 Temporal anti-aliasing 和时间上的降噪 Temporal denoise 原理几乎是一样的
 
-### Implementation of Filtering 
+### Implementation of Filtering
 
 #### 空间上的降噪技术
 
@@ -646,7 +647,7 @@ Silhouette 边界，共享边且在整个物体的外边界
 #### Solution 1 ：Separate Passes
 
 - 将维度拆成次数
-- 减少一个维度数量级 Mnxn -> Mi x n + Mn x i 
+- 减少一个维度数量级 Mnxn -> Mi x n + Mn x i
 - 二维高斯描述为两个一维高斯相乘
 - ![image-20220309184759096](games-202.assets/image-20220309184759096.png)
 
@@ -655,7 +656,7 @@ Silhouette 边界，共享边且在整个物体的外边界
 - 使用逐步增大的滤波器
 - 同样大小的滤波器，采样的距离逐渐增大
 - 多趟统一形成大的 filter image
-- 如果滤波器大小为 5x5，采样 5 层，那么每个像素相当在一次 pass 中采样了 64 x 64 
+- 如果滤波器大小为 5x5，采样 5 层，那么每个像素相当在一次 pass 中采样了 64 x 64
 - ![image-20220309184822115](games-202.assets/image-20220309184822115.png)
 
 ##### deeper understanding
@@ -682,12 +683,12 @@ Silhouette 边界，共享边且在整个物体的外边界
 一种当期效果最好的联合双边滤波
 
 - Depth
-  - 以深度值，根据贡献函数得到对当前点的贡献
-  - 考虑贡献点在切平面法线方向上的深度，而不是朝向摄像机方向的深度
+    - 以深度值，根据贡献函数得到对当前点的贡献
+    - 考虑贡献点在切平面法线方向上的深度，而不是朝向摄像机方向的深度
 - Normal
-  - 考虑用点击代替法线纹理
+    - 考虑用点击代替法线纹理
 - Color
-  - 用灰度表示差异，用方差防止噪声，灰度或者方差越大贡献能力越低
+    - 用灰度表示差异，用方差防止噪声，灰度或者方差越大贡献能力越低
 
 #### Recurrent denoising AutoEncoder （RAE）
 
@@ -710,14 +711,14 @@ Silhouette 边界，共享边且在整个物体的外边界
 - 移动的物体使用 Motion vector 找到上一帧着色像素对应的屏幕位置
 - 对于 Jitter sampling pattern 的处理和 RTRT filter 基本一致
 
-#### Space Anti-Aliasing 
+#### Space Anti-Aliasing
 
 - SSAA ：渲染高分辨率的纹理后，双线性插值降采样
 - MSAA ：
-  - 在同个像素对于每个对这个像素参与贡献的三角形都会进行采样，在硬件光栅化的时候实现![image-20220309185035560](games-202.assets/image-20220309185035560.png)
-  - 对于采样点的复用![image-20220309185143137](games-202.assets/image-20220309185143137.png)
+    - 在同个像素对于每个对这个像素参与贡献的三角形都会进行采样，在硬件光栅化的时候实现![image-20220309185035560](games-202.assets/image-20220309185035560.png)
+    - 对于采样点的复用![image-20220309185143137](games-202.assets/image-20220309185143137.png)
 - FXAA -> MLAA -> SMAA ：基于图像的抗锯齿
-  - SMAA：图象矢量化，提取为无限分辨率，离散变连续![image-20220309185218053](games-202.assets/image-20220309185218053.png)
+    - SMAA：图象矢量化，提取为无限分辨率，离散变连续![image-20220309185218053](games-202.assets/image-20220309185218053.png)
 
 G-Buffer 不能进行抗锯齿，一定是得走样的
 
@@ -779,8 +780,3 @@ Cascaded shadow map![image-20220309185342093](games-202.assets/image-20220309185
 - DDGI，用 probe 记录并发射间接光
 - 光照探针，低模近似
 - Lumen 是全局光照，是以上方式的结合
-
-
-
-
-
