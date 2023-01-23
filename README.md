@@ -16,7 +16,7 @@ description: 学习，记录，分享
     - Rust 光线追踪
     - Rust imgui
   - 学习
-    - Games 202 DFG
+    - Games 202，5~11
     - Vulkan image barrier
     - kajiya
       - rust gpu
