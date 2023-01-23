@@ -12,13 +12,14 @@
   - 写作
     - Rust 光线追踪
     - Rust imgui
-  - 学习
-    - kajiya
-      - rust gpu
-      - 用到的库
+  - 研究 1
     - gltf-viewer-rs
       - dynamic rendering
       - align
+  - 研究 2
+    - kajiya
+      - rust gpu
+      - 用到的库
     - poll-promise 多线程背景工作
 - P2
   - Addressable
