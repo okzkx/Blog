@@ -26,6 +26,7 @@ description: 学习，记录，分享
       - align
     - poll-promise 多线程背景工作
     - Filament 理论
+  - Blog 整理，game tech
 - P1
 - P2
   - UIWidgets

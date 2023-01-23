@@ -3,11 +3,11 @@
 ## draw.io
 
 #### 个人规范
+
 - 方形：类
 - 圆角方形：对象
 - 箭头：数据流传递
 - 方框：所属区域
-
 
 ## MarkDown 制图
 
@@ -51,3 +51,9 @@ sequenceDiagram
 ## 图片压缩
 
 [图压](https://tuya.xinxiao.tech/)
+
+## 像素艺术
+
+[Palette List](https://lospec.com/palette-list)
+
+[Photopea | Online Photo Editor](https://www.photopea.com/)
