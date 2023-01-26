@@ -19,7 +19,8 @@
     - kajiya
       - rust gpu
       - 用到的库
-    - poll-promise 多线程背景工作
+    - rust 多线程
+      - poll-promise 多线程背景工作
 - P2
   - Addressable
   - [GAMES103-基于物理的计算机动画入门](https://www.bilibili.com/video/BV12Q4y1S73g)
