@@ -1,4 +1,4 @@
-﻿﻿﻿﻿﻿# 07-synchronization
+﻿﻿﻿﻿﻿﻿# 07. Synchronization
 
 - 课程 ：[Vulkan Synchronization | "Understand Fences, Semaphores, Barriers,..." | Vulkan Lecture Series Ep. 7Computer Graphics at TU Wien](https://image-1253155090.cos.ap-nanjing.myqcloud.com/ARTR2022_VK07_Synchronization.pdf)
 - 课件：[ARTR2022_VK07_Synchronization](https://image-1253155090.cos.ap-nanjing.myqcloud.com/ARTR2022_VK07_Synchronization.pdf)
