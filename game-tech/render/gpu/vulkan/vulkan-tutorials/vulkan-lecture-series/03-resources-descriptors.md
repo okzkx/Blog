@@ -1,4 +1,4 @@
-# Resources & Descriptors
+# 03. Resources & Descriptors
 
 - 课件 ： [ECG2021_VK03_ResourcesAndDescriptors](https://image-1253155090.cos.ap-nanjing.myqcloud.com/ECG2021_VK03_ResourcesAndDescriptors.pdf)
 - 课程 ：[Resources & Descriptors | "Use Buffers and Images in Vulkan Shaders" | Vulkan Lecture Series, Ep. 3](https://www.youtube.com/watch?v=5VBVWCg7riQ&list=PLmIqTlJ6KsE1Jx5HV4sd2jOe3V1KMHHgn&index=3)
