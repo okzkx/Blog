@@ -1,5 +1,11 @@
 # ZKX'S BLOG
 
+## TODO
+
+- Descriptor 优化
+- Fence 同步
+- Split sum
+
 ## 计划
 
 - P0
