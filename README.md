@@ -18,7 +18,6 @@
 
     - gltf-viewer-rs
       - dynamic rendering
-      - aligment
   - 写作
 
     - Rust 光线追踪
