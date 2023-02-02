@@ -2,8 +2,7 @@
 
 ## TODO
 
-- RTViewer
-- RenderBuffer
+- model.record cmds
 
 ## 计划
 
