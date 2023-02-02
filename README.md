@@ -2,14 +2,14 @@
 
 ## TODO
 
-- Split sum
+- RTViewer
+- RenderBuffer
 
 ## 计划
 
 - P0
 
   - 学习
-    - Games 202，IBL 相关重新计算
     - Vulkan Wu 课程重记
     - Filament 理论
 - P1
