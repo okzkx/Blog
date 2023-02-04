@@ -28,6 +28,7 @@
       - 用到的库
     - rust 多线程
       - poll-promise 多线程背景工作
+    - Rust linux
 - P2
 
   - Addressable
