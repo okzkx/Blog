@@ -2,19 +2,20 @@
 
 ## TODO
 
-- model.record cmds
+- 
 
 ## 计划
 
 - P0
-
-  - 学习
-    - Vulkan Wu 课程重记
-    - Filament 理论
+  - thread resource create
+  - light vulkan context
+  - renderer rigister
+  - renderer todo
+  - Filament 理论
 - P1
 
   - 研究 1
-
+    - rust server
     - gltf-viewer-rs
       - dynamic rendering
   - 写作
@@ -26,9 +27,6 @@
     - kajiya
       - rust gpu
       - 用到的库
-    - rust 多线程
-      - poll-promise 多线程背景工作
-    - Rust linux
 - P2
 
   - Addressable
