@@ -46,8 +46,6 @@
 
 ## Spec
 
-* [Procedural Macros - The Rust Reference](https://doc.rust-lang.org/reference/procedural-macros.html)
-* [Source Analysis - The Little Book of Rust Macros](https://veykril.github.io/tlborm/syntax-extensions/source-analysis.html)
 * [Macros - The Rust Programming Language](https://web.mit.edu/rust-lang_v1.25/arch/amd64_ubuntu1404/share/doc/rust/html/book/first-edition/macros.html)
 * [Enumerate in std::iter - Rust](https://doc.rust-lang.org/std/iter/struct.Enumerate.html)
 * [Iterator in std::iter - Rust](https://doc.rust-lang.org/std/iter/trait.Iterator.html)

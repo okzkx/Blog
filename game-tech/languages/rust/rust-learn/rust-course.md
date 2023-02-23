@@ -49,7 +49,7 @@ change(s: &String){}
 
 引用的实质就是栈内数据指针
 
-![1655781602549](image/note/1655781602549.png)
+![1655781602549](https://image-1253155090.cos.ap-nanjing.myqcloud.com/202302230904291.png)
 
 ### 可变引用
 
@@ -118,7 +118,7 @@ fn first_word(s: &String) -> &str {
 }
 ```
 
-![1655781602549](image/note/1655781602549.png)
+![1655781602549](https://image-1253155090.cos.ap-nanjing.myqcloud.com/202302230904503.png)
 
 #### 切片可以切任意集合类型
 
@@ -139,7 +139,7 @@ let slice = &a[1..3];
 
 ### 结构体的内存排列
 
-![1655781643321](image/note/1655781643321.png)
+![1655781643321](https://image-1253155090.cos.ap-nanjing.myqcloud.com/202302230904732.png)
 
 ### 结构体引用
 
@@ -217,7 +217,7 @@ let slice = &a[1..3];
 
 ## 方法
 
-![1655781657331](image/note/1655781657331.png)
+![1655781657331](https://image-1253155090.cos.ap-nanjing.myqcloud.com/202302230904375.png)
 
 需要注意的是，`self` 依然有所有权的概念：
 
@@ -293,7 +293,7 @@ let slice = &a[1..3];
   ```
   trait Add<RHS=Self> {
       type Output;
-
+  
       fn add(self, rhs: RHS) -> Self::Output;
   }
   ```
