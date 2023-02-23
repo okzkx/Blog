@@ -2,9 +2,6 @@
 
 ## TODO
 
-- noise
-- shader 整理
-
 ## 计划
 
 - P0
