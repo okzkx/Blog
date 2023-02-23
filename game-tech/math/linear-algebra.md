@@ -60,7 +60,7 @@ linear transformation
 
 **A -> B 变换矩阵即 A 基向量变换到 B 空间，向量被 B 的基向量的表示**
 
-![image-20211229211917952](linear-algebra.assets/image-20211229211917952.png)
+![image-20211229211917952](https://image-1253155090.cos.ap-nanjing.myqcloud.com/202302230920844.png)
 
 ##### 本质
 
@@ -90,7 +90,7 @@ n 阶矩阵具有行列式
 
 行列式的数值计算
 
-![image-20211230194258982](linear-algebra.assets/image-20211230194258982.png)
+![image-20211230194258982](https://image-1253155090.cos.ap-nanjing.myqcloud.com/202302230920958.png)
 
 ## 6. 逆矩阵、列空间与零空间
 
@@ -98,7 +98,7 @@ n 阶矩阵具有行列式
 
 线性代数常用来解多元一次方程组、也叫 线性方程组
 
-![image-20220105203255137](linear-algebra.assets/image-20220105203255137.png)
+![image-20220105203255137](https://image-1253155090.cos.ap-nanjing.myqcloud.com/202302230920261.png)
 
 线性方程组可以看作是未知向量进行空间变换到已知向量，可通过已知向量的逆空间变换到未知向量求解方程组
 
@@ -144,7 +144,7 @@ M2x3 是原三维空间 3 个基向量在目标二维空间中 2 个基向量的
 
 向量越长，其表示的空间需要越大的数来表示基向量
 
-![image-20220105224851717](linear-algebra.assets/image-20220105224851717.png)
+![image-20220105224851717](https://image-1253155090.cos.ap-nanjing.myqcloud.com/202302230920648.png)
 
 ## 9. 叉积
 
@@ -156,7 +156,7 @@ M2x3 是原三维空间 3 个基向量在目标二维空间中 2 个基向量的
 
 标准解法：
 
-![image-20220106203942325](linear-algebra.assets/image-20220106203942325.png)
+![image-20220106203942325](https://image-1253155090.cos.ap-nanjing.myqcloud.com/202302230920598.png)
 
 ## 10. 以线性变换的看叉积
 
@@ -170,7 +170,7 @@ M2x3 是原三维空间 3 个基向量在目标二维空间中 2 个基向量的
 
 假设有一个向量进行对偶变换后得到的值和 这个向量和运算向量组成的叉积行列式得到的值一致，那么这个对偶向量 p 就是叉积的值
 
-![image-20220106205719027](linear-algebra.assets/image-20220106205719027.png)
+![image-20220106205719027](https://image-1253155090.cos.ap-nanjing.myqcloud.com/202302230920225.png)
 
 这个向量和运算向量组成的叉积行列式的值是平行四边形的值 = 底乘以高
 
@@ -218,7 +218,7 @@ T：变量，M ：函数，C：参数
 
 向量可以是任何东西，只要满足以下的向量运算公里
 
-![image-20220107195146712](linear-algebra.assets/image-20220107195146712.png)
+![image-20220107195146712](https://image-1253155090.cos.ap-nanjing.myqcloud.com/202302230920083.png)
 
 ## 14. 克莱姆法则的几何解释
 

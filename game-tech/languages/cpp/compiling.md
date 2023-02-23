@@ -20,4 +20,4 @@
 
 ## Linux 下的文件类型
 
-![1655781431142](image/compiling/1655781431142.png)
+![1655781431142](https://image-1253155090.cos.ap-nanjing.myqcloud.com/202302230916811.png)
