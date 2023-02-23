@@ -15,10 +15,10 @@
 
 ### Unity 中的 Gamma 矫正
 
-![1655781486000](https://image-1253155090.cos.ap-nanjing.myqcloud.com/202302221847777.png)
+![gamma](https://image-1253155090.cos.ap-nanjing.myqcloud.com/202302221847777.png)
 
 1. 勾选了 sRGB 的纹理在线性工作流中，加载时会自动 pow(2.2)，统一到 Gamma 1.0
-1. Shader lab 的输出会自动 pow(0.45) 给显示器压暗
+2. Shader lab 的输出会自动 pow(0.45) 给显示器压暗
 
 ### 效果
 
