@@ -2,27 +2,27 @@
 
 [Resources & Descriptors | "Use Buffers and Images in Vulkan Shaders" | Vulkan Lecture Series, Ep. 3](https://www.youtube.com/watch?v=5VBVWCg7riQ&list=PLmIqTlJ6KsE1Jx5HV4sd2jOe3V1KMHHgn&index=3)
 
-## Different usage types of buffers 
+## Different usage types of buffers
 
 - As uniform buffer : read-only buffers
 - As storage buffer : load and store buffers (also support atomic operations)
 - As texel buffer :  provide access to float[N] as vec3[N/3] through view
-  - Uniform texel buffer : formatted load operations on uniform buffers
-  - Storage texel buffer : ...
+    - Uniform texel buffer : formatted load operations on uniform buffers
+    - Storage texel buffer : ...
 - As dynamic buffer : additional offset into VkMemory, changeable at run-time with little overhead
-  - Dynamic uniform buffer 
-  - Dynamic storage buffer 
+    - Dynamic uniform buffer
+    - Dynamic storage buffer
 - (Inline uniform block) : 直接包含数据而不指向 vkMemory
 
 ## Different usage types of images
 
-### storage image 
+### storage image
 
 - dicriptor type : VK_DESCRIPTOR_TYPE_STORAGE_IMAGE
 - load and store image (also support atomic operations)
 - Marked pixel at coordinates: (2, 2)
 
-### sampled image 
+### sampled image
 
 - VK_DESCRIPTOR_TYPE_SAMPLED_IMAGE
 - sampled load operations from image

@@ -2,9 +2,9 @@
 
 ## API
 
-- Graphics and compute 
+- Graphics and compute
 - enable high efficiency by being low-level
-- a very explicit 
+- a very explicit
 - cross-platform
 
 ![image-20230204192403999](https://image-1253155090.cos.ap-nanjing.myqcloud.com/202302041924137.png)
@@ -18,7 +18,7 @@
 
 ## Objects
 
-### Instance 
+### Instance
 
 ![image-20230204194033736](https://image-1253155090.cos.ap-nanjing.myqcloud.com/202302041940876.png)
 
@@ -28,7 +28,7 @@ Physical device
 
 Device
 
-1. extensions 
+1. extensions
 2. queue configurations
 3. multiple logical device per physical device
 
@@ -42,7 +42,7 @@ command buffer 同时开始，结束时间不一定？顺序执行 command buffe
 
 #### queue family
 
-physical device 可能有多个 queue family ，每个 queue family 可能有多个 queue 
+physical device 可能有多个 queue family ，每个 queue family 可能有多个 queue
 
 不同的 queue 并行执行 command buffer
 

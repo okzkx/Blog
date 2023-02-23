@@ -4,19 +4,13 @@ graphcs pipeline cmd 执行会经历 graphcs pipeline 的所有阶段
 
 ![image-20230205073634418](https://image-1253155090.cos.ap-nanjing.myqcloud.com/202302050736499.png)
 
-
-
 每个 cluster 是一个核，同时处于 graphcs pipeline 的某个阶段
 
 ![image-20230205074057708](https://image-1253155090.cos.ap-nanjing.myqcloud.com/202302050740818.png)
 
-
-
 一般常用的 graphcs pipeline 可以简化成
 
 ![image-20230205074839468](https://image-1253155090.cos.ap-nanjing.myqcloud.com/202302050748541.png)
-
-
 
 ### Compute pipeline
 

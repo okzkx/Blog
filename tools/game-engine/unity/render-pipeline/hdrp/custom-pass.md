@@ -12,7 +12,7 @@
 
 - Workflow with volumes
 - Injection Points
-- ![1655781763163](image/custom-pass/1655781763163.png)
+- ![1655781763163](https://image-1253155090.cos.ap-nanjing.myqcloud.com/202302230937035.png)
 - Custom Pass List
 - FullScreen Custom Pass
   - FullScreen Default Shader

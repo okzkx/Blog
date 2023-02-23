@@ -10,8 +10,8 @@
 ## 4. FIxed Function Pipeline Stages
 
 #### viewport transform
-![](brendan-galea.assets/viewport-transform.jpg)
 
+![](brendan-galea.assets/viewport-transform.jpg)
 
 #### frontFace
 
@@ -48,7 +48,6 @@
 
 ![](brendan-galea.assets/vsync.jpg)
 
-
 ### Swap chain present modes explained
 
 #### fifo
@@ -61,16 +60,18 @@
 
 #### Present Modes Comparison
 
-##### fifo 
+##### fifo
 
 - Vsync Bound
 - Good for Mobile
 - Always Supported
+
 * Latency
 
 ##### Mailbox
 
 - Low Latency
+
 * Not always Supproted
 * High Power Consumption
 
@@ -78,6 +79,7 @@
 
 - Low Latency
 - Usually Supported
+
 * Tearing
 * High Power Consumption
 

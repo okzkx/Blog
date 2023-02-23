@@ -1,6 +1,7 @@
 # 线性代数的本质
 
-[【官方双语/合集】线性代数的本质 - 系列合集](https://www.bilibili.com/video/BV1ys411472E)
+- [数学视频 3Blue1Brown](https://space.bilibili.com/88461692/)
+- [【官方双语/合集】线性代数的本质 - 系列合集](https://www.bilibili.com/video/BV1ys411472E)
 
 ## 0. 序言
 

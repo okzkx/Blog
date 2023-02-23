@@ -12,10 +12,10 @@
 - RAII
   ----
 - vk
-  - vkCreateXXX
-  - vkAllocateXXX
-  - vkDestroyXXX
-  - vkFreeXXX
+    - vkCreateXXX
+    - vkAllocateXXX
+    - vkDestroyXXX
+    - vkFreeXXX
 
 ### Resource management
 
@@ -37,8 +37,8 @@ Since Vulkan is a platform agnostic API, it can not interface directly with the 
 
 Vulkan does not have the concept of a "default framebuffer", hence it requires an infrastructure that will own the buffers we will render to before we visualize them on the screen. This infrastructure is known as the swap chain and must be created explicitly in Vulkan. https://vulkan-tutorial.com/Drawing_a_triangle/Presentation/Swap_chain
 
- shader code in Vulkan has to be specified in a bytecode format as opposed to human-readable syntax like GLSL and HLSL.
- https://vulkan-tutorial.com/Drawing_a_triangle/Graphics_pipeline_basics/Shader_modules
+shader code in Vulkan has to be specified in a bytecode format as opposed to human-readable syntax like GLSL and HLSL.
+https://vulkan-tutorial.com/Drawing_a_triangle/Graphics_pipeline_basics/Shader_modules
 
 The older graphics APIs provided default state for most of the stages of the graphics pipeline. In Vulkan you have to be explicit about everything, from viewport size to color blending function.
 https://vulkan-tutorial.com/Drawing_a_triangle/Graphics_pipeline_basics/Fixed_functions
@@ -66,7 +66,8 @@ https://vulkan-tutorial.com/Drawing_a_triangle/Drawing/Rendering_and_presentatio
 
 VkSubmitInfo
 
-The vertex buffer we have right now works correctly, but the memory type that allows us to access it from the CPU may not be the most optimal memory type for the graphics card itself to read from. The most optimal memory has the VK_MEMORY_PROPERTY_DEVICE_LOCAL_BIT flag and is usually not accessible by the CPU on dedicated graphics cards. In this chapter we're going to create two vertex buffers. One staging buffer in CPU accessible memory to upload the data from the vertex array to, and the final vertex buffer in device local memory. We'll then use a buffer copy command to move the data from the staging buffer to the actual vertex buffer.https://vulkan-tutorial.com/Vertex_buffers/Staging_buffer
+The vertex buffer we have right now works correctly, but the memory type that allows us to access it from the CPU may not be the most optimal memory type for the graphics card itself to read from. The most optimal memory has the VK_MEMORY_PROPERTY_DEVICE_LOCAL_BIT flag and is usually not accessible by the CPU on dedicated graphics cards. In this chapter we're going to create two vertex buffers. One staging buffer in CPU accessible memory to upload the data from the vertex array to, and the final
+vertex buffer in device local memory. We'll then use a buffer copy command to move the data from the staging buffer to the actual vertex buffer.https://vulkan-tutorial.com/Vertex_buffers/Staging_buffer
 
 The right way to tackle this in Vulkan is to use resource descriptors. A descriptor is a way for shaders to freely access resources like buffers and images.https://vulkan-tutorial.com/Uniform_buffers/Descriptor_layout_and_buffer
 
@@ -78,7 +79,7 @@ descriptor，attachments 是接口，描述了可以访问的方法
 - Add a combined image sampler descriptor to sample colors from the texture
 - https://vulkan-tutorial.com/Texture_mapping/Images#page_Introduction
 
- We'll start by creating a staging resource and filling it with pixel data and then we copy this to the final image object that we'll use for rendering.
+We'll start by creating a staging resource and filling it with pixel data and then we copy this to the final image object that we'll use for rendering.
 
 Creating an image is not very different from creating buffers. It involves querying the memory requirements, allocating device memory and binding it, just like we've seen before.
 
@@ -92,13 +93,13 @@ with the swap chain images and the framebuffer, that images are accessed through
 
 #### Samplers
 
- Textures are usually accessed through samplers, which will apply filtering and transformations to compute the final color that is retrieved.
+Textures are usually accessed through samplers, which will apply filtering and transformations to compute the final color that is retrieved.
 
 - filter
 - addressing mode
-  - Repeat
-  - Mirrored repeat
-  - Clamp to edge
-  - Clamp to border
+    - Repeat
+    - Mirrored repeat
+    - Clamp to edge
+    - Clamp to border
 
 new type of descriptor: combined image sampler. This descriptor makes it possible for shaders to access an image resource through a sampler object like the one we created in the previous chapter.https://vulkan-tutorial.com/Texture_mapping/Combined_imag

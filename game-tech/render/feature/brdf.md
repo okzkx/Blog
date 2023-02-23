@@ -10,7 +10,7 @@
 
 ### 单位
 
-![image-20211207183926205](brdf.assets/image-20211207183926205.png)
+![image-20211207183926205](https://image-1253155090.cos.ap-nanjing.myqcloud.com/202302230933949.png)
 
 ### 公式拆解
 
@@ -88,7 +88,7 @@ $$
 L_{o}=\int_{\Omega} f_{r} L_{i} \cos \theta_{i} d \omega_{i}=\int_{\Omega}\left(k_{d} \frac{c}{\pi}+k_{s} \frac{D F G}{4 \cos \theta_{i} \cos \theta_{o}}\right) L_{i} \cos \theta_{i} d \omega_{i}
 $$
 
-![image-20211207214017494](brdf.assets/image-20211207214017494.png)
+![image-20211207214017494](https://image-1253155090.cos.ap-nanjing.myqcloud.com/202302230933737.png)
 
 ## 全局光照
 
