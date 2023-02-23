@@ -4,6 +4,9 @@
 
 - [OpenGL 4 Reference Pages](https://registry.khronos.org/OpenGL-Refpages/gl4/index.php)
 
+## hlsl
+- [hlsl sample](https://github.com/microsoft/DirectX-Graphics-Samples/blob/master/Samples/Desktop/D3D12Multithreading/src/shaders.hlsl)
+
 ## Linux
 
 ### signal

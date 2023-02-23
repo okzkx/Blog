@@ -6,6 +6,7 @@
 
 - P0
   - gltf-viewer-rs \ dynamic rendering
+  - rust-gpu \ 
 - P1
   - Filament
   - Games 202

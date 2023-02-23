@@ -4,6 +4,8 @@
 
 ## 参考
 
-[常见的低差异*序列* (*low-discrepancy* sequences ) 在采样领域里应用有哪些？](https://www.zhihu.com/question/24207493/answer/74466418)
+- [看懂蒙特卡洛积分(三) 低差异采样*序列*](https://zhuanlan.zhihu.com/p/343666731)
 
-[看懂蒙特卡洛积分(三) 低差异采样*序列*](https://zhuanlan.zhihu.com/p/343666731)
+- [低差异序列（一）- 常见序列的定义及性质](https://zhuanlan.zhihu.com/p/20197323)
+- [低差异序列（二）- 高效实现以及应用](https://zhuanlan.zhihu.com/p/20374706)
+
