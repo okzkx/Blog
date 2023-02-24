@@ -1,60 +1,79 @@
-﻿# Filament
+﻿﻿﻿# 4 Material System
 
-## Principles
+材质系统
 
-- Real-time mobile performance
-- Quality
-- Ease of use
-- Familiarity
-- Flexibility
-- Deployment size
+## 4.1 Standard model
 
-## Notation
+##### 材质的表面表现为漫反射项 + 高光反射项
 
+1. diffuse componnet, fd
+2. specular component, fr
 
-| Symbol                       | Definition                                                |
-| ---------------------------- | --------------------------------------------------------- |
-| **v**v                       | View unit vector                                          |
-| **l**l                       | Incident light unit vector                                |
-| **n**n                       | Surface normal unit vector                                |
-| **h**h                       | Half unit vector between**l**l and **v**v                 |
-| **f**f                       | BRDF                                                      |
-| **f**dfd                     | Diffuse component of a BRDF                               |
-| **f**rfr                     | Specular component of a BRDF                              |
-| **α**α                     | Roughness, remapped from using input`perceptualRoughness` |
-| **σ**σ                     | Diffuse reflectance                                       |
-| **Ω**Ω                     | Spherical domain                                          |
-| **f**0f0                     | Reflectance at normal incidence                           |
-| **f**90f90                   | Reflectance at grazing angle                              |
-| **χ**+**(**a**)**χ+(a)     | Heaviside function (1 if**a**>**0**a>0 and 0 otherwise)   |
-| **n**i**o**rnior             | Index of refraction (IOR) of an interface                 |
-| **⟨**n**⋅**l**⟩**⟨n⋅l⟩ | Dot product clamped to [0..1]                             |
-| **⟨**a**⟩**⟨a⟩           | Saturated value (clamped to [0..1])                       |
+![image-20230224092240378](https://image-1253155090.cos.ap-nanjing.myqcloud.com/202302240922464.png)
 
-## Standard model
+##### 微表面模型
 
-### Specular BRDF
+<img src="https://google.github.io/filament/images/diagram_macrosurface.png" alt="*Microfacets*" style="zoom: 33%;" />
 
-#### Normal distribution function (specular D)
+<img src="https://google.github.io/filament/images/diagram_shadowing_masking.png" alt="Masking and shadowing of microfacets" style="zoom:33%;" />
 
-法线分布函数，根据粗糙度反射光到指定方向，剩余的光强
+微表面模型表达式
+
+<img src="https://image-1253155090.cos.ap-nanjing.myqcloud.com/202302240926486.png" alt="image-20230224092623444" style="zoom:80%;" />
+
+- D：微表面分布，NDF or Normal Distribution Function，主要的着色贡献项
+- G：微表面的可见性项，减少反射出的光线
+- F：决定高光反射和漫反射的贡献权重
+
+## 4.2 Dielectrics and conductors
+
+纯金属材质是没有漫反射的
+
+<img src="https://google.github.io/filament/images/diagram_brdf_dielectric_conductor.png" alt="BRDF modelization for dielectric and conductor surfaces" style="zoom:33%;" />
+
+## 4.3 Energy conservation
+
+G 项会造成出射能量损失，这边需要进行整体能量补偿实现能量守恒。
+
+## 4.4 Specular BRDF
+
+![image-20230224093841161](https://image-1253155090.cos.ap-nanjing.myqcloud.com/202302240938225.png)
+
+### 4.4.1 Normal distribution function (specular D)
+
+长尾法线分布函数可以去拟合真实世界表面，跟据粗糙度反射光线成为一个 Lob，分在指定方向的光强
+
+```
+float D_GGX(float NoH, float roughness) {
+    float a = NoH * roughness;
+    float k = roughness / (1.0 - NoH * NoH + a * a);
+    return k * k * (1.0 / PI);
+}
+```
 
 D_GGX(NoH, a)
 
 - NoH ：视线与出射光靠近程度，结果成正比
 - roughness, a : 粗糙程度，减少 NoH 影响
 
-#### Geometric shadowing (specular G)
+### 4.4.2 Geometric shadowing (specular G)
 
-几何阴影函数，模型表面的自遮挡损失能量，减少光强，得到剩余的光强
+几何阴影函数，模型表面的自遮挡损失能量，减少光强，得到剩余出射的光强
 
-V_SmithGGXCorrelated(float NoV, float NoL, float roughness)
+```
+float V_SmithGGXCorrelated(float NoV, float NoL, float roughness) {
+    float a2 = roughness * roughness;
+    float GGXV = NoL * sqrt(NoV * NoV * (1.0 - a2) + a2);
+    float GGXL = NoV * sqrt(NoL * NoL * (1.0 - a2) + a2);
+    return 0.5 / (GGXV + GGXL);
+}
+```
 
 - NoV ：视线到模型表面垂直程度，正相关
 - NoL ：出射光到模型表面的垂直程度，正相关
 - roughness, a：负相关
 
-#### Fresnel (specular F)
+#### 4.4.3 Fresnel (specular F)
 
 菲涅尔项
 
@@ -70,7 +89,16 @@ vec3 F_Schlick(float u, vec3 f0)
 
 - f90 ：在自然界中的金属电介质一般为 1
 
-### Diffuse BRDF
+```
+vec3 F_Schlick(float u, vec3 f0) {
+    float f = pow(1.0 - u, 5.0);
+    return f + f0 * (1.0 - f);
+}
+```
+
+
+
+### 4.5 Diffuse BRDF
 
 #### 兰伯特漫反射 Fd_Lambert
 
@@ -97,7 +125,7 @@ float Fd_Burley(float NoV, float NoL, float LoH, float roughness) {
 }
 ```
 
-### Summary
+## 4.6 Summary
 
 ```
 float D_GGX(float NoH, float a) {
@@ -158,7 +186,9 @@ void BRDF(...) {
 
 通过 dfg lookup table 查表来获取结果
 
-### Parameterization
+### 4.8 Parameterization
+
+参数化
 
 
 | Parameter             | Definition                                                                                                                                                                                                                                                               |
@@ -169,6 +199,8 @@ void BRDF(...) {
 | **Reflectance**       | Fresnel reflectance at normal incidence for dielectric surfaces. This replaces an explicit index of refraction                                                                                                                                                           |
 | **Emissive**          | Additional diffuse albedo to simulate emissive surfaces (such as neons, etc.) This parameter is mostly useful in an HDR pipeline with a bloom pass                                                                                                                       |
 | **Ambient occlusion** | Defines how much of the ambient light is accessible to a surface point. It is a per-pixel shadowing factor between 0.0 and 1.0.<br />This parameter will be discussed in more details in the[lighting](https://google.github.io/filament/Filament.html#lighting) section |
+
+#### 4.8.2 类型和取值范围
 
 
 | Parameter             | Type and range                            |
@@ -186,29 +218,31 @@ metallic, roughness and reflectance parameters affect the appearance of a surfac
 
 #### Color space
 
-加载图片，把颜色传入 shader 时要把 sRGB 图片的颜色从 Gama 空间转到 linear 空间。压暗颜色。
+加载图片，把颜色传入 shader 时要把 sRGB 图片的颜色从 0.45 Gama 空间转到 1.0 linear 空间。压暗颜色。
 
-#### Remapping
+### 4.8.3 Remapping 参数映射
 
 remap the parameters  *baseColor* , *roughness* and  *reflectance* .
 
-##### Base color remapping
+#### 4.8.3.1 基础颜色映射
 
-```
-vec3 diffuseColor = (1.0 - metallic) * baseColor.rgb;
-```
+`vec3 diffuseColor = (1.0 - metallic) * baseColor.rgb`
 
-##### Reflectance remapping
+- 非金属(Dielectrics，绝缘体)大范围的反射，将 BaseColor 作为漫反射颜色
+- 金属(Conductor，Metal)没有漫反射项，只需要 BaseColor 颜色作为高光反射。
 
-将 Reflectance 映射为 f0
+#### 4.8.3.2 Reflectance remapping 反射率映射
 
-可通过折射率（index of refraction，IOR）计算反射率 ：
+##### Dielectrics 非金属反射率
 
-###### **Dielectrics**
+- 输入的非金属反射率（感知到的反射率 perception reflectance）参数为 [0 ~ 1]，
+- 自然界中的绝缘体反射率为 [2% ~ 16%]，需要进行映射
+- 绝缘体的镜面反射是消色差的，所以在各个颜色上的反射系数相同
+- f0 指视线与法线成 0 度时的反射率，f90 指视线和法线成 90 度此时任何材质反射率都为 1
 
-绝缘体的反射率都很低，不同的绝缘体反射率不一样，需要查表对应上
+![image-20230224100211538](https://image-1253155090.cos.ap-nanjing.myqcloud.com/202302241002579.png)
 
-vec3 f0 = 0.16 * reflectance * reflectance
+<img src="https://google.github.io/filament/images/diagram_reflectance.png" width="1000" style="zoom:50%;" />
 
 
 | Material                   | Reflectance | IOR          | Linear value |
@@ -225,24 +259,43 @@ vec3 f0 = 0.16 * reflectance * reflectance
 | Teeth                      | 5.8%        | 1.63         | 0.6          |
 | Default value              | 4%          | 1.5          | 0.5          |
 
-###### **Conductors**
 
-导体的反射率比较一致，相当于其表面的颜色
 
-f0 = baseColor * metallic;
+###### Conductors 金属反射率
 
-###### 总结
+|    Metal |   f0f0 in sRGB   | Hexadecimal | Color |
+| -------: | :--------------: | :---------: | :---- |
+|   Silver | 0.97, 0.96, 0.91 |   #f7f4e8   |       |
+| Aluminum | 0.91, 0.92, 0.92 |   #e8eaea   |       |
+| Titanium | 0.76, 0.73, 0.69 |   #c1baaf   |       |
+|     Iron | 0.77, 0.78, 0.78 |   #c4c6c6   |       |
+| Platinum | 0.83, 0.81, 0.78 |   #d3cec6   |       |
+|     Gold | 1.00, 0.85, 0.57 |   #ffd891   |       |
+|    Brass | 0.98, 0.90, 0.59 |   #f9e596   |       |
+|   Copper | 0.97, 0.74, 0.62 |   #f7bc9e   |       |
 
-```
-vec3 f0 = 0.16 * reflectance * reflectance * (1.0 - metallic) + baseColor * metallic;
-```
+$$
+f_0 = baseColor ⋅ metallic
+$$
 
-##### Roughness remapping and clamping
+- 金属的反射率就是其颜色
+- 导体的反射是基于颜色与金属度的并且接近于 1，所以导体的 baseColor 和 metallic 在设置的时候都需要接近 1
+- 反射力度无关 Reflectance
 
-a = pow(perceptualRoughness,2)
+##### 总体反射率 
 
-扩大反射光斑的范围
+材质整体的反射由非金属反射和金属反射加权平均得到，非金属的反射率是 ior，金属反射率是其基本颜色
 
-### Crafting physically based materials
+`vec3 f0 = 0.16 * reflectance * reflectance * (1.0 - metallic) + baseColor * metallic;`
+
+#### 粗糙度映射
+
+$$
+α=perceptualRoughness^2
+$$
+
+人所感知到的略大于实际的粗糙度
+
+<img src="https://google.github.io/filament/images/material_roughness_remap.png" width="1000"/>
 
 ![](https://google.github.io/filament/images/material_chart.jpg)
