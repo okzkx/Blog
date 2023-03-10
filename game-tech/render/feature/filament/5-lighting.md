@@ -1,4 +1,4 @@
-﻿﻿# 5. Lighting
+﻿﻿﻿# 5. Lighting
 
 - **Direct lighting** 直接光: ，Directional light 平行光，punctual lights 点光源
 - **Indirect lighting** 间接光: image based lights (IBLs), for both local[2](https://google.github.io/filament/Filament.html#endnote-localprobesmobile) and distant light probes.
@@ -166,3 +166,34 @@ $$
 
 
 
+| Pipeline stage flag                                          | Required queue capability flag                               |
+| :----------------------------------------------------------- | :----------------------------------------------------------- |
+| `VK_PIPELINE_STAGE_NONE`                                     | None required                                                |
+| `VK_PIPELINE_STAGE_DRAW_INDIRECT_BIT`                        | `VK_QUEUE_GRAPHICS_BIT` or `VK_QUEUE_COMPUTE_BIT`            |
+| `VK_PIPELINE_STAGE_2_PRE_RASTERIZATION_SHADERS_BIT`    `VK_PIPELINE_STAGE_TASK_SHADER_BIT_EXT`    `VK_PIPELINE_STAGE_MESH_SHADER_BIT_EXT`    `VK_PIPELINE_STAGE_VERTEX_SHADER_BIT`    `VK_PIPELINE_STAGE_TESSELLATION_CONTROL_SHADER_BIT`    `VK_PIPELINE_STAGE_TESSELLATION_EVALUATION_SHADER_BIT`    `VK_PIPELINE_STAGE_GEOMETRY_SHADER_BIT` | `VK_QUEUE_GRAPHICS_BIT`                                      |
+| `VK_PIPELINE_STAGE_2_VERTEX_INPUT_BIT`    `VK_PIPELINE_STAGE_2_INDEX_INPUT_BIT`    `VK_PIPELINE_STAGE_2_VERTEX_ATTRIBUTE_INPUT_BIT` | `VK_QUEUE_GRAPHICS_BIT`                                      |
+| `VK_PIPELINE_STAGE_FRAGMENT_SHADER_BIT`                      | `VK_QUEUE_GRAPHICS_BIT`                                      |
+| `VK_PIPELINE_STAGE_EARLY_FRAGMENT_TESTS_BIT`                 | `VK_QUEUE_GRAPHICS_BIT`                                      |
+| `VK_PIPELINE_STAGE_LATE_FRAGMENT_TESTS_BIT`                  | `VK_QUEUE_GRAPHICS_BIT`                                      |
+| `VK_PIPELINE_STAGE_COLOR_ATTACHMENT_OUTPUT_BIT`              | `VK_QUEUE_GRAPHICS_BIT`                                      |
+| `VK_PIPELINE_STAGE_COMPUTE_SHADER_BIT`                       | `VK_QUEUE_COMPUTE_BIT`                                       |
+| `VK_PIPELINE_STAGE_HOST_BIT`                                 | None required                                                |
+| `VK_PIPELINE_STAGE_2_ALL_TRANSFER_BIT` (`VK_PIPELINE_STAGE_TRANSFER_BIT`)    `VK_PIPELINE_STAGE_2_COPY_BIT`    `VK_PIPELINE_STAGE_2_BLIT_BIT`    `VK_PIPELINE_STAGE_2_RESOLVE_BIT`    `VK_PIPELINE_STAGE_2_CLEAR_BIT`    `VK_PIPELINE_STAGE_2_ACCELERATION_STRUCTURE_COPY_BIT_KHR` | `VK_QUEUE_GRAPHICS_BIT`, `VK_QUEUE_COMPUTE_BIT` or `VK_QUEUE_TRANSFER_BIT` |
+| `VK_PIPELINE_STAGE_RAY_TRACING_SHADER_BIT_KHR`               | `VK_QUEUE_COMPUTE_BIT`                                       |
+| `VK_PIPELINE_STAGE_ACCELERATION_STRUCTURE_BUILD_BIT_KHR`     | `VK_QUEUE_COMPUTE_BIT`                                       |
+| `VK_PIPELINE_STAGE_2_ACCELERATION_STRUCTURE_COPY_BIT_KHR`    | `VK_QUEUE_COMPUTE_BIT`                                       |
+| `VK_PIPELINE_STAGE_ALL_GRAPHICS_BIT`                         | `VK_QUEUE_GRAPHICS_BIT`                                      |
+| `VK_PIPELINE_STAGE_ALL_COMMANDS_BIT`                         | None required                                                |
+| `VK_PIPELINE_STAGE_CONDITIONAL_RENDERING_BIT_EXT`            | `VK_QUEUE_GRAPHICS_BIT` or `VK_QUEUE_COMPUTE_BIT`            |
+| `VK_PIPELINE_STAGE_TRANSFORM_FEEDBACK_BIT_EXT`               | `VK_QUEUE_GRAPHICS_BIT`                                      |
+| `VK_PIPELINE_STAGE_COMMAND_PREPROCESS_BIT_NV`                | `VK_QUEUE_GRAPHICS_BIT` or `VK_QUEUE_COMPUTE_BIT`            |
+| `VK_PIPELINE_STAGE_FRAGMENT_SHADING_RATE_ATTACHMENT_BIT_KHR` | `VK_QUEUE_GRAPHICS_BIT`                                      |
+| `VK_PIPELINE_STAGE_FRAGMENT_DENSITY_PROCESS_BIT_EXT`         | `VK_QUEUE_GRAPHICS_BIT`                                      |
+| `VK_PIPELINE_STAGE_2_INVOCATION_MASK_BIT_HUAWEI`             | `VK_QUEUE_GRAPHICS_BIT`                                      |
+| `VK_PIPELINE_STAGE_2_VIDEO_DECODE_BIT_KHR`                   | `VK_QUEUE_VIDEO_DECODE_BIT_KHR`                              |
+| `VK_PIPELINE_STAGE_2_VIDEO_ENCODE_BIT_KHR`                   | `VK_QUEUE_VIDEO_ENCODE_BIT_KHR`                              |
+| `VK_PIPELINE_STAGE_2_OPTICAL_FLOW_BIT_NV`                    | `VK_QUEUE_OPTICAL_FLOW_BIT_NV`                               |
+| `VK_PIPELINE_STAGE_2_SUBPASS_SHADING_BIT_HUAWEI`             | `VK_QUEUE_GRAPHICS_BIT`                                      |
+| `VK_PIPELINE_STAGE_2_MICROMAP_BUILD_BIT_EXT`                 | `VK_QUEUE_COMPUTE_BIT`                                       |
+| `VK_PIPELINE_STAGE_TOP_OF_PIPE_BIT`                          | None required                                                |
+| `VK_PIPELINE_STAGE_BOTTOM_OF_PIPE_BIT`                       | None required                                                |

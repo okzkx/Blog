@@ -2,11 +2,14 @@
 
 ## TODO
 
+- 自动曝光
+- gltf
+
 ## 计划
 
 - P0
-  - Filament
   - Games 202
+  - 多线程渲染
 - P1
   - 
 - P2
