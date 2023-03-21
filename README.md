@@ -2,14 +2,14 @@
 
 ## TODO
 
-- 自动曝光
-- gltf
+ - DebugDraw 线条优先级
+ - DebugDraw 自定义容量
 
 ## 计划
 
 - P0
   - Games 202
-  - 多线程渲染
+  - 高效的 FBX 打开流程
 - P1
   - 
 - P2
