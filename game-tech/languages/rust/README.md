@@ -1,5 +1,7 @@
 # Rust
 
+[Rust Magazine](https://rustmagazine.org/)
+
 ## Mut
 
 `let mut x` x 在栈区内的值是可变的
