@@ -1,5 +1,15 @@
 # Novel ai
 
+## 最新 AI 绘画
+
+- [【AI绘画教程】从零开始学会AI绘画!SD-webUI使用教程，lora模型下载与安-装，stable-diffusion-webui使用教程！_哔哩哔哩_bilibili](https://www.bilibili.com/video/BV1uG4y1N7QP/?spm_id_from=333.788.top_right_bar_window_history.content.click&vd_source=ebf06d572d5366b5ef7bc5032fefb08d)
+- [【AI绘画教程】萌新入坑必看⚡️AI绘画从入门到跑路⚡️基础知识汇总_哔哩哔哩_bilibili](https://www.bilibili.com/video/BV15Y411e7zB/?spm_id_from=333.788&vd_source=ebf06d572d5366b5ef7bc5032fefb08d)
+- [AI绘画神器stable-diffusion-webui一键整合包——sd-webui启动器_周日学习](https://www.xuexi123.cc/246.html)
+- [绘制三次元美少女：从0开始学会使用lora模型_哔哩哔哩_bilibili](https://www.bilibili.com/video/BV1Xb411R74o/?spm_id_from=333.788.recommend_more_video.0&vd_source=ebf06d572d5366b5ef7bc5032fefb08d)
+- [如何用AI绘图画出超真实细节感超强的小姐姐？（Lora篇）|示例|视频文件_网易订阅](https://www.163.com/dy/article/HUNAVJLI0542QSJ0.html)
+- [runwayml/stable-diffusion-inpainting · Hugging Face](https://huggingface.co/runwayml/stable-diffusion-inpainting)
+
+
 - [如何评价AI绘画网站NovelAI？ - 知乎](https://www.zhihu.com/question/558019952/answer/2710009035?utm_campaign=&utm_medium=social&utm_oi=752833622943219712&utm_psn=1563165958105165824&utm_source=qq)
 - [介绍 | NovelAI Bot](https://novelai.koishi.chat/)
 

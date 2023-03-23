@@ -157,7 +157,6 @@ Sum Area Table ，提前保存累加信息到纹理上来支持大范围查找
 基于图的环境光
 
 - 可以为整个场景原点烘培一个 CubeMap，表示 Environment map，也可以为环境中的一个点烘培 EnvMap
-- EnvMap 可以是天空盒，也可以是实际用摄像机渲染出的 6 面的结果，缺点是不知道光源距离
 
 #### The Classic Approxiamtion
 
