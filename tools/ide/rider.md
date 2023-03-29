@@ -57,11 +57,11 @@ H xx S 150 B 180
 
 注释
 
-![image-20210913195146827](https://image-1253155090.cos.ap-nanjing.myqcloud.com/image-20210913195146827.png)
+![image-20210913195146827](https://image-1253155090.cos.ap-nanjing.myqcloud.com/202303231905515.png)
 
 更新 Rider 配色 ：百度云搜索 codestyle\_idea\_myself
 
-![image-20210913195548067](https://image-1253155090.cos.ap-nanjing.myqcloud.com/image-20210913195548067.png)
+![image-20210913195548067](https://image-1253155090.cos.ap-nanjing.myqcloud.com/202303231905851.png)
 
 ![1655780873502](image/rider/1655780873502.png)
 
@@ -69,17 +69,17 @@ H xx S 150 B 180
 
 大括号不换行
 
-![1655780989474](image/rider/1655780989474.png)
+![1655780989474](https://image-1253155090.cos.ap-nanjing.myqcloud.com/202303231905999.png)
 
 Braces Layout 更改为 K&R style
 
 #### else 不换行
 
-![1655781030191](image/rider/1655781030191.png)
+![1655781030191](https://image-1253155090.cos.ap-nanjing.myqcloud.com/202303231905609.png)
 
 #### 快捷键
 
-![1655781057359](image/rider/1655781057359.png)
+![1655781057359](https://image-1253155090.cos.ap-nanjing.myqcloud.com/202303231905134.png)
 
 #### 改变字体大小
 
@@ -87,7 +87,7 @@ Braces Layout 更改为 K&R style
 
 #### 总是打开选中文件
 
-![1655781102906](image/rider/1655781102906.png)
+![1655781102906](https://image-1253155090.cos.ap-nanjing.myqcloud.com/202303231905720.png)
 
 #### 不显示 Var 转换
 

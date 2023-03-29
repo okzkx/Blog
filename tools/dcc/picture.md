@@ -46,7 +46,7 @@ sequenceDiagram
 
 [都都网](http://www.topdodo.com/meditor)
 
-[Photopea \| Online Photo Editor](https://www.photopea.com/)
+[Photopea | Online Photo Editor](https://www.photopea.com/)
 
 ## 图片压缩
 

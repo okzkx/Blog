@@ -1,4 +1,4 @@
-﻿# Entity component system
+# Entity component system
 
 - [Dots guide](https://github.com/Unity-Technologies/EntityComponentSystemSamples/blob/master/DOTS_Guide/README.md)
 
