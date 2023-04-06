@@ -46,7 +46,7 @@ Render
 
 #### MVVM 模型
 
-![image-20220316105903407](games-104.assets/image-20220316105903407.png)
+![image-20220316105903407](https://image-1253155090.cos.ap-nanjing.myqcloud.com/202304061252524.png)
 
 #### Cause about
 
@@ -89,7 +89,8 @@ Render
 - Mini editor
 - Building basic knowledge system of game engine
 
-![image-20220316112401142](games-104.assets/image-20220316112401142.png)
+![image-20220316112401142.png](https://image-1253155090.cos.ap-nanjing.myqcloud.com/202304061253234.png)
+
 
 #### 作业目标
 
