@@ -4,7 +4,7 @@
 
 - [ ] 渲染器
 	- [ ] node viewer
-	- [ ] 动画
+	- [ ] fbx sdk binding
 
 ## 计划
 
