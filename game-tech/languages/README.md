@@ -1,4 +1,4 @@
-﻿﻿# 游戏引擎编程语言
+﻿# 游戏引擎编程语言
 
 ## glsl
 
@@ -8,6 +8,10 @@
 ## hlsl
 
 - [hlsl sample](https://github.com/microsoft/DirectX-Graphics-Samples/blob/master/Samples/Desktop/D3D12Multithreading/src/shaders.hlsl)
+- [HLSL for Vulkan: Resources | Lei.Chat()](https://www.lei.chat/posts/hlsl-for-vulkan-resources/)
+- [DirectXShaderCompiler/SPIR-V.rst at main · microsoft/DirectXShaderCompiler](https://github.com/Microsoft/DirectXShaderCompiler/blob/main/docs/SPIR-V.rst#descriptors)
+- [Exposing combined image + sampler objects in HLSL · Issue #33 · KhronosGroup/Vulkan-Ecosystem](https://github.com/KhronosGroup/Vulkan-Ecosystem/issues/33)
+- [HLSL variable syntax definition](https://topic.alibabacloud.com/a/hlsl-variable-syntax-definition_8_8_32082125.html)
 
 ## Linux
 

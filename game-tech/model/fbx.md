@@ -1,0 +1,3 @@
+- [FBX Software Developer Kit Archives | Autodesk Developer Network](https://www.autodesk.com/developer-network/platform-technologies/fbx-sdk-archives)
+- [Unity-Technologies/com.autodesk.fbx: FBX SDK C# bindings](https://github.com/Unity-Technologies/com.autodesk.fbx)
+- [About Autodesk® FBX® SDK for Unity | Autodesk FBX SDK for Unity | 5.0.0-pre.1](https://docs.unity3d.com/Packages/com.autodesk.fbx@5.0/manual/index.html)

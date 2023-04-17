@@ -1,6 +1,8 @@
 # Rust
 
-[Rust Magazine](https://rustmagazine.org/)
+- [Rust Magazine](https://rustmagazine.org/)
+- [Set up your dev environment on Windows for Rust | Microsoft Learn](https://learn.microsoft.com/en-us/windows/dev-environment/rust/setup)
+- [MSVC Prerequistes - The rustup book](https://rust-lang.github.io/rustup/installation/windows-msvc.html)
 
 ## Mut
 
