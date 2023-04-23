@@ -1,4 +1,4 @@
-﻿# 学习 Rust
+# 学习 Rust
 
 ## Rust lang
 

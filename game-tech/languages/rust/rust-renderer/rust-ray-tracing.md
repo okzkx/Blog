@@ -1,4 +1,4 @@
-﻿# Rust 光线追踪
+# Rust 光线追踪
 
 [raytracinginrust](https://github.com/misterdanb/raytracinginrust) ：rust 光线追踪教程
 
