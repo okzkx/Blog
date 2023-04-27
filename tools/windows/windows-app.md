@@ -1,5 +1,5 @@
 # Windows 应用
-![image.png](https://image-1253155090.cos.ap-nanjing.myqcloud.com/202304242037859.png)
+
 ![](https://image-1253155090.cos.ap-nanjing.myqcloud.com/202304242055249.png)
 
 - 渲染器
