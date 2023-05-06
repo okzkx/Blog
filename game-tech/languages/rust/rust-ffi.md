@@ -12,6 +12,7 @@
 - [-l: link the generated crate to a native library]([https://doc.rust-lang.org/rustc/command-line-arguments.html#option-l-link-lib](https://doc.rust-lang.org/rustc/command-line-arguments.html#option-l-link-lib))
 - [cmake](https://docs.rs/cmake/0.1.48/cmake/#)
 - [Rust ❤️ C++](https://cxx.rs/index.html)
+- [dtolnay/cxx: Safe interop between Rust and C++](https://github.com/dtolnay/cxx)
 
 动态加载
 
