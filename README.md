@@ -2,8 +2,7 @@
 
 ## TODO
 
-- 渲染器 CubeMap Mipmap
-- DebugDraw Example Batch
+- 球谐函数
 
 ## 计划
 

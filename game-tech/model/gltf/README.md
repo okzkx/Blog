@@ -6,6 +6,8 @@
 * [glTF™ 2.0 Specification](https://registry.khronos.org/glTF/specs/2.0/glTF-2.0.html#foreword)
 * [gltf20-reference-guide.pdf](https://www.khronos.org/files/gltf20-reference-guide.pdf)
 * [玩转3D数据标准——glTF - 知乎](https://zhuanlan.zhihu.com/p/443862875)
+* [glTF 2.0 and PBR GTC May17](https://www.khronos.org/assets/uploads/developers/library/2017-gtc/glTF-2.0-and-PBR-GTC_May17.pdf)
+* 
 
 ### fbx to GLTF
 
