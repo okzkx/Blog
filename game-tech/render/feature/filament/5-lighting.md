@@ -1,4 +1,4 @@
-﻿﻿﻿# 5. Lighting
+# 5. Lighting
 
 - **Direct lighting** 直接光: ，Directional light 平行光，punctual lights 点光源
 - **Indirect lighting** 间接光: image based lights (IBLs), for both local[2](https://google.github.io/filament/Filament.html#endnote-localprobesmobile) and distant light probes.
@@ -120,7 +120,15 @@ $L^m_l=∫^π_{θ=0}∫^{2π}{ϕ=0}L(θ,ϕ)y^m_l(θ,ϕ)sinθdθdϕ$
 
 $L^m_l= 2\pi∑L(s)y^m_l(s)$
 
+
+![image.png](https://image-1253155090.cos.ap-nanjing.myqcloud.com/202306161604978.png)
+
+来自表面 s 方向的光的颜色，对 SH 基函数系数 L 做贡献。
+
 ##### SH 重建
+
+由各方向的基函数的系数 L 重建来自 s 方向的光线。
+![image.png](https://image-1253155090.cos.ap-nanjing.myqcloud.com/202306161604598.png)
 
 对于任意一个方向累加各层基函数以及他们的系数
 
@@ -150,9 +158,18 @@ $\int f(\Theta) = [f_{0}DFG_1(n⋅v,α)+f_{90}DFG_2(n⋅v,α)]$
 
 $∫L(l)dl = LD(n,α)
 
-###### 预烘培
+###### 预烘培 Pre-integration for multiscattering
 
-1. DFG 图是横坐标为 α 纵坐标为 $⟨n⋅v⟩$ 的纹理，两张 DFG 图分别为 f0 和 f90 的系数，他们的累加是特定粗糙度和特定视线对于法线的夹角下，对于该粗糙度系列材质（更改粗糙度不需要重新生成 DFG）BRDF 的积分和。将两张单通道 DFG 组合成一张双通道 DFG 图。![](https://google.github.io/filament/images/ibl/dfg_approx.png)
+1. DFG 图
+	1. DFG 图是横坐标为 α 纵坐标为 $⟨n⋅v⟩$ 的纹理，
+	2. 两张 DFG 图分别为 f0 和 f90 的系数，
+	3. ![image.png](https://image-1253155090.cos.ap-nanjing.myqcloud.com/202306161615705.png)
+	4. DFG 需要基于 F_Shilick 和 D_GGX
+	5. 金属度用来求
+	6. 他们的累加是特定粗糙度和特定视线对于法线的夹角下，对于该粗糙度系列材质（更改粗糙度不需要重新生成 DFG BRDF 的积分和。
+	7. 将两张单通道 DFG 组合成一张双通道 DFG 图。
+	8. 金属度和表面颜色用来求 f0, 所以不用参与图的生成 
+	9. ![](https://google.github.io/filament/images/ibl/dfg_approx.png)
 2. LD 图是 LOD Environment map，使用 n 向量采样对应像素，α 为 lod 程度，越粗糙 mipmap 越高，同时采样到的原始像素数量就越多。
 
 ### 完整公式
