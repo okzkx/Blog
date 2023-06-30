@@ -23,3 +23,12 @@
 ### 效果
 
 - sRGB 纹理不启用 sRGB 将会整体偏亮
+
+  
+  
+- Unity 一般纹理读取保证内存中的是 linear，sRGB 读取内存中是 Gamma 0.45
+- // Unity 统一后处理伽马矫正 linear -> Gamma 0.45，再屏幕输出到人眼后变暗 (linear)
+- // return half4(0.5, 0.5, 1, 1); // 直接返回的值 () -> linear，矫正 -> Gamma 0.45
+- // return half4(normalSample, 1); // 直接返回 sRGB 纹理颜色 : 从 Gamma 0.45 -> linear , 矫正 -> Gamma 0.45 // 制作 sRGB png 的时候使用 Gamma 0.45 存储  
+- // return half4(normalSample, 1);  // 直接返回 rgb 纹理颜色 : 预处理 从 linear -> Gamma 0.45, 从 Gamma 0.45 -> linear, 矫正 -> Gamma 0.45
+- // return half4(normalSample, 1); // 直接返回 normalmap 纹理颜色 : 预处理 从 linear -> Gamma 0.45, 从 Gamma 0.45 -> linear, 矫正 -> Gamma 0.45
