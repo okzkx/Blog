@@ -5,6 +5,7 @@
 * [深入GPU硬件架构及运行机制 - 0向往0 - 博客园](https://www.cnblogs.com/timlly/p/11471507.html#11-为何要了解gpu)
 * [移动端gpu架构中的onchip memory具体是如何运作的？](https://www.zhihu.com/question/499462755/answer/2237765936)
 * [memory management - How should Staging Buffer be used performance-wise properly? ](https://stackoverflow.com/questions/64887813/how-should-staging-buffer-be-used-performance-wise-properly)
+* - [REAC 2023 DAY 1 Modern Mobile Rendering @ HypeHype - YouTube](https://www.youtube.com/watch?v=m3bW8d4Brec&t=2697s)
 
 ## 图形 API
 

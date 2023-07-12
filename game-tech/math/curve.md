@@ -1,4 +1,6 @@
 # 曲线
+Ease curve
+https://easings.net/
 
 ## 这里简单介绍 4 种曲线
 

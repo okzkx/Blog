@@ -1,0 +1,3 @@
+- [Universal Scene Description](https://openusd.org/release/index.html)
+- [PixarAnimationStudios/USD: Universal Scene Description](https://github.com/PixarAnimationStudios/USD)
+- 
