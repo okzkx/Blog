@@ -2,9 +2,6 @@
 
 ## TODO
 
-- [Animation Graphs - YouTube](https://www.youtube.com/watch?v=R-T3Mk5oDHI&t=1s)
-
-
 ## 计划
 
 - P0
