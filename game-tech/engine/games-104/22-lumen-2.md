@@ -1,4 +1,4 @@
-﻿# 全局光照和 lumen 下
+# 全局光照和 lumen 下
 
 ## Radiance Injection and Caching
 

@@ -1,4 +1,4 @@
-﻿# 物理系统应用
+# 物理系统应用
 
 Outline Of Physics system
 

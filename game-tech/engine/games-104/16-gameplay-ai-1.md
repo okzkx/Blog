@@ -1,4 +1,4 @@
-﻿# 基础 AI 上
+# 基础 AI 上
 
 AI Basic
 

@@ -1,4 +1,4 @@
-﻿# GPU-Driven Geometry pipeline - Nanite
+# GPU-Driven Geometry pipeline - Nanite
 
 传统 Pipeline 设置 render state 费时费力
 

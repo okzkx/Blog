@@ -1,4 +1,4 @@
-﻿# Nanite - 2
+# Nanite - 2
 
 ## Virtual Geometry
 

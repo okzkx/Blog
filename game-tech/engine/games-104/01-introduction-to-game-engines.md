@@ -1,9 +1,19 @@
 ## 第一节：游戏引擎导论
 
+游戏引擎是一个很大的系统
+
 ### 历史
 
-Engine ，商业，inhouse，免费
-Middlewares 中间件公司
+#### Early Age of Modern Game Engine
+
+- Quake
+- Unlike what Doom engine did previous, the Quake engine offered full real-time 3D rendering and had early support for early 3D acceleratiokn through OpenGL
+
+#### 引擎类型
+
+- Engine ![image.png](https://image-1253155090.cos.ap-nanjing.myqcloud.com/202307201026273.png)
+- Middlewares ![image.png](https://image-1253155090.cos.ap-nanjing.myqcloud.com/202307201027726.png)
+
 
 ### 游戏引擎
 
