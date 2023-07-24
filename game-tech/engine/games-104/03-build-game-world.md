@@ -1,61 +1,73 @@
-## 第三节：如何构建游戏世界
+# 第三节：如何构建游戏世界
 
-### 游戏世界中的物体
+## 如何让游戏世界活起来
 
-#### Dynamic Game Object
+### Dynamic Game Object
 
-#### Static Game Object
+- Drone
+- Air-defense Missile
+- Solider
+- Artillery
+- Tank
 
-#### Environment
+### Static Game Object
 
-- Sky
-- Vegetation
+- Boxes
+- Watchtower
+- Shack
+- Shed
+- Stone
+
+### Environment
+
+- Sky (tone of day 日夜变换系统)
+- Vegetation (植被)
 - Terrain
 
-#### Other Game Objects
+### Other Game Objects
 
 - Air wall
 - Trigger Area
 - Ruler
 - Navigation mesh
 
-#### Everything is a Game Object
+### Everything is a Game Object
 
-### How to Describe a GameObject
+## How to Describe a GameObject
 
 - Name
 - Property
-
   - Shape
   - Position
   - Capacity of battery
 - Behavior
-
   - Move
   - Scout
 
-##### OOP
+### OOP
 
-通过面向对象的方式描述游戏物体，实际上的现实中的物体不是清晰的树状派生关系，而是组合居多
+- 通过面向对象的方式描述游戏物体，
+- 但是实际上多派生会出现问题
+- 实际上的现实中的物体不是清晰的树状派生关系，而是功能组合居多
 
-##### Component Base
+### Component Base
 
 组件化，通过组件组合成游戏对象
 
-![image-20220401185045234](games-104.assets/image-20220401185045234.png)
+![image-20220401185045234](https://image-1253155090.cos.ap-nanjing.myqcloud.com/202307241815417.png)
 
-![image-20220401185248796](games-104.assets/image-20220401185248796.png)
+![image-20220401185248796](https://image-1253155090.cos.ap-nanjing.myqcloud.com/202307241815686.png)
 
-#### Takeaways
+### Takeaways
 
 - Everything is a game object in the game world
 - Game object could be described in the component-based way
 
 ### Make world alive
 
-- Object-based Tick
-- Tick 的执行是遍历同类型的每个个体，而不是同个体的每个类型
-- 按照流水线的做法比较高效
+- Object-based Tick 是直观的，但是是效率低的
+- 高效的 Tick 的执行是遍历同类型的每个个体，而不是同个体的每个类型
+- 按照流水线的做法比较高效，把同样的 component 放在一起进行批处理
 
 ### Interactive
 
