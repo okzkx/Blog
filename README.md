@@ -2,10 +2,9 @@
 
 ## TODO
 
-- Loading GLTF
-	- request
-	- tokio
-	- crate
+- android windows
+- android gui
+- modern mobile rendering
 - Games 104
 
 ## 计划

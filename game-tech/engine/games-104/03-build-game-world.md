@@ -71,26 +71,47 @@
 
 ### Interactive
 
-- Events
+- Hard code : 实时
+- Events ：发送事件邮件，在下个 tick 触发
 - Interface
 - 可拓展的消息系统
 
 #### Manage Game Object
+
+如何管理游戏物体
 
 - Game object uid
 - position
 - Scene management 空间管理的核心
   - No division
   - Divided by grid
-    - Quadtree
+    - Quadtree ：角色在场景中分布是很不均匀的，所以不用均匀的格子
   - Hierarchical segmentation 树状结构划分
 
 ![image-20220401191716648](games-104.assets/image-20220401191716648.png)
 
 #### 复杂情况
 
-- GO Binding，父子节点情况，时序很重要，因为有并行情况
-  - 逻辑上的混乱性，而好的程序执行是确定性的
-  - 挑战性是在多线程情况下执行还是确定性的
-  - 需要有同步点，GameObject 间不能直接发送消息
-  - 可能逻辑间有循环依赖，根据处理方式可能会导致延时情况
+并行执行情况下的时序一致
+
+- GO Binding，父子节点情况，需要先更新父节点
+- 程序执行需要做到确定性，即相同的输入可以得到相同的结果
+- 多线程情况下执行还是确定性的
+- 需要有同步点，GameObject 间不能直接发送消息
+- 可能逻辑间有循环依赖，
+	- 可能在当前帧递归处理，也可能再下一帧再处理
+	- 根据处理方式可能会导致延时情况（lack）
+
+## Q&A
+
+- 一个 Tick 运算时间过长，可以拆分单位分帧运算。即流式。
+- 空气墙和其他 go 的区别
+- 渲染线程和逻辑线程的同步
+- 空间划分处理动态游戏对象 ：
+- event 调试
+- 物理和动画互相影响：受击时由动画过渡到物理
+
+
+
+
+
