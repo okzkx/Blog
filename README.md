@@ -2,9 +2,9 @@
 
 ## TODO
 
-- android windows
-- android gui
-- modern mobile rendering
+1. Thread load model
+3. same shader
+
 - Games 104
 
 ## 计划

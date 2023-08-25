@@ -41,13 +41,15 @@ A heavily optimized parctical software framework to fulfill the critical renderi
 
 #### Building Block of Rendering
 
-![image-20220413212212448](games-104.assets/image-20220413212212448.png)
+![image-20220413212212448](https://image-1253155090.cos.ap-nanjing.myqcloud.com/202308021852078.png)
 
-![image-20220413212321697](games-104.assets/image-20220413212321697.png)
+![image-20220413212321697](https://image-1253155090.cos.ap-nanjing.myqcloud.com/202308021853463.png)
 
-![image-20220413212331478](games-104.assets/image-20220413212331478.png)
+![image-20220413212331478](https://image-1253155090.cos.ap-nanjing.myqcloud.com/202308021854047.png)
 
 #### Computation - Texture Sampling
+
+昂贵的三线性滤波，采样 8 个像素点，7 次滤波
 
 1. Use tow nearest mipmap levels
 2. Perform bilinear inerpolation in both mip-maps
@@ -60,28 +62,39 @@ The dedicated hardware to solve massive jobs
 #### SIMD and SIMT
 
 - SIMD 单指令多数据
+
+![image.png](https://image-1253155090.cos.ap-nanjing.myqcloud.com/202308021903257.png)
+
 - SIMT 单指令多线程
 
-![image-20220413212402439](games-104.assets/image-20220413212402439.png)
+![image.png](https://image-1253155090.cos.ap-nanjing.myqcloud.com/202308021904181.png)
 
 #### GPU Architecture
 
-![image-20220413212419569](games-104.assets/image-20220413212419569.png)
+架构和不同核心
+
+![image-20220413212419569](https://image-1253155090.cos.ap-nanjing.myqcloud.com/202308221914508.png)
+
+数据流动
+
+cpu 到 gpu 的高延迟
 
 ![image-20220413212434311](games-104.assets/image-20220413212434311.png)
 
-![image-20220413212513383](games-104.assets/image-20220413212513383.png)
+多级缓存，数据尽量要放在一起
+
+![image-20220413212513383](https://image-1253155090.cos.ap-nanjing.myqcloud.com/202308221934117.png)
 
 #### GPU Bounds and Performance
 
-- Memory Bounds
-- ALU Bounds
-- TMU (Texture Mapping Unit) Bound
-- BW (Bandwidth) Bound
+- Memory Bounds 内存瓶颈
+- ALU Bounds 计算瓶颈
+- TMU (Texture Mapping Unit) Bound 纹理采样瓶颈
+- BW (Bandwidth) Bound 数据传输瓶颈
 
-![image-20220413212550528](games-104.assets/image-20220413212550528.png)
+![image-20220413212550528](https://image-1253155090.cos.ap-nanjing.myqcloud.com/202308221936217.png)
 
-![image-20220413212555358](games-104.assets/image-20220413212555358.png)
+![image-20220413212555358](https://image-1253155090.cos.ap-nanjing.myqcloud.com/202308221936208.png)
 
 ### Renderable
 
