@@ -115,14 +115,12 @@ cpu 到 gpu 的高延迟
   - Vertex Datda
   - Index Data
 
-  ![image-20220413212626112](games-104.assets/image-20220413212626112.png)
+  ![image-20220413212626112](https://image-1253155090.cos.ap-nanjing.myqcloud.com/202309041706687.png)
 - We Need Per-Vertex Normal
 - Materials
-
-  ![image-20220413212640347](games-104.assets/image-20220413212640347.png)
+  ![image-20220413212640347](https://image-1253155090.cos.ap-nanjing.myqcloud.com/202309041706166.png)
 - Material Model
-
-  ![image-20220413212730864](games-104.assets/image-20220413212730864.png)
+  ![image-20220413212730864](https://image-1253155090.cos.ap-nanjing.myqcloud.com/202309041706757.png)
 - Various Textures in Materials
 - Variety of Shaders
 
@@ -134,14 +132,14 @@ cpu 到 gpu 的高延迟
 
   - Use Handle to Reuse Resources
 
-    ![image-20220413213129463](games-104.assets/image-20220413213129463.png)
+    ![image-20220413213129463](https://image-1253155090.cos.ap-nanjing.myqcloud.com/202309041722675.png)
 
-    ![image-20220413213209476](games-104.assets/image-20220413213209476.png)
+    ![image-20220413213209476](https://image-1253155090.cos.ap-nanjing.myqcloud.com/202309041724766.png)
 - Instancing 实例化，前边的都是物体绘制的定义，实际上绘制到屏幕上才是实例
 - Sort by Material
 - GPU Batch Rendering
 
-  ![image-20220413213223322](games-104.assets/image-20220413213223322.png)
+  ![image-20220413213223322](https://image-1253155090.cos.ap-nanjing.myqcloud.com/202309041724775.png)
 
 ### Visibility Culling 可见性裁剪
 
