@@ -2,22 +2,9 @@
 
 ## TODO
 
-1. fremote-client
-	1. 客户端启动
-	2. 加载配置
-	3. 连接服务器 : 优先级
-		1. 服务器启动资源服务器
-		2. 启动本地资源服务器
-		3. 服务器启动配置界面
-	4. 请求 sausage_render_object.json
-	5. sausage_render_object.json => LinkedRenderObjectSerde
-	6. LinkedRenderObjectSerde => LinkedRenderObject
-		1. Embedded(RenderObjectSerde)
-			1. RenderObjectSerde-> RenderObject
-		2. Linked(Path)
-			1. Path => RenderObjectSerde -> RenderObject
-		3. RenderObject.LinkedRenderObjects -> 1
-2. Games 104
+
+5. Iphone 翻墙
+11. Games 104
 
 Temp
 1. Dots Totorials
@@ -29,7 +16,7 @@ Temp
 	6. [Intro to DOTS Animation - Unity ECS Tutorial 2023]( https://www.youtube.com/watch?v=KvabbZKrUHk)
 		1. GPU ECS Animation Baker
 		2. Rukhanka - ECS Animation System
-2. 
+2. docFX
 3. 
 4. 
 
