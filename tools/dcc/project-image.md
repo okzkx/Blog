@@ -1,4 +1,4 @@
-# 图片
+# 项目图
 
 ## draw.io
 
@@ -39,21 +39,3 @@ sequenceDiagram
     服务器 ->> 服务器 : 根据openid确定用户并生成token
     服务器 -->> - 小程序 : token
 ```
-
-## 图片处理
-
-[搞定抠图](https://www.gaoding.com/koutu)
-
-[都都网](http://www.topdodo.com/meditor)
-
-[Photopea | Online Photo Editor](https://www.photopea.com/)
-
-## 图片压缩
-
-[图压](https://tuya.xinxiao.tech/)
-
-## 像素艺术
-
-[Palette List](https://lospec.com/palette-list)
-
-[Photopea | Online Photo Editor](https://www.photopea.com/)

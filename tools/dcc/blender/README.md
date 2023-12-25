@@ -15,6 +15,7 @@
 
 ## Lowpoly
 
+* [LEARN LOW POLY Character Modeling - Blender 3.5 Full Course - Model | Rig | Animate | Clone | Export - YouTube](https://www.youtube.com/watch?v=PTWV67qUX2k)
 * [Low Poly Island | Beginner | Blender 2.8 Tutorial](https://www.youtube.com/watch?v=0lj643VmTsg)
 * [Learn Low Poly Modeling in Blender 2.9 / 2.8](https://www.youtube.com/watch?v=1jHUY3qoBu8)
 * [Low Poly Vehicles | Easy Beginner | Blender Tutorial - YouTube](https://www.youtube.com/watch?v=Zkg7Ol2jEjs)

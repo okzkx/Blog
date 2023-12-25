@@ -4,6 +4,10 @@
 - [shader 利用FBM， noise 模拟海洋波浪](https://blog.csdn.net/lck8989/article/details/103863517)
 - [（十七）unity shader之——————高级纹理之程序纹理](https://blog.csdn.net/cgy56191948/article/details/101641140)
 - [Unity Shader学习：噪声noise](https://blog.csdn.net/qq_36107199/article/details/87191348)
+- [《数学可视化》——基础知识（7）——随机与噪声](https://www.bilibili.com/video/BV16d4y1f7qs/?spm_id_from=333.999.0.0&vd_source=ebf06d572d5366b5ef7bc5032fefb08d)
+
+![image.png](https://image-1253155090.cos.ap-nanjing.myqcloud.com/202312111824539.png)
+
 
 ## 介绍
 
@@ -87,3 +91,6 @@ float valueNoise(vec2 p) {
 
 
 
+voronoi
+
+[【浅入浅出】教你实现最简单的Voronoi图](https://zhuanlan.zhihu.com/p/144477570)

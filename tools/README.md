@@ -2,6 +2,15 @@
 
 工具收藏或使用方法
 
+## 云服务器
+
+- [存储桶列表 - 对象存储 - 控制台](https://console.cloud.tencent.com/cos/bucket?bucket=image-1253155090&region=ap-nanjing&isPublic=true)
+
+## VPN
+
+- [首页 — iKuuu VPN](https://ikuuu.me/user)
+
+
 ## 网址导航
 
 [爱达杂货铺 \| 收集那些有用的东西\|爱达导航](https://adzhp.cn/#term-52)
@@ -10,9 +19,8 @@
 
 ## BT Search
 
-[BT 种子磁力搜索引擎汇总 | 磁力链接搜索网站整理 - Go 2 Think](https://go2think.com/bt-magnet-search-engines/)
-
-[吴签磁力最新地址发布页](https://wuqianfabu.top/)
+- [BT 种子磁力-搜索引擎汇总 | 磁力链接搜索网站整理 - Go 2 Think](https://go2think.com/bt-magnet-search-engines/)
+- [吴签磁力最新地址发布页](https://wuqianfabu.top/)
 
 ## 数学工具
 
@@ -57,3 +65,7 @@
 ### VS bug 修复
 
 计算机\HKEY_LOCAL_MACHINE\SOFTWARE\Classes\Installer\Products
+
+## 网速测试
+
+[在线网速测试 测网速 宽带测速 网络测速 www.wangsu123.cn](https://www.wangsu123.cn/)

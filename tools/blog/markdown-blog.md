@@ -1,4 +1,4 @@
-﻿# 使用 Markdown 做博客
+# 使用 Markdown 做博客
 
 ## 必备工具
 

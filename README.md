@@ -1,22 +1,15 @@
 # ZKX'S BLOG
 
 ## TODO
+- 线性代数, 高等数学复习
+- 香肠 shader 复刻, 修复空间变换
 
-10. Games 104
-
-Temp
-
-2. docFX
-3. 
-4. 
 
 ## 计划
 
 - P0
-	- Games 104
-- P1
-	- Games 102 
-	- UE
 	- 塔防游戏 
+- P1
+	- 
 - P2
 	- Games 103

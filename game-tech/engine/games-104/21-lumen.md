@@ -1,4 +1,4 @@
-﻿# 动态全局光照和 Luman
+# 动态全局光照和 Luman
 
 dynamic-global-illumination-and-lummen
 
