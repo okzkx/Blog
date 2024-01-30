@@ -7,3 +7,5 @@
 
 - [Colaboratory](https://colab.research.google.com/notebooks/intro.ipynb)
 - [My Drive - Google Drive](https://drive.google.com/drive/u/1/my-drive)
+## Github Copilot
+- [Github Copilot + chat远程授权两年(买1送1) 一键激活 包成功 比学生包强 程序员开发神器 v5.0 | V3小店 | ChatGPT账号API批发购买](https://v3.cm/buy/12)

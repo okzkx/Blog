@@ -69,3 +69,7 @@
 ## 网速测试
 
 [在线网速测试 测网速 宽带测速 网络测速 www.wangsu123.cn](https://www.wangsu123.cn/)
+
+## 资料
+
+- [手机型号资料](https://www.gsmarena.com/)

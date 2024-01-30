@@ -72,3 +72,7 @@ SSAO 可以简单模拟环境光可见性项
 #### SSR，Screen Space Refrection
 
 屏幕空间上的反射，需要使用 ColorBuffer 和 DepthBuffer，用光线步进的方式进行入射光的追踪，获取相应点的颜色。 
+
+## 其他 GI
+
+[GI from Local Radiance Transfer——适合移动端上的0.5ms 全动态全实时GI - 知乎](https://zhuanlan.zhihu.com/p/653044045)
