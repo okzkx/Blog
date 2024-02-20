@@ -1,6 +1,7 @@
 # ZKX'S BLOG
 
 ## TODO
-1. Mesh 和数学库
+1. Optimize animation
+2. Optimize Unwrap
 ## 计划
 
