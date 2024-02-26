@@ -20,11 +20,7 @@
 
 [Project Anni 之旅（2）ValueAfterTable——toml-rs的实现与限制 – (o・∇・o)](https://blog.mmf.moe/post/project-anni-02-toml-rs-value-after-table/)
 
-## 正则化
 
-* [RegExr: Learn, Build, &amp; Test RegEx](https://regexr.com/)
-* [regex101: build, test, and debug regex](https://regex101.com/)
-* [正则表达式 - 语法](https://www.runoob.com/regexp/regexp-syntax.html)
 
 ## LaTex
 
