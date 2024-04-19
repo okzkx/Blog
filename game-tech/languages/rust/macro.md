@@ -9,3 +9,4 @@
 // #![allow(clippy::new_without_default)]
 ```
  
+[Macros in Rust: A tutorial with examples - LogRocket Blog](https://blog.logrocket.com/macros-in-rust-a-tutorial-with-examples/)
