@@ -22,13 +22,15 @@
 
 ### 效果
 
-- sRGB 纹理不启用 sRGB 将会整体偏亮
-
-  
-  
+- sRGB 纹理不启用 sRGB 将会整体偏亮  
 - Unity 一般纹理读取保证内存中的是 linear，sRGB 读取内存中是 Gamma 0.45
 - // Unity 统一后处理伽马矫正 linear -> Gamma 0.45，再屏幕输出到人眼后变暗 (linear)
 - // return half4(0.5, 0.5, 1, 1); // 直接返回的值 () -> linear，矫正 -> Gamma 0.45
 - // return half4(normalSample, 1); // 直接返回 sRGB 纹理颜色 : 从 Gamma 0.45 -> linear , 矫正 -> Gamma 0.45 // 制作 sRGB png 的时候使用 Gamma 0.45 存储  
 - // return half4(normalSample, 1);  // 直接返回 rgb 纹理颜色 : 预处理 从 linear -> Gamma 0.45, 从 Gamma 0.45 -> linear, 矫正 -> Gamma 0.45
 - // return half4(normalSample, 1); // 直接返回 normalmap 纹理颜色 : 预处理 从 linear -> Gamma 0.45, 从 Gamma 0.45 -> linear, 矫正 -> Gamma 0.45
+## 总结
+
+1. Unity Gamma 空间, 使用 sRGB 纹理是在 Gamma 0.45 颜色的, 输入输出 Shader 时不做任何处理, 所以在计算高光时会出现太亮过曝现象
+2. Unity Linear 空间, 使用 sRGB 纹理会在输入 Shader 时变换颜色从 Gamma 0.45 到 Linear, 所以物理颜色运算是准确的, 输出颜色到显示器时会自动变换 Linear 到 Gamma 0.45
+3. 输出到显示器的 Gamma 0.45 会由显示器自动变换到 Linear
