@@ -1,7 +1,6 @@
 # Tone Mapping
 
 
-
 One of the more simple tone mapping algorithms is Reinhard tone mapping 
 
 ## ToneMapping do auto exposure
