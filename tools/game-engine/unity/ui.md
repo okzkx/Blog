@@ -1,6 +1,4 @@
-# UI
-
-### Unity UI
+# Unity UI
 
 [User interface (UI)](https://docs.unity3d.com/Manual/UIToolkits.html) 
 - [UI Toolkit](https://docs.unity3d.com/Manual/UIElements.html)
