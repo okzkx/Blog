@@ -5,6 +5,8 @@
 - [killop/anything_about_game: A wonderful list of Game Development resources.](https://github.com/killop/anything_about_game#shader-compiler)
 - [TA后备隐藏能源(持续更新嗷) - 知乎](https://zhuanlan.zhihu.com/p/265590519)
 - [gonglei007/GameDevMind: 最全面的游戏开发技术图谱。帮助游戏开发者们在已知问题上节省时间，省出更多的精力投入到更有创造性的工作中去。 | The most comprehensive technical map of game development. Help game developers save time on known problems and save more energy for more creative work.](https://github.com/gonglei007/GameDevMind)
+- 
+- [游戏客户端进阶之路](https://zhuanlan.zhihu.com/p/74739364)
 
 ## 内存管理
 

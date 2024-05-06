@@ -1,18 +1,17 @@
 # ZKX'S BLOG
 
-
+## TODO
 - UIToolkit 打造可视化节点编辑系统
 - addressble
-
-## TODO
-
-- 电脑清理
 - catlike lightmap
-- 游戏策划
-	- 体验引擎
-	- 数值学习
+- 
+- 超简短的独立游戏
+- 注意力机制
+- picolo  
 
-- 飞机
-- picolo
-- b 站收藏
+## Daily
+
+- 游资网
+- 策划书
+- 
 
