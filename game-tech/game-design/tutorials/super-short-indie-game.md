@@ -111,3 +111,41 @@
 - 难题式引导
 	- 事先需要让玩家知道目标
 	- 给玩家线索和暗示 ,指路
+
+#### 故事
+
+如何构建故事
+
+- 冲突理论
+	- 渴望
+	- 行动
+	- 障碍
+- 故事曲线
+	- 阐述
+	- 上升动作
+	- 危机
+	- 高潮
+	- 下降动作
+- 起承转合
+
+![image.png](https://image-1253155090.cos.ap-nanjing.myqcloud.com/202405061858085.png)
+
+![image.png](https://image-1253155090.cos.ap-nanjing.myqcloud.com/202405061859426.png)
+
+
+![image.png](https://image-1253155090.cos.ap-nanjing.myqcloud.com/202405061859403.png)
+
+![image.png](https://image-1253155090.cos.ap-nanjing.myqcloud.com/202405061900193.png)
+
+
+![image.png](https://image-1253155090.cos.ap-nanjing.myqcloud.com/202405061900069.png)
+
+![image.png](https://image-1253155090.cos.ap-nanjing.myqcloud.com/202405061900347.png)
+
+
+![image.png](https://image-1253155090.cos.ap-nanjing.myqcloud.com/202405061904897.png)
+
+##### 故事的织体
+![image.png](https://image-1253155090.cos.ap-nanjing.myqcloud.com/202405061905432.png)
+
+![image.png](https://image-1253155090.cos.ap-nanjing.myqcloud.com/202405061906916.png)
