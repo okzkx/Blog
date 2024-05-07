@@ -2,12 +2,12 @@
 
 ## TODO
 - P1
-	- 周报
 	- 超简短的独立游戏-se2
-	- picolo  
-	- brg
+	- bevy
 - P2
 	- 注意力机制
+	- gpu skin 插件
+	- 像素选择插件
 
 ## Daily
 
