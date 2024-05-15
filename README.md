@@ -1,16 +1,14 @@
 # ZKX'S BLOG
 
 ## TODO
-- P1
-	- 超简短的独立游戏-se2
+- P0
 - P2
-	- 注意力机制
+	- comfy ui
 	- gpu skin 插件
-	- 像素选择插件
-
+	- yoo asset demo
+	- github 整理
 ## Daily
 
 - 游资网
 - 策划书
-- 
 

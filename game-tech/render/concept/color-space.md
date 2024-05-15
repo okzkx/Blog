@@ -5,6 +5,7 @@
 - [Unity - Manual: Working with linear Textures](https://docs.unity3d.com/Manual/LinearRendering-LinearTextures.html)
 - [Unity - Manual: Linear or gamma workflow](https://docs.unity3d.com/Manual/LinearRendering-LinearOrGammaWorkflow.html)
 - [Gamma、Linear、sRGB 和Unity Color Space，你真懂了吗？ - 知乎](https://zhuanlan.zhihu.com/p/66558476)
+- [Unity 学习笔记：基于 URP 搭建 Linear 色彩空间下的 UI 渲染管线](https://zhuanlan.zhihu.com/p/432846112)
 
 ## sRGB  和 Gamma 矫正
 

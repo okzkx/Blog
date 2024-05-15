@@ -73,3 +73,8 @@
 ## 资料
 
 - [手机型号资料](https://www.gsmarena.com/)
+
+## 下载
+
+- 迅雷
+- Picpak
