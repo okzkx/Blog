@@ -5,8 +5,8 @@
 - P2
 	- comfy ui
 	- gpu skin 插件
-	- yoo asset demo
 	- github 整理
+		- Arpg Demo
 ## Daily
 
 - 游资网
