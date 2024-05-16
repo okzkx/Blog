@@ -91,7 +91,3 @@ public class $TargetClass$Editor : Editor {
 [https://blog.csdn.net/qq\_35030499/article/details/88350521](https://blog.csdn.net/qq_35030499/article/details/88350521)
 
 [https://docs.unity3d.com/ScriptReference/EditorWindow.html](https://docs.unity3d.com/ScriptReference/EditorWindow.html)
-
-## 插件
-
-Odin Inspector
