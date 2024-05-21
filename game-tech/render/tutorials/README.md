@@ -8,6 +8,7 @@
 - [课程PPT和视频 – 计算机图形学与混合现实研讨会](http://games-cn.org/games202-slidesandvideo/)
 - [GAMES103-基于物理的计算机动画入门](https://www.bilibili.com/video/BV12Q4y1S73g)
 - [《Unity6自定义渲染管线》课程说明_哔哩哔哩_bilibili](https://www.bilibili.com/video/BV1xu4m1K7NW/?spm_id_from=333.999.0.0&vd_source=ebf06d572d5366b5ef7bc5032fefb08d)
+- [GDC2024-《霍格沃茨之遗》开放世界渲染技术](https://zhuanlan.zhihu.com/p/692562877)
 
 ## Blogs
 

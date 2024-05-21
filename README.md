@@ -2,9 +2,10 @@
 
 ## TODO
 - P0
-- P2
-	- gpu skin 插件
-	- [GDC2024-《霍格沃茨之遗》开放世界渲染技术](https://zhuanlan.zhihu.com/p/692562877)
+	- Project storm
+		- 材质拷贝颜色
+		- shader 优化
+		- 接入游戏系统
 ## Daily
 
 - 游资网
