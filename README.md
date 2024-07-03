@@ -6,13 +6,23 @@ Editor.Profiling
 Zyq@0592
 Noesis 爬资源
 
+- 事件驱动
+- 数据驱动
+
+- 树,图结构
+- 数组结构
+
 ## TODO
 - P0 : 
-	- 材质时间总体测试
 	- 整理
 		- 临时
 		- 书签
-	- rust async demo
+	- 重读引擎书
+	- 缓存一致性
+	- WeakReference
+	- Bevy 模块分析
+	- 不同的树结构
+	- 函数式编程
 - P2 : Project storm
 	- Check MaterialProperty
 	- shader 优化
@@ -30,11 +40,10 @@ Noesis 爬资源
 		- 异步优化
 ## Daily
 
-- 
 - 游资网
 - 策划书
 
-大方向
+## Road Map
 - 业务
 	- 特效 (ui 特效)
 	- 美术
