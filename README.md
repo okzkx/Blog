@@ -1,17 +1,5 @@
 # ZKX'S BLOG
 
-## 临时
-Unity.Profiling
-Editor.Profiling
-Zyq@0592
-Noesis 爬资源
-
-- 事件驱动
-- 数据驱动
-
-- 树,图结构
-- 数组结构
-
 ## TODO
 - P0 : 
 	- 整理
@@ -53,3 +41,5 @@ Noesis 爬资源
 	- 引擎书
 	- 手写引擎
 	- 105 动画
+
+		
