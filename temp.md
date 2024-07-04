@@ -1,4 +1,9 @@
-
+ 
+整理
+		- 临时
+		- 书签
+	- 重读引擎书
+	- 计算机基础
 ## 临时
 Unity.Profiling
 Editor.Profiling
@@ -32,4 +37,21 @@ UniversalRenderPipeline
 			- ExecuteRenderPass(m_ActiveRenderPassQueue)
 	- 
 
-
+DoRenderLoop
+- UniversalRenderTotal
+	- RenderCameraStack
+		- Begin Camera Rendering
+		- Update VolumeFramework
+		- InitializeCameraData
+		- InitializeAdditionalCameraData
+		- RenderSingleCamera : Main Camera
+			- SetupCullingParamters
+			- SetupPerCameraShaderConstants
+			- CullScriptable
+			- InitalizeRenderingData
+			- Setup
+			- URP Asset Renderer Execute
+			- Submit
+		- Overlay camera
+		- End Camera Rendering
+	- RenderCameraStack

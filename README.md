@@ -2,19 +2,15 @@
 
 ## TODO
 - P0 : 
-	- 整理
-		- 临时
-		- 书签
-	- 重读引擎书
-	- 缓存一致性
-	- WeakReference
+	- 微信小游戏
+	- graphic DebugModule
+	- DebugDraw 代码裁剪, Renderer 矫正
+	- 香肠工具
+- P2 : 
+	- Project storm
+		- shader 优化
+		- 接入游戏系统
 	- Bevy 模块分析
-	- 不同的树结构
-	- 函数式编程
-- P2 : Project storm
-	- Check MaterialProperty
-	- shader 优化
-	- 接入游戏系统
 - P3 : 
 	- 笔记完整整理
 		- ...
