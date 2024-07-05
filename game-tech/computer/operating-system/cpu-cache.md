@@ -1,4 +1,17 @@
 
+# 提高缓存命中率
+
+内存地址映射到 CPU Cache 地址里的策略有很多种，其中比较简单是直接映射 Cache
+
+把内存地址转换为「 组标记 + 索引 + 偏移量」标记
+
+CPU L1 Cache 分为数据缓存和指令缓存
+
+- 对于数据缓存，我们在遍历数据的时候，应该按照内存布局的顺序操作
+- 对于指令缓存，有规律的条件分支语句能够让 CPU 的分支预测器发挥作用
+
+# Cpu 缓存一致性
+
 [2.4 CPU 缓存一致性](https://www.xiaolincoding.com/os/1_hardware/cpu_mesi.html)
 
 ![](https://cdn.xiaolincoding.com/gh/xiaolincoder/ImageHost3@main/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/CPU%E7%BC%93%E5%AD%98%E4%B8%80%E8%87%B4%E6%80%A7/%E7%BC%93%E5%AD%98%E4%B8%80%E8%87%B4%E6%80%A7%E6%8F%90%E7%BA%B2.png)
