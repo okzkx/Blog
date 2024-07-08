@@ -1,10 +1,11 @@
 # 配合 Unity 建模流程
 
+
 ## 教程
 
-[十分钟演示 Blender 游戏角色建模并导入 Unity 的全流程](https://www.bilibili.com/video/BV1XA4117737?spm_id_from=333.1007.top_right_bar_window_default_collection.content.click)
-
-[Blender和Unity之间导入导出那些事儿 - 知乎](https://zhuanlan.zhihu.com/p/348423432?ivk_sa=1024320u)
+- [Blender - Export FBX to Unity 的一些配置 - 导出模型后，x 轴旋转了 90 度，和缩放不对的问题_blender导出fbx后模型变了-CSDN博客](https://blog.csdn.net/linjf520/article/details/124708277)
+- [十分钟演示 Blender 游戏角色建模并导入 Unity 的全流程](https://www.bilibili.com/video/BV1XA4117737?spm_id_from=333.1007.top_right_bar_window_default_collection.content.click)
+- [Blender和Unity之间导入导出那些事儿 - 知乎](https://zhuanlan.zhihu.com/p/348423432?ivk_sa=1024320u)
 
 ## 根据对应步骤
 
