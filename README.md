@@ -1,16 +1,18 @@
 # ZKX'S BLOG
 ## Daily
 
+- 计算机基础
+- 引擎书
 - 游资网
 - 策划书
-- 引擎书
-- 计算机基础
 
 ## TODO
 
 - P0 : 
-	- graphic DebugModule
 	- DebugDraw 代码裁剪, Renderer 矫正
+		- 代码结构
+		- 生成函数重写
+	- graphic DebugModule
 	- 香肠工具
 - P2 : 
 	- Project storm

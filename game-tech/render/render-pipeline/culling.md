@@ -7,6 +7,15 @@
 
 - [【Unity】使用Compute Shader实现Hi-z遮挡_剔除_（Occlusion Culling）](https://zhuanlan.zhihu.com/p/396979267)
 - [原神草地学习HIZ Culling - 知乎](https://zhuanlan.zhihu.com/p/439540044)
+- [Compute Shader 进阶应用:结合Hi-Z 剔除海量草渲染](https://zhuanlan.zhihu.com/p/278793984)
+- [MaxwellGeng：Hi-Z GPU Occlusion Culling](https://zhuanlan.zhihu.com/p/47615677)
+
+1. 获取不透明物体深度图, 进行mipmap
+2. cpu 在下一帧
+	1. 获取这个 mipmap,
+	2. 计算物体最近深度
+	3. 在 mipmap 对应层级查找是否被遮挡
+	4. 得到物体可见性
 
 #### 基于 GPU 的 Culling（Vulkan / GL ES ）
 

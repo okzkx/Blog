@@ -1,3 +1,0 @@
-- [计算机内存体系](https://space.bilibili.com/39521068/channel/collectiondetail?sid=1898345&spm_id_from=333.788.0.0 "计算机内存体系")
-
-
