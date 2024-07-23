@@ -9,11 +9,6 @@
 ## TODO
 
 - P0 : 
-	- DebugDraw 代码裁剪, Renderer 矫正
-		- 代码结构
-		- 生成函数重写
-	- graphic DebugModule
-	- 香肠工具
 - P2 : 
 	- Project storm
 		- shader 优化
