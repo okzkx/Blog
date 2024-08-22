@@ -2,7 +2,7 @@
 ## TODO
 
 - P0 : 
-	- 接入雾效
+	- 查看变体剔除工具剔除的 shader
 - P2 : 
 	- 学习
 		- Addressable 学习
