@@ -1,1 +1,2 @@
-[Unity下微信小游戏的开发与优化](https://mp.weixin.qq.com/mp/appmsgalbum?__biz=MzkyOTUxMDM2NA==&action=getalbum&album_id=3328442653063266309&from_itemidx=1&from_msgid=2247483670&scene=173&subscene=&sessionid=svr_c2d0e763902&enterid=1721960335&from_msgid=2247483670&from_itemidx=1&count=3&nolastread=1#wechat_redirect)
+- [Unity下微信小游戏的开发与优化](https://mp.weixin.qq.com/mp/appmsgalbum?__biz=MzkyOTUxMDM2NA==&action=getalbum&album_id=3328442653063266309&from_itemidx=1&from_msgid=2247483670&scene=173&subscene=&sessionid=svr_c2d0e763902&enterid=1721960335&from_msgid=2247483670&from_itemidx=1&count=3&nolastread=1#wechat_redirect)
+- [使用Unity Profiler性能调优 | 微信小游戏Unity/团结快适配](https://wechat-miniprogram.github.io/minigame-unity-webgl-transform/Design/UnityProfiler.html)

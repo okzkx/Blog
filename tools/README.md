@@ -41,6 +41,7 @@
 - TreeSizeFree：大文件占用查找
 - Files：高颜值文件管理
 - Renamer ：批量文件名称修改
+- [Windows有什么类似diff的文本比较工具? - 知乎](https://www.zhihu.com/question/399896945)
 
 ## WebSocket
 

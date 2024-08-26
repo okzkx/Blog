@@ -1,0 +1,1 @@
+- [Unity ECS 诡异Leak Detected_leak detected : persistent allocates 2 individual -CSDN博客](https://blog.csdn.net/z329600208z/article/details/137356998)

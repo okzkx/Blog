@@ -1,1 +1,3 @@
 - [Unity Shader 变体优化与故障排除技巧](https://mp.weixin.qq.com/s/0l6SkXNwuoRzFt9Xg0ZV4A)
+- [Shader变体收集与打包 - 知乎](https://zhuanlan.zhihu.com/p/68888831)
+- 
