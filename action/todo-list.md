@@ -1,6 +1,3 @@
-
-## TODO
-
 - P0 : 
 	- Shader Warmup Bug
 - P2 : 
