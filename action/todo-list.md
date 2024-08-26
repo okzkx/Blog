@@ -2,9 +2,7 @@
 ## TODO
 
 - P0 : 
-	- 玻璃动态
-	- 材质变动
-	- 查看变体剔除工具 Bug
+	- Shader Warmupe Bug
 - P2 : 
 	- 学习
 		- Addressable 学习
