@@ -2,7 +2,7 @@
 ## TODO
 
 - P0 : 
-	- Shader Warmupe Bug
+	- Shader Warmup Bug
 - P2 : 
 	- 学习
 		- Addressable 学习
@@ -16,8 +16,10 @@
 			- URP 通用代码
 		- 笔记 : wip 标签
 - P3 : 
-	- 策划书
-	- 玩所有的塔防游戏, 养成游戏
+	- 策划
+		- 策划书
+		- 玩所有的塔防游戏, 养成游戏
+		- 策划分析
 	- 渲染器通用化设置 
 		- 适配最新 Rust
 		- Rust async
