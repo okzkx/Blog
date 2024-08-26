@@ -4,13 +4,12 @@
 - P0 : 
 	- Shader Warmup Bug
 - P2 : 
-	- 整理
-		- Project storm
-			- shader 优化
-			- 接入游戏系统
-		- ZPlugin
-			- URP 通用代码
-		- 笔记 : wip 标签
+	- ZPlugin
+		- URP 通用代码
+	- Project storm
+		- shader 优化
+		- 接入游戏系统
+	- 笔记 : wip 标签
 - P3 : 
 	- 策划
 		- 策划书
