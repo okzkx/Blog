@@ -4,6 +4,8 @@
 - [Bevy book](https://bevyengine.org/learn/book/getting-started/)
 - [Bevy Engine](https://github.com/bevyengine/bevy) : A refreshingly simple data-driven game engine built in Rust
 
+#wip-learn
+
 ## App
 
 - 配置全局数据 insert_resource
@@ -12,6 +14,7 @@
 	- 主循环 add_system
 - 配置 Plugin
 	- Plugin 是配置 App 其他操作的集合
+
 
 ### ECS
 - Entity : Entity(u64)
@@ -26,5 +29,7 @@
 		- With< Component>, 
 	- Res< S>>, ：查询和修改全局数据
 		- ResMut< S>>){}
-	- 
-- 
+
+## Resource
+
+- Bevy 资源管理分析

@@ -1,6 +1,12 @@
 # Entity component system
 
+## Project
+
+#wip-learn
 - [EntityComponentSystemSamples](https://github.com/Unity-Technologies/EntityComponentSystemSamples)
+
+## Blogs
+
 - [Unity - DOTS Development Status And Next Milestones - December 2021 - Unity Forum](https://forum.unity.com/threads/dots-development-status-and-next-milestones-december-2021.1209727/#post-7722964)
 - [Unity - Experimental Entities 0.50 is Available - Unity Forum](https://forum.unity.com/threads/experimental-entities-0-50-is-available.1253394/)
 - [Unity ECS (Entity Component System) - 1 of 2 - YouTube](https://www.youtube.com/watch?v=OqzUr-Rg6w4)
@@ -20,3 +26,5 @@
 	6. [Intro to DOTS Animation - Unity ECS Tutorial 2023]( https://www.youtube.com/watch?v=KvabbZKrUHk)
 		1. GPU ECS Animation Baker
 		2. Rukhanka - ECS Animation System
+
+
