@@ -1,13 +1,15 @@
 - P0 : 
 	- Shader Warmup Bug
 - P2 : 
+	-  Gitee 同步
 	- ZPlugin
+		- 重构为一个工程
 		- URP 通用代码
 	- Project storm
 		- shader 优化
 		- 接入游戏系统
 	- 笔记 : wip 标签
-- P3 : #wip-refactor
+- P3 : 
 	- 策划
 		- 策划书
 		- 玩所有的塔防游戏, 养成游戏
