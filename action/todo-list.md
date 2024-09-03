@@ -3,13 +3,11 @@
 	- 贴花
 	- 半透明
 - P2 : 
-	- ZPlugin
-		- 属性名称
+	- 笔记 : wip 标签
 	- Project storm
 		- shader 优化
 		- 接入游戏系统
 		- 集成 addressable
-	- 笔记 : wip 标签
 - P3 : 
 	- 策划
 		- 策划书
