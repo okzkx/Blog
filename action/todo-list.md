@@ -1,10 +1,10 @@
 - P0 : 
 	- Shader Warmup Bug
-	- 补充 review 文档
+	- 贴花
+	- 半透明
 - P2 : 
 	- ZPlugin
 		- 属性名称
-		- 封装
 	- Project storm
 		- shader 优化
 		- 接入游戏系统
