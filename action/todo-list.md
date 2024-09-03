@@ -1,10 +1,10 @@
 - P0 : 
 	- Shader Warmup Bug
+	- 补充 review 文档
 - P2 : 
-	-  Gitee 同步
 	- ZPlugin
-		- 重构为一个工程
-		- URP 通用代码
+		- 属性名称
+		- 封装
 	- Project storm
 		- shader 优化
 		- 接入游戏系统
