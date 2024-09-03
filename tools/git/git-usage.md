@@ -21,3 +21,7 @@ git config user.email "okzkx@qq.com"
 git config --global user.name "okzkx"
 git config --global user.email "okzkx@qq.com"
 ```
+
+#### git vpn 代理
+
+`git config --global http.proxy 127.0.0.1:9788 --replace-all`
