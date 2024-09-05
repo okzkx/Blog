@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "game-tech/render/technology-artist/artist/effect.md",
+                "file": "action/temp/README.md",
                 "mode": "source",
                 "source": false
               }
@@ -63,7 +63,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "game-tech/render/technology-artist/artist/effect.md",
+                "file": "action/temp/README.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -80,7 +80,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "game-tech/render/technology-artist/artist/effect.md",
+                "file": "action/temp/README.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -135,7 +135,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "game-tech/render/technology-artist/artist/effect.md"
+                "file": "action/temp/README.md"
               }
             }
           },
@@ -178,8 +178,8 @@
   },
   "active": "d6891c4dfabeca9a",
   "lastOpenFiles": [
-    "game-tech/render/technology-artist/artist/dynamic smears.md",
     "game-tech/render/technology-artist/artist/effect.md",
+    "game-tech/render/technology-artist/artist/dynamic smears.md",
     "game-tech/game/3c/golden-rush/engineering.md",
     "action/todo-list.md",
     "tools/game-engine/unity/render/baking.md",
