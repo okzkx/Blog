@@ -1,7 +1,7 @@
 - P0 : 
 	- Shader Warmup Bug
-	- 贴花
-	- 半透明
+	- 烘焙
+	- rt
 - P2 : 
 	- 笔记 : wip 标签
 	- Project storm
