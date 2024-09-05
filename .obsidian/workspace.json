@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "tools/game-engine/unity/render/shader/warmup.md",
+                "file": "game-tech/render/technology-artist/artist/effect.md",
                 "mode": "source",
                 "source": false
               }
@@ -63,7 +63,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "tools/game-engine/unity/render/shader/warmup.md",
+                "file": "game-tech/render/technology-artist/artist/effect.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -80,7 +80,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "tools/game-engine/unity/render/shader/warmup.md",
+                "file": "game-tech/render/technology-artist/artist/effect.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -112,7 +112,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "变体",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": true,
                 "collapseAll": false,
@@ -135,7 +135,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "tools/game-engine/unity/render/shader/warmup.md"
+                "file": "game-tech/render/technology-artist/artist/effect.md"
               }
             }
           },
@@ -178,18 +178,21 @@
   },
   "active": "d6891c4dfabeca9a",
   "lastOpenFiles": [
+    "game-tech/render/technology-artist/artist/dynamic smears.md",
+    "game-tech/render/technology-artist/artist/effect.md",
+    "game-tech/game/3c/golden-rush/engineering.md",
+    "action/todo-list.md",
+    "tools/game-engine/unity/render/baking.md",
+    "tools/game-engine/unity/render/shader/warmup.md",
     "tools/game-engine/unity/render/shader/macro.md",
     "tools/game-engine/unity/render/shader/draw-procedural.md",
     "tools/game-engine/unity/render/shader/variant.md",
-    "tools/game-engine/unity/render/shader/warmup.md",
-    "game-tech/render/technology-artist/artist/effect.md",
     "2024-09-05.md",
     "tools/game-engine/unity/render/shader/position.md",
     "tools/game-engine/unity/render/shader/README.md",
     "tools/game-engine/unity/render/shader/shader-graph.md",
     "tools/game-engine/unity/render/shader/shaderlab.md",
     "tools/game-engine/unity/render/shader/compute-shader.md",
-    "action/todo-list.md",
     "action/road-map.md",
     "action/daily.md",
     "action/temp/README.md",
@@ -201,11 +204,8 @@
     "tools/game-engine/unity/others/mod.md",
     "tools/game-engine/unity/client/performance.md",
     "tools/game-engine/unity/resource/config.md",
-    "tools/game-engine/unity/others/weixin-game.md",
-    "tools/game-engine/unity/others/xr.md",
     "tools/game-engine/unity/others",
     "tools/game-engine/unity/client",
-    "tools/game-engine/unity/client/network.md",
     "tools/game-engine/unity/render",
     "tools/game-engine/unity/client/editor/android",
     "game-tech/game/3c/golden-rush",
