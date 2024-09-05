@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "action/todo-list.md",
+                "file": "tools/game-engine/unity/render/shader/draw-procedural.md",
                 "mode": "source",
                 "source": false
               }
@@ -63,7 +63,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "action/todo-list.md",
+                "file": "tools/game-engine/unity/render/shader/draw-procedural.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -80,7 +80,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "action/todo-list.md",
+                "file": "tools/game-engine/unity/render/shader/draw-procedural.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -135,7 +135,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "action/todo-list.md"
+                "file": "tools/game-engine/unity/render/shader/draw-procedural.md"
               }
             }
           },
@@ -178,18 +178,25 @@
   },
   "active": "d6891c4dfabeca9a",
   "lastOpenFiles": [
-    "tools/game-engine/unity/render/shader/variant.md",
+    "game-tech/render/technology-artist/artist/effect.md",
     "tools/game-engine/unity/render/shader/draw-procedural.md",
-    "tools/game-engine/unity/render/shader/compute-shader.md",
-    "tools/game-engine/unity/render/shader/shaderlab.md",
+    "2024-09-05.md",
     "tools/game-engine/unity/render/shader/macro.md",
     "tools/game-engine/unity/render/shader/position.md",
-    "tools/game-engine/unity/plugins.md",
+    "tools/game-engine/unity/render/shader/README.md",
     "tools/game-engine/unity/render/shader/shader-graph.md",
+    "tools/game-engine/unity/render/shader/shaderlab.md",
+    "tools/game-engine/unity/render/shader/variant.md",
+    "tools/game-engine/unity/render/shader/warmup.md",
+    "tools/game-engine/unity/render/shader/compute-shader.md",
+    "action/todo-list.md",
+    "action/road-map.md",
+    "action/daily.md",
+    "action/temp/README.md",
+    "tools/game-engine/unity/plugins.md",
     "tools/game-engine/unity/render/render-pipeline/batch-render-group.md",
     "README.md",
     "tools/game-engine/unity/README.md",
-    "action/todo-list.md",
     "tools/game-engine/README.md",
     "tools/game-engine/unity/others/mod.md",
     "tools/game-engine/unity/client/performance.md",
@@ -199,14 +206,7 @@
     "tools/game-engine/unity/others",
     "tools/game-engine/unity/client",
     "tools/game-engine/unity/client/network.md",
-    "tools/game-engine/unity/render/visual-effect-graph.md",
-    "tools/game-engine/unity/ui/layout.md",
-    "tools/game-engine/unity/ui/design.md",
     "tools/game-engine/unity/render",
-    "tools/game-engine/unity/render/baking.md",
-    "tools/game-engine/unity/others/interview/junior-unity-client.md",
-    "game-tech/computer/data-structure/README.md",
-    "game-tech/computer/data-structure/tree.md",
     "tools/game-engine/unity/client/editor/android",
     "game-tech/game/3c/golden-rush",
     "game-tech/game/3c/controller",
