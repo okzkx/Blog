@@ -1,7 +1,6 @@
 - P0 : 
-	- Shader Warmup Bug
 	- 烘焙
-	- rt
+	- 静态资产检测
 - P2 : 
 	- 笔记 : wip 标签
 	- Project storm
