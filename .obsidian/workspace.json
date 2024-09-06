@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "tools/game-engine/unity/render/render-pipeline/batch-render-group.md",
+                "file": "game-tech/render/render-pipeline/buffer.md",
                 "mode": "source",
                 "source": false
               }
@@ -63,7 +63,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "tools/game-engine/unity/render/render-pipeline/batch-render-group.md",
+                "file": "game-tech/render/render-pipeline/buffer.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -80,7 +80,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "tools/game-engine/unity/render/render-pipeline/batch-render-group.md",
+                "file": "game-tech/render/render-pipeline/buffer.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -112,7 +112,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "#wip",
+                "query": "soa",
                 "matchingCase": false,
                 "explainSearch": true,
                 "collapseAll": false,
@@ -135,7 +135,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "tools/game-engine/unity/render/render-pipeline/batch-render-group.md"
+                "file": "game-tech/render/render-pipeline/buffer.md"
               }
             }
           },
@@ -178,6 +178,9 @@
   },
   "active": "d6891c4dfabeca9a",
   "lastOpenFiles": [
+    "tools/game-engine/unity/render/render-pipeline/batch-render-group.md",
+    "game-tech/render/render-pipeline/buffer.md",
+    "game-tech/computer/operating-system/soa.md",
     "README.md",
     "action/temp/README.md",
     "game-tech/render/technology-artist/artist/effect.md",
@@ -198,12 +201,9 @@
     "action/road-map.md",
     "action/daily.md",
     "tools/game-engine/unity/plugins.md",
-    "tools/game-engine/unity/render/render-pipeline/batch-render-group.md",
     "tools/game-engine/unity/README.md",
     "tools/game-engine/README.md",
     "tools/game-engine/unity/others/mod.md",
-    "tools/game-engine/unity/client/performance.md",
-    "tools/game-engine/unity/resource/config.md",
     "tools/game-engine/unity/others",
     "tools/game-engine/unity/client",
     "tools/game-engine/unity/render",

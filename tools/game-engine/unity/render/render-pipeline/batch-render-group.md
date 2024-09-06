@@ -7,15 +7,26 @@
 
 BatchRendererGroup (or BRG) is an API that efficiently generates draw commands from C# and produces GPU-instancing draw calls.
 
+### 相对于 DrawMeshInstanced 好处
+
+- DrawMeshInstanced 需要托管内存, 传入 TRS 数组
+- DrawMeshInstanced 需要自定义着色器
+- DrawMeshInstanced 每次绘制需要上传 GPU 
+
 #### BRG shader data model
 
-- The shader variant can fetch data from the standard constant buffer (UnityPerMaterial) or from a custom, large GPU buffer (BRG raw buffer).
-- It’s up to you to manage how you store your data in the raw buffer, which is a Shader Storage Buffer Object (SSBO, or byte address buffer). The default BRG data layout is the structure of arrays (SoA) type.
+- the standard constant buffer (UnityPerMaterial) 
+- custom, large GPU buffer (BRG raw buffer)
+	- Shader Storage Buffer Object (SSBO, or byte address buffer)
+	- The default BRG data layout is the structure of arrays (SoA) type
+
+### Properties per instance – or not
 
 #### BRG metadata
 
 - Bits 0–30 define the offset of the property within the BRG raw buffer, 
 - and bit 31 tells whether the property value is the same for all instances or the offset is the beginning of an array, with one value per instance.
+
 
 #### 两种 Buffer
 
@@ -29,7 +40,7 @@ BatchRendererGroup (or BRG) is an API that efficiently generates draw commands f
 
 ![image.png](https://image-1253155090.cos.ap-nanjing.myqcloud.com/202407101533341.png)
 
-SoA layout
+#### SoA layout
 
 ![image.png](https://image-1253155090.cos.ap-nanjing.myqcloud.com/202407101605647.png)
 
@@ -39,7 +50,7 @@ SoA layout
 - Let’s call this second buffer a “shadow copy” of the GPU memory
 - When animation is done, we upload the shadow copy buffer to the GPU using the **GraphicsBuffer.SetData** API.
 
-defined as follows
+#### defined as follows
 
 1. “unity_ObjectToWorld” property is an array starting at offset 0 of the BRG raw buffer
 2. “unity_WorldToObject” property is an array starting at offset 153,600
@@ -47,7 +58,7 @@ defined as follows
 
 ### The devil’s in the details: GLES exception
 
-he problem is that most GLES 3.0 devices can’t access SSBO during the vertex stage (i.e., the GL_MAX_VERTEX_SHADER_STORAGE_BLOCKS value is 0).
+most GLES 3.0 devices can’t access SSBO during the vertex stage (i.e., the GL_MAX_VERTEX_SHADER_STORAGE_BLOCKS value is 0).
 
 在 OpenGL 上用 UBO 替代 SSBO
 
@@ -56,30 +67,6 @@ A constant buffer can be any size, but only a small part of it (a window) is vis
 BatchRendererGroup.GetConstantBufferMaxWindowSize() API to get the correct BRG window size.
 
 ![image.png](https://image-1253155090.cos.ap-nanjing.myqcloud.com/202407101712688.png)
-
-
-
-#### Buffer
-
-Uniform Buffer
-
-- Vulkan : BufferUsageFlags : UNIFORM BUFFER 
-- Dx : Constant Buffer
-- OpenGL : Uniform Buffer Object
-- HLSL : cbuffer _ : register(b##bind, space##set){type param;};
-- GLSL : layout (set = 3, binding = 2) uniform in_lights { Light light;};
-- 一般 Alignment 16 bytes, 大小限制为 16 KiB
-- Unity : Shader Properties,  CBUFFER
-
-Shader Storage Buffer Objects (SSBOs)
-
-- 现代图形 api 上才有, GLES 3.1 以上
-- GLSL : layout(std430, binding = 2) buffer MyBuffer
-- HLSL : RW/StructuredBuffer\<MyStructType\> myBuffer : register(t2);
-- Vulkan : STORAGE_BUFFER
-
-Push Constants 
-- 只有 Vulkan 才有, 每次提交时要设置
 
 ### Uploading data
 
