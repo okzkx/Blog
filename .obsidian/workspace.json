@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "action/temp/README.md",
+                "file": "tools/game-engine/unity/render/render-pipeline/batch-render-group.md",
                 "mode": "source",
                 "source": false
               }
@@ -63,7 +63,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "action/temp/README.md",
+                "file": "tools/game-engine/unity/render/render-pipeline/batch-render-group.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -80,7 +80,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "action/temp/README.md",
+                "file": "tools/game-engine/unity/render/render-pipeline/batch-render-group.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -112,7 +112,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "#wip",
                 "matchingCase": false,
                 "explainSearch": true,
                 "collapseAll": false,
@@ -135,7 +135,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "action/temp/README.md"
+                "file": "tools/game-engine/unity/render/render-pipeline/batch-render-group.md"
               }
             }
           },
@@ -178,6 +178,8 @@
   },
   "active": "d6891c4dfabeca9a",
   "lastOpenFiles": [
+    "README.md",
+    "action/temp/README.md",
     "game-tech/render/technology-artist/artist/effect.md",
     "game-tech/render/technology-artist/artist/dynamic smears.md",
     "game-tech/game/3c/golden-rush/engineering.md",
@@ -195,10 +197,8 @@
     "tools/game-engine/unity/render/shader/compute-shader.md",
     "action/road-map.md",
     "action/daily.md",
-    "action/temp/README.md",
     "tools/game-engine/unity/plugins.md",
     "tools/game-engine/unity/render/render-pipeline/batch-render-group.md",
-    "README.md",
     "tools/game-engine/unity/README.md",
     "tools/game-engine/README.md",
     "tools/game-engine/unity/others/mod.md",
