@@ -1,6 +1,9 @@
-#wip
+## Reference
 
-[BatchRendererGroup sample: Achieve high frame rate even on budget devices](https://unity.com/cn/blog/engine-platform/batchrenderergroup-sample-high-frame-rate-on-budget-devices)
+- [BatchRendererGroup sample: Achieve high frame rate even on budget devices](https://unity.com/cn/blog/engine-platform/batchrenderergroup-sample-high-frame-rate-on-budget-devices)
+- [Unity-Technologies/brg-shooter: Unity blog-post sample showing BatchRendererGroup and Burst/JobSystem. Focus is high performance even on budget mobile devices. Unity 2022.3.5 or above required](https://github.com/Unity-Technologies/brg-shooter)
+
+## Concept
 
 BatchRendererGroup (or BRG) is an API that efficiently generates draw commands from C# and produces GPU-instancing draw calls.
 
