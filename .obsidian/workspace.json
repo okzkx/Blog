@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "action/todo-list.md",
+                "file": "tools/git/git-resolve.md",
                 "mode": "source",
                 "source": false
               }
@@ -63,7 +63,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "action/todo-list.md",
+                "file": "tools/git/git-resolve.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -80,7 +80,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "action/todo-list.md",
+                "file": "tools/git/git-resolve.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -146,7 +146,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "action/todo-list.md"
+                "file": "tools/git/git-resolve.md"
               }
             }
           },
@@ -163,7 +163,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 311.5
+    "width": 381.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -178,6 +178,21 @@
   },
   "active": "4da4719cd6c7fde8",
   "lastOpenFiles": [
+    "tools/git/README.md",
+    "tools/git/git-resolve.md",
+    "tools/git/git-user.md",
+    "tools/git/git-format.md",
+    "tools/git/git-vscode.md",
+    "tools/git/basic/git-basic.md",
+    "tools/git/basic/git-github.md",
+    "tools/git/basic/git-sync.md",
+    "tools/git/basic",
+    "tools/game-engine/unity/client/code/event-system.md",
+    "action/temp/README.md",
+    "tools/game-engine/unity/render/shader/warmup.md",
+    "archive/update-all.sh",
+    "archive",
+    "action/todo-list.md",
     "tools/game-engine/unity/render/render-pipeline/srp/srp-overview.md",
     "tools/game-engine/unity/render/render-pipeline/srp/README.md",
     "tools/game-engine/unity/render/render-pipeline/srp/srp-batch.md",
@@ -187,7 +202,6 @@
     "tools/game-engine/unity/render/render-pipeline/hdrp/exposure.md",
     "tools/game-engine/unity/render/render-pipeline/hdrp/custom-pass.md",
     "tools/game-engine/unity/render/render-pipeline/hdrp/anti-aliasing.md",
-    "tools/game-engine/unity/render/shader/warmup.md",
     "tools/game-engine/unity/render/shader/variant.md",
     "tools/game-engine/unity/render/render-pipeline/urp.md",
     "tools/game-engine/unity/render/render-pipeline/srp",
@@ -195,25 +209,11 @@
     "tools/game-engine/unity/render/render-pipeline/batch-render-group.md",
     "tools/game-engine/unity/render/render-pipeline/hdrp",
     "tools/game-engine/unity/render/shader/shaderlab.md",
-    "tools/game-engine/unity/render/shader/shader-graph.md",
-    "tools/game-engine/unity/render/shader/README.md",
-    "tools/game-engine/unity/render/shader/position.md",
-    "tools/game-engine/unity/render/shader/macro.md",
-    "tools/game-engine/unity/render/shader/draw-procedural.md",
-    "tools/game-engine/unity/render/shader/compute-shader.md",
     "tools/game-engine/unity/render/render-pipeline",
     "tools/game-engine/unity/render/shader",
-    "tools/game-engine/unity/render/baking.md",
-    "tools/game-engine/unity/render/visual-effect-graph.md",
     "tools/game-engine/unity/render",
-    "README.md",
-    "tools/game-engine/unity/client/code/coroutine.md",
-    "tools/game-engine/README.md",
     "tools/game-engine/unity/client/3c/golden-rush",
     "tools/game-engine/unity/client/3c/controller",
-    "tools/game-engine/unity/client/3c",
-    "tools/game-engine/unity/client/game",
-    "tools/game-engine/unity/others/projects/ecs-sample",
     "game-tech/engine/gpu/vulkan/Vulkan-objects_冲突文件_zkx_20240828215915.canvas",
     "tools/dcc/blender/blender_operation.jpg",
     "game-tech/engine/games-104/image/08-animation-system/1656577349093.png",
