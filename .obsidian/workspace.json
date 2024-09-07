@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "tools/git/git-resolve.md",
+                "file": "tools/game-engine/unity/client/editor/android/android-debug.md",
                 "mode": "source",
                 "source": false
               }
@@ -63,7 +63,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "tools/git/git-resolve.md",
+                "file": "tools/game-engine/unity/client/editor/android/android-debug.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -80,7 +80,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "tools/git/git-resolve.md",
+                "file": "tools/game-engine/unity/client/editor/android/android-debug.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -123,7 +123,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "install",
                 "matchingCase": false,
                 "explainSearch": true,
                 "collapseAll": false,
@@ -146,7 +146,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "tools/git/git-resolve.md"
+                "file": "tools/game-engine/unity/client/editor/android/android-debug.md"
               }
             }
           },
@@ -178,8 +178,8 @@
   },
   "active": "4da4719cd6c7fde8",
   "lastOpenFiles": [
-    "tools/git/README.md",
     "tools/git/git-resolve.md",
+    "tools/git/README.md",
     "tools/git/git-user.md",
     "tools/git/git-format.md",
     "tools/git/git-vscode.md",
