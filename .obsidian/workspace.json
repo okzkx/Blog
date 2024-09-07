@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "tools/game-engine/unity/client/code/coroutine.md",
+                "file": "action/todo-list.md",
                 "mode": "source",
                 "source": false
               }
@@ -63,7 +63,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "tools/game-engine/unity/client/code/coroutine.md",
+                "file": "action/todo-list.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -80,7 +80,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "tools/game-engine/unity/client/code/coroutine.md",
+                "file": "action/todo-list.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -123,7 +123,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "#wip",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": true,
                 "collapseAll": false,
@@ -146,7 +146,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "tools/game-engine/unity/client/code/coroutine.md"
+                "file": "action/todo-list.md"
               }
             }
           },
@@ -178,42 +178,42 @@
   },
   "active": "4da4719cd6c7fde8",
   "lastOpenFiles": [
-    "tools/game-engine/README.md",
+    "tools/game-engine/unity/render/render-pipeline/srp/srp-overview.md",
+    "tools/game-engine/unity/render/render-pipeline/srp/README.md",
+    "tools/game-engine/unity/render/render-pipeline/srp/srp-batch.md",
+    "tools/game-engine/unity/render/render-pipeline/hdrp/simple-lit.md",
+    "tools/game-engine/unity/render/render-pipeline/hdrp/README.md",
+    "tools/game-engine/unity/render/render-pipeline/hdrp/lit.md",
+    "tools/game-engine/unity/render/render-pipeline/hdrp/exposure.md",
+    "tools/game-engine/unity/render/render-pipeline/hdrp/custom-pass.md",
+    "tools/game-engine/unity/render/render-pipeline/hdrp/anti-aliasing.md",
+    "tools/game-engine/unity/render/shader/warmup.md",
+    "tools/game-engine/unity/render/shader/variant.md",
+    "tools/game-engine/unity/render/render-pipeline/urp.md",
+    "tools/game-engine/unity/render/render-pipeline/srp",
+    "tools/game-engine/unity/render/render-pipeline/README.md",
+    "tools/game-engine/unity/render/render-pipeline/batch-render-group.md",
+    "tools/game-engine/unity/render/render-pipeline/hdrp",
+    "tools/game-engine/unity/render/shader/shaderlab.md",
+    "tools/game-engine/unity/render/shader/shader-graph.md",
+    "tools/game-engine/unity/render/shader/README.md",
+    "tools/game-engine/unity/render/shader/position.md",
+    "tools/game-engine/unity/render/shader/macro.md",
+    "tools/game-engine/unity/render/shader/draw-procedural.md",
+    "tools/game-engine/unity/render/shader/compute-shader.md",
+    "tools/game-engine/unity/render/render-pipeline",
+    "tools/game-engine/unity/render/shader",
+    "tools/game-engine/unity/render/baking.md",
+    "tools/game-engine/unity/render/visual-effect-graph.md",
+    "tools/game-engine/unity/render",
+    "README.md",
     "tools/game-engine/unity/client/code/coroutine.md",
-    "action/todo-list.md",
-    "tools/game-engine/unity/plugins.md",
-    "game-tech/art/vfx.md",
-    "game-tech/art/art-assets.md",
-    "tools/game-engine/unity/client/code/game-framework.md",
-    "tools/game-engine/unity/client/code/event-system.md",
-    "tools/game-engine/unity/client/code/memory.md",
-    "tools/game-engine/unity/client/code/performance.md",
-    "tools/game-engine/unity/client/code/optimize.md",
-    "tools/game-engine/unity/client/code/native.md",
-    "tools/game-engine/unity/client/network.md",
-    "game-tech/game/3c/controller/Motion.md",
-    "tools/game-engine/unity/client/3c/golden-rush/README.md",
-    "tools/game-engine/unity/client/3c/golden-rush/engineering.md",
-    "tools/game-engine/unity/client/3c/golden-rush/base.md",
-    "tools/game-engine/unity/client/3c/controller/README.md",
-    "tools/game-engine/unity/client/3c/controller/Motion.md",
+    "tools/game-engine/README.md",
     "tools/game-engine/unity/client/3c/golden-rush",
     "tools/game-engine/unity/client/3c/controller",
     "tools/game-engine/unity/client/3c",
     "tools/game-engine/unity/client/game",
-    "game-tech/game/3c/controller/README.md",
-    "game-tech/game/3c/golden-rush/engineering.md",
-    "game-tech/game/3c/golden-rush/base.md",
-    "game-tech/game/game-framework.md",
-    "game-tech/game/optimize.md",
-    "game-tech/game/memory.md",
-    "tools/game-engine/unity/client/code/multi-threads/jobsystem.md",
     "tools/game-engine/unity/others/projects/ecs-sample",
-    "tools/game-engine/unity/others/projects/dots-training-samples",
-    "tools/game-engine/unity/others/projects",
-    "tools/game-engine/unity/others/interview",
-    "tools/game-engine/unity/others/meetings",
-    "tools/game-engine/unity/others",
     "game-tech/engine/gpu/vulkan/Vulkan-objects_冲突文件_zkx_20240828215915.canvas",
     "tools/dcc/blender/blender_operation.jpg",
     "game-tech/engine/games-104/image/08-animation-system/1656577349093.png",
