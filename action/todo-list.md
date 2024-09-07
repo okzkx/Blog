@@ -2,7 +2,6 @@
 	- 烘焙
 	- 静态资产检测
 - P2 : 
-	- 笔记 : wip 标签
 	- Project storm
 		- shader 优化
 		- 接入游戏系统

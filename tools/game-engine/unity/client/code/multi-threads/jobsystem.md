@@ -2,9 +2,8 @@
 
 ## **文档**
 
-[JobSystem](https://docs.unity3d.com/Manual/JobSystem.html)
-
-[JobSystem in ECS](https://docs.unity3d.com/Packages/com.unity.entities@0.1/manual/entity_iteration_job.html)
+- [JobSystem](https://docs.unity3d.com/Manual/JobSystem.html)
+- [JobSystem in ECS](https://docs.unity3d.com/Packages/com.unity.entities@0.1/manual/entity_iteration_job.html)
 
 ## **3 种多线程执行方式**
 
@@ -48,21 +47,14 @@ IJobForEachExtensions :: IBaseJobForEach.Schedule()
 
 ## **Native Memory**
 
-作业作为方法执行，其指令不在栈上，没有返回值。
-
-用 Burst 编译器的作业无法使用堆中的数据。
-
-线程之间各自拥有自己的栈，共享拥有一个属于进程的堆。
-
-通过主线程共享自己栈方式实现主线程和作业的数据同步。
-
-Native Container 是一种数据结构，用来将主线程的栈的数据共享出去。
-
-其数据存放在栈上，指向这些数据的指针在堆中。
-
-主线程在创建作业时，交给其 Native Container 堆中的指针，
-
-作业可以用其来操作主线程中的栈实现通过共享内存的数据互通。
+- 作业作为方法执行，其指令不在栈上，没有返回值。
+- 用 Burst 编译器的作业无法使用堆中的数据。
+- 线程之间各自拥有自己的栈，共享拥有一个属于进程的堆。
+- 通过主线程共享自己栈方式实现主线程和作业的数据同步。
+- Native Container 是一种数据结构，用来将主线程的栈的数据共享出去。
+- 其数据存放在栈上，指向这些数据的指针在堆中。
+- 主线程在创建作业时，交给其 Native Container 堆中的指针，
+- 作业可以用其来操作主线程中的栈实现通过共享内存的数据互通。
 
 ## 作业限制
 
@@ -81,13 +73,9 @@ Native Container 是一种数据结构，用来将主线程的栈的数据共享
 
 ## 作业调度
 
-主线程中完成作业调度，禁止在作业中生成作业或进行作业调度。
-
-JobHandle 可以决定依赖关系
-
-主线程对作业 Schedule 完后，任何时候该作业都可能开始或完成。
-
-JobHandle.Comple, 主线程等待某一作业完成。
-
-这种情况一般是作业对共享栈进行操作，主线程需要使用到这共享栈的值。
+- 主线程中完成作业调度，禁止在作业中生成作业或进行作业调度。
+- JobHandle 可以决定依赖关系
+- 主线程对作业 Schedule 完后，任何时候该作业都可能开始或完成。
+- JobHandle.Comple, 主线程等待某一作业完成。
+- 这种情况一般是作业对共享栈进行操作，主线程需要使用到这共享栈的值。
 

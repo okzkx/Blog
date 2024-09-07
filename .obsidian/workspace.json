@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "803b40e6068b2ec8",
+        "id": "b86440d4e50c4130",
         "type": "tabs",
         "children": [
           {
-            "id": "d6891c4dfabeca9a",
+            "id": "4da4719cd6c7fde8",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "tools/game-engine/unity/render/baking.md",
+                "file": "tools/game-engine/unity/client/code/coroutine.md",
                 "mode": "source",
                 "source": false
               }
@@ -46,7 +46,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 260.5004348754883
+    "width": 260.5
   },
   "right": {
     "id": "affb9fa2d1590bc4",
@@ -63,7 +63,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "tools/game-engine/unity/render/baking.md",
+                "file": "tools/game-engine/unity/client/code/coroutine.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -80,9 +80,20 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "tools/game-engine/unity/render/baking.md",
+                "file": "tools/game-engine/unity/client/code/coroutine.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "095ed6b8e822bdf7",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
               }
             }
           },
@@ -112,7 +123,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "soa",
+                "query": "#wip",
                 "matchingCase": false,
                 "explainSearch": true,
                 "collapseAll": false,
@@ -122,7 +133,7 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 5
       },
       {
         "id": "e586a59c60b20dc8",
@@ -135,18 +146,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "tools/game-engine/unity/render/baking.md"
-              }
-            }
-          },
-          {
-            "id": "095ed6b8e822bdf7",
-            "type": "leaf",
-            "state": {
-              "type": "tag",
-              "state": {
-                "sortOrder": "frequency",
-                "useHierarchy": true
+                "file": "tools/game-engine/unity/client/code/coroutine.md"
               }
             }
           },
@@ -159,11 +159,11 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
-    "width": 415.5
+    "width": 311.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -176,44 +176,45 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "d6891c4dfabeca9a",
+  "active": "4da4719cd6c7fde8",
   "lastOpenFiles": [
-    "tools/game-engine/unity/render/visual-effect-graph.md",
-    "tools/game-engine/unity/render/baking.md",
-    "action/todo-list.md",
-    "game-tech/render/render-pipeline/buffer.md",
-    "tools/game-engine/unity/render/render-pipeline/batch-render-group.md",
-    "game-tech/computer/operating-system/soa.md",
-    "README.md",
-    "action/temp/README.md",
-    "game-tech/render/technology-artist/artist/effect.md",
-    "game-tech/render/technology-artist/artist/dynamic smears.md",
-    "game-tech/game/3c/golden-rush/engineering.md",
-    "tools/game-engine/unity/render/shader/warmup.md",
-    "tools/game-engine/unity/render/shader/macro.md",
-    "tools/game-engine/unity/render/shader/draw-procedural.md",
-    "tools/game-engine/unity/render/shader/variant.md",
-    "2024-09-05.md",
-    "tools/game-engine/unity/render/shader/position.md",
-    "tools/game-engine/unity/render/shader/README.md",
-    "tools/game-engine/unity/render/shader/shader-graph.md",
-    "tools/game-engine/unity/render/shader/shaderlab.md",
-    "tools/game-engine/unity/render/shader/compute-shader.md",
-    "action/road-map.md",
-    "action/daily.md",
-    "tools/game-engine/unity/plugins.md",
-    "tools/game-engine/unity/README.md",
     "tools/game-engine/README.md",
+    "tools/game-engine/unity/client/code/coroutine.md",
+    "action/todo-list.md",
+    "tools/game-engine/unity/plugins.md",
+    "game-tech/art/vfx.md",
+    "game-tech/art/art-assets.md",
+    "tools/game-engine/unity/client/code/game-framework.md",
+    "tools/game-engine/unity/client/code/event-system.md",
+    "tools/game-engine/unity/client/code/memory.md",
+    "tools/game-engine/unity/client/code/performance.md",
+    "tools/game-engine/unity/client/code/optimize.md",
+    "tools/game-engine/unity/client/code/native.md",
+    "tools/game-engine/unity/client/network.md",
+    "game-tech/game/3c/controller/Motion.md",
+    "tools/game-engine/unity/client/3c/golden-rush/README.md",
+    "tools/game-engine/unity/client/3c/golden-rush/engineering.md",
+    "tools/game-engine/unity/client/3c/golden-rush/base.md",
+    "tools/game-engine/unity/client/3c/controller/README.md",
+    "tools/game-engine/unity/client/3c/controller/Motion.md",
+    "tools/game-engine/unity/client/3c/golden-rush",
+    "tools/game-engine/unity/client/3c/controller",
+    "tools/game-engine/unity/client/3c",
+    "tools/game-engine/unity/client/game",
+    "game-tech/game/3c/controller/README.md",
+    "game-tech/game/3c/golden-rush/engineering.md",
+    "game-tech/game/3c/golden-rush/base.md",
+    "game-tech/game/game-framework.md",
+    "game-tech/game/optimize.md",
+    "game-tech/game/memory.md",
+    "tools/game-engine/unity/client/code/multi-threads/jobsystem.md",
+    "tools/game-engine/unity/others/projects/ecs-sample",
+    "tools/game-engine/unity/others/projects/dots-training-samples",
+    "tools/game-engine/unity/others/projects",
+    "tools/game-engine/unity/others/interview",
+    "tools/game-engine/unity/others/meetings",
     "tools/game-engine/unity/others",
-    "tools/game-engine/unity/client",
-    "tools/game-engine/unity/render",
-    "tools/game-engine/unity/client/editor/android",
-    "game-tech/game/3c/golden-rush",
-    "game-tech/game/3c/controller",
-    "game-tech/game/3c",
-    "game-tech/game",
-    "game-tech/engine/Interview",
-    "action/temp/shader-variants.md.baiduyun.uploading.cfg",
+    "game-tech/engine/gpu/vulkan/Vulkan-objects_冲突文件_zkx_20240828215915.canvas",
     "tools/dcc/blender/blender_operation.jpg",
     "game-tech/engine/games-104/image/08-animation-system/1656577349093.png",
     "game-tech/engine/games-104/image/08-animation-system/1656577570715.png",

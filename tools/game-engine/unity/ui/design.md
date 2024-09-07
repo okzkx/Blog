@@ -1,3 +1,10 @@
+# 设计
+
+## 工具
+
+ - figma
+
+## 设计原则
 
 - [从《绝区零》看易用性的3个设计原则](https://mp.weixin.qq.com/s/QSFNhLBvZ9jdwbfMYWxR5w)
 - [《绝区零》下篇：可读性的3个设计原则](https://www.gameres.com/wl?m=9985d717d6f9ca76cc9e48861c664118)

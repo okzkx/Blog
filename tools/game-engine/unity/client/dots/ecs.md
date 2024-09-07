@@ -2,7 +2,6 @@
 
 ## Project
 
-#wip-learn
 - [EntityComponentSystemSamples](https://github.com/Unity-Technologies/EntityComponentSystemSamples)
 
 ## Blogs

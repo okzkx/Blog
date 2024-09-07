@@ -4,8 +4,6 @@
 - [Bevy book](https://bevyengine.org/learn/book/getting-started/)
 - [Bevy Engine](https://github.com/bevyengine/bevy) : A refreshingly simple data-driven game engine built in Rust
 
-#wip-learn
-
 ## App
 
 - 配置全局数据 insert_resource
