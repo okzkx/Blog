@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "tools/git/git-resolve.md",
+                "file": "action/todo-list.md",
                 "mode": "source",
                 "source": false
               }
@@ -63,7 +63,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "tools/git/git-resolve.md",
+                "file": "action/todo-list.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -80,7 +80,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "tools/git/git-resolve.md",
+                "file": "action/todo-list.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -146,7 +146,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "tools/git/git-resolve.md"
+                "file": "action/todo-list.md"
               }
             }
           },
@@ -178,9 +178,10 @@
   },
   "active": "4da4719cd6c7fde8",
   "lastOpenFiles": [
+    "README.md",
+    "tools/git/git-resolve.md",
     "tools/game-engine/unity/client/editor/android/install-apk.md",
     "tools/game-engine/unity/client/editor/android/android-debug.md",
-    "tools/git/git-resolve.md",
     "tools/git/README.md",
     "tools/git/git-user.md",
     "tools/git/git-format.md",
@@ -207,7 +208,6 @@
     "tools/game-engine/unity/render/shader/variant.md",
     "tools/game-engine/unity/render/render-pipeline/urp.md",
     "tools/game-engine/unity/render/render-pipeline/srp",
-    "tools/game-engine/unity/render/render-pipeline/README.md",
     "tools/game-engine/unity/render/render-pipeline/hdrp",
     "tools/game-engine/unity/render/render-pipeline",
     "tools/game-engine/unity/render/shader",

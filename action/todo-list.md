@@ -3,9 +3,8 @@
 	- 静态资产检测
 - P2 : 
 	- Project storm
-		- shader 优化
 		- 接入游戏系统
-		- 集成 addressable
+		- 动画系统重命名
 - P3 : 
 	- 策划
 		- 策划书
