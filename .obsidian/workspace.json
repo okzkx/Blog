@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "action/todo-list.md",
+                "file": "tools/git/git-resolve.md",
                 "mode": "source",
                 "source": false
               }
@@ -63,7 +63,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "action/todo-list.md",
+                "file": "tools/git/git-resolve.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -80,7 +80,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "action/todo-list.md",
+                "file": "tools/git/git-resolve.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -146,7 +146,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "action/todo-list.md"
+                "file": "tools/git/git-resolve.md"
               }
             }
           },
@@ -178,6 +178,7 @@
   },
   "active": "4da4719cd6c7fde8",
   "lastOpenFiles": [
+    "action/todo-list.md",
     "README.md",
     "tools/git/git-resolve.md",
     "tools/game-engine/unity/client/editor/android/install-apk.md",
@@ -195,7 +196,6 @@
     "tools/game-engine/unity/render/shader/warmup.md",
     "archive/update-all.sh",
     "archive",
-    "action/todo-list.md",
     "tools/game-engine/unity/render/render-pipeline/srp/srp-overview.md",
     "tools/game-engine/unity/render/render-pipeline/srp/README.md",
     "tools/game-engine/unity/render/render-pipeline/srp/srp-batch.md",
