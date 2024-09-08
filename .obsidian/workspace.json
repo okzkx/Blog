@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "tools/game-engine/unity/client/editor/android/android-debug.md",
+                "file": "tools/game-engine/unity/client/editor/android/install-apk.md",
                 "mode": "source",
                 "source": false
               }
@@ -63,7 +63,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "tools/game-engine/unity/client/editor/android/android-debug.md",
+                "file": "tools/game-engine/unity/client/editor/android/install-apk.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -80,7 +80,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "tools/game-engine/unity/client/editor/android/android-debug.md",
+                "file": "tools/game-engine/unity/client/editor/android/install-apk.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -146,7 +146,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "tools/game-engine/unity/client/editor/android/android-debug.md"
+                "file": "tools/game-engine/unity/client/editor/android/install-apk.md"
               }
             }
           },
@@ -178,6 +178,7 @@
   },
   "active": "4da4719cd6c7fde8",
   "lastOpenFiles": [
+    "tools/game-engine/unity/client/editor/android/android-debug.md",
     "tools/git/git-resolve.md",
     "tools/git/README.md",
     "tools/git/git-user.md",
@@ -208,7 +209,6 @@
     "tools/game-engine/unity/render/render-pipeline/README.md",
     "tools/game-engine/unity/render/render-pipeline/batch-render-group.md",
     "tools/game-engine/unity/render/render-pipeline/hdrp",
-    "tools/game-engine/unity/render/shader/shaderlab.md",
     "tools/game-engine/unity/render/render-pipeline",
     "tools/game-engine/unity/render/shader",
     "tools/game-engine/unity/render",
