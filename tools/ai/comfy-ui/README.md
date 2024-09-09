@@ -1,10 +1,10 @@
 # ComfyUI
 
-[ComfyUI全球爆红，AI绘画进入“工作流时代”](https://www.bilibili.com/video/BV1D7421N7xN/)
+- [ComfyUI全球爆红，AI绘画进入“工作流时代”](https://www.bilibili.com/video/BV1D7421N7xN/)
 
 eSheep.com 在线的 Comfy UI
 
-[ComfyUI : The most powerful and modular stable diffusion GUI, api and backend with a graph/nodes interface.](https://github.com/comfyanonymous/ComfyUI)
+- [ComfyUI : The most powerful and modular stable diffusion GUI, api and backend with a graph/nodes interface.](https://github.com/comfyanonymous/ComfyUI)
 
 ![image.png](https://image-1253155090.cos.ap-nanjing.myqcloud.com/202405160944558.png)
 

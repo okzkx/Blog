@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "b86440d4e50c4130",
+        "id": "803b40e6068b2ec8",
         "type": "tabs",
         "children": [
           {
-            "id": "4da4719cd6c7fde8",
+            "id": "d6891c4dfabeca9a",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "tools/git/git-resolve.md",
+                "file": "tools/ai/comfy-ui/start.md",
                 "mode": "source",
                 "source": false
               }
@@ -46,7 +46,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 260.5
+    "width": 260.5004348754883
   },
   "right": {
     "id": "affb9fa2d1590bc4",
@@ -63,7 +63,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "tools/git/git-resolve.md",
+                "file": "tools/ai/comfy-ui/start.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -80,20 +80,9 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "tools/git/git-resolve.md",
+                "file": "tools/ai/comfy-ui/start.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
-              }
-            }
-          },
-          {
-            "id": "095ed6b8e822bdf7",
-            "type": "leaf",
-            "state": {
-              "type": "tag",
-              "state": {
-                "sortOrder": "frequency",
-                "useHierarchy": true
               }
             }
           },
@@ -123,7 +112,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "install",
+                "query": "comfy",
                 "matchingCase": false,
                 "explainSearch": true,
                 "collapseAll": false,
@@ -133,7 +122,7 @@
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 4
       },
       {
         "id": "e586a59c60b20dc8",
@@ -146,7 +135,18 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "tools/git/git-resolve.md"
+                "file": "tools/ai/comfy-ui/start.md"
+              }
+            }
+          },
+          {
+            "id": "095ed6b8e822bdf7",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
               }
             }
           },
@@ -159,11 +159,11 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "horizontal",
-    "width": 381.5
+    "width": 415.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -176,45 +176,44 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "4da4719cd6c7fde8",
+  "active": "d6891c4dfabeca9a",
   "lastOpenFiles": [
-    "action/todo-list.md",
+    "tools/ai/comfy-ui/README.md",
+    "tools/ai/comfy-ui/start.md",
+    "tools/ai/comfy-ui",
     "README.md",
+    "tools/game-engine/unity/render/baking.md",
     "tools/git/git-resolve.md",
-    "tools/game-engine/unity/client/editor/android/install-apk.md",
-    "tools/game-engine/unity/client/editor/android/android-debug.md",
-    "tools/git/README.md",
-    "tools/git/git-user.md",
-    "tools/git/git-format.md",
-    "tools/git/git-vscode.md",
-    "tools/git/basic/git-basic.md",
-    "tools/git/basic/git-github.md",
     "tools/git/basic/git-sync.md",
+    "tools/git/basic/git-github.md",
+    "tools/git/basic/git-basic.md",
     "tools/git/basic",
-    "tools/game-engine/unity/client/code/event-system.md",
-    "action/temp/README.md",
-    "tools/game-engine/unity/render/shader/warmup.md",
-    "archive/update-all.sh",
-    "archive",
-    "tools/game-engine/unity/render/render-pipeline/srp/srp-overview.md",
-    "tools/game-engine/unity/render/render-pipeline/srp/README.md",
-    "tools/game-engine/unity/render/render-pipeline/srp/srp-batch.md",
-    "tools/game-engine/unity/render/render-pipeline/hdrp/simple-lit.md",
-    "tools/game-engine/unity/render/render-pipeline/hdrp/README.md",
-    "tools/game-engine/unity/render/render-pipeline/hdrp/lit.md",
-    "tools/game-engine/unity/render/render-pipeline/hdrp/exposure.md",
-    "tools/game-engine/unity/render/render-pipeline/hdrp/custom-pass.md",
-    "tools/game-engine/unity/render/render-pipeline/hdrp/anti-aliasing.md",
-    "tools/game-engine/unity/render/shader/variant.md",
-    "tools/game-engine/unity/render/render-pipeline/urp.md",
-    "tools/game-engine/unity/render/render-pipeline/srp",
-    "tools/game-engine/unity/render/render-pipeline/hdrp",
-    "tools/game-engine/unity/render/render-pipeline",
-    "tools/game-engine/unity/render/shader",
-    "tools/game-engine/unity/render",
+    "tools/game-engine/unity/client/code/performance.md",
+    "tools/game-engine/unity/client/code/memory.md",
+    "tools/game-engine/unity/client/code/game-framework.md",
+    "tools/game-engine/unity/client/code/coroutine.md",
+    "tools/game-engine/unity/client/3c/golden-rush/README.md",
+    "tools/game-engine/unity/client/3c/golden-rush/engineering.md",
+    "tools/game-engine/unity/client/3c/golden-rush/base.md",
+    "tools/game-engine/unity/client/3c/controller/README.md",
+    "tools/game-engine/unity/client/3c/controller/Motion.md",
     "tools/game-engine/unity/client/3c/golden-rush",
     "tools/game-engine/unity/client/3c/controller",
-    "game-tech/engine/gpu/vulkan/Vulkan-objects_冲突文件_zkx_20240828215915.canvas",
+    "tools/game-engine/unity/client/3c",
+    "tools/game-engine/unity/render/visual-effect-graph.md",
+    "action/todo-list.md",
+    "game-tech/render/render-pipeline/buffer.md",
+    "tools/game-engine/unity/render/render-pipeline/batch-render-group.md",
+    "game-tech/computer/operating-system/soa.md",
+    "action/temp/README.md",
+    "game-tech/render/technology-artist/artist/effect.md",
+    "game-tech/render/technology-artist/artist/dynamic smears.md",
+    "game-tech/game/3c/golden-rush/engineering.md",
+    "tools/game-engine/unity/others",
+    "tools/game-engine/unity/client",
+    "tools/game-engine/unity/render",
+    "tools/game-engine/unity/client/editor/android",
+    "game-tech/game/3c/golden-rush",
     "tools/dcc/blender/blender_operation.jpg",
     "game-tech/engine/games-104/image/08-animation-system/1656577349093.png",
     "game-tech/engine/games-104/image/08-animation-system/1656577570715.png",
