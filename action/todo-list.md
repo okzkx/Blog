@@ -7,6 +7,7 @@
 		- 相机检测
 		- 流水线状态检测
 		- Subscene 检测
+		- feature 动态开关
 - P2 : 
 	- Project storm
 		- 接入游戏系统
