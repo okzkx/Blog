@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "action/todo-list.md",
+                "file": "tools/game-engine/unity/render/baking.md",
                 "mode": "source",
                 "source": false
               }
@@ -63,7 +63,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "action/todo-list.md",
+                "file": "tools/game-engine/unity/render/baking.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -80,7 +80,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "action/todo-list.md",
+                "file": "tools/game-engine/unity/render/baking.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -112,7 +112,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "comfy",
+                "query": "烘焙",
                 "matchingCase": false,
                 "explainSearch": true,
                 "collapseAll": false,
@@ -135,7 +135,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "action/todo-list.md"
+                "file": "tools/game-engine/unity/render/baking.md"
               }
             }
           },
@@ -178,6 +178,9 @@
   },
   "active": "d6891c4dfabeca9a",
   "lastOpenFiles": [
+    "tools/game-engine/unity/client/3c/golden-rush/engineering.md",
+    "game-tech/render/engine/light-map.md",
+    "action/todo-list.md",
     "README.md",
     "tools/ai/comfy-ui/start.md",
     "tools/ai/comfy-ui/README.md",
@@ -193,7 +196,6 @@
     "tools/game-engine/unity/client/code/game-framework.md",
     "tools/game-engine/unity/client/code/coroutine.md",
     "tools/game-engine/unity/client/3c/golden-rush/README.md",
-    "tools/game-engine/unity/client/3c/golden-rush/engineering.md",
     "tools/game-engine/unity/client/3c/golden-rush/base.md",
     "tools/game-engine/unity/client/3c/controller/README.md",
     "tools/game-engine/unity/client/3c/controller/Motion.md",
@@ -201,14 +203,12 @@
     "tools/game-engine/unity/client/3c/controller",
     "tools/game-engine/unity/client/3c",
     "tools/game-engine/unity/render/visual-effect-graph.md",
-    "action/todo-list.md",
     "game-tech/render/render-pipeline/buffer.md",
     "tools/game-engine/unity/render/render-pipeline/batch-render-group.md",
     "game-tech/computer/operating-system/soa.md",
     "action/temp/README.md",
     "game-tech/render/technology-artist/artist/effect.md",
     "game-tech/render/technology-artist/artist/dynamic smears.md",
-    "game-tech/game/3c/golden-rush/engineering.md",
     "tools/game-engine/unity/others",
     "tools/game-engine/unity/client",
     "tools/game-engine/unity/render",
