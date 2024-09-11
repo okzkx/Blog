@@ -1,27 +1,15 @@
 - P0 : 
-	- 烘焙
-	- 静态资产检测
-		- 场景检测
-		- 管线资产检测
-	- 动态检测
-		- 相机检测
-		- 流水线状态检测
-		- Subscene 检测
-		- feature 动态开关
-- P2 : 
-	- Project storm
-		- 接入游戏系统
-		- 动画系统重命名
+	- 结束场景工具
+	- shader 报错
 - P3 : 
 	- 策划
 		- 策划书
-		- 玩所有的塔防游戏, 养成游戏
-		- 策划分析
 	- 渲染器通用化设置 
 		- 适配最新 Rust
 		- Rust async
 		- Shader lab 游戏引擎
-		- 高级画面 (cluster)
+		- 高级画面 (defferd)
 		- egui
 		- 双端资源加载
 		- 异步优化
+		- Mastering Graphics Programming with Vulkan 优化
