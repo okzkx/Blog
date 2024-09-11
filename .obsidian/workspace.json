@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "action/todo-list.md",
+                "file": "game-tech/game-design/modules-design.md",
                 "mode": "source",
                 "source": false
               }
@@ -63,7 +63,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "action/todo-list.md",
+                "file": "game-tech/game-design/modules-design.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -80,7 +80,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "action/todo-list.md",
+                "file": "game-tech/game-design/modules-design.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -112,7 +112,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "烘焙",
+                "query": "http://43.155.102.27/",
                 "matchingCase": false,
                 "explainSearch": true,
                 "collapseAll": false,
@@ -135,7 +135,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "action/todo-list.md"
+                "file": "game-tech/game-design/modules-design.md"
               }
             }
           },
@@ -178,6 +178,12 @@
   },
   "active": "d6891c4dfabeca9a",
   "lastOpenFiles": [
+    "game-tech/game-design/level-design.md",
+    "game-tech/game-design/game-theory.md",
+    "game-tech/game-design/game-designer-books.md",
+    "tools/Shall.md",
+    "tools/resource.md",
+    "action/todo-list.md",
     "README.md",
     "tools/git/git-resolve.md",
     "archives/TestGPURecorders.cs",
@@ -185,7 +191,6 @@
     "tools/game-engine/unity/render/baking.md",
     "tools/game-engine/unity/client/3c/golden-rush/engineering.md",
     "game-tech/render/engine/light-map.md",
-    "action/todo-list.md",
     "tools/ai/comfy-ui/start.md",
     "tools/ai/comfy-ui/README.md",
     "tools/ai/comfy-ui",
@@ -206,10 +211,6 @@
     "tools/game-engine/unity/client/3c",
     "tools/game-engine/unity/render/visual-effect-graph.md",
     "game-tech/render/render-pipeline/buffer.md",
-    "tools/game-engine/unity/render/render-pipeline/batch-render-group.md",
-    "game-tech/computer/operating-system/soa.md",
-    "action/temp/README.md",
-    "game-tech/render/technology-artist/artist/effect.md",
     "tools/game-engine/unity/others",
     "tools/game-engine/unity/client",
     "tools/game-engine/unity/render",

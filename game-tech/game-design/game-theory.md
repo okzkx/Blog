@@ -1,6 +1,5 @@
 
 - [游戏基础知识——“非绝对平衡设计”在多人游戏中的影响](https://mp.weixin.qq.com/s/bJMtFByXvD4mU_yYjQ9Raw)
-- 
 # 博弈论
 
 [游戏博弈论研究：最优解策略与混合循环战略博弈](https://www.gameres.com/905592.html)
