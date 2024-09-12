@@ -1,6 +1,5 @@
 - P0 : 
-	- prefab
-	- collection
+	- shader 替换
 	- 材质球替换
 - P3 : 
 	- 策划
