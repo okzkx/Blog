@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "tools/ai/comfy-ui/start.md",
+                "file": "action/todo-list.md",
                 "mode": "source",
                 "source": false
               }
@@ -63,7 +63,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "tools/ai/comfy-ui/start.md",
+                "file": "action/todo-list.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -80,7 +80,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "tools/ai/comfy-ui/start.md",
+                "file": "action/todo-list.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -135,7 +135,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "tools/ai/comfy-ui/start.md"
+                "file": "action/todo-list.md"
               }
             }
           },
@@ -176,8 +176,9 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "71096b725b843a1f",
+  "active": "a432dd1f66385122",
   "lastOpenFiles": [
+    "tools/ai/comfy-ui/start.md",
     "tools/ai/comfy-ui/README.md",
     "action/temp/README.md",
     "action/todo-list.md",
@@ -194,7 +195,6 @@
     "tools/game-engine/unity/render/baking.md",
     "tools/game-engine/unity/client/3c/golden-rush/engineering.md",
     "game-tech/render/engine/light-map.md",
-    "tools/ai/comfy-ui/start.md",
     "tools/ai/comfy-ui",
     "tools/git/basic/git-sync.md",
     "tools/git/basic/git-github.md",
