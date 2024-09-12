@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "action/todo-list.md",
+                "file": "tools/ai/comfy-ui/start.md",
                 "mode": "source",
                 "source": false
               }
@@ -63,7 +63,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "action/todo-list.md",
+                "file": "tools/ai/comfy-ui/start.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -80,7 +80,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "action/todo-list.md",
+                "file": "tools/ai/comfy-ui/start.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -112,7 +112,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "http://43.155.102.27/",
+                "query": "path:\"archives/\" ",
                 "matchingCase": false,
                 "explainSearch": true,
                 "collapseAll": false,
@@ -135,7 +135,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "action/todo-list.md"
+                "file": "tools/ai/comfy-ui/start.md"
               }
             }
           },
@@ -176,15 +176,17 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "d6891c4dfabeca9a",
+  "active": "71096b725b843a1f",
   "lastOpenFiles": [
+    "tools/ai/comfy-ui/README.md",
+    "action/temp/README.md",
+    "action/todo-list.md",
     "game-tech/game-design/modules-design.md",
     "game-tech/game-design/level-design.md",
     "game-tech/game-design/game-theory.md",
     "game-tech/game-design/game-designer-books.md",
     "tools/Shall.md",
     "tools/resource.md",
-    "action/todo-list.md",
     "README.md",
     "tools/git/git-resolve.md",
     "archives/TestGPURecorders.cs",
@@ -193,7 +195,6 @@
     "tools/game-engine/unity/client/3c/golden-rush/engineering.md",
     "game-tech/render/engine/light-map.md",
     "tools/ai/comfy-ui/start.md",
-    "tools/ai/comfy-ui/README.md",
     "tools/ai/comfy-ui",
     "tools/git/basic/git-sync.md",
     "tools/git/basic/git-github.md",
@@ -210,7 +211,6 @@
     "tools/game-engine/unity/client/3c/golden-rush",
     "tools/game-engine/unity/client/3c/controller",
     "tools/game-engine/unity/client/3c",
-    "tools/game-engine/unity/render/visual-effect-graph.md",
     "tools/game-engine/unity/others",
     "tools/game-engine/unity/client",
     "tools/game-engine/unity/render",
