@@ -38,3 +38,5 @@
 说明 vpn 没有代理到 git 软件, 需要配置
 
 > git config --global http.proxy 127.0.0.1:9788 --replace-all
+
+[Git报错： Failed to connect to github.com port 443 解决方案-CSDN博客](https://blog.csdn.net/zpf1813763637/article/details/128340109)

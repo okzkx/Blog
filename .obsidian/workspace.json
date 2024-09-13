@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "803b40e6068b2ec8",
+        "id": "f1a26c8b284d66d0",
         "type": "tabs",
         "children": [
           {
-            "id": "d6891c4dfabeca9a",
+            "id": "bc2d736260583000",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "action/todo-list.md",
+                "file": "tools/game-engine/unity/render/shader/variant.md",
                 "mode": "source",
                 "source": false
               }
@@ -63,7 +63,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "action/todo-list.md",
+                "file": "tools/game-engine/unity/render/shader/variant.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -80,7 +80,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "action/todo-list.md",
+                "file": "tools/game-engine/unity/render/shader/variant.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -135,7 +135,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "action/todo-list.md"
+                "file": "tools/game-engine/unity/render/shader/variant.md"
               }
             }
           },
@@ -176,45 +176,46 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "d6891c4dfabeca9a",
+  "active": "bc2d736260583000",
   "lastOpenFiles": [
+    "变体.md",
+    "tools/game-engine/unity/client/performance.md",
+    "tools/ai/sd/README.md",
+    "tools/dcc/blender/common-use.md",
+    "tools/ai/sd",
+    "tools/dcc/blender/blender-to-unity.md",
+    "tools/dcc/blender/README.md",
+    "tools/dcc/blender/words.md",
+    "tools/dcc/blender/machin3tools.md",
+    "tools/dcc/blender/config.md",
+    "tools/dcc/blender/blender_operation.jpg",
+    "tools/game-engine/unity/README.md",
+    "tools/game-engine/README.md",
+    "game-tech/game-design/culture/README.md",
+    "tools/git/git-submodule.md",
+    "game-tech/game-design/culture",
+    "tools/game-engine/unity/render/shader/warmup.md",
+    "game-tech/engine/gpu/vulkan/vulkan-learn/README.md",
+    "game-tech/engine/gpu/vulkan/README.md",
+    "game-tech/engine/gpu/vulkan/vulkan-objects.md",
+    "game-tech/engine/gpu/vulkan/Vulkan-objects.canvas",
+    "game-tech/engine/gpu/vulkan/dynamic-rendering.md",
+    "game-tech/engine/gpu/vulkan/vulkan-learn/vulkan-tutorials/official-vulkan-tutorial.md",
+    "game-tech/engine/gpu/vulkan/vulkan-learn/vulkan-tutorials/comparison-of-graphics-apis.md",
+    "game-tech/engine/gpu/vulkan/pdfs/未命名",
+    "tools/git/basic/git-github.md",
+    "tools/git/git-resolve.md",
+    "action/todo-list.md",
     "tools/game-engine/unity/client/editor/editor-ui.md",
     "tools/git/git-commands.md",
     "tools/game-engine/unreal.md",
-    "tools/git/git-resolve.md",
-    "tools/game-engine/unity/client/code/event-system.md",
-    "game-tech/engine/renderer/games-106/4. 图形绘制流水的基本原理和实践 (3).md",
-    "game-tech/engine/gpu/vulkan/vulkan-learn/vulkan-tutorials/vulkan-lecture-series/03-resources-descriptors.md",
-    "tools/git/README.md",
-    "tools/git/git-submodule.md",
-    "action/todo-list.md",
-    "action/road-map.md",
-    "action/temp/README.md",
-    "update-all.sh.md",
-    "tools/ai/comfy-ui/start.md",
-    "tools/ai/comfy-ui/README.md",
-    "game-tech/game-design/modules-design.md",
-    "game-tech/game-design/level-design.md",
-    "game-tech/game-design/game-theory.md",
-    "game-tech/game-design/game-designer-books.md",
-    "tools/Shall.md",
-    "tools/resource.md",
-    "README.md",
     "archives/TestGPURecorders.cs",
     "archives",
-    "tools/game-engine/unity/render/baking.md",
-    "tools/game-engine/unity/client/3c/golden-rush/engineering.md",
-    "game-tech/render/engine/light-map.md",
     "tools/ai/comfy-ui",
-    "tools/git/basic/git-sync.md",
     "tools/git/basic",
     "tools/game-engine/unity/client/3c/golden-rush",
     "tools/game-engine/unity/client/3c/controller",
     "tools/game-engine/unity/client/3c",
-    "tools/game-engine/unity/others",
-    "tools/game-engine/unity/client",
-    "tools/game-engine/unity/render",
-    "tools/dcc/blender/blender_operation.jpg",
     "game-tech/engine/games-104/image/08-animation-system/1656577349093.png",
     "game-tech/engine/games-104/image/08-animation-system/1656577570715.png",
     "game-tech/engine/games-104/games-104.assets/image-20220316105903407.png",
@@ -225,7 +226,6 @@
     "game-tech/engine/games-104/assets/angular-linear.png",
     "game-tech/engine/games-104/assets/aos-soa.png",
     "game-tech/engine/games-104/assets/cluster-group.png",
-    "未命名.canvas",
-    "game-tech/engine/gpu/vulkan/Vulkan-objects.canvas"
+    "未命名.canvas"
   ]
 }

@@ -28,3 +28,9 @@
 
 * [What’s your Vulkan Memory Type? | NVIDIA Developer](https://developer.nvidia.com/what’s-your-vulkan-memory-type)
 * [Understanding Vulkan® Objects - GPUOpen](https://gpuopen.com/learn/understanding-vulkan-objects/)
+
+## Book
+
+- [Managing bindless descriptors in Vulkan - DEV Community](https://dev.to/gasim/implementing-bindless-design-in-vulkan-34no)
+- [Vulkan Mastering - 知乎](https://www.zhihu.com/column/c_1688959074417549313)
+- 
