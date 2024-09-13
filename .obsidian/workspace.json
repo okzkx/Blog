@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "tools/game-engine/unity/render/shader/variant.md",
+                "file": "action/todo-list.md",
                 "mode": "source",
                 "source": false
               }
@@ -63,7 +63,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "tools/game-engine/unity/render/shader/variant.md",
+                "file": "action/todo-list.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -80,7 +80,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "tools/game-engine/unity/render/shader/variant.md",
+                "file": "action/todo-list.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -135,7 +135,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "tools/game-engine/unity/render/shader/variant.md"
+                "file": "action/todo-list.md"
               }
             }
           },
@@ -178,6 +178,8 @@
   },
   "active": "bc2d736260583000",
   "lastOpenFiles": [
+    "README.md",
+    "tools/game-engine/unity/render/shader/variant.md",
     "变体.md",
     "tools/game-engine/unity/client/performance.md",
     "tools/ai/sd/README.md",
@@ -207,8 +209,6 @@
     "tools/git/git-resolve.md",
     "action/todo-list.md",
     "tools/game-engine/unity/client/editor/editor-ui.md",
-    "tools/git/git-commands.md",
-    "tools/game-engine/unreal.md",
     "archives/TestGPURecorders.cs",
     "archives",
     "tools/ai/comfy-ui",
