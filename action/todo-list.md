@@ -1,6 +1,5 @@
 - P0 : 
 	- 收藏整理, 笔记整理
-	- PhoneFreeCam
 	- 收集工具代码
 	- 收集建模
 - P1 : Project-Storm 建模

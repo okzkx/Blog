@@ -176,12 +176,14 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "a432dd1f66385122",
+  "active": "d6891c4dfabeca9a",
   "lastOpenFiles": [
+    "action/road-map.md",
+    "action/temp/README.md",
+    "update-all.sh.md",
+    "action/todo-list.md",
     "tools/ai/comfy-ui/start.md",
     "tools/ai/comfy-ui/README.md",
-    "action/temp/README.md",
-    "action/todo-list.md",
     "game-tech/game-design/modules-design.md",
     "game-tech/game-design/level-design.md",
     "game-tech/game-design/game-theory.md",
@@ -206,8 +208,6 @@
     "tools/game-engine/unity/client/code/coroutine.md",
     "tools/game-engine/unity/client/3c/golden-rush/README.md",
     "tools/game-engine/unity/client/3c/golden-rush/base.md",
-    "tools/game-engine/unity/client/3c/controller/README.md",
-    "tools/game-engine/unity/client/3c/controller/Motion.md",
     "tools/game-engine/unity/client/3c/golden-rush",
     "tools/game-engine/unity/client/3c/controller",
     "tools/game-engine/unity/client/3c",
