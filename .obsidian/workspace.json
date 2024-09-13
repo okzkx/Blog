@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "tools/resource.md",
+                "file": "game-tech/game-design/README.md",
                 "mode": "source",
                 "source": false
               }
@@ -63,7 +63,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "tools/resource.md",
+                "file": "game-tech/game-design/README.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -80,7 +80,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "tools/resource.md",
+                "file": "game-tech/game-design/README.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -135,7 +135,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "tools/resource.md"
+                "file": "game-tech/game-design/README.md"
               }
             }
           },
@@ -178,9 +178,13 @@
   },
   "active": "bc2d736260583000",
   "lastOpenFiles": [
-    "tools/game-engine/unity/others/mod.md",
+    "action/temp/README.md",
+    "update-all.sh.md",
     "action/todo-list.md",
     "tools/git/git-resolve.md",
+    "tools/effect.md",
+    "tools/resource.md",
+    "tools/game-engine/unity/others/mod.md",
     "README.md",
     "game-tech/render/engine/font.md",
     "game-tech/render/renderer.md",
@@ -205,11 +209,7 @@
     "game-tech/game-design/culture",
     "tools/game-engine/unity/render/shader/warmup.md",
     "game-tech/engine/gpu/vulkan/vulkan-learn/README.md",
-    "game-tech/engine/gpu/vulkan/README.md",
-    "game-tech/engine/gpu/vulkan/vulkan-objects.md",
     "game-tech/engine/gpu/vulkan/Vulkan-objects.canvas",
-    "game-tech/engine/gpu/vulkan/dynamic-rendering.md",
-    "game-tech/engine/gpu/vulkan/vulkan-learn/vulkan-tutorials/official-vulkan-tutorial.md",
     "game-tech/engine/gpu/vulkan/pdfs/未命名",
     "archives/TestGPURecorders.cs",
     "archives",
