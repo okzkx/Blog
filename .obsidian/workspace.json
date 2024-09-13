@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "action/todo-list.md",
+                "file": "tools/resource.md",
                 "mode": "source",
                 "source": false
               }
@@ -63,7 +63,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "action/todo-list.md",
+                "file": "tools/resource.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -80,7 +80,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "action/todo-list.md",
+                "file": "tools/resource.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -112,7 +112,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "font",
+                "query": "解包",
                 "matchingCase": false,
                 "explainSearch": true,
                 "collapseAll": false,
@@ -135,7 +135,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "action/todo-list.md"
+                "file": "tools/resource.md"
               }
             }
           },
@@ -178,9 +178,14 @@
   },
   "active": "bc2d736260583000",
   "lastOpenFiles": [
+    "tools/game-engine/unity/others/mod.md",
+    "action/todo-list.md",
+    "tools/git/git-resolve.md",
     "README.md",
     "game-tech/render/engine/font.md",
-    "action/todo-list.md",
+    "game-tech/render/renderer.md",
+    "game-tech/render/performance/渲染优化技术.xmind",
+    "game-tech/render/performance",
     "tools/game-engine/unity/render/shader/variant.md",
     "变体.md",
     "tools/game-engine/unity/client/performance.md",
@@ -205,17 +210,12 @@
     "game-tech/engine/gpu/vulkan/Vulkan-objects.canvas",
     "game-tech/engine/gpu/vulkan/dynamic-rendering.md",
     "game-tech/engine/gpu/vulkan/vulkan-learn/vulkan-tutorials/official-vulkan-tutorial.md",
-    "game-tech/engine/gpu/vulkan/vulkan-learn/vulkan-tutorials/comparison-of-graphics-apis.md",
     "game-tech/engine/gpu/vulkan/pdfs/未命名",
-    "tools/git/basic/git-github.md",
-    "tools/git/git-resolve.md",
     "archives/TestGPURecorders.cs",
     "archives",
     "tools/ai/comfy-ui",
     "tools/git/basic",
     "tools/game-engine/unity/client/3c/golden-rush",
-    "tools/game-engine/unity/client/3c/controller",
-    "tools/game-engine/unity/client/3c",
     "game-tech/engine/games-104/image/08-animation-system/1656577349093.png",
     "game-tech/engine/games-104/image/08-animation-system/1656577570715.png",
     "game-tech/engine/games-104/games-104.assets/image-20220316105903407.png",

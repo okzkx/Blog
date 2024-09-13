@@ -1,5 +1,4 @@
 - P0 : 
-	- 收集建模
 	- ecs 代码学习
 - P1 : Project-Storm 建模
 - P3 : 

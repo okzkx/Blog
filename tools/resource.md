@@ -2,3 +2,5 @@
 
 - Noesis 
 - asset ripper
+- VRF
+- AssetStudio

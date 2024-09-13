@@ -2,6 +2,11 @@
 
 位图文字
 
+![glyph_metrics_2x.png](https://image-1253155090.cos.ap-nanjing.myqcloud.com/202409131507737.png)
+
+- 可以参考 DebugDraw
+
+
 ## sdf-font
 
 基于纹理的 SDF 文字
