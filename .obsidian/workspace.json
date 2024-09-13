@@ -112,7 +112,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "public class",
+                "query": "font",
                 "matchingCase": false,
                 "explainSearch": true,
                 "collapseAll": false,
@@ -179,6 +179,8 @@
   "active": "bc2d736260583000",
   "lastOpenFiles": [
     "README.md",
+    "game-tech/render/engine/font.md",
+    "action/todo-list.md",
     "tools/game-engine/unity/render/shader/variant.md",
     "变体.md",
     "tools/game-engine/unity/client/performance.md",
@@ -207,8 +209,6 @@
     "game-tech/engine/gpu/vulkan/pdfs/未命名",
     "tools/git/basic/git-github.md",
     "tools/git/git-resolve.md",
-    "action/todo-list.md",
-    "tools/game-engine/unity/client/editor/editor-ui.md",
     "archives/TestGPURecorders.cs",
     "archives",
     "tools/ai/comfy-ui",

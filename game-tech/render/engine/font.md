@@ -1,4 +1,11 @@
+## bit-font
+
+位图文字
+
+## sdf-font
+
 基于纹理的 SDF 文字
+
 1. 原理
 	1. [Distance field fonts](https://libgdx.com/wiki/graphics/2d/fonts/distance-field-fonts)
 2. 使用 FontAsset 创建 SDF font

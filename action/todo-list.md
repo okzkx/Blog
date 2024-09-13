@@ -5,7 +5,8 @@
 - P3 : 
 	- 策划
 		- 策划书
-	- 渲染器通用化设置 
+	- 游戏引擎
+		- Mastering Graphics Programming with Vulkan
 		- 适配最新 Rust
 		- Rust async
 		- Shader lab 游戏引擎
@@ -13,4 +14,3 @@
 		- egui
 		- 双端资源加载
 		- 异步优化
-		- Mastering Graphics Programming with Vulkan 优化
