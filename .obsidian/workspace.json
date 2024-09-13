@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "game-tech/game-design/README.md",
+                "file": "action/todo-list.md",
                 "mode": "source",
                 "source": false
               }
@@ -63,7 +63,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "game-tech/game-design/README.md",
+                "file": "action/todo-list.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -80,7 +80,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "game-tech/game-design/README.md",
+                "file": "action/todo-list.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -135,7 +135,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "game-tech/game-design/README.md"
+                "file": "action/todo-list.md"
               }
             }
           },
@@ -178,10 +178,11 @@
   },
   "active": "bc2d736260583000",
   "lastOpenFiles": [
+    "tools/git/git-resolve.md",
+    "game-tech/game-design/README.md",
     "action/temp/README.md",
     "update-all.sh.md",
     "action/todo-list.md",
-    "tools/git/git-resolve.md",
     "tools/effect.md",
     "tools/resource.md",
     "tools/game-engine/unity/others/mod.md",
@@ -208,7 +209,6 @@
     "tools/git/git-submodule.md",
     "game-tech/game-design/culture",
     "tools/game-engine/unity/render/shader/warmup.md",
-    "game-tech/engine/gpu/vulkan/vulkan-learn/README.md",
     "game-tech/engine/gpu/vulkan/Vulkan-objects.canvas",
     "game-tech/engine/gpu/vulkan/pdfs/未命名",
     "archives/TestGPURecorders.cs",
