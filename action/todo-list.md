@@ -1,6 +1,6 @@
 - P0 : 
 	- sausage-for-frenderer
-		- 加图片
+		- 应用材质
 	- ecs 代码学习
 - P1 : Project-Storm 建模
 	- 学习 lowpoly
