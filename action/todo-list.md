@@ -7,12 +7,13 @@
 - P3 : 
 	- 策划
 		- 策划书
+	- 渲染器
+		- 适配最新 Rust
+		- 从所有项目载 Prefab 和动画而不只是香肠
 	- 游戏引擎
 		- Mastering Graphics Programming with Vulkan
-		- 适配最新 Rust
-		- Rust async
+		- Rust async, Vulkan 异步优化
 		- Shader lab 游戏引擎
 		- 高级画面 (defferd)
 		- egui
 		- 双端资源加载
-		- 异步优化
