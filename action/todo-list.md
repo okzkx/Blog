@@ -6,6 +6,7 @@
 	- 学习 lowpoly
 	- ecs 代码学习
 		- Aspect
+	- utools, eagle
 - P3 : 
 	- 策划
 		- 策划书
