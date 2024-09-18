@@ -1,5 +1,4 @@
 - P0 : 
-	- 测试性能
 	- ecs 代码
 	- Debug.DrawLine
 	- SubScene 合批方案
