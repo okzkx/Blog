@@ -1,6 +1,8 @@
 - P0 : 
+	- 测试性能
+	- ecs 代码
+	- Debug.DrawLine
 	- SubScene 合批方案
-	- 书籍整理
 	- Project-Storm 建模
 - P1 : 
 	- 学习 lowpoly

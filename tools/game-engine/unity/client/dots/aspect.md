@@ -1,4 +1,0 @@
-- Aspect 是一些 Component 的组合
-- 算是一个语法糖
-- 当 Query Asect 的时候相当于同时 Query 这些 Component
-- 起到一个封装的作用, 基本没什么用
