@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "action/todo-list.md",
+                "file": "tools/game-engine/unity/client/dots/structure-change.md",
                 "mode": "source",
                 "source": false
               }
@@ -63,7 +63,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "action/todo-list.md",
+                "file": "tools/game-engine/unity/client/dots/structure-change.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -80,7 +80,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "action/todo-list.md",
+                "file": "tools/game-engine/unity/client/dots/structure-change.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -135,7 +135,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "action/todo-list.md"
+                "file": "tools/game-engine/unity/client/dots/structure-change.md"
               }
             }
           },
@@ -178,13 +178,14 @@
   },
   "active": "bc2d736260583000",
   "lastOpenFiles": [
+    "action/todo-list.md",
+    "tools/game-engine/unity/client/dots/structure-change.md",
     "README.md",
     "tools/game-engine/unity/client/dots/aspect.md",
     "tools/game-engine/unity/client/dots/ecs.md",
     "tools/game-engine/unity/client/dots/README.md",
     "tools/game-engine/unity/client/dots/errors.md",
     "tools/game-engine/unity/client/dots/ai.md",
-    "action/todo-list.md",
     "tools/game-engine/unity/client/code/memory.md",
     "tools/git/git-resolve.md",
     "game-tech/game-design/README.md",
@@ -206,7 +207,6 @@
     "tools/dcc/blender/blender-to-unity.md",
     "tools/dcc/blender/README.md",
     "tools/dcc/blender/words.md",
-    "tools/dcc/blender/machin3tools.md",
     "tools/dcc/blender/blender_operation.jpg",
     "game-tech/game-design/culture",
     "game-tech/engine/gpu/vulkan/Vulkan-objects.canvas",
