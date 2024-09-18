@@ -112,7 +112,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "解包",
+                "query": "collection",
                 "matchingCase": false,
                 "explainSearch": true,
                 "collapseAll": false,
@@ -178,11 +178,12 @@
   },
   "active": "bc2d736260583000",
   "lastOpenFiles": [
+    "tools/game-engine/unity/client/code/memory.md",
+    "action/todo-list.md",
     "tools/git/git-resolve.md",
     "game-tech/game-design/README.md",
     "action/temp/README.md",
     "update-all.sh.md",
-    "action/todo-list.md",
     "tools/effect.md",
     "tools/resource.md",
     "tools/game-engine/unity/others/mod.md",
@@ -208,7 +209,6 @@
     "game-tech/game-design/culture/README.md",
     "tools/git/git-submodule.md",
     "game-tech/game-design/culture",
-    "tools/game-engine/unity/render/shader/warmup.md",
     "game-tech/engine/gpu/vulkan/Vulkan-objects.canvas",
     "game-tech/engine/gpu/vulkan/pdfs/未命名",
     "archives/TestGPURecorders.cs",

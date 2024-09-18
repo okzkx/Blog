@@ -1,4 +1,6 @@
 
+## Unity 内存分布
+
 [Unity游戏内存分布概览_unity统计的内存和windows任务管理器统计的内存为什么不一样-CSDN博客](https://blog.csdn.net/UWA4D/article/details/124430777)
 
 - **VSS** - Virtual Set Size虚拟耗用内存（包含共享库占用的内存）  
@@ -8,13 +10,13 @@
 
 目前Unity的游戏在安卓上的指标默认都在使用PSS : 平分共享服务内存
 
-# Native memory
+## Native memory
 
 - [what-is-nativearray](https://forum.unity.com/threads/what-is-nativearray.725156/)
 - [Unity 内存管理和profiler详解 - 简书（重要）](https://www.jianshu.com/p/cf3ab3bac1ab)
 - 区别于 Stack 和 Heap 的第三块内存区域 Native。
 
-## 简介
+### 简介
 
 - 无论哪种内存区域，简要来说，功能只有三个：分配，读取，回收
 
@@ -47,3 +49,4 @@
 ### Reference
 
 - [Struct NativeStream.Writer | Package Manager UI website](https://docs.unity3d.com/Packages/com.unity.collections@0.1/api/Unity.Collections.NativeStream.Writer.html)
+- [Collection types | Collections | 2.5.1](https://docs.unity3d.com/Packages/com.unity.collections@2.5/manual/collection-types.html)

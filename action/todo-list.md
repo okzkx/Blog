@@ -1,7 +1,11 @@
 - P0 : 
-	- ecs 代码学习
-- P1 : Project-Storm 建模
+	- SubScene 合批方案
+	- 书籍整理
+	- Project-Storm 建模
+- P1 : 
 	- 学习 lowpoly
+	- ecs 代码学习
+		- Aspect
 - P3 : 
 	- 策划
 		- 策划书
