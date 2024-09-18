@@ -1,5 +1,9 @@
 - P0 : 
-	- ecs 代码
+	- ecs 学习
+		- Baking
+		- Boids
+		- Graphical
+		- Streaming
 	- Debug.DrawLine
 	- SubScene 合批方案
 	- Project-Storm 建模
