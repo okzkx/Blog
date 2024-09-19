@@ -212,3 +212,4 @@ ChildLookup.TryGetBuffer(childEntity, out DynamicBuffer<Child> children)
 同时使用了优先队列数据结构
 
 [NativePriorityHeap.cs](https://github.com/Unity-Technologies/EntityComponentSystemSamples/blob/15105e7917e83b56f0bc863701023d6f028641e9/EntitiesSamples/Assets/HelloCube/15.%20ClosestTarget/KDTree/NativePriorityHeap.cs#L9)
+
