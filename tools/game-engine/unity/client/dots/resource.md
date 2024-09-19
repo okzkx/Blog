@@ -113,7 +113,34 @@ SceneSystem.GetSceneStreamingState(state.WorldUnmanaged, scene.EntityScene);
 
 分段加载 SubScene 中的 Section
 
+```
 state.RequireForUpdate<SceneReference>(); : 在有 SceneReference 时才执行
 ResolvedSectionEntity : 所有 Section
 RequestSceneLoaded : 加载 Section
 DisableSceneResolveAndLoad : 禁止自动加载 Section
+```
+
+
+基于 Volume 的 Section 流式加载
+
+[6. StreamingVolume](https://github.com/Unity-Technologies/EntityComponentSystemSamples/tree/15105e7917e83b56f0bc863701023d6f028641e9/EntitiesSamples/Assets/Streaming/SceneManagement/6.%20StreamingVolume "6. StreamingVolume")
+
+SubScene 流式加载
+
+[7. SubsceneInstancing](https://github.com/Unity-Technologies/EntityComponentSystemSamples/tree/15105e7917e83b56f0bc863701023d6f028641e9/EntitiesSamples/Assets/Streaming/SceneManagement/7.%20SubsceneInstancing "7. SubsceneInstancing")
+
+使用 POstLoadCommandBuffer, 在 SubScene 加载完执行 Cmb
+
+```
+// A PostLoadCommandBuffer wraps an EntityCommandBuffer that will execute commands  
+// after the subscene instance is loaded.  
+var buf = new PostLoadCommandBuffer();  
+buf.CommandBuffer = new EntityCommandBuffer(Allocator.Persistent, PlaybackPolicy.MultiPlayback);
+
+state.EntityManager.AddComponentData(sceneEntity, buf);
+```
+
+包括 LOD
+
+[8. Complete](https://github.com/Unity-Technologies/EntityComponentSystemSamples/tree/15105e7917e83b56f0bc863701023d6f028641e9/EntitiesSamples/Assets/Streaming/SceneManagement/8.%20Complete "8. Complete")
+
