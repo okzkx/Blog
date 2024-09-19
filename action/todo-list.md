@@ -12,6 +12,11 @@
 	- ecs 代码学习
 		- Aspect
 	- utools, eagle
+	- ecs 代码学习
+- P1 : 
+	- Project-Storm 建模
+	- 学习 lowpoly
+	- git 学习
 - P3 : 
 	- 策划
 		- 策划书
