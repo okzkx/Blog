@@ -94,3 +94,26 @@ if (loading.GameObjectPrefabInstance == null &&
             Object.Instantiate(refs.GameObjectPrefabReference.Result);  
     }}
 ```
+
+## Scene Load
+
+#### Scene Loading
+
+使用 LoadSceneAsync 加载  EntitySceneReference 
+
+```
+SceneSystem.LoadSceneAsync(state.WorldUnmanaged, requests[i].Value);
+```
+
+使用 SceneSystem.SceneStreamingState 监控加载状况
+
+```
+SceneSystem.GetSceneStreamingState(state.WorldUnmanaged, scene.EntityScene);
+```
+
+分段加载 SubScene 中的 Section
+
+state.RequireForUpdate<SceneReference>(); : 在有 SceneReference 时才执行
+ResolvedSectionEntity : 所有 Section
+RequestSceneLoaded : 加载 Section
+DisableSceneResolveAndLoad : 禁止自动加载 Section
