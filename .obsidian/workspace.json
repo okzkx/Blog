@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "tools/game-engine/unity/client/dots/advance.md",
+                "file": "action/todo-list.md",
                 "mode": "source",
                 "source": false
               }
@@ -75,7 +75,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "tools/game-engine/unity/client/dots/advance.md",
+                "file": "action/todo-list.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -92,7 +92,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "tools/game-engine/unity/client/dots/advance.md",
+                "file": "action/todo-list.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -147,7 +147,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "tools/game-engine/unity/client/dots/advance.md"
+                "file": "action/todo-list.md"
               }
             }
           },
@@ -190,9 +190,12 @@
   },
   "active": "bc2d736260583000",
   "lastOpenFiles": [
+    "tools/game-engine/unity/client/dots/bake.md",
+    "tools/game-engine/unity/client/dots/graphical.md",
+    "tools/game-engine/unity/client/dots/resource.md",
+    "tools/game-engine/unity/client/dots/advance.md",
     "tools/game-engine/unity/client/dots/errors.md",
     "tools/game-engine/unity/client/dots/README.md",
-    "tools/game-engine/unity/client/dots/advance.md",
     "action/todo-list.md",
     "action/road-map.md",
     "action/daily.md",
@@ -215,9 +218,6 @@
     "game-tech/render/performance/渲染优化技术.xmind",
     "game-tech/render/performance",
     "tools/game-engine/unity/render/shader/variant.md",
-    "变体.md",
-    "tools/game-engine/unity/client/performance.md",
-    "tools/ai/sd/README.md",
     "tools/ai/sd",
     "tools/dcc/blender/blender_operation.jpg",
     "game-tech/game-design/culture",
