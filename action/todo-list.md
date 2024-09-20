@@ -1,9 +1,5 @@
 - P0 : 
-	- ecs 学习
-		- Baking
-		- Boids
-		- Graphical
-		- Streaming
+	- 工具
 - P1 : 
 	- utools, eagle
 	- 学习 lowpoly
