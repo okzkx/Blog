@@ -13,6 +13,18 @@
             "state": {
               "type": "markdown",
               "state": {
+                "file": "action/temp/README.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "0ebdf1c35243d927",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
                 "file": "action/todo-list.md",
                 "mode": "source",
                 "source": false
@@ -63,7 +75,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "action/todo-list.md",
+                "file": "action/temp/README.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -80,7 +92,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "action/todo-list.md",
+                "file": "action/temp/README.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -112,7 +124,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "dots",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": true,
                 "collapseAll": false,
@@ -135,7 +147,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "action/todo-list.md"
+                "file": "action/temp/README.md"
               }
             }
           },
@@ -178,22 +190,25 @@
   },
   "active": "bc2d736260583000",
   "lastOpenFiles": [
+    "action/todo-list.md",
+    "action/road-map.md",
     "tools/game-engine/unity/client/dots/resource.md",
     "tools/game-engine/unity/client/dots/graphical.md",
     "tools/game-engine/unity/client/dots/bake.md",
-    "tools/game-engine/unity/client/dots/advance.md",
-    "tools/game-engine/unity/client/dots/ecs-features.md",
-    "tools/game-engine/unity/client/dots/ai.md",
-    "tools/game-engine/unity/client/dots/ecs.md",
-    "action/todo-list.md",
-    "tools/game-engine/unity/client/dots/aspect.md",
-    "README.md",
-    "tools/game-engine/unity/client/dots/README.md",
-    "tools/game-engine/unity/client/dots/errors.md",
-    "tools/game-engine/unity/client/code/memory.md",
     "tools/git/git-resolve.md",
-    "game-tech/game-design/README.md",
+    "tools/game-engine/unity/client/dots/advance.md",
+    "tools/game-engine/unity/client/dots/errors.md",
+    "tools/game-engine/unity/client/dots/README.md",
+    "action/daily.md",
     "action/temp/README.md",
+    "README.md",
+    "tools/git/README.md",
+    "tools/git/git-submodule.md",
+    "tools/git/git-commands.md",
+    "tools/git/basic/git-sync.md",
+    "tools/game-engine/unity/client/editor/android/install-apk.md",
+    "tools/game-engine/unity/client/editor/android/android-debug.md",
+    "game-tech/game-design/README.md",
     "update-all.sh.md",
     "tools/effect.md",
     "tools/resource.md",
@@ -203,9 +218,6 @@
     "game-tech/render/performance/渲染优化技术.xmind",
     "game-tech/render/performance",
     "tools/game-engine/unity/render/shader/variant.md",
-    "变体.md",
-    "tools/game-engine/unity/client/performance.md",
-    "tools/ai/sd/README.md",
     "tools/ai/sd",
     "tools/dcc/blender/blender_operation.jpg",
     "game-tech/game-design/culture",
