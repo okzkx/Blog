@@ -1,7 +1,6 @@
 - P0 : 
 	- 工具
 - P1 : 
-	- utools, eagle
 	- 学习 lowpoly
 	- git 学习
 - P3 : 
