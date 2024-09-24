@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "tools/git/git-resolve.md",
+                "file": "tools/dcc/blender/README.md",
                 "mode": "source",
                 "source": false
               }
@@ -63,7 +63,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "tools/git/git-resolve.md",
+                "file": "tools/dcc/blender/README.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -80,7 +80,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "tools/git/git-resolve.md",
+                "file": "tools/dcc/blender/README.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -112,7 +112,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "dots",
+                "query": "blender",
                 "matchingCase": false,
                 "explainSearch": true,
                 "collapseAll": false,
@@ -135,7 +135,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "tools/git/git-resolve.md"
+                "file": "tools/dcc/blender/README.md"
               }
             }
           },
@@ -178,6 +178,14 @@
   },
   "active": "bc2d736260583000",
   "lastOpenFiles": [
+    "tools/dcc/blender/words.md",
+    "tools/dcc/blender/machin3tools.md",
+    "tools/dcc/blender/config.md",
+    "tools/dcc/blender/common-use.md",
+    "tools/dcc/blender/README.md",
+    "2024-09-24.md",
+    "未命名.canvas",
+    "tools/git/git-resolve.md",
     "action/temp/README.md",
     "action/daily.md",
     "action/todo-list.md",
@@ -193,19 +201,12 @@
     "tools/game-engine/unity/client/dots/README.md",
     "tools/game-engine/unity/client/dots/errors.md",
     "tools/game-engine/unity/client/code/memory.md",
-    "tools/git/git-resolve.md",
     "game-tech/game-design/README.md",
     "update-all.sh.md",
     "tools/effect.md",
     "tools/resource.md",
-    "tools/game-engine/unity/others/mod.md",
-    "game-tech/render/engine/font.md",
-    "game-tech/render/renderer.md",
     "game-tech/render/performance/渲染优化技术.xmind",
     "game-tech/render/performance",
-    "tools/game-engine/unity/render/shader/variant.md",
-    "变体.md",
-    "tools/game-engine/unity/client/performance.md",
     "tools/ai/sd",
     "tools/dcc/blender/blender_operation.jpg",
     "game-tech/game-design/culture",
@@ -225,7 +226,6 @@
     "game-tech/engine/games-104/assets/1666488322927-image.png",
     "game-tech/engine/games-104/assets/angular-linear.png",
     "game-tech/engine/games-104/assets/aos-soa.png",
-    "game-tech/engine/games-104/assets/cluster-group.png",
-    "未命名.canvas"
+    "game-tech/engine/games-104/assets/cluster-group.png"
   ]
 }

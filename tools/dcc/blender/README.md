@@ -30,6 +30,12 @@
 * [Let&#39;s Model a SPACESHIP in 10 MINUTES in Blender 2.81 - ep. 1 - YouTube](https://www.youtube.com/watch?v=IVXuPJuAMJ4&list=PLC7nmYI-cbT1JN7OADBFhSnpkV-odrMyW)
 * [Learn Low Poly Modeling in Blender 2.9 / 2.8 - YouTube](https://www.youtube.com/watch?v=1jHUY3qoBu8&t=2150s)
 
+tutorial sumery
+* [Blender 10 Minute Modeling Challenge](https://www.youtube.com/playlist?list=PLC7nmYI-cbT1JN7OADBFhSnpkV-odrMyW)
+* [New Low Poly Modeling & Rigging Live #1 - YouTube](https://www.youtube.com/watch?v=BiRusy8rK20)
+* [Live 3D Character Modeling - Crispoly Characters Mini - Blender 3.6.2](https://www.youtube.com/watch?v=NPlmxaueRbM)
+* [EPISODE 100 - Let's model a STARSHIP in 100 MINUTES](https://www.youtube.com/watch?v=rtWPh3hXpTg)
+
 ## 其他资料
 
 ### Animation & Rigging
