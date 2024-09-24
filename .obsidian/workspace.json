@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "action/temp/README.md",
+                "file": "tools/git/git-resolve.md",
                 "mode": "source",
                 "source": false
               }
@@ -63,7 +63,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "action/temp/README.md",
+                "file": "tools/git/git-resolve.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -80,7 +80,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "action/temp/README.md",
+                "file": "tools/git/git-resolve.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -135,7 +135,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "action/temp/README.md"
+                "file": "tools/git/git-resolve.md"
               }
             }
           },
@@ -178,6 +178,7 @@
   },
   "active": "bc2d736260583000",
   "lastOpenFiles": [
+    "action/temp/README.md",
     "action/daily.md",
     "action/todo-list.md",
     "tools/game-engine/unity/client/dots/resource.md",
@@ -194,7 +195,6 @@
     "tools/game-engine/unity/client/code/memory.md",
     "tools/git/git-resolve.md",
     "game-tech/game-design/README.md",
-    "action/temp/README.md",
     "update-all.sh.md",
     "tools/effect.md",
     "tools/resource.md",
