@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "tools/dcc/blender/README.md",
+                "file": "tools/dcc/blender/tutorials/Imphenzia.md",
                 "mode": "source",
                 "source": false
               }
@@ -63,7 +63,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "tools/dcc/blender/README.md",
+                "file": "tools/dcc/blender/tutorials/Imphenzia.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -80,7 +80,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "tools/dcc/blender/README.md",
+                "file": "tools/dcc/blender/tutorials/Imphenzia.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -135,7 +135,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "tools/dcc/blender/README.md"
+                "file": "tools/dcc/blender/tutorials/Imphenzia.md"
               }
             }
           },
@@ -176,19 +176,23 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "bc2d736260583000",
+  "active": "a432dd1f66385122",
   "lastOpenFiles": [
-    "tools/dcc/blender/config.md",
     "tools/dcc/blender/README.md",
-    "tools/dcc/blender/words.md",
+    "tools/dcc/blender/tutorials/Imphenzia.md",
+    "tools/dcc/blender/tutorials",
+    "tools/dcc/blender/machin3tools.md",
+    "tools/dcc/blender/config.md",
+    "tools/dcc/blender/common-use.md",
+    "tools/dcc/blender/blender_operation.jpg",
     "tools/dcc/blender/animation.md",
+    "tools/dcc/blender/blender-to-unity.md",
+    "tools/dcc/blender/words.md",
     "tools/git/README.md",
     "tools/git/git-resolve.md",
     "action/todo-list.md",
     "README.md",
     "tools/Shall.md",
-    "tools/dcc/blender/machin3tools.md",
-    "tools/dcc/blender/common-use.md",
     "2024-09-24.md",
     "未命名.canvas",
     "action/temp/README.md",
@@ -202,13 +206,9 @@
     "tools/game-engine/unity/client/dots/ecs.md",
     "tools/game-engine/unity/client/dots/aspect.md",
     "tools/game-engine/unity/client/dots/README.md",
-    "tools/game-engine/unity/client/dots/errors.md",
-    "tools/game-engine/unity/client/code/memory.md",
-    "game-tech/game-design/README.md",
     "game-tech/render/performance/渲染优化技术.xmind",
     "game-tech/render/performance",
     "tools/ai/sd",
-    "tools/dcc/blender/blender_operation.jpg",
     "game-tech/game-design/culture",
     "game-tech/engine/gpu/vulkan/Vulkan-objects.canvas",
     "game-tech/engine/gpu/vulkan/pdfs/未命名",
@@ -216,7 +216,6 @@
     "archives",
     "tools/ai/comfy-ui",
     "tools/git/basic",
-    "tools/game-engine/unity/client/3c/golden-rush",
     "game-tech/engine/games-104/image/08-animation-system/1656577349093.png",
     "game-tech/engine/games-104/image/08-animation-system/1656577570715.png",
     "game-tech/engine/games-104/games-104.assets/image-20220316105903407.png",
