@@ -1,11 +1,8 @@
 - P0 : 
-	- UI health bar transfer
-	- 检测工具
 - P1 : 
 	- ecs 整理
 	- 继续风暴
-	- 学习 lowpoly
-	- git 学习
+	- 学习 lowpoly[[Imphenzia]]
 - P3 : 
 	- 策划
 		- 策划书
