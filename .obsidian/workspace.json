@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "tools/dcc/image.md",
+                "file": "games/oil-game.md",
                 "mode": "source",
                 "source": false
               }
@@ -63,7 +63,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "tools/dcc/image.md",
+                "file": "games/oil-game.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -80,7 +80,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "tools/dcc/image.md",
+                "file": "games/oil-game.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -135,7 +135,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "tools/dcc/image.md"
+                "file": "games/oil-game.md"
               }
             }
           },
@@ -178,6 +178,7 @@
   },
   "active": "bc2d736260583000",
   "lastOpenFiles": [
+    "tools/dcc/image.md",
     "tools/README.md",
     "tools/effect.md",
     "tools/Shall.md",
@@ -206,7 +207,6 @@
     "tools/game-engine/unity/client/dots/bake.md",
     "tools/game-engine/unity/client/dots/advance.md",
     "tools/game-engine/unity/client/dots/ecs-features.md",
-    "tools/game-engine/unity/client/dots/ai.md",
     "game-tech/render/performance/渲染优化技术.xmind",
     "game-tech/render/performance",
     "tools/ai/sd",
