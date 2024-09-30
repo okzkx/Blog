@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "games/oil-game.md",
+                "file": "tools/dcc/image.md",
                 "mode": "source",
                 "source": false
               }
@@ -63,7 +63,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "games/oil-game.md",
+                "file": "tools/dcc/image.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -80,7 +80,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "games/oil-game.md",
+                "file": "tools/dcc/image.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -112,7 +112,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "blender",
+                "query": "photop",
                 "matchingCase": false,
                 "explainSearch": true,
                 "collapseAll": false,
@@ -135,7 +135,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "games/oil-game.md"
+                "file": "tools/dcc/image.md"
               }
             }
           },
@@ -178,8 +178,12 @@
   },
   "active": "bc2d736260583000",
   "lastOpenFiles": [
-    "tools/dcc/blender/tutorials/Imphenzia.md",
+    "tools/README.md",
+    "tools/effect.md",
+    "tools/Shall.md",
+    "tools/resource.md",
     "games/oil-game.md",
+    "tools/dcc/blender/tutorials/Imphenzia.md",
     "tools/dcc/blender/README.md",
     "action/temp/README.md",
     "tools/dcc/blender/tutorials",
@@ -194,7 +198,6 @@
     "tools/git/git-resolve.md",
     "action/todo-list.md",
     "README.md",
-    "tools/Shall.md",
     "2024-09-24.md",
     "未命名.canvas",
     "action/daily.md",
@@ -204,9 +207,6 @@
     "tools/game-engine/unity/client/dots/advance.md",
     "tools/game-engine/unity/client/dots/ecs-features.md",
     "tools/game-engine/unity/client/dots/ai.md",
-    "tools/game-engine/unity/client/dots/ecs.md",
-    "tools/game-engine/unity/client/dots/aspect.md",
-    "tools/game-engine/unity/client/dots/README.md",
     "game-tech/render/performance/渲染优化技术.xmind",
     "game-tech/render/performance",
     "tools/ai/sd",
