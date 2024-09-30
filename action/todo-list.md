@@ -2,7 +2,7 @@
 - P1 : 
 	- ecs 整理
 	- 继续风暴
-	- 学习 lowpoly[[Imphenzia]]
+	- 学习 lowpoly [[Imphenzia]]
 - P3 : 
 	- 策划
 		- 策划书
