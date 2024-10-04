@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "tools/dcc/blender/tutorials/Imphenzia.md",
+                "file": "action/temp/README.md",
                 "mode": "source",
                 "source": false
               }
@@ -75,7 +75,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "tools/dcc/blender/tutorials/Imphenzia.md",
+                "file": "action/temp/README.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -92,7 +92,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "tools/dcc/blender/tutorials/Imphenzia.md",
+                "file": "action/temp/README.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -147,7 +147,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "tools/dcc/blender/tutorials/Imphenzia.md"
+                "file": "action/temp/README.md"
               }
             }
           },
@@ -190,10 +190,12 @@
   },
   "active": "bc2d736260583000",
   "lastOpenFiles": [
+    "tools/dcc/blender/tutorials/Imphenzia.md",
+    "tools/game-engine/unity/render/light-probe.md",
+    "games/oil-game.md",
     "tools/dcc/blender/README.md",
     "action/temp/README.md",
     "action/todo-list.md",
-    "tools/dcc/blender/tutorials/Imphenzia.md",
     "tools/dcc/blender/tutorials",
     "action/road-map.md",
     "tools/game-engine/unity/client/dots/resource.md",
@@ -215,8 +217,6 @@
     "update-all.sh.md",
     "tools/effect.md",
     "tools/resource.md",
-    "tools/game-engine/unity/others/mod.md",
-    "game-tech/render/engine/font.md",
     "game-tech/render/performance/渲染优化技术.xmind",
     "game-tech/render/performance",
     "tools/ai/sd",
