@@ -16,3 +16,10 @@ var gameStateQuery = SystemAPI.QueryBuilder().WithAllRW<GameState>().Build();
 System singleton 可以被 SystemAPI query 到但不但能被 entityQuery query 到
 
 
+SetParent
+
+```
+// var bow = state.Instantiate(PrefabType.Bow);  
+// state.AddComponent(bow, LocalTransform.FromPosition(math.up()));  
+// state.SetParentWithLookup(bow, hero, ref linkedEntityGroupLookup);
+```
