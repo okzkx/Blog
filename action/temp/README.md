@@ -14,3 +14,5 @@ var gameStateQuery = SystemAPI.QueryBuilder().WithAllRW<GameState>().Build();
 ```
 
 System singleton 可以被 SystemAPI query 到但不但能被 entityQuery query 到
+
+
