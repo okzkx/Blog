@@ -22,8 +22,15 @@ System singleton 可以被 SystemAPI query 到但不但能被 entityQuery query 
 
 SetParent
 
+  
+  
+
 ```
-// var bow = state.Instantiate(PrefabType.Bow);  
-// state.AddComponent(bow, LocalTransform.FromPosition(math.up()));  
-// state.SetParentWithLookup(bow, hero, ref linkedEntityGroupLookup);
+
+
+linkedEntityGroupLookup = state.GetBufferLookup<LinkedEntityGroup>();
+
+var bow = state.Instantiate(PrefabType.Bow);  
+state.AddComponent(bow, LocalTransform.FromPosition(math.up()));  
+state.SetParentWithLookup(bow, hero, ref linkedEntityGroupLookup);
 ```
