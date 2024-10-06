@@ -9,6 +9,10 @@ query = EntityManager.CreateEntityQuery(ComponentType.ReadOnly<SyncTransfer>());
 
 query = EntityManager.CreateEntityQuery(new EntityQueryBuilder...);
 
+using var query =  
+    state.EntityManager.CreateEntityQuery(new EntityQueryBuilder(Allocator.Temp)  
+        .WithAll<PrefabId>());
+
 // in update
 var gameStateQuery = SystemAPI.QueryBuilder().WithAllRW<GameState>().Build();
 ```
