@@ -1,0 +1,1 @@
+- [Add custom attribute to mark method as expensive · Issue #1030 · JetBrains/resharper-unity](https://github.com/JetBrains/resharper-unity/issues/1030)
