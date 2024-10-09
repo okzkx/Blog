@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "tools/game-engine/unity/client/README.md",
+                "file": "action/temp/README.md",
                 "mode": "source",
                 "source": false
               }
@@ -63,7 +63,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "tools/game-engine/unity/client/README.md",
+                "file": "action/temp/README.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -80,7 +80,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "tools/game-engine/unity/client/README.md",
+                "file": "action/temp/README.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -135,7 +135,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "tools/game-engine/unity/client/README.md"
+                "file": "action/temp/README.md"
               }
             }
           },
@@ -178,8 +178,10 @@
   },
   "active": "c0bf6dfa96242284",
   "lastOpenFiles": [
-    "README.md",
+    "tools/game-engine/unity/client/dots/advance.md",
+    "tools/game-engine/unity/client/dots/ecs.md",
     "tools/game-engine/unity/client/README.md",
+    "README.md",
     "game-tech/engine/plugins.md",
     "game-tech/engine/README.md",
     "game-tech/engine/Interview/README.md",
@@ -202,8 +204,6 @@
     "action/daily.md",
     "tools/dcc/blender/tutorials/Imphenzia.md",
     "tools/dcc/blender/README.md",
-    "games/oil-game.md",
-    "tools/dcc/image.md",
     "tools/dcc/blender/tutorials",
     "tools/dcc/blender/blender_operation.jpg",
     "未命名.canvas",
