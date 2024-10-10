@@ -13,13 +13,26 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "tools/dcc/blender/blender-to-unity.md",
+                "file": "action/todo-list-p01.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "46cfe154d4ce692a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "action/road-map.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -63,7 +76,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "tools/dcc/blender/blender-to-unity.md",
+                "file": "action/road-map.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -80,7 +93,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "tools/dcc/blender/blender-to-unity.md",
+                "file": "action/road-map.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -135,7 +148,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "tools/dcc/blender/blender-to-unity.md"
+                "file": "action/road-map.md"
               }
             }
           },
@@ -176,19 +189,21 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "c0bf6dfa96242284",
+  "active": "46cfe154d4ce692a",
   "lastOpenFiles": [
+    "action/todo-list-p01.md",
+    "action/road-map.md",
+    "action/remain-todo-p3.md",
+    "action/daily-p2.md",
+    "tools/dcc/blender/tutorials/Imphenzia.md",
+    "tools/dcc/blender/blender-to-unity.md",
     "tools/dcc/blender/uv.md",
     "tools/dcc/blender/words.md",
     "tools/dcc/blender/README.md",
-    "tools/dcc/blender/blender-to-unity.md",
     "game-tech/engine/tutorials/games-104/04-renderer.md",
     "README.md",
     "tools/game-engine/unity/resource/asset/asset-live-time.md",
-    "action/todo-list.md",
     "tools/Shall.md",
-    "action/daily.md",
-    "action/road-map.md",
     "tools/game-engine/unity/resource/asset/asset-overview.md",
     "tools/game-engine/unity/resource/asset",
     "action/temp/README.md",
@@ -203,8 +218,6 @@
     "game-tech/engine/gpu/vulkan/cube-map.md",
     "game-tech/engine/gpu/vulkan/description-set.md",
     "game-tech/engine/gpu/vulkan/render-pass.md",
-    "game-tech/engine/gpu/vulkan/dynamic-rendering.md",
-    "game-tech/engine/gpu/vulkan/vulkan-android.md",
     "game-tech/engine/gpu/vulkan/Vulkan-objects.canvas",
     "game-tech/engine/renderer/模型加载数据流.canvas",
     "game-tech/engine/tutorials/games-104/image/08-animation-system/1656577349093.png",

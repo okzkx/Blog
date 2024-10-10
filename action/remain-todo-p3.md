@@ -1,0 +1,13 @@
+- 策划
+	- 策划书
+- 渲染器
+	- 从所有项目载 Prefab 和动画而不只是香肠\
+	- 外包资源可以使用报错材质或者默认 Pbr
+- 游戏引擎
+	- Mastering Graphics Programming with Vulkan
+	- Rust async, Vulkan 异步优化
+	- Shader lab 游戏引擎
+	- 高级画面 (defferd)
+	- egui
+	- 双端资源加载
+	- 适配最新 rust~
