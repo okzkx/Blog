@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "game-tech/engine/render-pass.md",
+                "file": "action/todo-list.md",
                 "mode": "source",
                 "source": false
               }
@@ -63,7 +63,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "game-tech/engine/render-pass.md",
+                "file": "action/todo-list.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -80,7 +80,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "game-tech/engine/render-pass.md",
+                "file": "action/todo-list.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -112,7 +112,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "#wip",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": true,
                 "collapseAll": false,
@@ -135,7 +135,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "game-tech/engine/render-pass.md"
+                "file": "action/todo-list.md"
               }
             }
           },
@@ -178,35 +178,38 @@
   },
   "active": "c0bf6dfa96242284",
   "lastOpenFiles": [
-    "game-tech/engine/usd.md",
-    "tools/game-engine/unity/resource/asset-bundle/problems.md",
-    "tools/game-engine/unity/resource/asset-bundle/tutorials.md",
-    "tools/game-engine/unity/resource/asset-bundle/README.md",
-    "tools/game-engine/unity/resource/asset-bundle/skills.md",
-    "tools/game-engine/unity/resource/resource-manager.md",
-    "tools/game-engine/unity/resource/README.md",
-    "tools/game-engine/unity/resource/asset-bundle",
-    "tools/game-engine/unity/resource/Asset.md",
-    "tools/game-engine/unity/resource/addressable.md",
-    "tools/game-engine/unity/client/editor/README.md",
-    "tools/game-engine/unity/client/editor/download.md",
-    "tools/game-engine/unity/client/editor/custom-package.md",
-    "tools/game-engine/unity/client/editor/android/install-apk.md",
-    "tools/game-engine/unity/client/editor/android/android-debug.md",
-    "tools/game-engine/unity/client/editor/editor-tool/editor-ui.md",
-    "tools/game-engine/unity/client/editor/editor-tool/README.md",
-    "tools/game-engine/unity/client/editor/editor-tool/ongui.md",
-    "tools/game-engine/unity/client/network.md",
-    "tools/game-engine/unity/client/ui/ugui.md",
-    "tools/game-engine/unity/client/ui/shader-ui.md",
-    "tools/game-engine/unity/client/ui/README.md",
-    "tools/game-engine/unity/client/ui/layout.md",
-    "tools/game-engine/unity/client/ui/design.md",
+    "action/temp/README.md",
+    "action/daily.md",
     "action/road-map.md",
     "action/todo-list.md",
-    "action/daily.md",
-    "tools/game-engine/unity/client/editor/editor-tool",
+    "game-tech/README.md",
+    "tools/Shall.md",
+    "README.md",
+    "game-tech/engine/gpu/vulkan/README.md",
+    "game-tech/engine/gpu/vulkan/vulkan-learn/README.md",
+    "game-tech/engine/gpu/vulkan/application.md",
+    "game-tech/engine/gpu/vulkan/coordinate-system.md",
+    "game-tech/engine/gpu/vulkan/buffer.md",
+    "game-tech/engine/gpu/vulkan/compute-shader.md",
+    "game-tech/engine/gpu/vulkan/renderer-steps.md",
+    "game-tech/engine/gpu/vulkan/cube-map.md",
+    "game-tech/engine/gpu/vulkan/description-set.md",
+    "game-tech/engine/gpu/vulkan/render-pass.md",
+    "game-tech/engine/gpu/vulkan/dynamic-rendering.md",
+    "game-tech/engine/gpu/vulkan/vulkan-android.md",
+    "game-tech/engine/gpu/vulkan/sync.md",
+    "game-tech/engine/gpu/vulkan/Vulkan-objects.canvas",
+    "game-tech/engine/gpu/vulkan/vulkan-objects.md",
+    "game-tech/engine/usd.md",
+    "game-tech/engine/render-pass.md",
+    "game-tech/engine/README.md",
+    "game-tech/engine/bevy.md",
+    "game-tech/engine/plugins.md",
     "game-tech/engine/renderer/模型加载数据流.canvas",
+    "game-tech/engine/tutorials/games-104/image/08-animation-system/1656577349093.png",
+    "game-tech/engine/tutorials",
+    "tools/game-engine/unity/resource/asset-bundle",
+    "tools/game-engine/unity/client/editor/editor-tool",
     "tools/dcc/blender/tutorials",
     "tools/dcc/blender/blender_operation.jpg",
     "未命名.canvas",
@@ -214,18 +217,15 @@
     "game-tech/render/performance",
     "tools/ai/sd",
     "game-tech/game-design/culture",
-    "game-tech/engine/gpu/vulkan/Vulkan-objects.canvas",
     "game-tech/engine/gpu/vulkan/pdfs/未命名",
     "archives/TestGPURecorders.cs",
-    "archives",
-    "game-tech/engine/games-104/image/08-animation-system/1656577349093.png",
-    "game-tech/engine/games-104/image/08-animation-system/1656577570715.png",
-    "game-tech/engine/games-104/games-104.assets/image-20220316105903407.png",
-    "game-tech/engine/games-104/assets/pdf-master.png",
-    "game-tech/engine/games-104/assets/1666487959904-image.png",
-    "game-tech/engine/games-104/assets/1666488322927-image.png",
-    "game-tech/engine/games-104/assets/angular-linear.png",
-    "game-tech/engine/games-104/assets/aos-soa.png",
-    "game-tech/engine/games-104/assets/cluster-group.png"
+    "game-tech/engine/tutorials/games-104/image/08-animation-system/1656577570715.png",
+    "game-tech/engine/tutorials/games-104/games-104.assets/image-20220316105903407.png",
+    "game-tech/engine/tutorials/games-104/assets/pdf-master.png",
+    "game-tech/engine/tutorials/games-104/assets/1666487959904-image.png",
+    "game-tech/engine/tutorials/games-104/assets/1666488322927-image.png",
+    "game-tech/engine/tutorials/games-104/assets/angular-linear.png",
+    "game-tech/engine/tutorials/games-104/assets/aos-soa.png",
+    "game-tech/engine/tutorials/games-104/assets/cluster-group.png"
   ]
 }
