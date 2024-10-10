@@ -1,4 +1,4 @@
-### Asset
+### Asset 简介
 
 Asset 是 Unity 中的文件，任何一个文件（非文件夹）都是 Asset。
 
@@ -63,4 +63,3 @@ Unity 后端进入 Play Mode 后从 Library 处
 #### Reference
 
 - [Unity 的 Asset 管理和序列化](https://connect.unity.com/p/unity-de-asset-guan-li-he-xu-lie-hua)
-- [[官方直播] 详解Unity Asset的一生](https://www.bilibili.com/video/BV1Wv41167i2)

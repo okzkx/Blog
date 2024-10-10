@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "action/todo-list.md",
+                "file": "tools/game-engine/unity/resource/asset/asset-live-time.md",
                 "mode": "source",
                 "source": false
               }
@@ -63,7 +63,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "action/todo-list.md",
+                "file": "tools/game-engine/unity/resource/asset/asset-live-time.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -80,7 +80,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "action/todo-list.md",
+                "file": "tools/game-engine/unity/resource/asset/asset-live-time.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -135,7 +135,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "action/todo-list.md"
+                "file": "tools/game-engine/unity/resource/asset/asset-live-time.md"
               }
             }
           },
@@ -178,10 +178,13 @@
   },
   "active": "c0bf6dfa96242284",
   "lastOpenFiles": [
+    "tools/game-engine/unity/resource/asset/asset-overview.md",
+    "tools/game-engine/unity/resource/asset/asset-live-time.md",
+    "tools/game-engine/unity/resource/asset",
+    "action/todo-list.md",
     "action/temp/README.md",
     "action/daily.md",
     "action/road-map.md",
-    "action/todo-list.md",
     "game-tech/README.md",
     "tools/Shall.md",
     "README.md",
@@ -203,8 +206,6 @@
     "game-tech/engine/usd.md",
     "game-tech/engine/render-pass.md",
     "game-tech/engine/README.md",
-    "game-tech/engine/bevy.md",
-    "game-tech/engine/plugins.md",
     "game-tech/engine/renderer/模型加载数据流.canvas",
     "game-tech/engine/tutorials/games-104/image/08-animation-system/1656577349093.png",
     "game-tech/engine/tutorials",
@@ -218,7 +219,6 @@
     "tools/ai/sd",
     "game-tech/game-design/culture",
     "game-tech/engine/gpu/vulkan/pdfs/未命名",
-    "archives/TestGPURecorders.cs",
     "game-tech/engine/tutorials/games-104/image/08-animation-system/1656577570715.png",
     "game-tech/engine/tutorials/games-104/games-104.assets/image-20220316105903407.png",
     "game-tech/engine/tutorials/games-104/assets/pdf-master.png",
