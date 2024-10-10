@@ -1,4 +1,3 @@
-# AssetBundle
 
 - [Unity Asset Bundles，不可不知的使用技巧和误区](https://mp.weixin.qq.com/s/2wMpO9h7aCcv3gpVBJxQDA)
 
@@ -30,5 +29,3 @@
 	- 资产文件名
 	- 带扩展名的资产文件名
 	- 后两种要构建查找表
-
-

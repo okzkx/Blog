@@ -1,5 +1,4 @@
 
-#wip-folder
 # Editor UI
 
 ## Editor 界面点击调用静态方法
@@ -80,16 +79,12 @@ public class $TargetClass$Editor : Editor {
 
 ### 综合
 
-[UnityEditor-Windows编辑器与Inspector编辑器详细教程](https://www.jianshu.com/p/97520d98a1f2)
-
-[Unity Editor基础篇](https://www.jianshu.com/p/8432ad6fac64)
-
-[Unity编辑器扩展之Project视图面板](https://blog.csdn.net/weixin_42540271/article/details/90761102)
-
-[原创 （二）Unity编辑器扩展之Hierarchy视图面板](https://blog.csdn.net/weixin_42540271/article/details/90815480)
+- [UnityEditor-Windows编辑器与Inspector编辑器详细教程](https://www.jianshu.com/p/97520d98a1f2)
+- [Unity Editor基础篇](https://www.jianshu.com/p/8432ad6fac64)
+- [Unity编辑器扩展之Project视图面板](https://blog.csdn.net/weixin_42540271/article/details/90761102)
+- [原创 （二）Unity编辑器扩展之Hierarchy视图面板](https://blog.csdn.net/weixin_42540271/article/details/90815480)
 
 ### EditorWindow
 
-[https://blog.csdn.net/qq\_35030499/article/details/88350521](https://blog.csdn.net/qq_35030499/article/details/88350521)
-
-[https://docs.unity3d.com/ScriptReference/EditorWindow.html](https://docs.unity3d.com/ScriptReference/EditorWindow.html)
+- [Unity拓展编辑器 —— EditorWindow（一）_unity editorwindow 图片-CSDN博客] (https://blog.csdn.net/qq_35030499/article/details/88350521)
+- [Unity - Scripting API: EditorWindow](https://docs.unity3d.com/ScriptReference/EditorWindow.html)
