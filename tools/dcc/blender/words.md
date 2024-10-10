@@ -1,13 +1,8 @@
 # Words
 
-Bip 
-
-metarig
-
-bones
-
-pose
-
-Skeleton
-
-melee
+- Bip 
+- metarig
+- bones
+- pose
+- Skeleton
+- melee
