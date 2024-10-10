@@ -112,7 +112,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "addressa",
+                "query": "hlod",
                 "matchingCase": false,
                 "explainSearch": true,
                 "collapseAll": false,
@@ -176,7 +176,7 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "c0bf6dfa96242284",
+  "active": "71096b725b843a1f",
   "lastOpenFiles": [
     "tools/game-engine/unity/client/dots/README.md",
     "tools/game-engine/unity/client/dots/graphical.md",
