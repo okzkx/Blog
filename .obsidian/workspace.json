@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "action/temp/README.md",
+                "file": "tools/game-engine/unity/client/dots/graphical.md",
                 "mode": "source",
                 "source": false
               }
@@ -63,7 +63,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "action/temp/README.md",
+                "file": "tools/game-engine/unity/client/dots/graphical.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -80,7 +80,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "action/temp/README.md",
+                "file": "tools/game-engine/unity/client/dots/graphical.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -112,7 +112,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "addressa",
                 "matchingCase": false,
                 "explainSearch": true,
                 "collapseAll": false,
@@ -135,7 +135,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "action/temp/README.md"
+                "file": "tools/game-engine/unity/client/dots/graphical.md"
               }
             }
           },
@@ -178,8 +178,21 @@
   },
   "active": "c0bf6dfa96242284",
   "lastOpenFiles": [
+    "tools/game-engine/unity/client/dots/README.md",
+    "tools/game-engine/unity/client/dots/graphical.md",
+    "tools/game-engine/unity/client/dots/bake.md",
     "tools/game-engine/unity/client/dots/advance.md",
+    "tools/game-engine/unity/client/dots/ai.md",
+    "tools/game-engine/unity/client/dots/base-practice.md",
     "tools/game-engine/unity/client/dots/ecs.md",
+    "action/temp/README.md",
+    "action/daily.md",
+    "action/road-map.md",
+    "tools/ai/sd/README.md",
+    "tools/game-engine/unity/plugins.md",
+    "tools/game-engine/unity/resource/config.md",
+    "tools/game-engine/unity/resource/addressable.md",
+    "action/todo-list.md",
     "tools/game-engine/unity/client/README.md",
     "README.md",
     "game-tech/engine/plugins.md",
@@ -191,19 +204,6 @@
     "game-tech/engine/game-engine-architecture/3 游戏软件工程基础.md",
     "game-tech/render/engine/view-port-mode.md",
     "game-tech/render/engine/ui.md",
-    "tools/game-engine/unity/partical-system.md",
-    "tools/game-engine/unity/client/ui/ugui.md",
-    "game-tech/render/technology-artist/nature/lighting.md",
-    "game-tech/render/technology-artist/nature/pbr.md",
-    "game-tech/render/technology-artist/nature/volume.md",
-    "game-tech/render/render-pipeline/anti-aliasing.md",
-    "game-tech/README.md",
-    "action/todo-list.md",
-    "action/temp/README.md",
-    "tools/game-engine/unity/render/light-probe.md",
-    "action/daily.md",
-    "tools/dcc/blender/tutorials/Imphenzia.md",
-    "tools/dcc/blender/README.md",
     "tools/dcc/blender/tutorials",
     "tools/dcc/blender/blender_operation.jpg",
     "未命名.canvas",
