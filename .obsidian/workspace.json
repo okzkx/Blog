@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "tools/game-engine/unity/client/dots/graphical.md",
+                "file": "game-tech/engine/game-engine-architecture/12. 碰撞和刚体动力学.md",
                 "mode": "source",
                 "source": false
               }
@@ -63,7 +63,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "tools/game-engine/unity/client/dots/graphical.md",
+                "file": "game-tech/engine/game-engine-architecture/12. 碰撞和刚体动力学.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -80,7 +80,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "tools/game-engine/unity/client/dots/graphical.md",
+                "file": "game-tech/engine/game-engine-architecture/12. 碰撞和刚体动力学.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -112,7 +112,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "hlod",
+                "query": "#wip",
                 "matchingCase": false,
                 "explainSearch": true,
                 "collapseAll": false,
@@ -135,7 +135,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "tools/game-engine/unity/client/dots/graphical.md"
+                "file": "game-tech/engine/game-engine-architecture/12. 碰撞和刚体动力学.md"
               }
             }
           },
@@ -176,14 +176,26 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "71096b725b843a1f",
+  "active": "c0bf6dfa96242284",
   "lastOpenFiles": [
-    "tools/game-engine/unity/client/dots/README.md",
+    "game-tech/engine/game-engine-architecture/13. 音频.md",
+    "game-tech/engine/game-engine-architecture/14. 游戏性系统简介.md",
+    "game-tech/engine/game-engine-architecture/15. 运行时游戏性基础系统.md",
+    "game-tech/engine/game-engine-architecture/11. 动画系统.md",
+    "game-tech/engine/game-engine-architecture/8. 人体学接口设备.md",
+    "game-tech/engine/game-engine-architecture/3 游戏软件工程基础.md",
+    "game-tech/engine/game-engine-architecture/2. 专业工具.md",
+    "game-tech/engine/README.md",
+    "game-tech/render/render-pipeline/culling.md",
+    "game-tech/render/performance/HLOD.md",
+    "game-tech/engine/renderer/README.md",
+    "game-tech/engine/renderer/模型加载数据流.canvas",
     "tools/game-engine/unity/client/dots/graphical.md",
+    "tools/game-engine/unity/client/dots/base-practice.md",
+    "tools/game-engine/unity/client/dots/README.md",
     "tools/game-engine/unity/client/dots/bake.md",
     "tools/game-engine/unity/client/dots/advance.md",
     "tools/game-engine/unity/client/dots/ai.md",
-    "tools/game-engine/unity/client/dots/base-practice.md",
     "tools/game-engine/unity/client/dots/ecs.md",
     "action/temp/README.md",
     "action/daily.md",
@@ -193,17 +205,6 @@
     "tools/game-engine/unity/resource/config.md",
     "tools/game-engine/unity/resource/addressable.md",
     "action/todo-list.md",
-    "tools/game-engine/unity/client/README.md",
-    "README.md",
-    "game-tech/engine/plugins.md",
-    "game-tech/engine/README.md",
-    "game-tech/engine/Interview/README.md",
-    "game-tech/engine/computer-science.md",
-    "game-tech/engine/modern-mobile-rendering-note.md",
-    "game-tech/engine/game-engine-architecture/2. 专业工具.md",
-    "game-tech/engine/game-engine-architecture/3 游戏软件工程基础.md",
-    "game-tech/render/engine/view-port-mode.md",
-    "game-tech/render/engine/ui.md",
     "tools/dcc/blender/tutorials",
     "tools/dcc/blender/blender_operation.jpg",
     "未命名.canvas",
@@ -220,7 +221,6 @@
     "game-tech/engine/games-104/image/08-animation-system/1656577349093.png",
     "game-tech/engine/games-104/image/08-animation-system/1656577570715.png",
     "game-tech/engine/games-104/games-104.assets/image-20220316105903407.png",
-    "game-tech/engine/renderer/模型加载数据流.canvas",
     "game-tech/engine/games-104/assets/pdf-master.png",
     "game-tech/engine/games-104/assets/1666487959904-image.png",
     "game-tech/engine/games-104/assets/1666488322927-image.png",

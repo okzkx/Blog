@@ -1,6 +1,5 @@
 # Culling
 
-
 - [Introduction to Occlusion Culling | by Umbra 3D | Medium](https://medium.com/@Umbra3D/introduction-to-occlusion-culling-3d6cfb195c79)
 - [Unity中使用ComputeShader做视锥剔除（View Frustum Culling）](https://zhuanlan.zhihu.com/p/376801370)
 ### Hierarchical-Z map
