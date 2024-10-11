@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "game-tech/art/art-assets.md",
+                "file": "action/p01-todo-list.md",
                 "mode": "source",
                 "source": false
               }
@@ -76,7 +76,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "game-tech/art/art-assets.md",
+                "file": "action/p01-todo-list.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -93,7 +93,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "game-tech/art/art-assets.md",
+                "file": "action/p01-todo-list.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -148,7 +148,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "game-tech/art/art-assets.md"
+                "file": "action/p01-todo-list.md"
               }
             }
           },
@@ -191,6 +191,7 @@
   },
   "active": "46cfe154d4ce692a",
   "lastOpenFiles": [
+    "game-tech/art/art-assets.md",
     "action/p01-todo-list.md",
     "action/p4-road-map.md",
     "action/p3-remain-todo.md",
@@ -217,7 +218,6 @@
     "game-tech/engine/gpu/vulkan/renderer-steps.md",
     "game-tech/engine/gpu/vulkan/cube-map.md",
     "game-tech/engine/gpu/vulkan/description-set.md",
-    "game-tech/engine/gpu/vulkan/render-pass.md",
     "game-tech/engine/gpu/vulkan/Vulkan-objects.canvas",
     "game-tech/engine/renderer/模型加载数据流.canvas",
     "game-tech/engine/tutorials/games-104/image/08-animation-system/1656577349093.png",
