@@ -8,3 +8,5 @@
 		- [AI- 游戏图标研究所-各种方法绘制图标](https://www.bilibili.com/video/BV1LX4y1v77z?spm_id_from=333.880.my_history.page.click)
 		- [ai小教程 五分钟画图标](https://www.bilibili.com/video/BV13D421W7SP?spm_id_from=333.880.my_history.page.click)
 		- [Lora图标训练02-训练tag和参数设置【stable diffusion】_哔哩哔哩_bilibili](https://www.bilibili.com/video/BV1Bs4y1d71T/?spm_id_from=333.788&vd_source=ebf06d572d5366b5ef7bc5032fefb08d)
+		- [Stable Diffusion 零基础入门课学习资料汇总](https://nenly.notion.site/017c3341c8b84a7ebb4c2cb16f36e28f?v=8d3885a8404b4f27a998d03b23a87f19)
+

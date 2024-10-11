@@ -8,31 +8,18 @@
         "type": "tabs",
         "children": [
           {
-            "id": "c0bf6dfa96242284",
+            "id": "bc2d736260583000",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "action/p01-todo-list.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "46cfe154d4ce692a",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "action/p01-todo-list.md",
+                "file": "action/temp/README.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -59,7 +46,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 317.5004348754883
+    "width": 260.5004348754883
   },
   "right": {
     "id": "affb9fa2d1590bc4",
@@ -76,7 +63,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "action/p01-todo-list.md",
+                "file": "action/temp/README.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -93,7 +80,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "action/p01-todo-list.md",
+                "file": "action/temp/README.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +112,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "blender",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": true,
                 "collapseAll": false,
@@ -148,7 +135,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "action/p01-todo-list.md"
+                "file": "action/temp/README.md"
               }
             }
           },
@@ -171,7 +158,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "horizontal",
@@ -188,57 +176,56 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "46cfe154d4ce692a",
+  "active": "bc2d736260583000",
   "lastOpenFiles": [
-    "README.md",
-    "tools/ai/sd/README.md",
-    "tools/ai/sd/tutorials/model-traning.md",
-    "tools/ai/sd/tutorials/introduction.md",
-    "tools/ai/README.md",
-    "tools/ai/transformer.md",
-    "tools/ai/sd/tutorials",
-    "tools/ai/sd/未命名.canvas",
     "action/p01-todo-list.md",
-    "game-tech/art/art-assets.md",
     "action/p4-road-map.md",
     "action/p3-remain-todo.md",
     "action/p2-daily.md",
-    "tools/dcc/blender/tutorials/Imphenzia.md",
-    "tools/dcc/blender/blender-to-unity.md",
-    "tools/dcc/blender/uv.md",
-    "tools/dcc/blender/words.md",
-    "tools/dcc/blender/README.md",
-    "game-tech/engine/tutorials/games-104/04-renderer.md",
-    "tools/game-engine/unity/resource/asset/asset-live-time.md",
+    "tools/ai/sd/README.md",
+    "tools/ai/comfy-ui/README.md",
+    "tools/ai/comfy-ui/start.md",
+    "tools/ai/transformer.md",
+    "tools/ai/README.md",
+    "tools/ai/novel-ai.md",
     "tools/Shall.md",
+    "tools/effect.md",
+    "tools/README.md",
+    "action/temp/README.md",
+    "tools/game-engine/unity/resource/resource-manager.md",
+    "tools/game-engine/unity/resource/asset/asset-live-time.md",
     "tools/game-engine/unity/resource/asset/asset-overview.md",
     "tools/game-engine/unity/resource/asset",
-    "action/temp/README.md",
-    "game-tech/README.md",
-    "game-tech/engine/gpu/vulkan/README.md",
-    "game-tech/engine/gpu/vulkan/vulkan-learn/README.md",
-    "game-tech/engine/gpu/vulkan/application.md",
-    "game-tech/engine/gpu/vulkan/coordinate-system.md",
+    "tools/game-engine/unity/resource/asset-bundle/skills.md",
+    "tools/game-engine/unity/resource/asset-bundle/tutorials.md",
+    "tools/game-engine/unity/resource/asset-bundle/README.md",
+    "tools/game-engine/unity/resource/asset-bundle/problems.md",
+    "tools/game-engine/unity/resource/asset-bundle",
+    "game-tech/engine/tutorials/games-104/image/08-animation-system/1656587379769.png",
+    "game-tech/engine/tutorials/games-104/image/08-animation-system/1656587250681.png",
+    "game-tech/engine/tutorials/games-104/image/08-animation-system/1656586949250.png",
+    "game-tech/engine/tutorials/games-104/image/08-animation-system/1656586101501.png",
+    "game-tech/engine/tutorials/games-104/image/08-animation-system/1656584559306.png",
+    "game-tech/engine/tutorials/games-104/image/08-animation-system/1656584904731.png",
+    "game-tech/engine/tutorials/games-104/image/08-animation-system/1656584185384.png",
+    "game-tech/engine/tutorials/games-104/image/08-animation-system/1656584011117.png",
+    "game-tech/engine/tutorials/games-104/image/08-animation-system/1656583925434.png",
+    "game-tech/engine/tutorials/games-104/image/08-animation-system/1656581919319.png",
+    "game-tech/engine/tutorials/games-104/image/08-animation-system",
+    "game-tech/engine/tutorials/games-104/image",
+    "game-tech/engine/tutorials/games-104/assets/htn",
+    "game-tech/engine/tutorials/games-104/README.md",
+    "game-tech/engine/tutorials/games-104/21-lumen.md",
+    "game-tech/engine/tutorials/games-104/games-104.assets",
+    "game-tech/engine/tutorials/games-104/assets",
+    "game-tech/engine/tutorials/games-104/23-nanite-2.md",
+    "game-tech/engine/tutorials/games-104/23-nanite-1.md",
+    "game-tech/engine/tutorials/games-104/22-lumen-2.md",
+    "game-tech/engine/tutorials/games-104",
+    "game-tech/engine/tutorials/game-engine-architecture",
+    "game-tech/engine/tutorials",
     "game-tech/engine/gpu/vulkan/Vulkan-objects.canvas",
     "game-tech/engine/renderer/模型加载数据流.canvas",
-    "game-tech/engine/tutorials/games-104/image/08-animation-system/1656577349093.png",
-    "game-tech/engine/tutorials",
-    "tools/game-engine/unity/resource/asset-bundle",
-    "tools/game-engine/unity/client/editor/editor-tool",
-    "tools/dcc/blender/tutorials",
-    "tools/dcc/blender/blender_operation.jpg",
-    "未命名.canvas",
-    "game-tech/render/performance/渲染优化技术.xmind",
-    "game-tech/render/performance",
-    "tools/ai/sd",
-    "game-tech/game-design/culture",
-    "game-tech/engine/tutorials/games-104/image/08-animation-system/1656577570715.png",
-    "game-tech/engine/tutorials/games-104/games-104.assets/image-20220316105903407.png",
-    "game-tech/engine/tutorials/games-104/assets/pdf-master.png",
-    "game-tech/engine/tutorials/games-104/assets/1666487959904-image.png",
-    "game-tech/engine/tutorials/games-104/assets/1666488322927-image.png",
-    "game-tech/engine/tutorials/games-104/assets/angular-linear.png",
-    "game-tech/engine/tutorials/games-104/assets/aos-soa.png",
-    "game-tech/engine/tutorials/games-104/assets/cluster-group.png"
+    "未命名.canvas"
   ]
 }
