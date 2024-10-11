@@ -5,4 +5,4 @@
 archer,full body,(bow in hand),bow to the right,chest toward viewer,<lora:game icon institute_oumeiQ_v2:1>,face to left,
 
 
-archer,full body,(sword in hand),sword to the right,chest toward viewer,<lora:game icon institute_oumeiQ_v2:1>,face to left,
+tower,(arrow tower),whole object,medieval style,(ancient architecture),archer tower,((simple wooden building)),(two floors),dwarf,battle,
