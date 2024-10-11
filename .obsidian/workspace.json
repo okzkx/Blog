@@ -178,6 +178,10 @@
   },
   "active": "bc2d736260583000",
   "lastOpenFiles": [
+    "tools/game-engine/unity/client/editor/editor-tool/README.md",
+    "tools/game-engine/unity/client/editor/editor-tool/ongui.md",
+    "tools/game-engine/unity/client/editor/editor-tool/editor-ui.md",
+    "tools/game-engine/unity/client/editor/editor-tool",
     "action/p01-todo-list.md",
     "action/p4-road-map.md",
     "action/p3-remain-todo.md",
@@ -218,12 +222,8 @@
     "game-tech/engine/tutorials/games-104/21-lumen.md",
     "game-tech/engine/tutorials/games-104/games-104.assets",
     "game-tech/engine/tutorials/games-104/assets",
-    "game-tech/engine/tutorials/games-104/23-nanite-2.md",
-    "game-tech/engine/tutorials/games-104/23-nanite-1.md",
-    "game-tech/engine/tutorials/games-104/22-lumen-2.md",
     "game-tech/engine/tutorials/games-104",
     "game-tech/engine/tutorials/game-engine-architecture",
-    "game-tech/engine/tutorials",
     "game-tech/engine/gpu/vulkan/Vulkan-objects.canvas",
     "game-tech/engine/renderer/模型加载数据流.canvas",
     "未命名.canvas"
