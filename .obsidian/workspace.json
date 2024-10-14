@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "action/p01-todo-list.md",
+                "file": "tools/dcc/blender/tutorials/blender-4.0.md",
                 "mode": "source",
                 "source": false
               }
@@ -76,7 +76,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "action/p01-todo-list.md",
+                "file": "tools/dcc/blender/tutorials/blender-4.0.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -93,7 +93,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "action/p01-todo-list.md",
+                "file": "tools/dcc/blender/tutorials/blender-4.0.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -148,7 +148,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "action/p01-todo-list.md"
+                "file": "tools/dcc/blender/tutorials/blender-4.0.md"
               }
             }
           },
@@ -188,10 +188,22 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "46cfe154d4ce692a",
+  "active": "a432dd1f66385122",
   "lastOpenFiles": [
-    "action/temp/README.md",
+    "tools/dcc/blender/tutorials/blender4.0",
+    "tools/dcc/blender/words.md",
+    "tools/dcc/blender/tutorials/blender-4.0.md",
+    "tools/dcc/blender/README.md",
+    "tools/dcc/blender/plugins.md",
+    "tools/dcc/blender/config.md",
+    "tools/dcc/blender/common-use.md",
+    "tools/dcc/blender/blender-to-unity.md",
+    "tools/dcc/blender/blender_operation.jpg",
+    "tools/dcc/blender/animation.md",
+    "tools/dcc/blender/uv.md",
+    "tools/dcc/blender/tutorials/Imphenzia.md",
     "action/p01-todo-list.md",
+    "action/temp/README.md",
     "tools/ai/README.md",
     "README.md",
     "tools/game-engine/unity/plugins.md",
@@ -206,19 +218,8 @@
     "tools/ai/sd/image-assets.md",
     "tools/ai/sd/four-view.md",
     "tools/ai/sd/icon",
-    "tools/ai/novel-ai.md",
-    "tools/resource.md",
     "tools/ai/sd/tutorials",
     "tools/ai/sd/未命名.canvas",
-    "game-tech/art/art-assets.md",
-    "action/p4-road-map.md",
-    "tools/dcc/blender/tutorials/Imphenzia.md",
-    "tools/dcc/blender/blender-to-unity.md",
-    "tools/dcc/blender/uv.md",
-    "tools/dcc/blender/words.md",
-    "tools/dcc/blender/README.md",
-    "game-tech/engine/tutorials/games-104/04-renderer.md",
-    "tools/game-engine/unity/resource/asset/asset-live-time.md",
     "tools/game-engine/unity/resource/asset",
     "game-tech/engine/gpu/vulkan/Vulkan-objects.canvas",
     "game-tech/engine/renderer/模型加载数据流.canvas",
@@ -227,7 +228,6 @@
     "tools/game-engine/unity/resource/asset-bundle",
     "tools/game-engine/unity/client/editor/editor-tool",
     "tools/dcc/blender/tutorials",
-    "tools/dcc/blender/blender_operation.jpg",
     "未命名.canvas",
     "game-tech/render/performance/渲染优化技术.xmind",
     "game-tech/render/performance",
