@@ -16,3 +16,4 @@
 * [Feel | Particles/Effects | Unity Asset Store](https://assetstore.unity.com/packages/tools/particles-effects/feel-183370)
 - [mob-sakai/ParticleEffectForUGUI: Render particle effect in UnityUI(uGUI). Maskable, sortable, and no extra Camera/RenderTexture/Canvas.](https://github.com/mob-sakai/ParticleEffectForUGUI)
 - [【Unity】《ADYFX特效工具箱》发布！和使用教程_哔哩哔哩_bilibili](https://www.bilibili.com/video/BV1kY411W71N?from=search&seid=2456385761346998968&spm_id_from=333.337.0.0)
+- [mob-sakai/UIEffect](https://github.com/mob-sakai/UIEffect)

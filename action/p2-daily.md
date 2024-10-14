@@ -1,6 +1,5 @@
 
 - 学习
-	- SD
 	- Blender 建模, 动画
 	- 继续风暴
 	- 学习 lowpoly [[Imphenzia]]
