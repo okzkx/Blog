@@ -5,7 +5,10 @@
 - [Game icon Institute_mode - V4_XL | Stable Diffusion XL Checkpoint | Civitai](https://civitai.com/models/47800/game-icon-institutemode?modelVersionId=505488)
 - [全网首发 | AI游戏图标RPG较重画风|Game Icon RPG Style-LoRA-小李广宵喵-LiblibAI](https://www.liblib.art/modelinfo/6a750590404a4fc8943babac35af3953?from=search&versionUuid=0c8b34f25e7c4c1b8574686fc33122ca)
 - [ReVAnimated_v122-Checkpoint-醉天涯-LiblibAI](https://www.liblib.art/modelinfo/1004b01e19714137a593e30007f3c737?from=search&versionUuid=5c60ea3485364ef596e73f7969a745c8)
-- 
+- [动漫ReVAnimated-Checkpoint-精选模型托管处-LiblibAI](https://www.liblib.art/modelinfo/19dc35d37d10bdcf9e952eba82f03de6?from=search&versionUuid=eee21670ea8c9f1ed0e057e4dc57224d)
+- [GameIconResearch_omkt_Lora-LoRA-ConceptConnoiss-LiblibAI](https://www.liblib.art/modelinfo/26d51d1e3a6f9fabfef777f33571d05b?from=pic_detail&versionUuid=c4dde21fec8e489c070093d5e8b2e548)
+- [game icon institute_oumeiQ_v2-LoRA-ConceptConnoiss-LiblibAI](https://www.liblib.art/modelinfo/64cabb40733e46e396de1b2ee92fa44f?from=personal_page&versionUuid=f833e49bec8f480bbf2cd3ba36a9e129)
+- [lllyasviel/ControlNet-v1-1 at main](https://huggingface.co/lllyasviel/ControlNet-v1-1/tree/main)
 
 ## Reference
 
