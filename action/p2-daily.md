@@ -1,7 +1,6 @@
 
 - 学习
 	- Blender 建模, 动画
-	- 继续风暴
 	- 学习 lowpoly [[Imphenzia]]
 - 工作
 	- TA 任务

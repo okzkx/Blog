@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "README.md",
+                "file": "action/p01-todo-list.md",
                 "mode": "source",
                 "source": false
               }
@@ -76,7 +76,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "README.md",
+                "file": "action/p01-todo-list.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -93,7 +93,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "README.md",
+                "file": "action/p01-todo-list.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -148,7 +148,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "README.md"
+                "file": "action/p01-todo-list.md"
               }
             }
           },
@@ -171,7 +171,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "horizontal",
@@ -188,9 +189,13 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "46cfe154d4ce692a",
+  "active": "a049f119d5d5f86c",
   "lastOpenFiles": [
+    "action/p2-daily.md",
+    "action/p3-remain-todo.md",
+    "action/p4-road-map.md",
     "action/p01-todo-list.md",
+    "README.md",
     "tools/dcc/blender/tutorials/blender4.0",
     "tools/dcc/blender/words.md",
     "tools/dcc/blender/tutorials/blender-4.0.md",
@@ -205,10 +210,7 @@
     "tools/dcc/blender/tutorials/Imphenzia.md",
     "action/temp/README.md",
     "tools/ai/README.md",
-    "README.md",
     "tools/game-engine/unity/plugins.md",
-    "action/p2-daily.md",
-    "action/p3-remain-todo.md",
     "tools/ai/transformer.md",
     "tools/ai/sd/tutorials/model-traning.md",
     "tools/ai/sd/tutorials/introduction.md",
