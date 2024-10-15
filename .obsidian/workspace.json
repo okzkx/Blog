@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "action/p01-todo-list.md",
+                "file": "tools/game-engine/unity/plugins.md",
                 "mode": "source",
                 "source": false
               }
@@ -76,7 +76,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "action/p01-todo-list.md",
+                "file": "tools/game-engine/unity/plugins.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -93,7 +93,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "action/p01-todo-list.md",
+                "file": "tools/game-engine/unity/plugins.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "blender",
+                "query": "consol",
                 "matchingCase": false,
                 "explainSearch": true,
                 "collapseAll": false,
@@ -148,7 +148,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "action/p01-todo-list.md"
+                "file": "tools/game-engine/unity/plugins.md"
               }
             }
           },
@@ -189,12 +189,14 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "a049f119d5d5f86c",
+  "active": "46cfe154d4ce692a",
   "lastOpenFiles": [
+    "game-tech/engine/breaking/chaos-breaking.md",
+    "action/p01-todo-list.md",
+    "game-tech/engine/breaking",
     "action/p2-daily.md",
     "action/p3-remain-todo.md",
     "action/p4-road-map.md",
-    "action/p01-todo-list.md",
     "README.md",
     "tools/dcc/blender/tutorials/blender4.0",
     "tools/dcc/blender/words.md",
@@ -218,7 +220,6 @@
     "tools/ai/sd/icon/working-flow.md",
     "action/temp/未命名.md",
     "tools/ai/sd/image-assets.md",
-    "tools/ai/sd/four-view.md",
     "tools/ai/sd/icon",
     "tools/ai/sd/tutorials",
     "tools/ai/sd/未命名.canvas",
@@ -232,7 +233,6 @@
     "tools/dcc/blender/tutorials",
     "未命名.canvas",
     "game-tech/render/performance/渲染优化技术.xmind",
-    "game-tech/render/performance",
     "game-tech/engine/tutorials/games-104/image/08-animation-system/1656577570715.png",
     "game-tech/engine/tutorials/games-104/games-104.assets/image-20220316105903407.png",
     "game-tech/engine/tutorials/games-104/assets/pdf-master.png",
