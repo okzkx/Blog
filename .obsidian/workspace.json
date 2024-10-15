@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "tools/dcc/blender/tutorials/blender-4.0.md",
+                "file": "README.md",
                 "mode": "source",
                 "source": false
               }
@@ -76,7 +76,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "tools/dcc/blender/tutorials/blender-4.0.md",
+                "file": "README.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -93,7 +93,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "tools/dcc/blender/tutorials/blender-4.0.md",
+                "file": "README.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -148,7 +148,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "tools/dcc/blender/tutorials/blender-4.0.md"
+                "file": "README.md"
               }
             }
           },
@@ -188,8 +188,9 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "a432dd1f66385122",
+  "active": "46cfe154d4ce692a",
   "lastOpenFiles": [
+    "action/p01-todo-list.md",
     "tools/dcc/blender/tutorials/blender4.0",
     "tools/dcc/blender/words.md",
     "tools/dcc/blender/tutorials/blender-4.0.md",
@@ -202,7 +203,6 @@
     "tools/dcc/blender/animation.md",
     "tools/dcc/blender/uv.md",
     "tools/dcc/blender/tutorials/Imphenzia.md",
-    "action/p01-todo-list.md",
     "action/temp/README.md",
     "tools/ai/README.md",
     "README.md",
@@ -231,7 +231,6 @@
     "未命名.canvas",
     "game-tech/render/performance/渲染优化技术.xmind",
     "game-tech/render/performance",
-    "tools/ai/sd",
     "game-tech/engine/tutorials/games-104/image/08-animation-system/1656577570715.png",
     "game-tech/engine/tutorials/games-104/games-104.assets/image-20220316105903407.png",
     "game-tech/engine/tutorials/games-104/assets/pdf-master.png",
