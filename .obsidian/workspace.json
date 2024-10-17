@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "tools/game-engine/unity/plugins.md",
+                "file": "tools/ai/sd/icon/working-flow.md",
                 "mode": "source",
                 "source": false
               }
@@ -76,7 +76,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "tools/game-engine/unity/plugins.md",
+                "file": "tools/ai/sd/icon/working-flow.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -93,7 +93,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "tools/game-engine/unity/plugins.md",
+                "file": "tools/ai/sd/icon/working-flow.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -148,7 +148,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "tools/game-engine/unity/plugins.md"
+                "file": "tools/ai/sd/icon/working-flow.md"
               }
             }
           },
@@ -191,8 +191,17 @@
   },
   "active": "46cfe154d4ce692a",
   "lastOpenFiles": [
-    "game-tech/engine/breaking/chaos-breaking.md",
+    "tools/ai/README.md",
+    "tools/ai/novel-ai.md",
+    "tools/ai/sd/README.md",
+    "tools/ai/sd/image-assets.md",
+    "tools/ai/sd/four-view.md",
+    "tools/ai/sd/icon/working-flow.md",
+    "tools/ai/sd/tutorials/model-traning.md",
+    "tools/ai/sd/tutorials/introduction.md",
     "action/p01-todo-list.md",
+    "tools/game-engine/unity/plugins.md",
+    "game-tech/engine/breaking/chaos-breaking.md",
     "game-tech/engine/breaking",
     "action/p2-daily.md",
     "action/p3-remain-todo.md",
@@ -211,15 +220,6 @@
     "tools/dcc/blender/uv.md",
     "tools/dcc/blender/tutorials/Imphenzia.md",
     "action/temp/README.md",
-    "tools/ai/README.md",
-    "tools/game-engine/unity/plugins.md",
-    "tools/ai/transformer.md",
-    "tools/ai/sd/tutorials/model-traning.md",
-    "tools/ai/sd/tutorials/introduction.md",
-    "tools/ai/sd/README.md",
-    "tools/ai/sd/icon/working-flow.md",
-    "action/temp/未命名.md",
-    "tools/ai/sd/image-assets.md",
     "tools/ai/sd/icon",
     "tools/ai/sd/tutorials",
     "tools/ai/sd/未命名.canvas",
