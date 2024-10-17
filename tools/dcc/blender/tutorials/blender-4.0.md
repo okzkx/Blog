@@ -36,7 +36,7 @@ J / F 连接点 ?
 
 分离模型 : P
 合并模型 : Ctrl + J
-独立显示选择对象 : /
+单独显示选择对象 : /
 
 做窗口的包边 : 反向沿法向挤出
 
@@ -85,3 +85,45 @@ J / F 连接点 ?
 - 各自中心 
 	- Ctrl +R, R 各自中心缩放
 
+[【建模篇】2.5 书架制作_哔哩哔哩_bilibili](https://www.bilibili.com/video/BV11H4y1P7RV?vd_source=ebf06d572d5366b5ef7bc5032fefb08d&spm_id_from=333.788.videopod.episodes&p=9)
+
+复制 : Shift + D 
+
+沿边拆面 : 生成内部面
+
+![image.png](https://image-1253155090.cos.ap-nanjing.myqcloud.com/202410171104505.png)
+
+[【建模篇】2.6 百叶窗、空调制作_哔哩哔哩_bilibili](https://www.bilibili.com/video/BV11H4y1P7RV?vd_source=ebf06d572d5366b5ef7bc5032fefb08d&spm_id_from=333.788.videopod.episodes&p=10)
+
+N 面板
+
+对象的属性信息
+![image.png](https://image-1253155090.cos.ap-nanjing.myqcloud.com/202410171112483.png)
+
+
+查看法线
+
+![image.png](https://image-1253155090.cos.ap-nanjing.myqcloud.com/202410171120476.png)
+
+
+法向 : Alt + N
+![image.png](https://image-1253155090.cos.ap-nanjing.myqcloud.com/202410171121086.png)
+
+添加立方体
+
+快速拉出立方体
+
+![image.png](https://image-1253155090.cos.ap-nanjing.myqcloud.com/202410171126341.png)
+
+重复上次复制和位移 : Shift + R
+平面倒角 : Ctrl + B
+![image.png](https://image-1253155090.cos.ap-nanjing.myqcloud.com/202410171136523.png)
+传递数据 / 关联数据 : Ctrl + L
+
+![image.png](https://image-1253155090.cos.ap-nanjing.myqcloud.com/202410171138006.png)
+
+独立边不切角
+
+![image.png](https://image-1253155090.cos.ap-nanjing.myqcloud.com/202410171140030.png)
+
+材质命名 : 颜色 + 用料 (比如 : 黑色塑料)
