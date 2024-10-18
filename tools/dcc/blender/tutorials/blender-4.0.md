@@ -1,8 +1,8 @@
 - [【先导片】快速了解这套Blender4.0课程_哔哩哔哩_bilibili](https://www.bilibili.com/video/BV11H4y1P7RV/?p=1&vd_source=ebf06d572d5366b5ef7bc5032fefb08d)
 
-游标 
+[【基础篇】1.2 Blender4.0功能讲解（1）_哔哩哔哩_bilibili](https://www.bilibili.com/video/BV11H4y1P7RV?vd_source=ebf06d572d5366b5ef7bc5032fefb08d&spm_id_from=333.788.videopod.episodes&p=3)
 
-移动 : shift + 鼠标右键
+游标移动 : shift + 鼠标右键
 
 复制 : shift + D
 
@@ -16,6 +16,9 @@
 - 
 - 反选 : Ctrl + i
 
+
+[【基础篇】1.3 Blender4.0功能讲解（2）_哔哩哔哩_bilibili](https://www.bilibili.com/video/BV11H4y1P7RV?vd_source=ebf06d572d5366b5ef7bc5032fefb08d&spm_id_from=333.788.videopod.episodes&p=4)
+
 挤出:
 - 同方向挤出 : E
 - 各自法向挤出 : Alt + E
@@ -25,8 +28,11 @@
 
 删除 : 删除边时使用 融并边, 能自动融合两边的面
 
+[【建模篇】2.1 房间搭建_哔哩哔哩_bilibili](https://www.bilibili.com/video/BV11H4y1P7RV?vd_source=ebf06d572d5366b5ef7bc5032fefb08d&spm_id_from=333.788.videopod.episodes&p=5)
+
 切换模型预览方式 : z 
 切换透视方式 : Alt + z 
+切换线框方式 : Shift + z 
 
 用 Bool 挖洞
 
@@ -40,8 +46,12 @@ J / F 连接点 ?
 
 做窗口的包边 : 反向沿法向挤出
 
+[【建模篇】2.2 矮柜制作_哔哩哔哩_bilibili](https://www.bilibili.com/video/BV11H4y1P7RV?vd_source=ebf06d572d5366b5ef7bc5032fefb08d&spm_id_from=333.788.videopod.episodes&p=6)
+
 设置原点
 ![image.png](https://image-1253155090.cos.ap-nanjing.myqcloud.com/202410141642520.png)
+
+[【建模篇】2.3 高柜、电脑桌制作_哔哩哔哩_bilibili](https://www.bilibili.com/video/BV11H4y1P7RV?vd_source=ebf06d572d5366b5ef7bc5032fefb08d&spm_id_from=333.788.videopod.episodes&p=7)
 
 命令组
 - 点 : Ctrl + V
@@ -72,6 +82,8 @@ J / F 连接点 ?
 ![image.png](https://image-1253155090.cos.ap-nanjing.myqcloud.com/202410141647425.png)
 
 应用物体变换 : Ctrl + a
+
+[【建模篇】2.4 文件柜制作_哔哩哔哩_bilibili](https://www.bilibili.com/video/BV11H4y1P7RV?vd_source=ebf06d572d5366b5ef7bc5032fefb08d&p=8&spm_id_from=333.788.videopod.episodes)
 
 坐标轴
 空间 : <
@@ -127,3 +139,16 @@ N 面板
 ![image.png](https://image-1253155090.cos.ap-nanjing.myqcloud.com/202410171140030.png)
 
 材质命名 : 颜色 + 用料 (比如 : 黑色塑料)
+
+[【建模篇】2.7 修改器讲解（1）_哔哩哔哩_bilibili](https://www.bilibili.com/video/BV11H4y1P7RV?vd_source=ebf06d572d5366b5ef7bc5032fefb08d&spm_id_from=333.788.videopod.episodes&p=11)
+
+切割 : Ctrl + K (+C 切割后面) 
+
+修改器 :
+- 生成组 : 建模相关
+	- 阵列
+	- 倒角
+	- 布尔
+	- 精简
+	- 遮罩
+- 变形组 : 模型外形修改
