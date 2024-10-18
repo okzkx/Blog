@@ -8,7 +8,7 @@
         "type": "tabs",
         "children": [
           {
-            "id": "c0bf6dfa96242284",
+            "id": "bc2d736260583000",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -18,21 +18,8 @@
                 "source": false
               }
             }
-          },
-          {
-            "id": "46cfe154d4ce692a",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "tools/ai/sd/icon/working-flow.md",
-                "mode": "source",
-                "source": false
-              }
-            }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -59,7 +46,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 317.5004348754883
+    "width": 260.5004348754883
   },
   "right": {
     "id": "affb9fa2d1590bc4",
@@ -76,7 +63,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "tools/ai/sd/icon/working-flow.md",
+                "file": "action/p01-todo-list.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -93,7 +80,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "tools/ai/sd/icon/working-flow.md",
+                "file": "action/p01-todo-list.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +112,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "consol",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": true,
                 "collapseAll": false,
@@ -148,7 +135,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "tools/ai/sd/icon/working-flow.md"
+                "file": "action/p01-todo-list.md"
               }
             }
           },
@@ -189,57 +176,56 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "46cfe154d4ce692a",
+  "active": "bc2d736260583000",
   "lastOpenFiles": [
+    "action/temp/README.md",
+    "game-tech/engine/tutorials/games-106/README.md",
+    "game-tech/engine/tutorials/games-106/6. 性能分析.md",
+    "game-tech/engine/tutorials/games-106/5. 多概率着色.md",
+    "game-tech/engine/tutorials/games-106/4. 图形绘制流水的基本原理和实践 (3).md",
+    "game-tech/engine/tutorials/games-106/2. 图形绘制流水的基本原理和实践 (1).md",
+    "game-tech/engine/tutorials/games-106/3. 图形绘制流水的基本原理和实践 (2).md",
+    "game-tech/engine/tutorials/games-106/1. 现代图形绘制流水导论.md",
+    "game-tech/engine/tutorials/games-106",
+    "tools/game-engine/unity/client/editor/editor-tool/README.md",
+    "tools/game-engine/unity/client/editor/editor-tool/ongui.md",
+    "tools/game-engine/unity/client/editor/editor-tool/editor-ui.md",
+    "tools/game-engine/unity/client/editor/editor-tool",
+    "action/p01-todo-list.md",
+    "action/p4-road-map.md",
+    "action/p3-remain-todo.md",
+    "action/p2-daily.md",
+    "tools/ai/sd/README.md",
+    "tools/ai/comfy-ui/README.md",
+    "tools/ai/comfy-ui/start.md",
+    "tools/ai/transformer.md",
     "tools/ai/README.md",
     "tools/ai/novel-ai.md",
-    "tools/ai/sd/README.md",
-    "tools/ai/sd/image-assets.md",
-    "tools/ai/sd/four-view.md",
-    "tools/ai/sd/icon/working-flow.md",
-    "tools/ai/sd/tutorials/model-traning.md",
-    "tools/ai/sd/tutorials/introduction.md",
-    "action/p01-todo-list.md",
-    "tools/game-engine/unity/plugins.md",
-    "game-tech/engine/breaking/chaos-breaking.md",
-    "game-tech/engine/breaking",
-    "action/p2-daily.md",
-    "action/p3-remain-todo.md",
-    "action/p4-road-map.md",
-    "README.md",
-    "tools/dcc/blender/tutorials/blender4.0",
-    "tools/dcc/blender/words.md",
-    "tools/dcc/blender/tutorials/blender-4.0.md",
-    "tools/dcc/blender/README.md",
-    "tools/dcc/blender/plugins.md",
-    "tools/dcc/blender/config.md",
-    "tools/dcc/blender/common-use.md",
-    "tools/dcc/blender/blender-to-unity.md",
-    "tools/dcc/blender/blender_operation.jpg",
-    "tools/dcc/blender/animation.md",
-    "tools/dcc/blender/uv.md",
-    "tools/dcc/blender/tutorials/Imphenzia.md",
-    "action/temp/README.md",
-    "tools/ai/sd/icon",
-    "tools/ai/sd/tutorials",
-    "tools/ai/sd/未命名.canvas",
+    "tools/Shall.md",
+    "tools/effect.md",
+    "tools/README.md",
+    "tools/game-engine/unity/resource/resource-manager.md",
+    "tools/game-engine/unity/resource/asset/asset-live-time.md",
     "tools/game-engine/unity/resource/asset",
+    "tools/game-engine/unity/resource/asset-bundle",
+    "game-tech/engine/tutorials/games-104/image/08-animation-system/1656587379769.png",
+    "game-tech/engine/tutorials/games-104/image/08-animation-system/1656587250681.png",
+    "game-tech/engine/tutorials/games-104/image/08-animation-system/1656586949250.png",
+    "game-tech/engine/tutorials/games-104/image/08-animation-system/1656586101501.png",
+    "game-tech/engine/tutorials/games-104/image/08-animation-system/1656584559306.png",
+    "game-tech/engine/tutorials/games-104/image/08-animation-system/1656584904731.png",
+    "game-tech/engine/tutorials/games-104/image/08-animation-system/1656584185384.png",
+    "game-tech/engine/tutorials/games-104/image/08-animation-system/1656584011117.png",
+    "game-tech/engine/tutorials/games-104/image/08-animation-system/1656583925434.png",
+    "game-tech/engine/tutorials/games-104/image/08-animation-system/1656581919319.png",
+    "game-tech/engine/tutorials/games-104/image/08-animation-system",
+    "game-tech/engine/tutorials/games-104/image",
+    "game-tech/engine/tutorials/games-104/assets/htn",
+    "game-tech/engine/tutorials/games-104/games-104.assets",
+    "game-tech/engine/tutorials/games-104/assets",
+    "game-tech/engine/tutorials/games-104",
     "game-tech/engine/gpu/vulkan/Vulkan-objects.canvas",
     "game-tech/engine/renderer/模型加载数据流.canvas",
-    "game-tech/engine/tutorials/games-104/image/08-animation-system/1656577349093.png",
-    "game-tech/engine/tutorials",
-    "tools/game-engine/unity/resource/asset-bundle",
-    "tools/game-engine/unity/client/editor/editor-tool",
-    "tools/dcc/blender/tutorials",
-    "未命名.canvas",
-    "game-tech/render/performance/渲染优化技术.xmind",
-    "game-tech/engine/tutorials/games-104/image/08-animation-system/1656577570715.png",
-    "game-tech/engine/tutorials/games-104/games-104.assets/image-20220316105903407.png",
-    "game-tech/engine/tutorials/games-104/assets/pdf-master.png",
-    "game-tech/engine/tutorials/games-104/assets/1666487959904-image.png",
-    "game-tech/engine/tutorials/games-104/assets/1666488322927-image.png",
-    "game-tech/engine/tutorials/games-104/assets/angular-linear.png",
-    "game-tech/engine/tutorials/games-104/assets/aos-soa.png",
-    "game-tech/engine/tutorials/games-104/assets/cluster-group.png"
+    "未命名.canvas"
   ]
 }
