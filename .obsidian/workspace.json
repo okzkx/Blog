@@ -13,10 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "action/p01-todo-list.md",
+                "file": "action/p4-road-map.md",
                 "mode": "source",
                 "source": false
-              }
+              },
+              "icon": "lucide-file",
+              "title": "p4-road-map"
             }
           }
         ]
@@ -39,7 +41,9 @@
               "type": "file-explorer",
               "state": {
                 "sortOrder": "alphabetical"
-              }
+              },
+              "icon": "lucide-folder-closed",
+              "title": "文件列表"
             }
           }
         ]
@@ -63,7 +67,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "action/p01-todo-list.md",
+                "file": "action/p4-road-map.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -71,7 +75,9 @@
                 "searchQuery": "",
                 "backlinkCollapsed": true,
                 "unlinkedCollapsed": true
-              }
+              },
+              "icon": "links-coming-in",
+              "title": "p4-road-map 的反向链接列表"
             }
           },
           {
@@ -80,10 +86,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "action/p01-todo-list.md",
+                "file": "action/p4-road-map.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
-              }
+              },
+              "icon": "links-going-out",
+              "title": "p4-road-map 的出链列表"
             }
           },
           {
@@ -91,7 +99,9 @@
             "type": "leaf",
             "state": {
               "type": "advanced-tables-toolbar",
-              "state": {}
+              "state": {},
+              "icon": "spreadsheet",
+              "title": "Advanced Tables"
             }
           },
           {
@@ -103,7 +113,9 @@
                 "sortOrder": "frequency",
                 "showSearch": false,
                 "searchQuery": ""
-              }
+              },
+              "icon": "lucide-archive",
+              "title": "添加笔记属性"
             }
           },
           {
@@ -118,7 +130,9 @@
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical"
-              }
+              },
+              "icon": "lucide-search",
+              "title": "搜索"
             }
           }
         ],
@@ -135,8 +149,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "action/p01-todo-list.md"
-              }
+                "file": "action/p4-road-map.md"
+              },
+              "icon": "lucide-list",
+              "title": "p4-road-map 的大纲"
             }
           },
           {
@@ -147,7 +163,9 @@
               "state": {
                 "sortOrder": "frequency",
                 "useHierarchy": true
-              }
+              },
+              "icon": "lucide-tags",
+              "title": "标签"
             }
           },
           {
@@ -155,7 +173,9 @@
             "type": "leaf",
             "state": {
               "type": "bookmarks",
-              "state": {}
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "书签"
             }
           }
         ],
@@ -178,7 +198,19 @@
   },
   "active": "bc2d736260583000",
   "lastOpenFiles": [
+    "tools/ai/sd/未命名",
+    "action/p3-remain-todo.md",
+    "action/p2-daily.md",
+    "action/p01-todo-list.md",
     "action/temp/README.md",
+    "tools/ai/sd/README.md",
+    "tools/ai/sd/tutorials/model-traning.md",
+    "tools/ai/sd/tutorials/introduction.md",
+    "action/p4-road-map.md",
+    "tools/ai/transformer.md",
+    "tools/ai/README.md",
+    "tools/ai/novel-ai.md",
+    "tools/ai/comfy-ui/start.md",
     "game-tech/engine/tutorials/games-106/README.md",
     "game-tech/engine/tutorials/games-106/6. 性能分析.md",
     "game-tech/engine/tutorials/games-106/5. 多概率着色.md",
@@ -191,21 +223,9 @@
     "tools/game-engine/unity/client/editor/editor-tool/ongui.md",
     "tools/game-engine/unity/client/editor/editor-tool/editor-ui.md",
     "tools/game-engine/unity/client/editor/editor-tool",
-    "action/p01-todo-list.md",
-    "action/p4-road-map.md",
-    "action/p3-remain-todo.md",
-    "action/p2-daily.md",
-    "tools/ai/sd/README.md",
     "tools/ai/comfy-ui/README.md",
-    "tools/ai/comfy-ui/start.md",
-    "tools/ai/transformer.md",
-    "tools/ai/README.md",
-    "tools/ai/novel-ai.md",
     "tools/Shall.md",
     "tools/effect.md",
-    "tools/README.md",
-    "tools/game-engine/unity/resource/resource-manager.md",
-    "tools/game-engine/unity/resource/asset/asset-live-time.md",
     "tools/game-engine/unity/resource/asset",
     "tools/game-engine/unity/resource/asset-bundle",
     "game-tech/engine/tutorials/games-104/image/08-animation-system/1656587379769.png",
