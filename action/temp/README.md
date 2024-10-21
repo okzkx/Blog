@@ -61,3 +61,8 @@ RenderMeshUtility.AddComponents(
     renderMeshArray,  
     MaterialMeshInfo.FromRenderMeshArrayIndices(0, 0));
 ```
+
+```
+  
+[WorldSystemFilter(WorldSystemFilterFlags.BakingSystem)]
+```
