@@ -76,3 +76,6 @@ Playable
 - Mixer
 - Rumtime,  控制动画播放状态
 - 
+
+UNITY_REVERSED_Z
+HClip

@@ -14,7 +14,7 @@
 	- 把 DepthTexture 回读到 Cpu 生成
 2. 将包围盒的最近深度和 DepthTextureMip 比较
 	 - Gpu 比较
-		1. 包围盒的最近深度数据编码成纹理传到 Gpu 进行比较
+		1. 包围盒的最近深度数据成 Buffer 传到 Gpu 进行比较
 		2. 比较结果异步回读到 Cpu
 	 - 异步回读 DepthTextureMip 在 Cpu 进行比较
 3. 根据比较结果设置物体可见性
