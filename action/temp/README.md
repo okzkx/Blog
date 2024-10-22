@@ -81,3 +81,18 @@ UNITY_REVERSED_Z
 HClip
 
 ![image.png](https://image-1253155090.cos.ap-nanjing.myqcloud.com/202410221404799.png)
+
+深度图越近越黑
+
+![image.png](https://image-1253155090.cos.ap-nanjing.myqcloud.com/202410221740962.png)
+
+设置 ScriptableRenderPass 渲染目标
+
+```
+public override void Configure(CommandBuffer cmd, RenderTextureDescriptor cameraTextureDescriptor) {  
+    RenderTextureDescriptor descriptor = cameraTextureDescriptor;  
+    cmd.GetTemporaryRT(reflectColorID, descriptor, m_DownsamplingMethod == Downsampling.None? FilterMode.Point : FilterMode.Bilinear);  
+    ConfigureTarget(reflectColorID);  
+    ConfigureClear(ClearFlag.All, Color.clear);  
+}
+```
