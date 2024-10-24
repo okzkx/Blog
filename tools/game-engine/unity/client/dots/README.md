@@ -1,5 +1,9 @@
 # DOTS
 
+## Resources
+
+- [基于 DOTS 的资源管理系统 - 知乎](https://zhuanlan.zhihu.com/p/717713318)
+- [Introduction to content management | Entities | 1.3.5](https://docs.unity3d.com/Packages/com.unity.entities@1.3/manual/content-management-intro.html)
 ## dots sample
 
 - [深入了解 Unity DOTS Sample](https://zhuanlan.zhihu.com/p/110802975)

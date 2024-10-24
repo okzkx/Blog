@@ -47,5 +47,3 @@ Morden
  - Using clip space
  - Projection matrices
 
-
-
