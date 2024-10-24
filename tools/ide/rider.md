@@ -10,6 +10,8 @@
 
 [jetbrains rider 代码过长格式化时自动换行](https://blog.csdn.net/assassinsshadow/article/details/81184468)
 
+
+![image.png](https://image-1253155090.cos.ap-nanjing.myqcloud.com/202410221404799.png)
 ### 代码配色
 
 #### 直接在百度云上搜
@@ -95,4 +97,3 @@ Braces Layout 更改为 K&R style
 
 [intellij 关闭自动保存和标志修改文件为星号](https://blog.csdn.net/wangjun5159/article/details/55223630)
 
-[jetbrains rider 代码过长格式化时自动换行](https://blog.csdn.net/assassinsshadow/article/details/81184468)
