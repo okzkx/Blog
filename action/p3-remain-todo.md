@@ -1,7 +1,7 @@
 - 策划
 	- 策划书
 - 渲染器
-	- 从所有项目载 Prefab 和动画而不只是香肠\
+	- 从所有项目载 Prefab 和动画而不只是香肠
 	- 外包资源可以使用报错材质或者默认 Pbr
 - 游戏引擎
 	- Mastering Graphics Programming with Vulkan
