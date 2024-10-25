@@ -3,6 +3,9 @@
 ## Resources
 
 - [基于 DOTS 的资源管理系统 - 知乎](https://zhuanlan.zhihu.com/p/717713318)
+	- 提供了一套 Prefab 序列化和反序列化的方案
+	- 非官方, 最好别用
+- [Unity DOTS1.0 最佳工作流实践 - 知乎](https://zhuanlan.zhihu.com/p/700153206)
 - [Introduction to content management | Entities | 1.3.5](https://docs.unity3d.com/Packages/com.unity.entities@1.3/manual/content-management-intro.html)
 ## dots sample
 
