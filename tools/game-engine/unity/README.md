@@ -15,6 +15,7 @@
 ## Videos
 
 - [Tackling UI challenges in Football Manager 25 | Unite 2024](https://www.youtube.com/watch?v=im49swPfWIo "Tackling UI challenges in Football Manager 25 | Unite 2024")
-- [Prototype mobile games faster with the Input System in Unity 6 | Unite 2024](https://www.youtube.com/watch?v=ptvjumIHxYg&t=1s "Prototype mobile games faster with the Input System in Unity 6 | Unite 2024")
+- 
 - [Unity 6 - Create faster and reach more platforms](https://www.youtube.com/watch?v=1SyqN3D6khI "Unity 6 - Create faster and reach more platforms")
 - [New lighting features and workflows in Unity 6 - YouTube](https://www.youtube.com/watch?v=IpVuIZYFRg4
+- 

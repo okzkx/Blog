@@ -17,6 +17,7 @@
 - [UI Toolkit上新 | 为程序员和艺术家准备的两个Demo](https://mp.weixin.qq.com/s/yFSh5S1r18dhHkZa-npRCg)
 - [从零开始打造基于GraphView的行为树框架](https://edu.uwa4d.com/course-intro/1/539)
 - [Unity中基于前缀树的高性能红点系统实现](https://edu.uwa4d.com/course-intro/0/189)
+- [Prototype mobile games faster with the Input System in Unity 6 | Unite 2024](https://www.youtube.com/watch?v=ptvjumIHxYg&t=1s "Prototype mobile games faster with the Input System in Unity 6 | Unite 2024")
 
 ### UI Tookit vs imgui
 - [Why I chose UI Toolkit over IMGUI to make my first Unity tool with](https://alirezaft98.medium.com/why-i-chose-ui-toolkit-over-imgui-to-make-my-first-unity-tool-with-62e70b34e098)
