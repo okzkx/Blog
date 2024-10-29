@@ -190,3 +190,8 @@ N 面板
 ![image.png](https://image-1253155090.cos.ap-nanjing.myqcloud.com/202410291004989.png)
 
 重复复制和位移 : Shift + R
+
+[【建模篇】2.10 头盔制作（1）_哔哩哔哩_bilibili](https://www.bilibili.com/video/BV11H4y1P7RV?vd_source=ebf06d572d5366b5ef7bc5032fefb08d&spm_id_from=333.788.videopod.episodes&p=14)
+
+球形 : 方块, 添加细分三个分段, 再球形化, 再表面细分
+
