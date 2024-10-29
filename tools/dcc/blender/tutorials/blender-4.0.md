@@ -162,6 +162,31 @@ N 面板
 	- 实体化 : 增加厚度, 2D 变 3D
 	- 表面细分 : 加面, 圆润
 	- 线框 : 把边做成铁丝网, 和蒙皮比较像, 细很多
-	- 
-- 变形组 : 模型外形修改
-	- 
+
+[【建模篇】2.9 门帘、钟表制作_哔哩哔哩_bilibili](https://www.bilibili.com/video/BV11H4y1P7RV/?vd_source=ebf06d572d5366b5ef7bc5032fefb08d&spm_id_from=333.788.player.switch&p=13)
+
+![image.png](https://image-1253155090.cos.ap-nanjing.myqcloud.com/202410290948701.png)
+![image.png](https://image-1253155090.cos.ap-nanjing.myqcloud.com/202410290949753.png)
+
+再加表面细分
+
+沿任意点缩放
+1. 移动游标
+2. 根据游标缩放
+
+往外拓展 : Alt + S
+
+分配材质 (需要插件) : Alt + M 
+
+快速收藏夹
+
+文本 : Shift + A
+
+辅助点对齐操作 : Shift + S
+![image.png](https://image-1253155090.cos.ap-nanjing.myqcloud.com/202410291003597.png)
+
+设置轴心点 : .
+
+![image.png](https://image-1253155090.cos.ap-nanjing.myqcloud.com/202410291004989.png)
+
+重复复制和位移 : Shift + R
