@@ -11,11 +11,3 @@
 * [Unity 游戏开发总结](https://www.zhihu.com/column/c\_199694379)
 * [Unity开发启示录](https://zhuanlan.zhihu.com/c\_1264272462595575808)
 * [Unity Blog](https://blog.unity.com/)
-
-## Videos
-
-- [Tackling UI challenges in Football Manager 25 | Unite 2024](https://www.youtube.com/watch?v=im49swPfWIo "Tackling UI challenges in Football Manager 25 | Unite 2024")
-- 
-- [Unity 6 - Create faster and reach more platforms](https://www.youtube.com/watch?v=1SyqN3D6khI "Unity 6 - Create faster and reach more platforms")
-- [New lighting features and workflows in Unity 6 - YouTube](https://www.youtube.com/watch?v=IpVuIZYFRg4
-- 

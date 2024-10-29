@@ -1,8 +1,6 @@
 - P0 : 
 	- rt 整理成文档
 	- DebugDraw 修复
-	- Video [[tools/game-engine/unity/README]]
-
 - P1 : 
 	- 继续风暴 2.x
 	- Blender
