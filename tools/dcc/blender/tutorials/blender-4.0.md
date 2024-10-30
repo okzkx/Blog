@@ -278,3 +278,14 @@ Loop 工具 : 插件内开启
 
 [【建模篇】2.15 机械键盘、无线鼠标制作、手绘笔制作_哔哩哔哩_bilibili](https://www.bilibili.com/video/BV11H4y1P7RV?vd_source=ebf06d572d5366b5ef7bc5032fefb08d&spm_id_from=333.788.player.switch&p=19)
 
+关掉插入时的各个面插入
+
+![image.png](https://image-1253155090.cos.ap-nanjing.myqcloud.com/202410300934693.png)
+
+简易变形修改器
+
+
+
+改变坐标系 : Ctrl + .
+
+![image.png](https://image-1253155090.cos.ap-nanjing.myqcloud.com/202410300940739.png)
