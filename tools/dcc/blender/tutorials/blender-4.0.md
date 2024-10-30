@@ -274,3 +274,7 @@ Loop 工具 : 插件内开启
 选择面的顶角
 ![image.png](https://image-1253155090.cos.ap-nanjing.myqcloud.com/202410300907817.png)
 [【建模篇】2.14 房间摆件制作（无声）_哔哩哔哩_bilibili](https://www.bilibili.com/video/BV11H4y1P7RV?vd_source=ebf06d572d5366b5ef7bc5032fefb08d&spm_id_from=333.788.player.switch&p=18)
+
+
+[【建模篇】2.15 机械键盘、无线鼠标制作、手绘笔制作_哔哩哔哩_bilibili](https://www.bilibili.com/video/BV11H4y1P7RV?vd_source=ebf06d572d5366b5ef7bc5032fefb08d&spm_id_from=333.788.player.switch&p=19)
+
