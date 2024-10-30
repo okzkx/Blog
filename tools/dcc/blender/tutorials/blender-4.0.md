@@ -198,3 +198,79 @@ N 面板
 Loop 工具 : 插件内开启
 
 视图对齐面 : Shift + Num7
+
+[【建模篇】2.11 头盔制作（2）_哔哩哔哩_bilibili](https://www.bilibili.com/video/BV11H4y1P7RV?vd_source=ebf06d572d5366b5ef7bc5032fefb08d&spm_id_from=333.788.player.switch&p=15)
+
+系带制作 : 制作 2维条, + 实体化修改器 + 表面细分修改器
+
+内插面边界范围
+
+![image.png](https://image-1253155090.cos.ap-nanjing.myqcloud.com/202410300826459.png)
+
+边折痕, 设置硬边
+![image.png](https://image-1253155090.cos.ap-nanjing.myqcloud.com/202410300828958.png)
+
+独立显示 : /
+分离 : P
+合并 : Ctrl + J
+
+对齐工具
+
+![image.png](https://image-1253155090.cos.ap-nanjing.myqcloud.com/202410300834587.png)
+
+[【建模篇】2.12 样条曲线讲解_哔哩哔哩_bilibili](https://www.bilibili.com/video/BV11H4y1P7RV?vd_source=ebf06d572d5366b5ef7bc5032fefb08d&spm_id_from=333.788.player.switch&p=16)
+
+样条曲线:
+1. 吉纳摩
+	1. 挤出
+	2. 倒角
+2. 动画
+	1. 轨迹
+3. 修改和编辑
+	1. 手绘
+	2. 钢笔 Ctrl 加点
+	3. 挤出 E
+	4. 扭曲 Ctrl + T
+4. 曲线顶点类型
+	1. ![image.png](https://image-1253155090.cos.ap-nanjing.myqcloud.com/202410300843804.png)
+
+	2. 自动 : 手柄自动改变朝向
+	3. 矢量 : 形成尖角
+	4. 对齐 : 手柄两侧同时移动
+	5. 自由 : 手柄分开调整
+1. 曲线平滑 : Shift + N
+
+
+曲线建模和挤出和深度
+
+![image.png](https://image-1253155090.cos.ap-nanjing.myqcloud.com/202410300836512.png)
+
+物体跟随路径, 随着曲线移动
+
+![image.png](https://image-1253155090.cos.ap-nanjing.myqcloud.com/202410300838618.png)
+
+选两个物体关联材质快速应用
+
+![image.png](https://image-1253155090.cos.ap-nanjing.myqcloud.com/202410300849971.png)
+
+[【建模篇】2.13 盆栽绿植制作_哔哩哔哩_bilibili](https://www.bilibili.com/video/BV11H4y1P7RV?vd_source=ebf06d572d5366b5ef7bc5032fefb08d&spm_id_from=333.788.player.switch&p=17)
+
+右键曲线建模转换到网格对象
+
+![image.png](https://image-1253155090.cos.ap-nanjing.myqcloud.com/202410300854212.png)
+
+新增物体 : 移动游标, 新加几何体, 对齐到活动物体
+
+![image.png](https://image-1253155090.cos.ap-nanjing.myqcloud.com/202410300857671.png)
+
+树苗插件 : Sapling Tree Gen
+
+
+![image.png](https://image-1253155090.cos.ap-nanjing.myqcloud.com/202410300903890.png)
+
+参数面板 : F9
+
+选择相似 : Shift + G
+选择面的顶角
+![image.png](https://image-1253155090.cos.ap-nanjing.myqcloud.com/202410300907817.png)
+[【建模篇】2.14 房间摆件制作（无声）_哔哩哔哩_bilibili](https://www.bilibili.com/video/BV11H4y1P7RV?vd_source=ebf06d572d5366b5ef7bc5032fefb08d&spm_id_from=333.788.player.switch&p=18)
