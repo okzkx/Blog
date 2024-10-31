@@ -294,3 +294,10 @@ Loop 工具 : 插件内开启
 
 Loop 工具 : 需要先安装
 空间均匀化
+
+
+追加其他 Blender 文件中的模型
+
+![image.png](https://image-1253155090.cos.ap-nanjing.myqcloud.com/202410310938979.png)
+
+[【建模篇】2.17 房间其他摆件制作（无声）_哔哩哔哩_bilibili](https://www.bilibili.com/video/BV11H4y1P7RV?vd_source=ebf06d572d5366b5ef7bc5032fefb08d&spm_id_from=333.788.player.switch&p=21)
