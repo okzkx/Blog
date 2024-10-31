@@ -289,3 +289,8 @@ Loop 工具 : 插件内开启
 改变坐标系 : Ctrl + .
 
 ![image.png](https://image-1253155090.cos.ap-nanjing.myqcloud.com/202410300940739.png)
+
+[【建模篇】2.16 头戴式耳机制作_哔哩哔哩_bilibili](https://www.bilibili.com/video/BV11H4y1P7RV?vd_source=ebf06d572d5366b5ef7bc5032fefb08d&spm_id_from=333.788.videopod.episodes&p=20)
+
+Loop 工具 : 需要先安装
+空间均匀化
