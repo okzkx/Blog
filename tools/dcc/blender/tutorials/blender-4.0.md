@@ -305,3 +305,21 @@ Loop 工具 : 需要先安装
 [【建模篇】2.18 笔筒、窗帘制作_哔哩哔哩_bilibili](https://www.bilibili.com/video/BV11H4y1P7RV?vd_source=ebf06d572d5366b5ef7bc5032fefb08d&spm_id_from=333.788.videopod.episodes&p=22)
 
 Blender 物理系统
+
+刚体物理系统 : 
+- 活动对象
+- 被动对象
+
+点击播放可以得到物理动画
+
+批量添加刚体活动项
+![image.png](https://image-1253155090.cos.ap-nanjing.myqcloud.com/202411011050326.png)
+
+关联物体数据 : Ctrl + L
+
+布料运算 :
+- 需要足够的分段
+- 子碰撞, 自身不会穿插
+- 挂钩到新物体
+![image.png](https://image-1253155090.cos.ap-nanjing.myqcloud.com/202411011103315.png)
+
