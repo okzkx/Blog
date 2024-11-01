@@ -306,6 +306,8 @@ Loop 工具 : 需要先安装
 
 Blender 物理系统
 
+物理系统实际上是动画修改器
+
 刚体物理系统 : 
 - 活动对象
 - 被动对象
@@ -323,3 +325,17 @@ Blender 物理系统
 - 挂钩到新物体
 ![image.png](https://image-1253155090.cos.ap-nanjing.myqcloud.com/202411011103315.png)
 
+创建顶点组并指定顶点
+
+![image.png](https://image-1253155090.cos.ap-nanjing.myqcloud.com/202411011120313.png)
+
+把顶点组放入物理模块里的的钉固顶点组
+
+![image.png](https://image-1253155090.cos.ap-nanjing.myqcloud.com/202411011121827.png)
+
+辅助碰撞
+
+创建一个长方体
+- 勾选物理中的碰撞
+- 视图属性里选择线框
+- 清除所有烘焙
