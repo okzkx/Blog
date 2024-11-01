@@ -339,3 +339,20 @@ Blender 物理系统
 - 勾选物理中的碰撞
 - 视图属性里选择线框
 - 清除所有烘焙
+
+[【建模篇】2.19 地毯制作_哔哩哔哩_bilibili](https://www.bilibili.com/video/BV11H4y1P7RV?vd_source=ebf06d572d5366b5ef7bc5032fefb08d&spm_id_from=333.788.videopod.episodes&p=23)
+
+粒子系统
+- 发射器
+- 毛发
+
+用自定义物体替代毛发
+![image.png](https://image-1253155090.cos.ap-nanjing.myqcloud.com/202411011413601.png)
+
+
+栅格化填充 : Ctrl + F 
+![image.png](https://image-1253155090.cos.ap-nanjing.myqcloud.com/202411011417322.png)
+
+复制粒子系统
+
+![image.png](https://image-1253155090.cos.ap-nanjing.myqcloud.com/202411011419612.png)
