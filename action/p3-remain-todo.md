@@ -11,3 +11,6 @@
 	- egui
 	- 双端资源加载
 	- 适配最新 rust~
+- 美术
+	- Blender 操作整理
+	- [【blender动画】blender动画新手0基础入门【全集】，blender全中文教程，blender中文软件，(普通话+全流程+案例+学习)持续跟新中_哔哩哔哩_bilibili](https://www.bilibili.com/video/BV19c411n7E2/?spm_id_from=333.337.search-card.all.click&vd_source=ebf06d572d5366b5ef7bc5032fefb08d)
