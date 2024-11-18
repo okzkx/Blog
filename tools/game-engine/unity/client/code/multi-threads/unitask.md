@@ -7,30 +7,25 @@ UniTask.Void(Push);
 
 private async UniTaskVoid Push() {  
     await UniTask.SwitchToThreadPool();  
-    string gitPath = "git"; // 设置你的 git.exe 路径  
-    string projectPath = Application.dataPath.Replace("/Assets", "");  
-  
-    // 推送到远程仓库  
+
     Process.Start(gitPath, $"-C {projectPath} push")?.WaitForExit();  
   
     Debug.Log("Push success");  
 }
 ```
 
-不能 
+不能  await  返回 async UniTaskVoid 的方法
 
-await  UniTaskVoid
+要 await 返回 async UniTask 的方法
 
-要 
-await
-async UniTask
-
-用
+从主线程调用子线程
 
 Unitask.Void( 返回 UniTaskVoid)
-
 UniTask.Void(async () => Push().Forget());
 UniTask.Void(async () => await Push());
 
 Unitask.Create( 返回 UniTask).Forget
 
+Unitask 默认在主线程运行, 要切到子线程
+
+await UniTask.SwitchToThreadPool(); 
