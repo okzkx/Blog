@@ -16,3 +16,21 @@ private async UniTaskVoid Push() {
     Debug.Log("Push success");  
 }
 ```
+
+不能 
+
+await  UniTaskVoid
+
+要 
+await
+async UniTask
+
+用
+
+Unitask.Void( 返回 UniTaskVoid)
+
+UniTask.Void(async () => Push().Forget());
+UniTask.Void(async () => await Push());
+
+Unitask.Create( 返回 UniTask).Forget
+
