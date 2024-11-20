@@ -1,6 +1,7 @@
 ## 画图
 
 - [Photopea | Online Photo Editor](https://www.photopea.com/)
+- [GIMP - GNU Image Manipulation Program](https://www.gimp.org/)
 
 ## 图片加工
 
@@ -20,4 +21,5 @@
 - [JPG轉EXR轉換器。在线自由 — Convertio](https://convertio.co/zh/jpg-exr/)
 
 ## HDR
+
 - [OpenHDR Online Image Viewer](https://viewer.openhdr.org/)
