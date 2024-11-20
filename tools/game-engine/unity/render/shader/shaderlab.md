@@ -12,3 +12,5 @@
 - [Unity - Manual: Shader semantics](https://docs.unity3d.com/Manual/SL-ShaderSemantics.html)
 - [Unity - Manual: Replacing shaders at runtime](https://docs.unity3d.com/Manual/SL-ShaderReplacement.html)
 
+### CG
+- [Cg Programming/Unity - Wikibooks, open books for an open world](https://en.wikibooks.org/wiki/Cg_Programming/Unity)

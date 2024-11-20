@@ -1,0 +1,2 @@
+- [GPU Driven Rendering In Unity - Unity Engine - Unity Discussions](https://discussions.unity.com/t/gpu-driven-rendering-in-unity/930675/4)
+- [Unity - Manual: Enable the GPU Resident Drawer in URP](https://docs.unity3d.com/6000.0/Documentation/Manual/urp/gpu-resident-drawer.html)
