@@ -18,6 +18,7 @@
 - [Arm Mobile Studio](https://developer.arm.com/Tools%20and%20Software/Arm%20Mobile%20Studio)
 - [Gears](https://www.uwa4d.com/#download?serverType=gears)
 - [PerfDog | 全平台性能测试分析专家](https://perfdog.qq.com/)
+- [Qualcomm® Software Center](https://softwarecenter.qualcomm.com/#/catalog/item/Snapdragon_Profiler)
 
 ## Draw call 优化
 
