@@ -12,7 +12,7 @@
 - Unity.Profiling
 - Editor.Profiling
 
-#### 性能检测
+#### performance recording
 
 - [ARM Mobile Studio性能优化（二） - 技术专栏 - Unity官方开发者社区](https://developer.unity.cn/projects/5f7935c3edbc2a001f898bff)
 - [Arm Mobile Studio](https://developer.arm.com/Tools%20and%20Software/Arm%20Mobile%20Studio)
@@ -20,6 +20,10 @@
 - [PerfDog | 全平台性能测试分析专家](https://perfdog.qq.com/)
 - [Snapdragon_Profiler](https://softwarecenter.qualcomm.com/#/catalog/item/Snapdragon_Profiler)
 - IOS XCode
+
+性能参照
+- [UWA 性能蓝皮书](https://blog.uwa4d.com/archives/BlueBook_2023.html),
+- 
 
 ## Draw call 优化
 
