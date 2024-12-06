@@ -23,7 +23,7 @@
 
 性能参照
 - [UWA 性能蓝皮书](https://blog.uwa4d.com/archives/BlueBook_2023.html),
-- 
+- [GSMArena.com - mobile phone reviews, news, specifications and more...](https://www.gsmarena.com/)
 
 ## Draw call 优化
 
