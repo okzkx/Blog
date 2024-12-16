@@ -11,3 +11,11 @@ MainTex+DetailTex , Scale 比 1 大
 他是这么做的，首先准备64张detial，把他们合成纹理数组，然后用一张分层贴图来挑选局部采用的detial，这样一个模型上可以有很多种不同的detial贴图，
 
 AVProVideo
+
+1. GRSceneLit GRSceneEffect 占用内存太大, 看下是否有无用的 KeyWorld  
+		用 shader 变体收集工具
+2. GRLit 是否还需要  
+		场景, 或工程里面找 GRLit
+3. 同样的 shader 重复加载, (GRCharacter)  
+4. 没用的 Diffuce 和 Lit, VeretexLit
+		排查什么用到了这个
