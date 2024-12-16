@@ -15,7 +15,10 @@ AVProVideo
 1. GRSceneLit GRSceneEffect 占用内存太大, 看下是否有无用的 KeyWorld  
 		用 shader 变体收集工具
 2. GRLit 是否还需要  ✔
-		场景, 或工程里面找 GRLit
-3. 同样的 shader 重复加载, (GRCharacter)  
+		场景, 或工程里面找 GRLit✔
+		GRLit 美术现在需要用 ✔
+3. 同样的 shader 重复加载, (GRCharacter)  ✔
+		SubScene 会导致 Shader 重复加载✔
 4. 没用的 Diffuce 和 Lit, VeretexLit ✔
-		排查什么用到了这个
+		排查什么用到了这个✔
+		提交 Issue
