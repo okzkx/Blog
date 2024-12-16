@@ -22,3 +22,13 @@ AVProVideo
 4. 没用的 Diffuce 和 Lit, VeretexLit ✔
 		排查什么用到了这个✔
 		提交 Issue
+
+1. SubScene 不通过 OnProcessShader
+2. 有被工程里材质球用到的 ShaderFeature 会自动打包
+3. 没有被工程里材质球用到的 ShaderFeature 不会自动打包
+
+所以
+
+1. 只有 SubScene 里的用到的关键字要设置为 ShaderFeature
+2. 不会被代码开关的关键字设置为 ShaderFeature
+3. 会被代码开关的关键字设置为 MultiCompile
