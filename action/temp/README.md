@@ -17,5 +17,5 @@ AVProVideo
 2. GRLit 是否还需要  ✔
 		场景, 或工程里面找 GRLit
 3. 同样的 shader 重复加载, (GRCharacter)  
-4. 没用的 Diffuce 和 Lit, VeretexLit
+4. 没用的 Diffuce 和 Lit, VeretexLit ✔
 		排查什么用到了这个
