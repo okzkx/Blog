@@ -32,3 +32,4 @@ AVProVideo
 1. 只有 SubScene 里的用到的关键字要设置为 ShaderFeature
 2. 不会被代码开关的关键字设置为 ShaderFeature
 3. 会被代码开关的关键字设置为 MultiCompile
+4. multi_compile 只对 Bundle 里的 Shader 生效, Editor 下是看不出来的
