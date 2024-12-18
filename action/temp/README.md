@@ -33,3 +33,5 @@ AVProVideo
 2. 不会被代码开关的关键字设置为 ShaderFeature
 3. 会被代码开关的关键字设置为 MultiCompile
 4. multi_compile 只对 Bundle 里的 Shader 生效, Editor 下是看不出来的
+
+![ea2478955c34ccac997d429a028ab555.jpg](https://image-1253155090.cos.ap-nanjing.myqcloud.com/202412181533444.jpg)
