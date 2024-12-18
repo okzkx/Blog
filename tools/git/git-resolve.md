@@ -49,3 +49,9 @@ git submodule foreach --recursive 'git checkout develop'
 git submodule foreach --recursive 'git reset --hard origin/develop'
 read -p "Press Enter to continue..."
 ```
+
+## Git tag
+
+```
+git tag --annotate tag-name commit-hash -m message
+```
