@@ -29,6 +29,7 @@
 
 - [PierrickPicaut](https://www.youtube.com/c/PierrickPicaut_P2DESIGN/playlists)
 - [Key Frame Animation of Low Poly Character in Blender 2.9x - YouTube](https://www.youtube.com/watch?v=yjjLD3h3yRc)
+- [blender怎么关闭窗口? blender删除多余布局窗口的教程_图形图像_软件教程_脚本之家](https://www.jb51.net/softjc/601392.html)
 
 ### Stylized modelling and PBR texturing
  

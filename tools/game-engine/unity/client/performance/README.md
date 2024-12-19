@@ -22,8 +22,8 @@
 - IOS XCode
 
 性能参照
-- [UWA 性能蓝皮书](https://blog.uwa4d.com/archives/BlueBook_2023.html),
 - [GSMArena.com - mobile phone reviews, news, specifications and more...](https://www.gsmarena.com/)
+- [UWA发布 | Unity手游性能年度蓝皮书 - UWA问答 | 博客 | 游戏及VR应用性能优化记录分享 | 侑虎科技](https://blog.uwa4d.com/archives/BlueBook_2023.html)
 
 ## Draw call 优化
 

@@ -13,7 +13,11 @@
 - [cgtrader](https://www.cgtrader.com/)
 - [turbosquid](https://www.turbosquid.com/)
 - [3D溜溜网(3d66.com) - 全网设计素材首选平台](https://www.3d66.com/)
-- 
+
+### Lowpoly
+
+- [Synty Studios - Asset Store](https://assetstore.unity.com/publishers/5217)
+
 ## 图片
 
 - [Pinterest](https://www.pinterest.com/)

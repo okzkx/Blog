@@ -1,6 +1,6 @@
 ## 简介
 
-Shall 是命令行解释器
+Shell 是命令行解释器
 
 ![image.png](https://image-1253155090.cos.ap-nanjing.myqcloud.com/202404251521752.png)
 
