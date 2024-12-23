@@ -1,14 +1,4 @@
 
-## Unity 内存分布
-
-[Unity游戏内存分布概览_unity统计的内存和windows任务管理器统计的内存为什么不一样-CSDN博客](https://blog.csdn.net/UWA4D/article/details/124430777)
-
-- **VSS** - Virtual Set Size虚拟耗用内存（包含共享库占用的内存）  
-- **RSS** - Resident Set Size实际使用物理内存（包含共享库占用的内存）  
-- **PSS** - Proportional Set Size实际使用的物理内存（比例分配共享库占用的内存）  
-- **USS** - Unique Set Size进程独自占用的物理内存（不包含共享库占用的内存）
-
-目前Unity的游戏在安卓上的指标默认都在使用PSS : 平分共享服务内存
 
 ## Native memory
 
@@ -16,19 +6,6 @@
 - [Unity 内存管理和profiler详解 - 简书（重要）](https://www.jianshu.com/p/cf3ab3bac1ab)
 - 区别于 Stack 和 Heap 的第三块内存区域 Native。
 
-### 简介
-
-- 无论哪种内存区域，简要来说，功能只有三个：分配，读取，回收
-
-### Stack
-
-- Stack 分配给默认实例化的值类型，包括结构体和地址。
-- 在代码块（大括号内）执行完时自动回收。
-
-### Heap
-
-- Heap 分配给 new 出来的类型（注意：C# new Struct 是在 Stack，而 C++ new Struct 是在 Heap）
-- 在不确定的时间由 CLR 回收所有未受到引用的实例化后的对象，这操作称为 GC。
 
 ### Native Memory
 
