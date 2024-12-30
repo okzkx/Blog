@@ -1,8 +1,8 @@
 - P0 : 
-	- Blender Hero 工作区
+	- Ps 观看
+	- Ps 尝试
+	- 人工智能书
 	- 六边形地图
-	- shader 内存文档
-	- shader 阴影
 - P1 : 
 	- 继续风暴
 	- 工作
