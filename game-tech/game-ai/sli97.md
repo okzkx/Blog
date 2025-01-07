@@ -138,3 +138,35 @@ ROV2
 
 [《游戏中的AOI算法》九宫格法、十字链表法如何优化MMO网游_哔哩哔哩_bilibili](https://www.bilibili.com/video/BV1kpSmYTEoy?spm_id_from=333.788.videopod.sections&vd_source=ebf06d572d5366b5ef7bc5032fefb08d)
 
+## AOI
+Area Of interest
+
+- 九宫格法![image.png](https://image-1253155090.cos.ap-nanjing.myqcloud.com/202501071524030.png)
+	- 简单, 快速, 方便
+	- 密集时性能退化, 空间占用大
+
+- 十字链表法
+	- 根据单位进出视野来发送事件
+	- 用十字链表记录位置状态
+
+对比 
+- 内存 : 
+	- 十字链表 : 单位数量
+	- 九宫格 : 单位密度和场景大小
+- 视野范围
+	- 十字链表 : 自适应
+	- 九宫格 : 固定
+- 数据结构维护
+	- 十字链表适合小幅度
+	- 九宫格 : 直接设定
+
+[《群体寻路与避障》Flow Field流场寻路算法如何实现群体寻路_哔哩哔哩_bilibili](https://www.bilibili.com/video/BV12bzZY2EfA?spm_id_from=333.788.videopod.sections&vd_source=ebf06d572d5366b5ef7bc5032fefb08d)
+
+1. 热力图
+2. 向量场
+3. 向量插值
+
+其他问题
+1. 转弯效果
+2. 单位间碰撞
+3. 单位障碍碰撞
