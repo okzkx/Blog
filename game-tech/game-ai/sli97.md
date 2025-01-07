@@ -122,3 +122,19 @@ ROV2
 
 [PathFinding.js](https://qiao.github.io/PathFinding.js/visual/)
 
+[《游戏中的空间划分》四叉树、KD树如何优化游戏性能_哔哩哔哩_bilibili](https://www.bilibili.com/video/BV188tYezEDu?spm_id_from=333.788.videopod.sections&vd_source=ebf06d572d5366b5ef7bc5032fefb08d)
+
+范围内静态物体查询优化
+
+空间数据结构
+- QuadTree
+- KDTree
+- BVH
+- BSP Tree
+
+四叉树更新
+1. 物体运动时更新, 移动元素到另一节点
+2. 边界情况
+
+[《游戏中的AOI算法》九宫格法、十字链表法如何优化MMO网游_哔哩哔哩_bilibili](https://www.bilibili.com/video/BV1kpSmYTEoy?spm_id_from=333.788.videopod.sections&vd_source=ebf06d572d5366b5ef7bc5032fefb08d)
+
