@@ -1,7 +1,8 @@
-﻿# 基础 AI 下
+# 基础 AI 下
 
 ## Steering 指导行为
-![image.png](Steering.png))
+
+![image.png](Steering.png))
 
 ### Seek / Flee
 
