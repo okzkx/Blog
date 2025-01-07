@@ -71,3 +71,27 @@ BFS 广度优先搜索
 
 [《游戏中的避障算法》游戏单位如何实现动态避障_哔哩哔哩_bilibili](https://www.bilibili.com/video/BV1Nb421n7qJ?spm_id_from=333.788.videopod.sections&vd_source=ebf06d572d5366b5ef7bc5032fefb08d)
 
+ROV2
+
+[warmtrue/RVO2-Unity: use rvo2 (Optimal Reciprocal Collision Avoidance) in unity.](https://github.com/warmtrue/RVO2-Unity)
+
+
+[《游戏中的AI技术》状态机、行为树、决策树如何实现游戏AI_哔哩哔哩_bilibili](https://www.bilibili.com/video/BV16H4y1F7c2?spm_id_from=333.788.videopod.sections&vd_source=ebf06d572d5366b5ef7bc5032fefb08d)
+
+有限状态机 : 
+- FSM ![image.png](https://image-1253155090.cos.ap-nanjing.myqcloud.com/202501071121929.png)
+
+- 子状态机 ![image.png](https://image-1253155090.cos.ap-nanjing.myqcloud.com/202501071121516.png)
+- 分层状态机![image.png](https://image-1253155090.cos.ap-nanjing.myqcloud.com/202501071122401.png)
+
+行为树 : 
+- 方便策划配置行为跳转,需要可视化编辑器 ![image.png](https://image-1253155090.cos.ap-nanjing.myqcloud.com/202501071123400.png)
+
+决策树 :
+- 预测模型, 收集历史数据进行汇总
+- 熵越大排列在树的越高位, 对决策结果影响越大
+- ![image.png](https://image-1253155090.cos.ap-nanjing.myqcloud.com/202501071129243.png)
+
+
+
+
