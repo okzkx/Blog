@@ -92,6 +92,33 @@ ROV2
 - 熵越大排列在树的越高位, 对决策结果影响越大
 - ![image.png](https://image-1253155090.cos.ap-nanjing.myqcloud.com/202501071129243.png)
 
+[《地图随机生成》波函数坍缩算法是如何实现的_哔哩哔哩_bilibili](https://www.bilibili.com/video/BV1Br421M7Vm?spm_id_from=333.788.videopod.sections&vd_source=ebf06d572d5366b5ef7bc5032fefb08d)
 
+1. 连续坍缩
+2. 约束规则
+3. 从多个可能状态到一个确定状态
+4. 优先坍缩高概率地块 (熵低处)
+5. 回溯机制, 拥有快照
+![image.png](https://image-1253155090.cos.ap-nanjing.myqcloud.com/202501071415923.png)
 
+[《JPS跳点搜索算法》比A*算法快百倍的JPS寻路算法是如何实现的_哔哩哔哩_bilibili](https://www.bilibili.com/video/BV18z421i7s8?spm_id_from=333.788.player.switch&vd_source=ebf06d572d5366b5ef7bc5032fefb08d)
+
+跳点搜索算法 : 没有预处理的情况下, 最快的 2D 网格搜索算法
+
+跳点搜索
+1. 强迫邻居
+	1. N 是 X 的强迫邻居 : 节点 X 是到节点 N 的必经节点
+	2. 定义 : 当节点x的八个邻居中存在障碍，且节点x的父节点p，经过节点x到达节点n的距离代价总是小于不经过节点x到达节点n的任意路径的距离代价，则称节点n是节点x的强迫邻居
+	3. ![image.png](https://image-1253155090.cos.ap-nanjing.myqcloud.com/202501071429812.png)
+2. 邻居裁剪
+	1. 劣性节点只能由父节点到达, 自然节点只能由子节点到达
+	2. ![image.png](https://image-1253155090.cos.ap-nanjing.myqcloud.com/202501071430849.png)
+	3. ![image.png](https://image-1253155090.cos.ap-nanjing.myqcloud.com/202501071431993.png)
+3. 跳点
+	1. 条件一:节点x是起点或者终点
+	2. 条件二:节点x至少有一个强迫邻居
+	3. 条件三:节点x的父节点p在斜线方向，并且节点x的直线方向(水平或垂直)上存在满足条件一或二的节点
+4. 按照先直线后斜线的方式搜索跳点
+
+[PathFinding.js](https://qiao.github.io/PathFinding.js/visual/)
 
