@@ -35,3 +35,8 @@ AVProVideo
 4. multi_compile 只对 Bundle 里的 Shader 生效, Editor 下是看不出来的
 
 ![ea2478955c34ccac997d429a028ab555.jpg](https://image-1253155090.cos.ap-nanjing.myqcloud.com/202412181533444.jpg)
+
+
+[VeriorPies/ParrelSync: (Unity3D) Test multiplayer without building](https://github.com/VeriorPies/ParrelSync/)
+
+[GDC | SmartGI的演进：移动端自适应实时高精度渲染管线 - 知乎](https://zhuanlan.zhihu.com/p/692578359)
