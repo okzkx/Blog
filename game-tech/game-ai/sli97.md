@@ -45,3 +45,29 @@
 可以用四叉树优化
 
 ![image.png](https://image-1253155090.cos.ap-nanjing.myqcloud.com/202501071039282.png)
+
+[《游戏中的寻路算法》游戏中有哪些常见的寻路算法_哔哩哔哩_bilibili](https://www.bilibili.com/video/BV1k4421Q744?spm_id_from=333.788.videopod.sections&vd_source=ebf06d572d5366b5ef7bc5032fefb08d)
+
+BFS 广度优先搜索
+
+- 战旗可行进区域
+- 效率较低
+
+启发式搜索
+
+- 只对看起来更近的方向扩散
+- 常用曼哈顿距离 H![image.png](https://image-1253155090.cos.ap-nanjing.myqcloud.com/202501071058761.png)
+- A* ![image.png](https://image-1253155090.cos.ap-nanjing.myqcloud.com/202501071059180.png)
+- 
+各种距离
+-  四方向 : 曼哈顿
+- 八方向 : 切比雪夫
+- ![image.png](https://image-1253155090.cos.ap-nanjing.myqcloud.com/202501071100024.png)
+
+- Theta* 算法![image.png](https://image-1253155090.cos.ap-nanjing.myqcloud.com/202501071104085.png)
+
+- 其他
+- ![image.png](https://image-1253155090.cos.ap-nanjing.myqcloud.com/202501071103242.png)
+
+[《游戏中的避障算法》游戏单位如何实现动态避障_哔哩哔哩_bilibili](https://www.bilibili.com/video/BV1Nb421n7qJ?spm_id_from=333.788.videopod.sections&vd_source=ebf06d572d5366b5ef7bc5032fefb08d)
+
