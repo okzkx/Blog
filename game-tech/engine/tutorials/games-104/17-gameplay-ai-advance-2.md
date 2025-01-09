@@ -1,4 +1,4 @@
-﻿# 高级 AI 下 Machine Learning
+# 高级 AI 下 Machine Learning
 
 Suprervised learning - 监督性学习，本质分类器
 
@@ -11,7 +11,8 @@ Reinforcement learning - 强化学习
 ## Markov Decision Process
 
 马尔可夫链
-![image.png](markov.png))
+
+![image.png](markov.png))
 
 动作，改变环境状态，奖励，循环
 
