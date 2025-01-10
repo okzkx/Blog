@@ -57,5 +57,5 @@ git tag --annotate <tag-name> <commit-hash> -m <message>
 ```
 
 ```
-$ git tag --annotate v0.4.3 dffa0d20de035e303258dd8e29bac626e1beb063 -m Job-performance
+git tag --annotate v0.4.3 dffa0d20de035e303258dd8e29bac626e1beb063 -m Job-performance
 ```
