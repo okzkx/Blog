@@ -40,7 +40,7 @@ HTN
 
 理解
 - 定义原子任务的优先级，顺序
-- Component Task 就是行为树中 Selector 和 Sequence 的组合
+- CompoundTask 就是行为树中 Selector 和 Sequence 的组合
 - 定义一个角色是 Task 的复合体，AI 角色就是复合任务集合
 - 角色根据当前条件输出原子任务的集合，Plan runner 来执行这个任务系列
 
