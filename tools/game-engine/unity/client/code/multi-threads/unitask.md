@@ -22,9 +22,12 @@ private async UniTaskVoid Push() {
 
 #### 从主线程调用子线程
 
+// Fire and Forget 不管异步返回值
+
 - Unitask.Void( 返回 UniTaskVoid)
 - UniTask.Void(async () => Push().Forget());
 - UniTask.Void(async () => await Push());
+- Push().Forget() // 编译器警告
 
 - Unitask.Create( 返回 UniTask).Forget
 
