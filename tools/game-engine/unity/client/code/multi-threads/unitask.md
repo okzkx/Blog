@@ -35,3 +35,10 @@ private async UniTaskVoid Push() {
 ## 其他资料
 
 - [每个人都能写UniTask!!!自定义一个TaskLike并完成一个简单的Delay延时教程 - 知乎](https://zhuanlan.zhihu.com/p/12674069664)
+
+
+## 视频教程
+
+[精选Unity-Github开源库分享 最完美的异步操作解决方案 UniTask (一)简介和安装_哔哩哔哩_bilibili](https://www.bilibili.com/video/BV1NG411s7hN?spm_id_from=333.788.videopod.sections&vd_source=ebf06d572d5366b5ef7bc5032fefb08d)
+
+Unity 安装是使用 OpenUPM
