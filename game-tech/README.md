@@ -16,9 +16,6 @@
 - [Tools Tutorial Day: A Tale ofThree Data Schemas](https://www.gdcvault.com/play/1025284/Tools-Tutorial-Day-A-Tale)
 - [YooAsset/AssetBundleReporter.md at main · tuyoogame/YooAsset](https://github.com/tuyoogame/YooAsset/blob/main/Docs/AssetBundleReporter.md)
 
-## 物理
-
-[【游戏流体力学基础及Unity代码（一）】热传导方程](https://zhuanlan.zhihu.com/p/263053689)
 
 
 ## Game engine 游戏引擎
