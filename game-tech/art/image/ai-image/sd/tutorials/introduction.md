@@ -58,7 +58,7 @@
 ![image.png](https://image-1253155090.cos.ap-nanjing.myqcloud.com/202410111111681.png)
 
 - Embedings : 词嵌入模型, 用于还原角色形象, 解决画面错误
-- ⭐LoRA 低秩适应模型 : 还原角色形象, 训练画风
+- LoRA 低秩适应模型 : 还原角色形象, 训练画风
 - Hypernetwork 超网络 : 训练画风
 
 ## [第7课：局部重绘](https://nenly.notion.site/7-56b41d8a73be403bacf19fb6f7b993d7)

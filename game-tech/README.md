@@ -6,8 +6,7 @@
 - [TA后备隐藏能源(持续更新嗷) - 知乎](https://zhuanlan.zhihu.com/p/265590519)
 - [最全面的游戏开发技术图谱](https://github.com/gonglei007/GameDevMind)
 - [游戏客户端进阶之路](https://zhuanlan.zhihu.com/p/74739364)
-- [小怂猫人投稿视频-小怂猫人视频分享-哔哩哔哩视频](https://space.bilibili.com/347235/upload/video)
-
+- [小怂猫人投稿视频-小怂猫人视频分享-哔哩哔哩视频](https://space.bilibili.com/347235/upload/video)⭐
 
 ## 序列化
 
@@ -15,8 +14,6 @@
 - [The Future of Scene Description on God of War](https://www.gdcvault.com/play/1026345/The-Future-of-Scene-Description)
 - [Tools Tutorial Day: A Tale ofThree Data Schemas](https://www.gdcvault.com/play/1025284/Tools-Tutorial-Day-A-Tale)
 - [YooAsset/AssetBundleReporter.md at main · tuyoogame/YooAsset](https://github.com/tuyoogame/YooAsset/blob/main/Docs/AssetBundleReporter.md)
-
-
 
 ## Game engine 游戏引擎
 
