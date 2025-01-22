@@ -3,6 +3,8 @@
 - [Rust Magazine](https://rustmagazine.org/)
 - [Set up your dev environment on Windows for Rust | Microsoft Learn](https://learn.microsoft.com/en-us/windows/dev-environment/rust/setup)
 - [MSVC Prerequistes - The rustup book](https://rust-lang.github.io/rustup/installation/windows-msvc.html)
+- [三年全职 Rust 游戏开发，真要放弃 Rust 吗？-腾讯云开发者社区-腾讯云](https://cloud.tencent.com/developer/article/2415396)
+- 
 
 ## Mut
 

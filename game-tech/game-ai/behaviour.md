@@ -1,0 +1,5 @@
+- [游戏AI行为决策——Behavior Tree（行为树） - 狐王驾虎 - 博客园](https://www.cnblogs.com/OwlCat/p/17871494.html)
+- [kietran99/BehaviorTree: [WIP][Unity] Visual editor for creating AI behavior](https://github.com/kietran99/BehaviorTree)
+- [如何让敌人AI变得更有趣 第一期_哔哩哔哩bilibili](https://www.bilibili.com/video/BV1GB4y1J7zg/?spm_id_from=333.1387.homepage.video_card.click&vd_source=ebf06d572d5366b5ef7bc5032fefb08d)
+- [设计敌人AI如何从状态机转变为行为树第一期_教学](https://www.bilibili.com/video/BV1N34y1n79h?spm_id_from=333.788.recommend_more_video.4&vd_source=ebf06d572d5366b5ef7bc5032fefb08d)
+- [Behavior Designer 行为树中文版教程_4562xse3460的技术博客_51CTO博客](https://blog.51cto.com/u_6871414/5897101)
