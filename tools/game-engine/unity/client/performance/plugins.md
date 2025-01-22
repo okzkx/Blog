@@ -1,0 +1,2 @@
+
+[GPU Instancer - Crowd Animations | 动画 工具 | Unity Asset Store](https://assetstore.unity.com/packages/tools/animation/gpu-instancer-crowd-animations-145114?srsltid=AfmBOorug1kl5_2CcZiib4fP9sjw3ZkvLkmJ40v1ZYDNLdu0jRUT1tfk)

@@ -42,6 +42,5 @@ private async UniTaskVoid Push() {
 
 ## 视频教程
 
-[精选Unity-Github开源库分享 最完美的异步操作解决方案 UniTask (一)简介和安装_哔哩哔哩_bilibili](https://www.bilibili.com/video/BV1NG411s7hN?spm_id_from=333.788.videopod.sections&vd_source=ebf06d572d5366b5ef7bc5032fefb08d)
-
-Unity 安装是使用 OpenUPM
+- [Unitask 教程](https://space.bilibili.com/69585/lists/548041?type=season)
+- [UniTask 示例](https://gitee.com/yicunjun/share-github-sample/tree/master)
