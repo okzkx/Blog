@@ -13,6 +13,7 @@
 
 - [Palette List](https://lospec.com/palette-list)
 - [Fire Animation - Pixel Art FX Sprites 🔥 by brullov](https://brullov.itch.io/fire-animation)
+- [Pixilart - Free online pixel art drawing tool](https://www.pixilart.com/draw?ref=home-page)
 
 ## 格式转换
 

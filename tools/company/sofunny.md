@@ -1,0 +1,8 @@
+- [曾楷翔 · GitLab](https://git.sofunny.io/zengkaixiang)
+- [曾楷翔的主页 - 曾楷翔 - 真有趣 docs](https://docs.sofunny.io/pages/viewpage.action?pageId=2040363)
+- [Stable Diffusion](https://ai.funnyland.io/)
+- [厦门真有趣信息科技有限公司](https://mail.xmfunny.com/)
+- [Teambition · 阿里巴巴旗下团队协作工具](https://www.teambition.com/organization/5a4f2ade1d32500001267fb7/task/my)
+- [真有趣-性能测试平台](http://perf.xmfunny.com:8080/#/ProjectMain/MyProjectMain/TNT)
+- [打包平台](https://build-prev.sofunny.io/projects)
+- [ull-打包平台-管线](https://build-prev.sofunny.io/projects/69/pipelines?title=LiteWll)

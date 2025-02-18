@@ -5,6 +5,7 @@
 * [避障算法 - VO、RVO 以及 ORCA (RVO2) | indienova 独立游戏](https://indienova.com/indie-game-development/vo-rvo-orca/)
 * [基于 DOTS 的 ORCA(RVO2) 群体避障算法原理及实现 - 知乎](https://zhuanlan.zhihu.com/p/669426124)
 * [warmtrue/RVO2-Unity: use rvo2 (Optimal Reciprocal Collision Avoidance) in unity.](https://github.com/warmtrue/RVO2-Unity)
+* [RVO2（ORCA）动态避障算法精简版介绍_哔哩哔哩_bilibili](https://www.bilibili.com/video/BV1qa4y117Yo/?spm_id_from=333.337.search-card.all.click&vd_source=ebf06d572d5366b5ef7bc5032fefb08d)
 
 Sli9
 

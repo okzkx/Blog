@@ -10,3 +10,9 @@
 * [Humus - Textures](https://www.humus.name/index.php?page=Textures)
 * [hdriheaven](https://hdrihaven.com/) HDRi textures have been downloaded
 * [HDRI-to-CubeMap](https://github.com/matheowis/HDRI-to-CubeMap)
+
+### 配色
+
+- [休闲游戏美术创意优化调优方法及配色优化技巧 - 知乎](https://zhuanlan.zhihu.com/p/363684470)
+- [Create a Palette - Coolors](https://coolors.co/074f57-3f84e5-fde74c-79b4a9-4bc6b9)
+

@@ -1,6 +1,8 @@
 ## WebSides
 
 - [GameUI.net - 专业的游戏UI设计师学习交流平台 | 游戏界面设计分享社区-游戏](https://www.gameui.net/games?t=1)
+- [Game UI Database 2.0 | Welcome](https://www.gameuidatabase.com/)
+
 
 ## Tutorials
 

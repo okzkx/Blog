@@ -14,6 +14,10 @@
 - [Unity-Technologies/BoatAttack: Demo Project using the Universal RP from Unity3D](https://github.com/Unity-Technologies/BoatAttack)
 - [crest](https://github.com/wave-harmonic/crest)
 
+### Toon
+
+- [卡通风格的水面效果—ToonWater - 知乎](https://zhuanlan.zhihu.com/p/138083802)
+
 ### 效果参考
 
 - [The Settlers - Exclusive Gameplay Footage](https://www.youtube.com/watch?v=h9kfy408b90)
