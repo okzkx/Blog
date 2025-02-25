@@ -12,6 +12,7 @@
 * [Odin Inspector](https://odininspector.com/)
 * [Tutorial Master 2 | 游戏工具 | Unity Asset Store](https://assetstore.unity.com/packages/tools/game-toolkits/tutorial-master-2-65443)
 * [VeriorPies/ParrelSync: (Unity3D) Test multiplayer without building](https://github.com/VeriorPies/ParrelSync/)
+* [ls9512/UBind: UBind is a value binding component for Unity, which is used to quickly realize the association binding between UI and logical data.](https://github.com/ls9512/UBind)
 
 ### 表现
 
