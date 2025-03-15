@@ -8,7 +8,9 @@ foreach 每个 Systems =>{
 
 场景加载完毕后
 
+物体显示
 Awake
+Enable
 Start
 foreach 每个 GameObject =>{
 	GameObject 加载
