@@ -15,6 +15,17 @@ private async UniTaskVoid Push() {
 }
 ```
 
+```
+  
+UniTask.Void(async () => {  
+    GameUtil.OpenUIs<LoadingCanvas>();  
+  
+    AsyncOperation asyncLoad = SceneManager.LoadSceneAsync("Battle");  
+    await UniTask.WaitUntil(() => asyncLoad.isDone);  
+    var entryBattle = GameObject.FindFirstObjectByType<EntryBattle>();  
+    entryBattle.LevelName = levelName;  
+});
+```
 #### await
 
 - 不能  await  返回 async UniTaskVoid 的方法
@@ -27,6 +38,7 @@ private async UniTaskVoid Push() {
 - Unitask.Void( 返回 UniTaskVoid)
 - UniTask.Void(async () => Push().Forget());
 - UniTask.Void(async () => await Push());
+- UniTask.Void(async () => { ... });
 - Push().Forget() // 编译器警告
 
 - Unitask.Create( 返回 UniTask).Forget
