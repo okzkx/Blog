@@ -29,6 +29,7 @@ UniTask.Void(async () => {
 #### await
 
 - 不能  await  返回 async UniTaskVoid 的方法
+- UniTaskVoid 只用于最后一层 Unitask.Void(()=>UniTaskVoid)， 所以用 Lambda 之后 UniTaskVoid 就不会出现了
 - 要 await 返回 async UniTask 的方法
 
 #### 从主线程调用子线程
