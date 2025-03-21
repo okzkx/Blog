@@ -91,3 +91,15 @@ Ctrl + T 更改选区位置信息，按 回车确定
 [游戏ui设计-实用PS技巧I第十节钢笔工具【小笼包CG艺术学堂】PS教程\_哔哩哔哩\_bilibili](https://www.bilibili.com/video/BV1jm4y1t7YE?vd_source=ebf06d572d5366b5ef7bc5032fefb08d&spm_id_from=333.788.player.switch)
 
 钢笔工具
+通过锚点画路径
+可以填充路径内的区域，用来画圆圆的 UI
+
+路径变选区 ：Ctrl + 回车
+选区变路径：建立工作路径
+
+[游戏ui设计-实用PS技巧I第十一节形状工具【小笼包CG艺术学堂】PS教程\_哔哩哔哩\_bilibili](https://www.bilibili.com/video/BV1no4y137We?vd_source=ebf06d572d5366b5ef7bc5032fefb08d&spm_id_from=333.788.player.switch)
+
+矩形
+拉出矩形到新的图层
+shift 拉出矩形到当前图层
+可以更改矩形为圆角，填充颜色，描边
