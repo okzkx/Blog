@@ -103,3 +103,76 @@ Ctrl + T 更改选区位置信息，按 回车确定
 拉出矩形到新的图层
 shift 拉出矩形到当前图层
 可以更改矩形为圆角，填充颜色，描边
+
+[游戏ui设计-实用PS技巧I第十二节文字工具【小笼包CG艺术学堂】PS教程\_哔哩哔哩\_bilibili](https://www.bilibili.com/video/BV1Gu4y1Z7FW?vd_source=ebf06d572d5366b5ef7bc5032fefb08d&spm_id_from=333.788.player.switch)
+
+文本工具 ：创建完后，双击图层的 T 更改
+
+图层类型：
+文字图层，
+形状图层 ：有路径，能调整i形状
+画布图层
+智能对象图层
+
+[游戏ui设计-实用PS技巧I第十三节选择工具【小笼包CG艺术学堂】PS教程\_哔哩哔哩\_bilibili](https://www.bilibili.com/video/BV1HM4y1v7BE?vd_source=ebf06d572d5366b5ef7bc5032fefb08d&spm_id_from=333.788.player.switch)
+
+选择工具
+箭头黑，连接锚点全选，
+箭头白，单个锚点
+用于调整形状
+
+[游戏ui设计-实用PS技巧I第十四节画笔工具【小笼包CG艺术学堂】PS教程\_哔哩哔哩\_bilibili](https://www.bilibili.com/video/BV1DL411i7zx?vd_source=ebf06d572d5366b5ef7bc5032fefb08d&spm_id_from=333.788.player.switch)
+画笔工具
+手绘来用
+正片叠底， 越画颜色越深，
+与透明度无关，颜色相乘，用来画阴影
+
+线性减淡添加，越画越白，
+与透明度无关，颜色相加，用来画亮面高光
+
+叠加，柔光，透明度 Alpha blend ，用来画装饰，贴花
+
+[游戏ui设计-实用PS技巧I第十五节渐变工具【小笼包CG艺术学堂】PS教程\_哔哩哔哩\_bilibili](https://www.bilibili.com/video/BV1ZM4y1Y7sq?vd_source=ebf06d572d5366b5ef7bc5032fefb08d&spm_id_from=333.788.player.switch)
+
+渐变工具
+填充渐变颜色
+中心泛光效果
+
+[游戏ui设计-实用PS技巧I第十六节自由变换【小笼包CG艺术学堂】PS教程\_哔哩哔哩\_bilibili](https://www.bilibili.com/video/BV1aW4y1Q7G4?vd_source=ebf06d572d5366b5ef7bc5032fefb08d&spm_id_from=333.788.player.switch)
+
+自由变换，Ctrl + T
+上方链接图标锁定长宽
+移动图片中间轴心
+调整透视
+两边透视 ：编辑》透视》变形
+
+[游戏ui设计-实用PS技巧I第十七节混合模式【小笼包CG艺术学堂】PS教程\_哔哩哔哩\_bilibili](https://www.bilibili.com/video/BV1kc411M721?vd_source=ebf06d572d5366b5ef7bc5032fefb08d&spm_id_from=333.788.player.switch)
+
+混合模式
+
+![image.png](https://image-1253155090.cos.ap-nanjing.myqcloud.com/202503212013417.png)
+
+变暗 ：正片叠底
+一个图层，让太亮的区域变暗
+画阴影：二分，闭塞
+
+简单 ：颜色减淡
+
+加颜色 ： 叠加，柔光
+
+[游戏ui设计-实用PS技巧I第十八节图层样式【小笼包CG艺术学堂】PS教程\_哔哩哔哩\_bilibili](https://www.bilibili.com/video/BV1Xc411M7QF?vd_source=ebf06d572d5366b5ef7bc5032fefb08d&spm_id_from=333.788.player.switch)
+
+[游戏ui设计-实用PS技巧I第十九节斜面浮雕【小笼包CG艺术学堂】PS教程\_哔哩哔哩\_bilibili](https://www.bilibili.com/video/BV1xc411u7Ud?vd_source=ebf06d572d5366b5ef7bc5032fefb08d&spm_id_from=333.788.player.switch)
+
+
+
+图层样式
+可以修改混合模式
+
+![image.png](https://image-1253155090.cos.ap-nanjing.myqcloud.com/202503212025781.png)
+
+用斜面和浮雕做起伏边框
+
+![image.png](https://image-1253155090.cos.ap-nanjing.myqcloud.com/202503212028208.png)
+
+描边样式
