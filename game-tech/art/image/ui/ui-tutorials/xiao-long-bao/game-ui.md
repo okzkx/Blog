@@ -9,7 +9,7 @@
 
 1. 基础造型，钢笔添加锚点修改
 2.  增加按钮体积 ：复制基础造型变暗，作为下底面，或者添加内阴影
-3. 光影效果 ： 图层样式，内外发光，描边
+3. 光影效果 ： 图层样式，内外发光，描边，
 4. 按钮表面 ： 再做个矩形作为按钮表面， 内部透明渐变，叠加在原本按钮上
 5. 纹理效果，细节表现， 按钮底板
 
@@ -22,14 +22,18 @@ UE 布局
 元素
 - 底板
 - 主体
-- 光影 / 内外阴影 / 内外发光， 大高光，大阴影，大反光
-- 花纹 / 细节
-- 凹槽 / 描边 / 浮雕
-- 条目 / 子主体 / 智能对象
-- 按钮 / 子主体
+	- 大形 ：矩形工具，钢笔调整
+	- 光影 ：高光，阴影，反光 ：图层内外阴影 / 内外发光，剪切蒙版正片叠底
+	- 花纹 / 细节
+	- 凹槽 ： 描边 / 浮雕
+- 条目 ： 子主体 / 智能对象
+- 按钮 ： 子主体
 
 
 [游戏UI教程46期｜零基础绘制生命值图标01\_哔哩哔哩\_bilibili](https://www.bilibili.com/video/BV1T4DNYtEFU?vd_source=ebf06d572d5366b5ef7bc5032fefb08d&spm_id_from=333.788.videopod.sections)
 合并形状组件 ：可以把形状合并
 
 [游戏UI教程49期｜从零开始绘制金币图标01\_哔哩哔哩\_bilibili](https://www.bilibili.com/video/BV1dfztYyEmo?vd_source=ebf06d572d5366b5ef7bc5032fefb08d&spm_id_from=333.788.videopod.sections)
+
+[游戏UI教程51期｜欧美卡通界面设计教程01\_哔哩哔哩\_bilibili](https://www.bilibili.com/video/BV1aRq8YMEPw?vd_source=ebf06d572d5366b5ef7bc5032fefb08d&spm_id_from=333.788.videopod.sections)
+
