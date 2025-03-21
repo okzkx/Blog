@@ -25,3 +25,31 @@ alt 复制关联智能对象
 如果不支持编辑，要栅格化或其他操作
 
 新建大尺寸画布，转为智能对象，做好后作为小像素智能对象给原画布图层
+
+[游戏ui设计-实用PS技巧I第四节蒙版应用【小笼包CG艺术学堂】PS教程\_哔哩哔哩\_bilibili](https://www.bilibili.com/video/BV1Ng4y1j7Eh?vd_source=ebf06d572d5366b5ef7bc5032fefb08d&spm_id_from=333.788.player.switch)
+
+Alt 点击蒙版，查看蒙版颜色
+可以用图层蒙版对蒙版进行抠图
+
+剪切蒙版
+alt 在两个蒙版中间点击生成剪切蒙版
+使用剪切蒙版来对下面蒙版做贴花
+下层蒙版是上层的选区
+
+[游戏ui设计-实用PS技巧I第五节图层锁定【小笼包CG艺术学堂】PS教程\_哔哩哔哩\_bilibili](https://www.bilibili.com/video/BV1mc411N7bM?vd_source=ebf06d572d5366b5ef7bc5032fefb08d&spm_id_from=333.788.videopod.sections)
+
+锁定
+点击不会被点到，或拖拽到外面，或不能更改位置或者像素
+可以锁定半透明值
+
+[游戏ui设计-实用PS技巧I第六节移动工具【小笼包CG艺术学堂】PS教程\_哔哩哔哩\_bilibili](https://www.bilibili.com/video/BV1wc411K7n9?vd_source=ebf06d572d5366b5ef7bc5032fefb08d&spm_id_from=333.788.videopod.sections)
+
+Ctrl + T 显示变换框
+shift 拖拽能放置在同样位置的新文件
+任何工具 + Ctrl 为移动工具
+
+常用工具快捷键
+B 画笔
+v ，Ctrl 移动
+c 裁剪
+- [ ] x 换颜色
