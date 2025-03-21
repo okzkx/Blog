@@ -18,3 +18,7 @@
 		- Q 版，夸张：2，1.5 头身
 	- 材质
 	- 颜色
+
+[04界面配色小技巧微信小游戏制作\_哔哩哔哩\_bilibili](https://www.bilibili.com/video/BV1B2N8eQEXZ?spm_id_from=333.788.player.switch&vd_source=ebf06d572d5366b5ef7bc5032fefb08d)
+
+导入参考图，转为智能对象，再马赛克化作为色板
