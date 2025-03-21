@@ -109,10 +109,10 @@ shift 拉出矩形到当前图层
 文本工具 ：创建完后，双击图层的 T 更改
 
 图层类型：
-文字图层，
-形状图层 ：有路径，能调整i形状
-画布图层
-智能对象图层
+- 栅格化图层
+- 文字图层，
+- 形状图层 ：有路径，能调整i形状
+- 智能对象图层 ：拥有 PSD 源文件，只能进行非破坏性操作，即自由变换，不会损失原本图像精度
 
 [游戏ui设计-实用PS技巧I第十三节选择工具【小笼包CG艺术学堂】PS教程\_哔哩哔哩\_bilibili](https://www.bilibili.com/video/BV1HM4y1v7BE?vd_source=ebf06d572d5366b5ef7bc5032fefb08d&spm_id_from=333.788.player.switch)
 
