@@ -7,5 +7,14 @@
 
 精选
 - [拆解游戏UIpsd](https://www.bilibili.com/video/BV1qM411G7hi/?spm_id_from=333.1391.0.0)
-- [【游戏制作新手入门】美术｜游戏UI设计｜道具图标基础风格变化](https://www.bilibili.com/video/BV1eG4y1z7p6/?spm_id_from=333.1391.0.0)
 - [游戏UI如何制作关卡详情界面？项目前期处理图标需要注意的内容](https://www.bilibili.com/video/BV1kirsYSE19/?spm_id_from=333.1391.0.0)
+
+
+ [【游戏制作新手入门】美术｜游戏UI设计｜道具图标基础风格变化](https://www.bilibili.com/video/BV1eG4y1z7p6/?spm_id_from=333.1391.0.0)
+
+道具图标风格
+- 美术风格 
+	- 比例
+		- Q 版，夸张：2，1.5 头身
+	- 材质
+	- 颜色
