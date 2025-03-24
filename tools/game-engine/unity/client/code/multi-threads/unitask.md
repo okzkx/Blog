@@ -40,7 +40,7 @@ UniTask.Void(async () => {
 - UniTask.Void(async () => Push().Forget());
 - UniTask.Void(async () => await Push());
 - UniTask.Void(async () => { ... });
-- Push().Forget() // 编译器警告
+- Push().Forget()
 
 - Unitask.Create( 返回 UniTask).Forget
 
