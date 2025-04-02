@@ -9,7 +9,8 @@
 值类型隐式转换为引用类型时，将会隐式分配临时内存保存值类型
 
 #### 常出现在
-- 结构体隐式转换为接口，接口是引用类型，触发装箱 ? 不一定
+- 结构体隐式转换为接口，接口是引用类型，触发装箱
+	- 特别体现在 Enumerable 创建 Enumerator 返回 IEnumerator， 如果 Enumerator 是结构体就会触发
 - 结构体隐式转换为 object 会装箱
 - typeof（T） 返回 Type 会产生类实例，避免装箱要用模板
 - 结构体在不重写 GetHashCode 和 Equals 等默认方法的情况下调用这些默认方法，将会自动装箱为 System.Object 类型，并调用 System.Object 相应方法
