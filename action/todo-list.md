@@ -1,5 +1,14 @@
 - P0 : 
-	- [优化移动端游戏性能：图形和资源相关的专家级建议](https://unity.com/cn/blog/games/optimize-your-mobile-game-performance-expert-tips-on-graphics-and-assets) 学习
+	- 面试准备，
+	- 面经，八股文
+		- CPP
+		- Rust
+		- Vulkan
+		- 渲染优化
+	- 技术文档总结，项目
+		- DebugDraw
+		- 渲染器
+		- 独游项目
 - P1 : 
 
 
