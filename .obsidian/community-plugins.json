@@ -3,5 +3,11 @@
   "obsidian-image-auto-upload-plugin",
   "obsidian-git",
   "obsidian-tasks-plugin",
-  "auto-card-link"
+  "auto-card-link",
+  "obsidian-excalidraw-plugin",
+  "dataview",
+  "quickadd",
+  "obsidian-outliner",
+  "copilot",
+  "smart-connections"
 ]
