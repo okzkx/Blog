@@ -261,14 +261,14 @@ remap the parameters  *baseColor* , *roughness* and  *reflectance* .
 
 |    Metal |   f0f0 in sRGB   | Hexadecimal | Color |
 | -------: | :--------------: | :---------: | :---- |
-|   Silver | 0.97, 0.96, 0.91 |   #f7f4e8   |       |
-| Aluminum | 0.91, 0.92, 0.92 |   #e8eaea   |       |
-| Titanium | 0.76, 0.73, 0.69 |   #c1baaf   |       |
-|     Iron | 0.77, 0.78, 0.78 |   #c4c6c6   |       |
-| Platinum | 0.83, 0.81, 0.78 |   #d3cec6   |       |
-|     Gold | 1.00, 0.85, 0.57 |   #ffd891   |       |
-|    Brass | 0.98, 0.90, 0.59 |   #f9e596   |       |
-|   Copper | 0.97, 0.74, 0.62 |   #f7bc9e   |       |
+|   Silver | 0.97, 0.96, 0.91 |   f7f4e8    |       |
+| Aluminum | 0.91, 0.92, 0.92 |   e8eaea    |       |
+| Titanium | 0.76, 0.73, 0.69 |   c1baaf    |       |
+|     Iron | 0.77, 0.78, 0.78 |   c4c6c6    |       |
+| Platinum | 0.83, 0.81, 0.78 |   d3cec6    |       |
+|     Gold | 1.00, 0.85, 0.57 |   ffd891    |       |
+|    Brass | 0.98, 0.90, 0.59 |   f9e596    |       |
+|   Copper | 0.97, 0.74, 0.62 |   f7bc9e    |       |
 
 $$
 f_0 = baseColor ⋅ metallic

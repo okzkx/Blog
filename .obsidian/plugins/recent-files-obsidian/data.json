@@ -1,28 +1,56 @@
 {
   "recentFiles": [
     {
+      "basename": "obsidian",
+      "path": "tools/obsidian.md"
+    },
+    {
+      "basename": "Drawing 2025-07-13 18.36.10.excalidraw",
+      "path": "Excalidraw/Drawing 2025-07-13 18.36.10.excalidraw.md"
+    },
+    {
+      "basename": "variant",
+      "path": "tools/game-engine/unity/render/shader/variant.md"
+    },
+    {
+      "basename": "git-basic",
+      "path": "tools/git/basic/git-basic.md"
+    },
+    {
+      "basename": "git-sync",
+      "path": "tools/git/basic/git-sync.md"
+    },
+    {
+      "basename": "rider",
+      "path": "tools/ide/rider.md"
+    },
+    {
+      "basename": "4-material",
+      "path": "game-tech/engine/render/technology-artist/filament/4-material.md"
+    },
+    {
+      "basename": "blog-decorate",
+      "path": "tools/blog/blog-decorate.md"
+    },
+    {
+      "basename": "shell",
+      "path": "tools/shell.md"
+    },
+    {
       "basename": "my-blogs",
       "path": "tools/blog/my-blogs.md"
     },
     {
+      "basename": "path-finding",
+      "path": "game-tech/algorithm/path-finding.md"
+    },
+    {
+      "basename": "todo-list",
+      "path": "action/todo-list.md"
+    },
+    {
       "basename": "llm",
       "path": "tools/llm.md"
-    },
-    {
-      "basename": "未命名看板 3",
-      "path": "未命名看板 3.md"
-    },
-    {
-      "basename": "未命名看板",
-      "path": "未命名看板.md"
-    },
-    {
-      "basename": "未命名看板 1",
-      "path": "未命名看板 1.md"
-    },
-    {
-      "basename": "未命名看板 2",
-      "path": "未命名看板 2.md"
     }
   ],
   "omittedPaths": [],

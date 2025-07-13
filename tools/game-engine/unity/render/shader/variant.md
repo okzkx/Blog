@@ -14,18 +14,18 @@ shader 变体与宏定义
 
 #### 全局宏定义
 
-- #pragma multi_compile 打包所有变体
-- #pragma shader_feature 打包会剔除未被材质使用的着色器变体。
+- \#pragma multi_compile 打包所有变体
+- \#pragma shader_feature 打包会剔除未被材质使用的着色器变体。
 
 #### 本地宏定义
 
-- #pragma multi_compile_local _ LIGHTMAP_SHADOW_MIXING
-- #pragma shader_feature_local _RECEIVE_SHADOWS_OFF
+- \#pragma multi_compile_local _ LIGHTMAP_SHADOW_MIXING
+- \#pragma shader_feature_local _RECEIVE_SHADOWS_OFF
 
 不能使用 Shader.EnableKeyword 全局开启定义, 而是通过材质面板或者代码 EnableKeyword
 
 #### 指定宏定义阶段
 
-- #pragma shader_feature_local_fragment _LASER_SCAN
+- \#pragma shader_feature_local_fragment _LASER_SCAN
 
 指定只有 fragment 阶段才开启宏定义

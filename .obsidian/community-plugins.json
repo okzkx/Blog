@@ -8,5 +8,8 @@
   "dataview",
   "quickadd",
   "obsidian-outliner",
-  "recent-files-obsidian"
+  "recent-files-obsidian",
+  "obsidian-admonition",
+  "convert-url-to-iframe",
+  "obsidian-copy-block-link"
 ]
