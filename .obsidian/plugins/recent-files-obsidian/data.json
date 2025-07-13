@@ -1,0 +1,32 @@
+{
+  "recentFiles": [
+    {
+      "basename": "my-blogs",
+      "path": "tools/blog/my-blogs.md"
+    },
+    {
+      "basename": "llm",
+      "path": "tools/llm.md"
+    },
+    {
+      "basename": "未命名看板 3",
+      "path": "未命名看板 3.md"
+    },
+    {
+      "basename": "未命名看板",
+      "path": "未命名看板.md"
+    },
+    {
+      "basename": "未命名看板 1",
+      "path": "未命名看板 1.md"
+    },
+    {
+      "basename": "未命名看板 2",
+      "path": "未命名看板 2.md"
+    }
+  ],
+  "omittedPaths": [],
+  "omittedTags": [],
+  "updateOn": "file-open",
+  "omitBookmarks": false
+}
