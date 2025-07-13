@@ -1,8 +1,92 @@
 {
   "recentFiles": [
     {
+      "basename": "llm",
+      "path": "tools/llm.md"
+    },
+    {
       "basename": "obsidian",
       "path": "tools/obsidian.md"
+    },
+    {
+      "basename": "git-resolve",
+      "path": "tools/git/git-resolve.md"
+    },
+    {
+      "basename": "README",
+      "path": "tools/git/README.md"
+    },
+    {
+      "basename": "git-submodule",
+      "path": "tools/git/git-submodule.md"
+    },
+    {
+      "basename": "git-basic",
+      "path": "tools/git/basic/git-basic.md"
+    },
+    {
+      "basename": "git-github",
+      "path": "tools/git/basic/git-github.md"
+    },
+    {
+      "basename": "git-sync",
+      "path": "tools/git/basic/git-sync.md"
+    },
+    {
+      "basename": "git-commands",
+      "path": "tools/git/git-commands.md"
+    },
+    {
+      "basename": "blog-decorate",
+      "path": "tools/blog/blog-decorate.md"
+    },
+    {
+      "basename": "blog-base",
+      "path": "tools/blog/blog-base.md"
+    },
+    {
+      "basename": "markdown-blog",
+      "path": "tools/blog/markdown-blog.md"
+    },
+    {
+      "basename": "my-blogs",
+      "path": "tools/blog/my-blogs.md"
+    },
+    {
+      "basename": "shell",
+      "path": "tools/shell.md"
+    },
+    {
+      "basename": "Generate glossary",
+      "path": "copilot-custom-prompts/Generate glossary.md"
+    },
+    {
+      "basename": "Make longer",
+      "path": "copilot-custom-prompts/Make longer.md"
+    },
+    {
+      "basename": "Make shorter",
+      "path": "copilot-custom-prompts/Make shorter.md"
+    },
+    {
+      "basename": "Summarize",
+      "path": "copilot-custom-prompts/Summarize.md"
+    },
+    {
+      "basename": "Rewrite as tweet thread",
+      "path": "copilot-custom-prompts/Rewrite as tweet thread.md"
+    },
+    {
+      "basename": "Remove URLs",
+      "path": "copilot-custom-prompts/Remove URLs.md"
+    },
+    {
+      "basename": "Explain like I am 5",
+      "path": "copilot-custom-prompts/Explain like I am 5.md"
+    },
+    {
+      "basename": "Emojify",
+      "path": "copilot-custom-prompts/Emojify.md"
     },
     {
       "basename": "Drawing 2025-07-13 18.36.10.excalidraw",
@@ -13,14 +97,6 @@
       "path": "tools/game-engine/unity/render/shader/variant.md"
     },
     {
-      "basename": "git-basic",
-      "path": "tools/git/basic/git-basic.md"
-    },
-    {
-      "basename": "git-sync",
-      "path": "tools/git/basic/git-sync.md"
-    },
-    {
       "basename": "rider",
       "path": "tools/ide/rider.md"
     },
@@ -29,28 +105,12 @@
       "path": "game-tech/engine/render/technology-artist/filament/4-material.md"
     },
     {
-      "basename": "blog-decorate",
-      "path": "tools/blog/blog-decorate.md"
-    },
-    {
-      "basename": "shell",
-      "path": "tools/shell.md"
-    },
-    {
-      "basename": "my-blogs",
-      "path": "tools/blog/my-blogs.md"
-    },
-    {
       "basename": "path-finding",
       "path": "game-tech/algorithm/path-finding.md"
     },
     {
       "basename": "todo-list",
       "path": "action/todo-list.md"
-    },
-    {
-      "basename": "llm",
-      "path": "tools/llm.md"
     }
   ],
   "omittedPaths": [],
