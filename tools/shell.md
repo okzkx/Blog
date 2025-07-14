@@ -84,8 +84,12 @@ else
 fi
 ```
 
-3. 保存并关闭文件。
-4. 执行脚本：
+1. 保存并关闭文件。
+2. 执行脚本：
    ```bash
    ./guess_number.sh  # 或者在 Linux 和 macOS 上使用 `bash guess_number.sh`
    ```
+
+> [!tap] aaa
+> sha
+
