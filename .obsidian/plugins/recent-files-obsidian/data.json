@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "weixin",
+      "path": "tools/game-engine/unity/client/weixin.md"
+    },
+    {
       "basename": "llm",
       "path": "tools/llm.md"
     },

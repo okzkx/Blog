@@ -18,8 +18,8 @@
   "mistralApiKey": "",
   "deepseekApiKey": "",
   "defaultChainType": "llm_chain",
-  "defaultModelKey": "qwen2.5-vl-7b|lm-studio",
-  "embeddingModelKey": "text-embedding-bge-large-zh-v1.5|lm-studio",
+  "defaultModelKey": "deepseek-r1:14b|ollama",
+  "embeddingModelKey": "bge-m3|ollama",
   "temperature": 0.1,
   "maxTokens": 6000,
   "contextTurns": 15,
@@ -247,6 +247,18 @@
       "stream": true,
       "displayName": "qwen2.5-vl-7b",
       "enableCors": true
+    },
+    {
+      "name": "deepseek-r1:14b",
+      "provider": "ollama",
+      "enabled": true,
+      "isBuiltIn": false,
+      "baseUrl": "",
+      "apiKey": "",
+      "isEmbeddingModel": false,
+      "capabilities": [],
+      "stream": true,
+      "enableCors": true
     }
   ],
   "activeEmbeddingModels": [
@@ -368,6 +380,16 @@
       "capabilities": [],
       "displayName": "text-embedding-bge-large-zh-v1.5",
       "enableCors": true
+    },
+    {
+      "name": "bge-m3",
+      "provider": "ollama",
+      "enabled": true,
+      "isBuiltIn": false,
+      "baseUrl": "",
+      "apiKey": "",
+      "isEmbeddingModel": true,
+      "capabilities": []
     }
   ],
   "embeddingRequestsPerMin": 90,
