@@ -19,7 +19,7 @@
   "deepseekApiKey": "",
   "defaultChainType": "llm_chain",
   "defaultModelKey": "qwen2.5-vl-7b|lm-studio",
-  "embeddingModelKey": "text-embedding-3-small|openai",
+  "embeddingModelKey": "text-embedding-bge-large-zh-v1.5|lm-studio",
   "temperature": 0.1,
   "maxTokens": 6000,
   "contextTurns": 15,
@@ -315,6 +315,59 @@
       "enabled": true,
       "isBuiltIn": true,
       "isEmbeddingModel": true
+    },
+    {
+      "name": "qwen2.5-vl-7b",
+      "provider": "lm-studio",
+      "enabled": true,
+      "isBuiltIn": false,
+      "baseUrl": "",
+      "apiKey": "",
+      "isEmbeddingModel": true,
+      "capabilities": [
+        "vision",
+        "websearch"
+      ],
+      "displayName": "qwen2.5-vl-7b",
+      "enableCors": true
+    },
+    {
+      "name": "text-embedding-all-minilm-l6-v2-embedding",
+      "provider": "lm-studio",
+      "enabled": true,
+      "isBuiltIn": false,
+      "baseUrl": "",
+      "apiKey": "",
+      "isEmbeddingModel": true,
+      "capabilities": [],
+      "displayName": "text-embedding-all-minilm-l6-v2-embedding",
+      "enableCors": true
+    },
+    {
+      "name": "text-embedding-bge-m3",
+      "provider": "lm-studio",
+      "enabled": true,
+      "isBuiltIn": false,
+      "baseUrl": "",
+      "apiKey": "",
+      "isEmbeddingModel": true,
+      "capabilities": [
+        "websearch"
+      ],
+      "displayName": "text-embedding-bge-m3",
+      "enableCors": true
+    },
+    {
+      "name": "text-embedding-bge-large-zh-v1.5",
+      "provider": "lm-studio",
+      "enabled": true,
+      "isBuiltIn": false,
+      "baseUrl": "",
+      "apiKey": "",
+      "isEmbeddingModel": true,
+      "capabilities": [],
+      "displayName": "text-embedding-bge-large-zh-v1.5",
+      "enableCors": true
     }
   ],
   "embeddingRequestsPerMin": 90,
