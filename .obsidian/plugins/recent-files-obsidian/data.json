@@ -1,12 +1,32 @@
 {
   "recentFiles": [
     {
+      "basename": "shell",
+      "path": "tools/shell.md"
+    },
+    {
+      "basename": "README",
+      "path": "tools/README.md"
+    },
+    {
       "basename": "llm",
       "path": "tools/llm.md"
     },
     {
       "basename": "obsidian",
       "path": "tools/obsidian.md"
+    },
+    {
+      "basename": "Untitled_Screenshot_Notes_(1)",
+      "path": "VisionRecall/Screenshots/Untitled_Screenshot_Notes_(1).png"
+    },
+    {
+      "basename": "Untitled Screenshot Notes (1)",
+      "path": "VisionRecall/Notes/Untitled Screenshot Notes (1).md"
+    },
+    {
+      "basename": "Untitled Screenshot Notes",
+      "path": "VisionRecall/Notes/Untitled Screenshot Notes.md"
     },
     {
       "basename": "git-resolve",
@@ -51,10 +71,6 @@
     {
       "basename": "my-blogs",
       "path": "tools/blog/my-blogs.md"
-    },
-    {
-      "basename": "shell",
-      "path": "tools/shell.md"
     },
     {
       "basename": "Generate glossary",
