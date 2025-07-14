@@ -1,6 +1,62 @@
 {
   "recentFiles": [
     {
+      "basename": "water",
+      "path": "game-tech/engine/render/technology-artist/nature/water.md"
+    },
+    {
+      "basename": "obsidian",
+      "path": "tools/obsidian.md"
+    },
+    {
+      "basename": "shell",
+      "path": "tools/shell.md"
+    },
+    {
+      "basename": "resource-manager",
+      "path": "tools/game-engine/unity/resource/resource-manager.md"
+    },
+    {
+      "basename": "2 Overview",
+      "path": "game-tech/engine/render/technology-artist/filament/2 Overview.md"
+    },
+    {
+      "basename": "ai",
+      "path": "game-tech/math/ai.md"
+    },
+    {
+      "basename": "webside-card",
+      "path": "tools/obsidian/template/webside-card.md"
+    },
+    {
+      "basename": "README",
+      "path": "tools/game-engine/unity/resource/README.md"
+    },
+    {
+      "basename": "llm",
+      "path": "tools/llm.md"
+    },
+    {
+      "basename": "functional-programming",
+      "path": "game-tech/computer/coding/functional-programming.md"
+    },
+    {
+      "basename": "rust-regex",
+      "path": "game-tech/languages/rust/rust-regex.md"
+    },
+    {
+      "basename": "regex",
+      "path": "tools/syntax/regex.md"
+    },
+    {
+      "basename": "road-map",
+      "path": "action/road-map.md"
+    },
+    {
+      "basename": "todo-list",
+      "path": "action/todo-list.md"
+    },
+    {
       "basename": "spider",
       "path": "game-tech/engine/model/animation/procedural/spider.md"
     },
@@ -23,10 +79,6 @@
     {
       "basename": "weixin",
       "path": "tools/game-engine/unity/client/weixin.md"
-    },
-    {
-      "basename": "llm",
-      "path": "tools/llm.md"
     },
     {
       "basename": "README",
@@ -65,10 +117,6 @@
       "path": "tools/git/basic/git-basic.md"
     },
     {
-      "basename": "webside-card",
-      "path": "tools/obsidian/template/webside-card.md"
-    },
-    {
       "basename": "blog-base",
       "path": "tools/blog/blog-base.md"
     },
@@ -97,16 +145,8 @@
       "path": "tools/blog/markdown-blog.md"
     },
     {
-      "basename": "shell",
-      "path": "tools/shell.md"
-    },
-    {
       "basename": "README",
       "path": "tools/README.md"
-    },
-    {
-      "basename": "obsidian",
-      "path": "tools/obsidian.md"
     },
     {
       "basename": "git-resolve",
@@ -159,34 +199,6 @@
     {
       "basename": "Explain like I am 5",
       "path": "copilot-custom-prompts/Explain like I am 5.md"
-    },
-    {
-      "basename": "Emojify",
-      "path": "copilot-custom-prompts/Emojify.md"
-    },
-    {
-      "basename": "Drawing 2025-07-13 18.36.10.excalidraw",
-      "path": "Excalidraw/Drawing 2025-07-13 18.36.10.excalidraw.md"
-    },
-    {
-      "basename": "variant",
-      "path": "tools/game-engine/unity/render/shader/variant.md"
-    },
-    {
-      "basename": "rider",
-      "path": "tools/ide/rider.md"
-    },
-    {
-      "basename": "4-material",
-      "path": "game-tech/engine/render/technology-artist/filament/4-material.md"
-    },
-    {
-      "basename": "path-finding",
-      "path": "game-tech/algorithm/path-finding.md"
-    },
-    {
-      "basename": "todo-list",
-      "path": "action/todo-list.md"
     }
   ],
   "omittedPaths": [],

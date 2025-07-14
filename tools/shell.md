@@ -89,7 +89,3 @@ fi
    ```bash
    ./guess_number.sh  # 或者在 Linux 和 macOS 上使用 `bash guess_number.sh`
    ```
-
-> [!tap] aaa
-> sha
-

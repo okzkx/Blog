@@ -18,7 +18,7 @@
   "mistralApiKey": "",
   "deepseekApiKey": "",
   "defaultChainType": "llm_chain",
-  "defaultModelKey": "deepseek-r1:14b|ollama",
+  "defaultModelKey": "deepseek-r1:7b|ollama",
   "embeddingModelKey": "bge-m3|ollama",
   "temperature": 0.1,
   "maxTokens": 6000,
@@ -41,7 +41,7 @@
   "enableIndexSync": true,
   "debug": false,
   "enableEncryption": false,
-  "maxSourceChunks": 3,
+  "maxSourceChunks": 128,
   "groqApiKey": "",
   "activeModels": [
     {
@@ -250,6 +250,18 @@
     },
     {
       "name": "deepseek-r1:14b",
+      "provider": "ollama",
+      "enabled": true,
+      "isBuiltIn": false,
+      "baseUrl": "",
+      "apiKey": "",
+      "isEmbeddingModel": false,
+      "capabilities": [],
+      "stream": true,
+      "enableCors": true
+    },
+    {
+      "name": "deepseek-r1:7b",
       "provider": "ollama",
       "enabled": true,
       "isBuiltIn": false,

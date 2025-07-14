@@ -25,4 +25,4 @@
 
 ## 流体模拟
 
-- [Coding Adventure: Simulating Fluids - YouTube](https://www.youtube.com/watch?v=rSKMYc1CQHE)
+<iframe title="Coding Adventure: Simulating Fluids" src="https://www.youtube.com/embed/rSKMYc1CQHE?feature=oembed" height="113" width="200" allowfullscreen="" allow="fullscreen" style="aspect-ratio: 1.76991 / 1; width: 100%; height: 100%;"></iframe>
