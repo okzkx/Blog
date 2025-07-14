@@ -1,6 +1,26 @@
 {
   "recentFiles": [
     {
+      "basename": "spider",
+      "path": "game-tech/engine/model/animation/procedural/spider.md"
+    },
+    {
+      "basename": "playable",
+      "path": "tools/game-engine/unity/client/3c/animator/playable.md"
+    },
+    {
+      "basename": "bean-studio",
+      "path": "game-tech/art/image/ui/ui-tutorials/bean-studio.md"
+    },
+    {
+      "basename": "README",
+      "path": "game-tech/art/image/ui/README.md"
+    },
+    {
+      "basename": "ugui",
+      "path": "tools/game-engine/unity/client/ui/ugui.md"
+    },
+    {
       "basename": "weixin",
       "path": "tools/game-engine/unity/client/weixin.md"
     },
