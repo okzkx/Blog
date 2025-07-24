@@ -1,6 +1,14 @@
 {
   "recentFiles": [
     {
+      "basename": "rider",
+      "path": "tools/ide/rider.md"
+    },
+    {
+      "basename": "code-color",
+      "path": "tools/ide/code-color.md"
+    },
+    {
       "basename": "todo-list",
       "path": "action/todo-list.md"
     },
