@@ -101,22 +101,6 @@
       "path": "Clippings/Xuan_酱投稿视频-Xuan_酱视频分享-哔哩哔哩视频.md"
     },
     {
-      "basename": "Untitled Screenshot Notes",
-      "path": "VisionRecall/Notes/Untitled Screenshot Notes.md"
-    },
-    {
-      "basename": "Untitled Screenshot Notes (1)",
-      "path": "VisionRecall/Notes/Untitled Screenshot Notes (1).md"
-    },
-    {
-      "basename": "Untitled_Screenshot_Notes_(1)",
-      "path": "VisionRecall/Screenshots/Untitled_Screenshot_Notes_(1).png"
-    },
-    {
-      "basename": "Untitled_Screenshot_Notes",
-      "path": "VisionRecall/Screenshots/Untitled_Screenshot_Notes.png"
-    },
-    {
       "basename": "git-basic",
       "path": "tools/git/basic/git-basic.md"
     },
@@ -187,18 +171,6 @@
     {
       "basename": "Summarize",
       "path": "copilot-custom-prompts/Summarize.md"
-    },
-    {
-      "basename": "Rewrite as tweet thread",
-      "path": "copilot-custom-prompts/Rewrite as tweet thread.md"
-    },
-    {
-      "basename": "Remove URLs",
-      "path": "copilot-custom-prompts/Remove URLs.md"
-    },
-    {
-      "basename": "Explain like I am 5",
-      "path": "copilot-custom-prompts/Explain like I am 5.md"
     }
   ],
   "omittedPaths": [],
