@@ -1,6 +1,14 @@
 {
   "recentFiles": [
     {
+      "basename": "todo-list",
+      "path": "action/todo-list.md"
+    },
+    {
+      "basename": "git-resolve",
+      "path": "tools/git/git-resolve.md"
+    },
+    {
       "basename": "water",
       "path": "game-tech/engine/render/technology-artist/nature/water.md"
     },
@@ -51,10 +59,6 @@
     {
       "basename": "road-map",
       "path": "action/road-map.md"
-    },
-    {
-      "basename": "todo-list",
-      "path": "action/todo-list.md"
     },
     {
       "basename": "spider",
@@ -147,10 +151,6 @@
     {
       "basename": "README",
       "path": "tools/README.md"
-    },
-    {
-      "basename": "git-resolve",
-      "path": "tools/git/git-resolve.md"
     },
     {
       "basename": "README",
