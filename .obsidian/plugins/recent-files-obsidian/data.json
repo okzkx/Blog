@@ -1,20 +1,28 @@
 {
   "recentFiles": [
     {
-      "basename": "todo-list",
-      "path": "action/todo-list.md"
+      "basename": "README",
+      "path": "game-tech/art/image/ui/ui-tutorials/README.md"
     },
     {
-      "basename": "rider",
-      "path": "tools/ide/rider.md"
+      "basename": "bean-studio",
+      "path": "game-tech/art/image/ui/ui-tutorials/bean-studio.md"
     },
     {
-      "basename": "code-color",
-      "path": "tools/ide/code-color.md"
+      "basename": "ps-skill",
+      "path": "game-tech/art/image/ui/ui-tutorials/xiao-long-bao/ps-skill.md"
     },
     {
-      "basename": "git-resolve",
-      "path": "tools/git/git-resolve.md"
+      "basename": "game-ui",
+      "path": "game-tech/art/image/ui/ui-tutorials/xiao-long-bao/game-ui.md"
+    },
+    {
+      "basename": "8-minute",
+      "path": "game-tech/art/image/ui/ui-tutorials/image-process/8-minute.md"
+    },
+    {
+      "basename": "README",
+      "path": "README.md"
     },
     {
       "basename": "water",
@@ -69,16 +77,16 @@
       "path": "action/road-map.md"
     },
     {
+      "basename": "todo-list",
+      "path": "action/todo-list.md"
+    },
+    {
       "basename": "spider",
       "path": "game-tech/engine/model/animation/procedural/spider.md"
     },
     {
       "basename": "playable",
       "path": "tools/game-engine/unity/client/3c/animator/playable.md"
-    },
-    {
-      "basename": "bean-studio",
-      "path": "game-tech/art/image/ui/ui-tutorials/bean-studio.md"
     },
     {
       "basename": "README",
@@ -91,10 +99,6 @@
     {
       "basename": "weixin",
       "path": "tools/game-engine/unity/client/weixin.md"
-    },
-    {
-      "basename": "README",
-      "path": "README.md"
     },
     {
       "basename": "‍‬⁡​‍​‍‬‌⁡⁣⁣​﻿‌​‌​‍​⁢‌⁡⁤‬⁣⁣​​⁢​‬⁢‌⁣﻿⁢‍​﻿‬​​‍​​⁤​⁢【教程】本地知识库-部署Qwen2.5 Omni+Obsidian教程文档0709 - 飞书云文档",
@@ -145,6 +149,10 @@
       "path": "tools/README.md"
     },
     {
+      "basename": "git-resolve",
+      "path": "tools/git/git-resolve.md"
+    },
+    {
       "basename": "README",
       "path": "tools/git/README.md"
     },
@@ -171,14 +179,6 @@
     {
       "basename": "Make longer",
       "path": "copilot-custom-prompts/Make longer.md"
-    },
-    {
-      "basename": "Make shorter",
-      "path": "copilot-custom-prompts/Make shorter.md"
-    },
-    {
-      "basename": "Summarize",
-      "path": "copilot-custom-prompts/Summarize.md"
     }
   ],
   "omittedPaths": [],
