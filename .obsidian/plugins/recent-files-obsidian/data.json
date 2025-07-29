@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "todo-list",
+      "path": "action/todo-list.md"
+    },
+    {
       "basename": "README",
       "path": "game-tech/art/image/ui/ui-tutorials/README.md"
     },
@@ -75,10 +79,6 @@
     {
       "basename": "road-map",
       "path": "action/road-map.md"
-    },
-    {
-      "basename": "todo-list",
-      "path": "action/todo-list.md"
     },
     {
       "basename": "spider",
