@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "obsidian",
+      "path": "tools/obsidian.md"
+    },
+    {
       "basename": "todo-list",
       "path": "action/todo-list.md"
     },
@@ -31,10 +35,6 @@
     {
       "basename": "water",
       "path": "game-tech/engine/render/technology-artist/nature/water.md"
-    },
-    {
-      "basename": "obsidian",
-      "path": "tools/obsidian.md"
     },
     {
       "basename": "shell",
@@ -101,18 +101,6 @@
       "path": "tools/game-engine/unity/client/weixin.md"
     },
     {
-      "basename": "‍‬⁡​‍​‍‬‌⁡⁣⁣​﻿‌​‌​‍​⁢‌⁡⁤‬⁣⁣​​⁢​‬⁢‌⁣﻿⁢‍​﻿‬​​‍​​⁤​⁢【教程】本地知识库-部署Qwen2.5 Omni+Obsidian教程文档0709 - 飞书云文档",
-      "path": "Clippings/‍‬⁡​‍​‍‬‌⁡⁣⁣​﻿‌​‌​‍​⁢‌⁡⁤‬⁣⁣​​⁢​‬⁢‌⁣﻿⁢‍​﻿‬​​‍​​⁤​⁢【教程】本地知识库-部署Qwen2.5 Omni+Obsidian教程文档0709 - 飞书云文档.md"
-    },
-    {
-      "basename": "logancyangobsidian-copilot THE Copilot in Obsidian",
-      "path": "Clippings/logancyangobsidian-copilot THE Copilot in Obsidian.md"
-    },
-    {
-      "basename": "Xuan_酱投稿视频-Xuan_酱视频分享-哔哩哔哩视频",
-      "path": "Clippings/Xuan_酱投稿视频-Xuan_酱视频分享-哔哩哔哩视频.md"
-    },
-    {
       "basename": "git-basic",
       "path": "tools/git/basic/git-basic.md"
     },
@@ -171,14 +159,6 @@
     {
       "basename": "git-commands",
       "path": "tools/git/git-commands.md"
-    },
-    {
-      "basename": "Generate glossary",
-      "path": "copilot-custom-prompts/Generate glossary.md"
-    },
-    {
-      "basename": "Make longer",
-      "path": "copilot-custom-prompts/Make longer.md"
     }
   ],
   "omittedPaths": [],
