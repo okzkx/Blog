@@ -1,6 +1,74 @@
 {
   "recentFiles": [
     {
+      "basename": "llm",
+      "path": "tools/llm.md"
+    },
+    {
+      "basename": "rust-macros",
+      "path": "game-tech/languages/rust/rust-macros.md"
+    },
+    {
+      "basename": "rust-memory",
+      "path": "game-tech/languages/rust/rust-memory.md"
+    },
+    {
+      "basename": "rust-file",
+      "path": "game-tech/languages/rust/rust-file.md"
+    },
+    {
+      "basename": "rust-ffi",
+      "path": "game-tech/languages/rust/rust-ffi.md"
+    },
+    {
+      "basename": "rust-async",
+      "path": "game-tech/languages/rust/rust-async.md"
+    },
+    {
+      "basename": "rust-cross-platform",
+      "path": "game-tech/languages/rust/rust-cross-platform.md"
+    },
+    {
+      "basename": "rust-android",
+      "path": "game-tech/languages/rust/rust-android.md"
+    },
+    {
+      "basename": "README",
+      "path": "game-tech/languages/rust/README.md"
+    },
+    {
+      "basename": "macro",
+      "path": "game-tech/languages/rust/macro.md"
+    },
+    {
+      "basename": "cargo",
+      "path": "game-tech/languages/rust/cargo.md"
+    },
+    {
+      "basename": "playable",
+      "path": "tools/game-engine/unity/client/3c/animator/playable.md"
+    },
+    {
+      "basename": "README",
+      "path": "tools/blog/README.md"
+    },
+    {
+      "basename": "my-blogs",
+      "path": "tools/blog/my-blogs.md"
+    },
+    {
+      "basename": "markdown-blog",
+      "path": "tools/blog/markdown-blog.md"
+    },
+    {
+      "basename": "blog-decorate",
+      "path": "tools/blog/blog-decorate.md"
+    },
+    {
+      "basename": "blog-base",
+      "path": "tools/blog/blog-base.md"
+    },
+    {
       "basename": "obsidian",
       "path": "tools/obsidian.md"
     },
@@ -61,10 +129,6 @@
       "path": "tools/game-engine/unity/resource/README.md"
     },
     {
-      "basename": "llm",
-      "path": "tools/llm.md"
-    },
-    {
       "basename": "functional-programming",
       "path": "game-tech/computer/coding/functional-programming.md"
     },
@@ -85,10 +149,6 @@
       "path": "game-tech/engine/model/animation/procedural/spider.md"
     },
     {
-      "basename": "playable",
-      "path": "tools/game-engine/unity/client/3c/animator/playable.md"
-    },
-    {
       "basename": "README",
       "path": "game-tech/art/image/ui/README.md"
     },
@@ -105,32 +165,12 @@
       "path": "tools/git/basic/git-basic.md"
     },
     {
-      "basename": "blog-base",
-      "path": "tools/blog/blog-base.md"
-    },
-    {
-      "basename": "blog-decorate",
-      "path": "tools/blog/blog-decorate.md"
-    },
-    {
       "basename": "sofunny",
       "path": "tools/company/sofunny.md"
     },
     {
       "basename": "README",
       "path": "tools/company/README.md"
-    },
-    {
-      "basename": "README",
-      "path": "tools/blog/README.md"
-    },
-    {
-      "basename": "my-blogs",
-      "path": "tools/blog/my-blogs.md"
-    },
-    {
-      "basename": "markdown-blog",
-      "path": "tools/blog/markdown-blog.md"
     },
     {
       "basename": "README",

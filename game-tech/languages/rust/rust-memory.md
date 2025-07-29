@@ -76,8 +76,8 @@ Stack 存储数据和待执行的方法地址
 ## Option Box
 
 * Option 是一个描述是否有值的枚举
-* 使用 Option <Box `<>>` 描述一个可空的指针
-* Option<Box<?>> 不需要序号占据枚举位
+* 使用 Option <Box <>> 描述一个可空的指针
+* Option<Box<\?>> 不需要序号占据枚举位
 
 ![image-20220530110559528](https://image-1253155090.cos.ap-nanjing.myqcloud.com/202302230902631.png)
 
