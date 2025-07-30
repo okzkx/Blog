@@ -2,13 +2,10 @@
 
 ## 基础教程
 
-个人使用 Git，掌握 Git 原理，了解常用指令即可。
-
-知道 Git 是如何进行版本管理的，不要求学会分支操作。
-
-[廖雪峰git教程](https://www.liaoxuefeng.com/wiki/896043488029600/896954074659008)
-
-[猴子都懂的GIT入门](https://backlog.com/git-tutorial/cn/) （推荐）
+- 个人使用 Git，掌握 Git 原理，了解常用指令即可。
+- 知道 Git 是如何进行版本管理的，不要求学会分支操作。
+- [廖雪峰git教程](https://www.liaoxuefeng.com/wiki/896043488029600/896954074659008)
+- [猴子都懂的GIT入门](https://backlog.com/git-tutorial/cn/) （推荐）
 
 灰太狼博客
 
@@ -26,14 +23,11 @@
 
 ### 同步
 
-[Git-同步篇](git-sync.md)
-
+- [Git-同步篇](git-sync.md)
 ### 操作
 
-[C#/.NET使用git命令行来操作git仓库的方法示例](https://www.jb51.net/article/158808.htm)
-
-[C#中运行命令获取Git commit id的方法](https://blog.csdn.net/lingyanpi/article/details/72472958)
-
+- [C#/.NET使用git命令行来操作git仓库的方法示例](https://www.jb51.net/article/158808.htm)
+- [C#中运行命令获取Git commit id的方法](https://blog.csdn.net/lingyanpi/article/details/72472958)
 ### 分支
 
-[**git merge 和 git rebase 小结**](https://www.cnblogs.com/cb0327/p/5065579.html)
+- [**git merge 和 git rebase 小结**](https://www.cnblogs.com/cb0327/p/5065579.html)

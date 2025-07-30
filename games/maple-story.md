@@ -20,9 +20,6 @@ host: www.bilibili.com
 image: https://i0.hdslb.com/bfs/archive/af76e15ff80fc869017f34826774194dc33a16a1.jpg@100w_100h_1c.png
 ```
 
-
-[【CMS】冒险岛登陆器BUG。为什么登录界面都没了？_哔哩哔哩bilibili_冒险岛](https://www.bilibili.com/video/BV1Vi4y117AJ/?spm_id_from=333.337.search-card.all.click&vd_source=ebf06d572d5366b5ef7bc5032fefb08d)
-
 删除
 C:\Program Files (x86)\冒险岛online\SDO\sdologin\config
 

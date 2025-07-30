@@ -1,184 +1,148 @@
 {
   "recentFiles": [
     {
-      "basename": "llm",
-      "path": "tools/llm.md"
+      "basename": "4. scene-anim",
+      "path": "game-tech/art/model/blender/tutorials/blender-4.0/4. scene-anim.md"
     },
     {
-      "basename": "rust-macros",
-      "path": "game-tech/languages/rust/rust-macros.md"
+      "basename": "3. material",
+      "path": "game-tech/art/model/blender/tutorials/blender-4.0/3. material.md"
     },
     {
-      "basename": "rust-memory",
-      "path": "game-tech/languages/rust/rust-memory.md"
+      "basename": "2. lighting",
+      "path": "game-tech/art/model/blender/tutorials/blender-4.0/2. lighting.md"
     },
     {
-      "basename": "rust-file",
-      "path": "game-tech/languages/rust/rust-file.md"
+      "basename": "1. model",
+      "path": "game-tech/art/model/blender/tutorials/blender-4.0/1. model.md"
     },
     {
-      "basename": "rust-ffi",
-      "path": "game-tech/languages/rust/rust-ffi.md"
+      "basename": "animation",
+      "path": "game-tech/art/model/blender/animation.md"
     },
     {
-      "basename": "rust-async",
-      "path": "game-tech/languages/rust/rust-async.md"
+      "basename": "houdini",
+      "path": "game-tech/art/model/houdini.md"
     },
     {
-      "basename": "rust-cross-platform",
-      "path": "game-tech/languages/rust/rust-cross-platform.md"
-    },
-    {
-      "basename": "rust-android",
-      "path": "game-tech/languages/rust/rust-android.md"
+      "basename": "substance-designer",
+      "path": "game-tech/art/image/substance-designer.md"
     },
     {
       "basename": "README",
-      "path": "game-tech/languages/rust/README.md"
+      "path": "game-tech/art/image/README.md"
     },
     {
-      "basename": "macro",
-      "path": "game-tech/languages/rust/macro.md"
+      "basename": "project-image",
+      "path": "game-tech/art/image/project-image.md"
     },
     {
-      "basename": "cargo",
-      "path": "game-tech/languages/rust/cargo.md"
+      "basename": "maple-story",
+      "path": "game-tech/art/image/maple-story.md"
     },
     {
-      "basename": "playable",
-      "path": "tools/game-engine/unity/client/3c/animator/playable.md"
+      "basename": "image-tools",
+      "path": "game-tech/art/image/image-tools.md"
+    },
+    {
+      "basename": "transformer",
+      "path": "game-tech/art/image/ai-image/transformer.md"
     },
     {
       "basename": "README",
-      "path": "tools/blog/README.md"
+      "path": "game-tech/art/image/ai-image/README.md"
     },
     {
-      "basename": "my-blogs",
-      "path": "tools/blog/my-blogs.md"
+      "basename": "novel-ai",
+      "path": "game-tech/art/image/ai-image/novel-ai.md"
     },
     {
-      "basename": "markdown-blog",
-      "path": "tools/blog/markdown-blog.md"
+      "basename": "ai-model",
+      "path": "game-tech/art/image/ai-image/ai-model.md"
     },
     {
-      "basename": "blog-decorate",
-      "path": "tools/blog/blog-decorate.md"
+      "basename": "README",
+      "path": "game-tech/art/image/ai-image/sd/icon/README.md"
     },
     {
-      "basename": "blog-base",
-      "path": "tools/blog/blog-base.md"
+      "basename": "README",
+      "path": "game-tech/art/image/ai-image/comfy-ui/README.md"
     },
     {
-      "basename": "obsidian",
-      "path": "tools/obsidian.md"
+      "basename": "start",
+      "path": "game-tech/art/image/ai-image/comfy-ui/start.md"
+    },
+    {
+      "basename": "README",
+      "path": "game-tech/art/animation/README.md"
+    },
+    {
+      "basename": "path-finding",
+      "path": "game-tech/algorithm/path-finding.md"
+    },
+    {
+      "basename": "obstacle-avoidance",
+      "path": "game-tech/algorithm/obstacle-avoidance.md"
     },
     {
       "basename": "todo-list",
       "path": "action/todo-list.md"
     },
     {
-      "basename": "README",
-      "path": "game-tech/art/image/ui/ui-tutorials/README.md"
-    },
-    {
-      "basename": "bean-studio",
-      "path": "game-tech/art/image/ui/ui-tutorials/bean-studio.md"
-    },
-    {
-      "basename": "ps-skill",
-      "path": "game-tech/art/image/ui/ui-tutorials/xiao-long-bao/ps-skill.md"
-    },
-    {
-      "basename": "game-ui",
-      "path": "game-tech/art/image/ui/ui-tutorials/xiao-long-bao/game-ui.md"
-    },
-    {
-      "basename": "8-minute",
-      "path": "game-tech/art/image/ui/ui-tutorials/image-process/8-minute.md"
-    },
-    {
-      "basename": "README",
-      "path": "README.md"
-    },
-    {
-      "basename": "water",
-      "path": "game-tech/engine/render/technology-artist/nature/water.md"
-    },
-    {
-      "basename": "shell",
-      "path": "tools/shell.md"
-    },
-    {
-      "basename": "resource-manager",
-      "path": "tools/game-engine/unity/resource/resource-manager.md"
-    },
-    {
-      "basename": "2 Overview",
-      "path": "game-tech/engine/render/technology-artist/filament/2 Overview.md"
-    },
-    {
-      "basename": "ai",
-      "path": "game-tech/math/ai.md"
-    },
-    {
-      "basename": "webside-card",
-      "path": "tools/obsidian/template/webside-card.md"
-    },
-    {
-      "basename": "README",
-      "path": "tools/game-engine/unity/resource/README.md"
-    },
-    {
-      "basename": "functional-programming",
-      "path": "game-tech/computer/coding/functional-programming.md"
-    },
-    {
-      "basename": "rust-regex",
-      "path": "game-tech/languages/rust/rust-regex.md"
-    },
-    {
-      "basename": "regex",
-      "path": "tools/syntax/regex.md"
-    },
-    {
       "basename": "road-map",
       "path": "action/road-map.md"
     },
     {
-      "basename": "spider",
-      "path": "game-tech/engine/model/animation/procedural/spider.md"
-    },
-    {
       "basename": "README",
-      "path": "game-tech/art/image/ui/README.md"
+      "path": "action/temp/README.md"
     },
     {
-      "basename": "ugui",
-      "path": "tools/game-engine/unity/client/ui/ugui.md"
+      "basename": "tap",
+      "path": "tools/obsidian/tap.md"
     },
     {
-      "basename": "weixin",
-      "path": "tools/game-engine/unity/client/weixin.md"
-    },
-    {
-      "basename": "git-basic",
-      "path": "tools/git/basic/git-basic.md"
-    },
-    {
-      "basename": "sofunny",
-      "path": "tools/company/sofunny.md"
-    },
-    {
-      "basename": "README",
-      "path": "tools/company/README.md"
+      "basename": "webside-card",
+      "path": "tools/obsidian/webside-card.md"
     },
     {
       "basename": "README",
       "path": "tools/README.md"
     },
     {
-      "basename": "git-resolve",
-      "path": "tools/git/git-resolve.md"
+      "basename": "llm",
+      "path": "tools/llm.md"
+    },
+    {
+      "basename": "windows-app",
+      "path": "tools/windows/windows-app.md"
+    },
+    {
+      "basename": "README",
+      "path": "tools/windows/README.md"
+    },
+    {
+      "basename": "regex",
+      "path": "tools/syntax/regex.md"
+    },
+    {
+      "basename": "README",
+      "path": "tools/syntax/README.md"
+    },
+    {
+      "basename": "theme",
+      "path": "tools/ide/theme.md"
+    },
+    {
+      "basename": "rider",
+      "path": "tools/ide/rider.md"
+    },
+    {
+      "basename": "code-color",
+      "path": "tools/ide/code-color.md"
+    },
+    {
+      "basename": "README",
+      "path": "tools/ide/README.md"
     },
     {
       "basename": "README",
@@ -189,16 +153,52 @@
       "path": "tools/git/git-submodule.md"
     },
     {
-      "basename": "git-github",
-      "path": "tools/git/basic/git-github.md"
-    },
-    {
-      "basename": "git-sync",
-      "path": "tools/git/basic/git-sync.md"
+      "basename": "git-resolve",
+      "path": "tools/git/git-resolve.md"
     },
     {
       "basename": "git-commands",
       "path": "tools/git/git-commands.md"
+    },
+    {
+      "basename": "junior-unity-client",
+      "path": "tools/game-engine/unity/others/interview/junior-unity-client.md"
+    },
+    {
+      "basename": "text-game",
+      "path": "games/text-game.md"
+    },
+    {
+      "basename": "README",
+      "path": "games/README.md"
+    },
+    {
+      "basename": "oil-game",
+      "path": "games/oil-game.md"
+    },
+    {
+      "basename": "no-oxygen",
+      "path": "games/no-oxygen.md"
+    },
+    {
+      "basename": "maple-story",
+      "path": "games/maple-story.md"
+    },
+    {
+      "basename": "japan",
+      "path": "games/japan.md"
+    },
+    {
+      "basename": "escape-room",
+      "path": "games/escape-room.md"
+    },
+    {
+      "basename": "elden-ring",
+      "path": "games/elden-ring.md"
+    },
+    {
+      "basename": "cyberpunk-2077",
+      "path": "games/cyberpunk-2077.md"
     }
   ],
   "omittedPaths": [],
