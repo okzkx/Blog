@@ -4,7 +4,8 @@
 
 - P1 ：学习
 	- [ ] UI 动效
-	- [ ] 游戏服务器
+	- [ ] **[Fantasy 游戏服务器](https://github.com/qq362946/Fantasy)**
+	- [ ] [GF_X](https://github.com/sunsvip/GF_X)
 
 - P2 ：个人项目持续迭代
 	- [ ] DebugDraw
