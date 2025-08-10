@@ -2,10 +2,9 @@
 	- [ ] 解决子弹反弹问题
 	- [ ] 写每周记录
 
-- P1 ：学习
+- P1 ：学习 （学习技能而不是业务）
 	- [ ] UI 动效
 	- [ ] **[Fantasy 游戏服务器](https://github.com/qq362946/Fantasy)**
-	- [ ] [GF_X](https://github.com/sunsvip/GF_X)
 
 - P2 ：个人项目持续迭代
 	- [ ] DebugDraw
