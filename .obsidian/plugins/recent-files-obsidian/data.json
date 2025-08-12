@@ -1,8 +1,24 @@
 {
   "recentFiles": [
     {
-      "basename": "todo-list",
-      "path": "action/todo-list.md"
+      "basename": "README",
+      "path": "README.md"
+    },
+    {
+      "basename": "README",
+      "path": "game-tech/game-design/README.md"
+    },
+    {
+      "basename": "procedural-terrain",
+      "path": "game-tech/engine/model/mesh/procedural-terrain.md"
+    },
+    {
+      "basename": "meeting-xiamen",
+      "path": "tools/game-engine/unity/others/meetings/meeting-xiamen.md"
+    },
+    {
+      "basename": "gpu-driven",
+      "path": "tools/game-engine/unity/render/gpu-driven.md"
     },
     {
       "basename": "README",
@@ -23,10 +39,6 @@
     {
       "basename": "8-minute",
       "path": "game-tech/art/image/ui/ui-tutorials/image-process/8-minute.md"
-    },
-    {
-      "basename": "README",
-      "path": "README.md"
     },
     {
       "basename": "water",
@@ -67,10 +79,6 @@
     {
       "basename": "regex",
       "path": "tools/syntax/regex.md"
-    },
-    {
-      "basename": "road-map",
-      "path": "action/road-map.md"
     },
     {
       "basename": "spider",
