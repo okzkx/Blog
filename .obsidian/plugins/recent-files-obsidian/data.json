@@ -1,6 +1,38 @@
 {
   "recentFiles": [
     {
+      "basename": "ASTC_User_Guide_102162_0001_01",
+      "path": "game-tech/engine/render/engine/ASTC_User_Guide_102162_0001_01.pdf"
+    },
+    {
+      "basename": "font",
+      "path": "game-tech/engine/render/engine/font.md"
+    },
+    {
+      "basename": "view-port-mode",
+      "path": "game-tech/engine/render/engine/view-port-mode.md"
+    },
+    {
+      "basename": "ui",
+      "path": "game-tech/engine/render/engine/ui.md"
+    },
+    {
+      "basename": "sinning",
+      "path": "game-tech/engine/render/engine/sinning.md"
+    },
+    {
+      "basename": "ray-tracing",
+      "path": "game-tech/engine/render/engine/ray-tracing.md"
+    },
+    {
+      "basename": "light-map",
+      "path": "game-tech/engine/render/engine/light-map.md"
+    },
+    {
+      "basename": "renderer",
+      "path": "game-tech/engine/render/renderer.md"
+    },
+    {
       "basename": "README",
       "path": "README.md"
     },
