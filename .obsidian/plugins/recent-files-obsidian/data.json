@@ -1,6 +1,14 @@
 {
   "recentFiles": [
     {
+      "basename": "temp",
+      "path": "temp.md"
+    },
+    {
+      "basename": "README",
+      "path": "README.md"
+    },
+    {
       "basename": "ASTC_User_Guide_102162_0001_01",
       "path": "game-tech/engine/render/engine/ASTC_User_Guide_102162_0001_01.pdf"
     },
@@ -31,10 +39,6 @@
     {
       "basename": "renderer",
       "path": "game-tech/engine/render/renderer.md"
-    },
-    {
-      "basename": "README",
-      "path": "README.md"
     },
     {
       "basename": "README",
