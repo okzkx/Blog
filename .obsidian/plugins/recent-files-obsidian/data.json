@@ -1,6 +1,22 @@
 {
   "recentFiles": [
     {
+      "basename": "brendan-galea",
+      "path": "game-tech/engine/gpu/vulkan/vulkan-learn/vulkan-tutorials/brendan-galea/brendan-galea.md"
+    },
+    {
+      "basename": "msaa",
+      "path": "game-tech/engine/gpu/vulkan/vulkan-learn/vulkan-tutorials/brendan-galea/brendan-galea.assets/msaa.jpg"
+    },
+    {
+      "basename": "command-buffer.png",
+      "path": "brendan-galea.assets/command-buffer.png.md"
+    },
+    {
+      "basename": "Vulkan-objects",
+      "path": "game-tech/engine/gpu/vulkan/Vulkan-objects.canvas"
+    },
+    {
       "basename": "temp",
       "path": "temp.md"
     },
@@ -183,10 +199,6 @@
     {
       "basename": "git-sync",
       "path": "tools/git/basic/git-sync.md"
-    },
-    {
-      "basename": "git-commands",
-      "path": "tools/git/git-commands.md"
     }
   ],
   "omittedPaths": [],
