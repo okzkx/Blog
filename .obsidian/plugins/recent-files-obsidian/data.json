@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "模型加载数据流",
+      "path": "game-tech/engine/renderer/模型加载数据流.canvas"
+    },
+    {
       "basename": "brendan-galea",
       "path": "game-tech/engine/gpu/vulkan/vulkan-learn/vulkan-tutorials/brendan-galea/brendan-galea.md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "git-github",
       "path": "tools/git/basic/git-github.md"
-    },
-    {
-      "basename": "git-sync",
-      "path": "tools/git/basic/git-sync.md"
     }
   ],
   "omittedPaths": [],
