@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "texture-compress",
+      "path": "game-tech/engine/render/engine/texture-compress.md"
+    },
+    {
       "basename": "模型加载数据流",
       "path": "game-tech/engine/renderer/模型加载数据流.canvas"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "git-submodule",
       "path": "tools/git/git-submodule.md"
-    },
-    {
-      "basename": "git-github",
-      "path": "tools/git/basic/git-github.md"
     }
   ],
   "omittedPaths": [],
