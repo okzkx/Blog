@@ -103,9 +103,9 @@ Funnel Algorithm 烟囱算法
 
 得朝某个多边形顶点行走
 
-![image.png](funnel.png)
+![image.png](https://image-1253155090.cos.ap-nanjing.myqcloud.com/202508292006387.png)
 
-![image.png](funnel2.png)
+![image.png](https://image-1253155090.cos.ap-nanjing.myqcloud.com/202508292006236.png)
 
 ### NavMesh Generation - Voxelization
 

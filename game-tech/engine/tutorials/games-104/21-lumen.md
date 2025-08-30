@@ -4,7 +4,7 @@ dynamic-global-illumination-and-lummen
 
 ## Global illumination
 
-![image.png](render-equation.png)
+![image.png](https://image-1253155090.cos.ap-nanjing.myqcloud.com/202508292009458.png)
 
 ## Monte Carlo Integration
 
@@ -28,7 +28,7 @@ Importance Sampling，尽可能朝着光源，朝着法线采样
 
 法线方向对光线最敏感，diffuse 的 PDF 选 cos lob 采样效果最好
 
-![image.png](pdf-master.png)
+![image.png](https://image-1253155090.cos.ap-nanjing.myqcloud.com/202508292009224.png)
 
 PBR 材质用 GGX 法线分布，选 GGX Lob 效果最好
 
@@ -46,7 +46,7 @@ shadow map 就是光子所停留的位置
 
 光在空间中的分布场
 
-![image.png](freeze-radians.png)
+![image.png](https://image-1253155090.cos.ap-nanjing.myqcloud.com/202508292009416.png)
 
 迭代遍历每个格子，对周围格子扩散光能
 
@@ -66,7 +66,7 @@ shadow map 就是光子所停留的位置
 
 体素全局光照
 
-![image.png](clip-map.png)
+![image.png](https://image-1253155090.cos.ap-nanjing.myqcloud.com/202508292009200.png)
 
 Clip map 更新
 

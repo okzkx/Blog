@@ -16,13 +16,13 @@
 - 2D Blend Space，不能把所有动画都计算
   - Delaunay Triangulation ，2D 空间的三角划分
   - 使用重心坐标采样三个点
-- ![image.png](image.png)
+- ![image.png](https://image-1253155090.cos.ap-nanjing.myqcloud.com/202508292004093.png)
 
 ### Applauding on Different Poses
 
 * 部分混合，需要融合两个动画的不同部分
 * 需要骨骼 mask 分层
-* ![image.png](image1.png)
+* ![image.png](https://image-1253155090.cos.ap-nanjing.myqcloud.com/202508292004291.png)
 
 ### Additive Blending
 
@@ -66,7 +66,7 @@ Animation State Machin in Unreal
 
 Layered ASM 多层动画状态机
 
-![image.png](image2.png)
+![image.png](https://image-1253155090.cos.ap-nanjing.myqcloud.com/202508292004172.png)
 
 手部执行攻击动画，下身执行移动动画
 
@@ -76,7 +76,7 @@ Layered ASM 多层动画状态机
 
 Unreal Animation Blueprint
 
-![image.png](blue-print.png)
+![image.png](https://image-1253155090.cos.ap-nanjing.myqcloud.com/202508292004525.png)
 
 需要定义动画树的控制变量
 
@@ -94,13 +94,13 @@ Unreal Animation Blueprint
 
 3D space
 
-![image.png](two-bones-ik.png)
+![image.png](https://image-1253155090.cos.ap-nanjing.myqcloud.com/202508292004152.png)
 
 Complexity of Multi-Joint IK Solving
 
 ### Constraints of joints
 
-![image.png](constraints-of-joints.png)
+![image.png](https://image-1253155090.cos.ap-nanjing.myqcloud.com/202508292004490.png)
 
 ### Heuristics Algorithm
 

@@ -7,7 +7,7 @@
 
 Outline of Physics System
 
-![image.png](outline-of-phyusics-system.png)
+![image.png](https://image-1253155090.cos.ap-nanjing.myqcloud.com/202508292005610.png)
 
 ## Basic concepts
 
@@ -20,7 +20,7 @@ Actor
 
 Actor Shapes
 
-![image.png](actor-shapes.png)
+![image.png](https://image-1253155090.cos.ap-nanjing.myqcloud.com/202508292005410.png)
 
 - 球、胶囊体、box 是最省的
 - 精细的结构可以用多个 box 近似
@@ -52,51 +52,51 @@ Actor Shapes
 
 - 牛顿第一定律
 
-![image.png](newton-1st.png)
+![image.png](https://image-1253155090.cos.ap-nanjing.myqcloud.com/202508292005623.png)
 
 - 牛顿第二定律
 
-![image.png](newton-2st.png)
+![image.png](https://image-1253155090.cos.ap-nanjing.myqcloud.com/202508292005929.png)
 
 Movement under Varying Force
 
-![image.png](movement-vary-force.png)+
+![image.png](https://image-1253155090.cos.ap-nanjing.myqcloud.com/202508292005633.png)+
 
 Solar System movement
 
-![image.png](movem,ent.png)
+![image.png](https://image-1253155090.cos.ap-nanjing.myqcloud.com/202508292005850.png)
 
 - 显式欧拉积分 Explicit Euler Method，计算没法收敛
 - 隐式欧拉积分是稳定解
 - 半隐式欧拉积分,结果最稳定
 
-![image.png](Semi-implicit-eular.png)
+![image.png](https://image-1253155090.cos.ap-nanjing.myqcloud.com/202508292005233.png)
 
 ## Rigid Body dynamic
 
 假设所有的对象都是质点,质点动力学
 
-![image.png](practical-dynamic.png)
+![image.png](https://image-1253155090.cos.ap-nanjing.myqcloud.com/202508292005128.png)
 
 刚体动力学，
 
-![image.png](rigibody-dynamic.png)
+![image.png](https://image-1253155090.cos.ap-nanjing.myqcloud.com/202508292005613.png)
 
 Rotational Inertia 转动惯量
 
-![image.png](rotational.png)
+![image.png](https://image-1253155090.cos.ap-nanjing.myqcloud.com/202508292005894.png)
 
 Angular momenturn 角动量守恒
 
-![image.png](angular-momenturn.png)
+![image.png](https://image-1253155090.cos.ap-nanjing.myqcloud.com/202508292005008.png)
 
 力臂越长，转动惯量越大，角速度越小
 
 Torque 力矩
 
-![image.png](torque.png)
+![image.png](https://image-1253155090.cos.ap-nanjing.myqcloud.com/202508292005977.png)
 
-![image.png](angular-linear.png)
+![image.png](https://image-1253155090.cos.ap-nanjing.myqcloud.com/202508292005317.png)
 
 
 Colliction Detection
@@ -112,7 +112,7 @@ Two Phases
   - Detect overlapping precisely
   - Generate contact information
 
-![image.png](two-phases.png)
+![image.png](https://image-1253155090.cos.ap-nanjing.myqcloud.com/202508292005023.png)
 
 
 #### Broad Phase

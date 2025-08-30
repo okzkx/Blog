@@ -22,7 +22,7 @@
 
 - Lod 近处密，远处稀疏
 - Adaptive Mesh Tessellation 网格细分
-- ![image-20220426213931304](image-20220426213931304.png)
+- ![image-20220426213931304](https://image-1253155090.cos.ap-nanjing.myqcloud.com/202508292001546.png)
 - 当 FOV 越来越窄的时候，地面在屏幕上显示的会越来越大，所以网格远处的精度需要相应的增大。
 - Two Golden Rules of Optimizatioin
 - View-dependent error bounds
@@ -36,7 +36,7 @@
 
 ##### T-Junction
 
-![image-20220426214615701](image-20220426214615701.png)
+![image-20220426214615701](https://image-1253155090.cos.ap-nanjing.myqcloud.com/202508292001805.png)
 
 - 相邻三角形需要切分的同样密，来防止裂边
 
@@ -49,7 +49,7 @@
 
 #### QuadTree-Based Subdivision 基于四叉树的地形表达
 
-![image-20220426215321576](image-20220426215321576.png)
+![image-20220426215321576](https://image-1253155090.cos.ap-nanjing.myqcloud.com/202508292001403.png)
 
 - 最大范围有个上线，不会完全归一，比如 512 * 512 米
 - 用磁盘上的一块区域，比如一张纹理来表达
@@ -59,7 +59,7 @@
 
 ###### Stitching
 
-![image-20220426220351731](image-20220426220351731.png)
+![image-20220426220351731](https://image-1253155090.cos.ap-nanjing.myqcloud.com/202508292001762.png)
 
 四叉树管理的地形数据反序列化成为不同密度的三角形。为了保持连续，可以使用 Stitching 方法，退化密度高的三角形，出现面积为 0 的三角形。来粘合不同密度的地块解决 T-junction 问题。
 
@@ -73,9 +73,9 @@
 - 借助 GPU 来程序化生成 LOD 地形
 - 即渐变的网格密度变化
 
-![image-20220426221350523](image-20220426221350523.png)
+![image-20220426221350523](https://image-1253155090.cos.ap-nanjing.myqcloud.com/202508292002548.png)
 
-![image-20220426221512303](image-20220426221512303.png)
+![image-20220426221512303](https://image-1253155090.cos.ap-nanjing.myqcloud.com/202508292002236.png)
 
 - Mesh Shader Pipeline DX12 以上
 
@@ -97,7 +97,7 @@
 
 ##### Marching Cube
 
-![image-20220426224113535](image-20220426224113535.png)
+![image-20220426224113535](https://image-1253155090.cos.ap-nanjing.myqcloud.com/202508292002131.png)
 
 空间上划分体素，每一个体素里大概总共可能会有 15 种不同的近似平面，每个体素用一个字节的数据记录近似平面的表示的编号。
 
@@ -105,13 +105,13 @@
 
 Transvoxel Algorithm, voxel 也可以做 LOD
 
-![image-20220426224501295](image-20220426224501295.png)
+![image-20220426224501295](https://image-1253155090.cos.ap-nanjing.myqcloud.com/202508292002084.png)
 
 基于 volumetric 的表达，在未来有希望做出纯动态地型
 
 ### Terrain Materials
 
-![image-20220426231148570](image-20220426231148570.png)
+![image-20220426231148570](https://image-1253155090.cos.ap-nanjing.myqcloud.com/202508292002238.png)
 
 材质混合
 
@@ -119,19 +119,19 @@ Transvoxel Algorithm, voxel 也可以做 LOD
 
 简单的 Alpha 混合，并不自然
 
-![image-20220426231437730](image-20220426231437730.png)
+![image-20220426231437730](https://image-1253155090.cos.ap-nanjing.myqcloud.com/202508292002547.png)
 
 ##### Advanced Texture Splatting
 
 叠加高度后的混合
 
-![image-20220426231351002](image-20220426231351002.png)
+![image-20220426231351002](https://image-1253155090.cos.ap-nanjing.myqcloud.com/202508292002809.png)
 
 叠加 Bias，一点小 Hack
 
 #### Sampling from Material Texture Array
 
-![image-20220426231649827](image-20220426231649827.png)
+![image-20220426231649827](https://image-1253155090.cos.ap-nanjing.myqcloud.com/202508292002548.png)
 
 - 和 3D Texture 不一样，3D Texture 的采样需要三线性插值的采样。
 - Texture Array 每层之间没关系，是 Texture Index + 双线性插值采样
@@ -139,7 +139,7 @@ Transvoxel Algorithm, voxel 也可以做 LOD
 
 #### Parallax and Displacement Mapping
 
-![image-20220426232055558](image-20220426232055558.png)
+![image-20220426232055558](https://image-1253155090.cos.ap-nanjing.myqcloud.com/202508292002662.png)
 
 - Color Mapping : Albedo 着色
 - Bump Mapping 法线纹理影响光照模型
@@ -155,7 +155,7 @@ Transvoxel Algorithm, voxel 也可以做 LOD
 
 #### Virtual Texture
 
-![image-20220426234404170](image-20220426234404170.png)
+![image-20220426234404170](https://image-1253155090.cos.ap-nanjing.myqcloud.com/202508292002368.png)
 
 最主流的地型绘制方案
 
@@ -176,17 +176,17 @@ Transvoxel Algorithm, voxel 也可以做 LOD
 
 #### Tree Rendering
 
-![image-20220427000307667](image-20220427000307667.png)
+![image-20220427000307667](https://image-1253155090.cos.ap-nanjing.myqcloud.com/202508292002607.png)
 
 Speed Tree ，植被渲染中间件
 
 #### Decorator Rendering
 
-![image-20220427000426246](image-20220427000426246.png)
+![image-20220427000426246](https://image-1253155090.cos.ap-nanjing.myqcloud.com/202508292002885.png)
 
 #### Road and Decals Rendering
 
-![image-20220427000733087](image-20220427000733087.png)
+![image-20220427000733087](https://image-1253155090.cos.ap-nanjing.myqcloud.com/202508292002263.png)
 
 场景中的细节可以预烘培进入 Virtual Texture
 
@@ -196,23 +196,23 @@ Speed Tree ，植被渲染中间件
 
 #### Analytic Atmosphere Appearance Modeling
 
-![image-20220427225019614](image-20220427225019614.png)
+![image-20220427225019614](https://image-1253155090.cos.ap-nanjing.myqcloud.com/202508292003685.png)
 
 使用经验公式去拟合大气散射现象
 
 #### Participating Media
 
-![image-20220427225255363](image-20220427225255363.png)
+![image-20220427225255363](https://image-1253155090.cos.ap-nanjing.myqcloud.com/202508292003043.png)
 
 #### How Light Interacts with Participating Media
 
 大气散射通过一个介质分为四个阶段
 
-![image-20220427231309822](image-20220427231309822.png)
+![image-20220427231309822](https://image-1253155090.cos.ap-nanjing.myqcloud.com/202508292003110.png)
 
 #### Volume Rendering Equation
 
-![image-20220427231524677](image-20220427231524677.png)
+![image-20220427231524677](https://image-1253155090.cos.ap-nanjing.myqcloud.com/202508292003121.png)
 
 - Transmittance ：光线被介质的衰减
 - Increase factor ：光线进入眼睛的能量
@@ -229,7 +229,7 @@ Speed Tree ，植被渲染中间件
 - 蓝紫光波长短
 - 拟合方程
 - Rayleigh Scattering Equation
-- ![image-20220427232300675](image-20220427232300675.png)
+- ![image-20220427232300675](https://image-1253155090.cos.ap-nanjing.myqcloud.com/202508292003444.png)
 
 ##### Mie scattering 米式散射
 
@@ -237,7 +237,7 @@ Speed Tree ，植被渲染中间件
 - 雾 Fog，光晕 Halo of Sun
 - Mie Scattering Equation
 
-![image-20220427232916397](image-20220427232916397.png)
+![image-20220427232916397](https://image-1253155090.cos.ap-nanjing.myqcloud.com/202508292003633.png)
 
 #### Variant Air  Molecules Absorption
 
@@ -248,19 +248,19 @@ Speed Tree ，植被渲染中间件
 
 #### Single Scattering vs Multi Scattering
 
-![image-20220427233253363](image-20220427233253363.png)
+![image-20220427233253363](https://image-1253155090.cos.ap-nanjing.myqcloud.com/202508292003132.png)
 
 #### Ray Marching
 
 沿着视线的方向，对太阳光的积分
 
-![image-20220427233606867](image-20220427233606867.png)
+![image-20220427233606867](https://image-1253155090.cos.ap-nanjing.myqcloud.com/202508292003458.png)
 
 #### Precomputed Atmospheric Scattering
 
-![image-20220429154220247](image-20220429154220247.png)
+![image-20220429154220247](https://image-1253155090.cos.ap-nanjing.myqcloud.com/202508292003281.png)
 
-![image-20220506101713410](image-20220506101713410.png)
+![image-20220506101713410](https://image-1253155090.cos.ap-nanjing.myqcloud.com/202508292003423.png)
 
 ##### Challenges of Precomputed Atmospheric Scattering
 
@@ -279,7 +279,7 @@ Speed Tree ，植被渲染中间件
 
 #### Cloud Type
 
-![image-20220506104023361](image-20220506104023361.png)
+![image-20220506104023361](https://image-1253155090.cos.ap-nanjing.myqcloud.com/202508292003328.png)
 
 #### Present Cloud
 
@@ -290,8 +290,8 @@ Speed Tree ，植被渲染中间件
   - Noise Functions
   - Perlin Noise 棉花丝感觉
   - Worley Noise 泡泡感觉
-  - ![image-20220506104451054](image-20220506104451054.png)
+  - ![image-20220506104451054](https://image-1253155090.cos.ap-nanjing.myqcloud.com/202508292003073.png)
   - Cloud Density Model
-    - ![image-20220506104738431](image-20220506104738431.png)
+    - ![image-20220506104738431](https://image-1253155090.cos.ap-nanjing.myqcloud.com/202508292003134.png)
   - Rendering Cloud by Ray Marching
-    - ![image-20220506104925464](image-20220506104925464.png)
+    - ![image-20220506104925464](https://image-1253155090.cos.ap-nanjing.myqcloud.com/202508292003900.png)

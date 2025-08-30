@@ -142,11 +142,11 @@ Layered Architecture of Game Engine
 
 ## Mini Engine : Pilot
 
-![image-20220330211847914](image-20220330211847914.png)
+![image-20220330211847914](https://image-1253155090.cos.ap-nanjing.myqcloud.com/202508291959421.png)
 
 ### Simple ECS framework
 
-![image-20220330212201585](image-20220330212201585.png)
+![image-20220330212201585](https://image-1253155090.cos.ap-nanjing.myqcloud.com/202508291959532.png)
 
 ### Takeaways
 

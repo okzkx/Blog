@@ -2,7 +2,7 @@
 
 Outline Of Physics system
 
-![image.png](oops.png)
+![image.png](https://image-1253155090.cos.ap-nanjing.myqcloud.com/202508292006579.png)
 
 ## Charactor Controller
 
@@ -25,7 +25,7 @@ vs Rigid Body
 
 把关节加上铰链和 rigidbody，同时要制定旋转约束
 
-![image.png](human-joint-constraints.png)
+![image.png](https://image-1253155090.cos.ap-nanjing.myqcloud.com/202508292006386.png)
 
 ## 车辆载具
 

@@ -1,16 +1,120 @@
 {
   "recentFiles": [
     {
+      "basename": "05-light-material",
+      "path": "game-tech/engine/tutorials/games-104/05-light-material.md"
+    },
+    {
+      "basename": "09-advanced-animation-technology",
+      "path": "game-tech/engine/tutorials/games-104/09-advanced-animation-technology.md"
+    },
+    {
+      "basename": "10-physics-system",
+      "path": "game-tech/engine/tutorials/games-104/10-physics-system.md"
+    },
+    {
+      "basename": "11-physics-system-application",
+      "path": "game-tech/engine/tutorials/games-104/11-physics-system-application.md"
+    },
+    {
+      "basename": "12-effect",
+      "path": "game-tech/engine/tutorials/games-104/12-effect.md"
+    },
+    {
+      "basename": "15-gameplay",
+      "path": "game-tech/engine/tutorials/games-104/15-gameplay.md"
+    },
+    {
+      "basename": "16-gameplay-ai-1",
+      "path": "game-tech/engine/tutorials/games-104/16-gameplay-ai-1.md"
+    },
+    {
+      "basename": "16-gameplay-ai-2",
+      "path": "game-tech/engine/tutorials/games-104/16-gameplay-ai-2.md"
+    },
+    {
+      "basename": "17-gameplay-ai-advance-1",
+      "path": "game-tech/engine/tutorials/games-104/17-gameplay-ai-advance-1.md"
+    },
+    {
+      "basename": "17-gameplay-ai-advance-2",
+      "path": "game-tech/engine/tutorials/games-104/17-gameplay-ai-advance-2.md"
+    },
+    {
+      "basename": "18-network-basic-1",
+      "path": "game-tech/engine/tutorials/games-104/18-network-basic-1.md"
+    },
+    {
+      "basename": "18-network-basic-2",
+      "path": "game-tech/engine/tutorials/games-104/18-network-basic-2.md"
+    },
+    {
+      "basename": "19-network-advance-1",
+      "path": "game-tech/engine/tutorials/games-104/19-network-advance-1.md"
+    },
+    {
+      "basename": "19-network-advance-2",
+      "path": "game-tech/engine/tutorials/games-104/19-network-advance-2.md"
+    },
+    {
+      "basename": "20-data-oriented-1",
+      "path": "game-tech/engine/tutorials/games-104/20-data-oriented-1.md"
+    },
+    {
+      "basename": "20-data-oriented-2",
+      "path": "game-tech/engine/tutorials/games-104/20-data-oriented-2.md"
+    },
+    {
+      "basename": "21-lumen",
+      "path": "game-tech/engine/tutorials/games-104/21-lumen.md"
+    },
+    {
+      "basename": "22-lumen-2",
+      "path": "game-tech/engine/tutorials/games-104/22-lumen-2.md"
+    },
+    {
+      "basename": "08-animation-system",
+      "path": "game-tech/engine/tutorials/games-104/08-animation-system.md"
+    },
+    {
+      "basename": "07-render-pipeline",
+      "path": "game-tech/engine/tutorials/games-104/07-render-pipeline.md"
+    },
+    {
+      "basename": "06-atmosphere-cloud",
+      "path": "game-tech/engine/tutorials/games-104/06-atmosphere-cloud.md"
+    },
+    {
+      "basename": "04-renderer",
+      "path": "game-tech/engine/tutorials/games-104/04-renderer.md"
+    },
+    {
+      "basename": "03-build-game-world",
+      "path": "game-tech/engine/tutorials/games-104/03-build-game-world.md"
+    },
+    {
+      "basename": "02-engine-architecture-layering",
+      "path": "game-tech/engine/tutorials/games-104/02-engine-architecture-layering.md"
+    },
+    {
+      "basename": "01-introduction-to-game-engines",
+      "path": "game-tech/engine/tutorials/games-104/01-introduction-to-game-engines.md"
+    },
+    {
+      "basename": "README",
+      "path": "game-tech/engine/tutorials/games-104/README.md"
+    },
+    {
+      "basename": "brendan-galea",
+      "path": "game-tech/engine/gpu/vulkan/vulkan-learn/vulkan-tutorials/brendan-galea/brendan-galea.md"
+    },
+    {
       "basename": "模型加载数据流",
       "path": "game-tech/engine/renderer/模型加载数据流.canvas"
     },
     {
       "basename": "texture-compress",
       "path": "game-tech/engine/render/engine/texture-compress.md"
-    },
-    {
-      "basename": "brendan-galea",
-      "path": "game-tech/engine/gpu/vulkan/vulkan-learn/vulkan-tutorials/brendan-galea/brendan-galea.md"
     },
     {
       "basename": "msaa",
@@ -95,110 +199,6 @@
     {
       "basename": "game-ui",
       "path": "game-tech/art/image/ui/ui-tutorials/xiao-long-bao/game-ui.md"
-    },
-    {
-      "basename": "8-minute",
-      "path": "game-tech/art/image/ui/ui-tutorials/image-process/8-minute.md"
-    },
-    {
-      "basename": "water",
-      "path": "game-tech/engine/render/technology-artist/nature/water.md"
-    },
-    {
-      "basename": "shell",
-      "path": "tools/shell.md"
-    },
-    {
-      "basename": "resource-manager",
-      "path": "tools/game-engine/unity/resource/resource-manager.md"
-    },
-    {
-      "basename": "2 Overview",
-      "path": "game-tech/engine/render/technology-artist/filament/2 Overview.md"
-    },
-    {
-      "basename": "ai",
-      "path": "game-tech/math/ai.md"
-    },
-    {
-      "basename": "README",
-      "path": "tools/game-engine/unity/resource/README.md"
-    },
-    {
-      "basename": "llm",
-      "path": "tools/llm.md"
-    },
-    {
-      "basename": "functional-programming",
-      "path": "game-tech/computer/coding/functional-programming.md"
-    },
-    {
-      "basename": "rust-regex",
-      "path": "game-tech/languages/rust/rust-regex.md"
-    },
-    {
-      "basename": "regex",
-      "path": "tools/syntax/regex.md"
-    },
-    {
-      "basename": "spider",
-      "path": "game-tech/engine/model/animation/procedural/spider.md"
-    },
-    {
-      "basename": "playable",
-      "path": "tools/game-engine/unity/client/3c/animator/playable.md"
-    },
-    {
-      "basename": "README",
-      "path": "game-tech/art/image/ui/README.md"
-    },
-    {
-      "basename": "ugui",
-      "path": "tools/game-engine/unity/client/ui/ugui.md"
-    },
-    {
-      "basename": "weixin",
-      "path": "tools/game-engine/unity/client/weixin.md"
-    },
-    {
-      "basename": "git-basic",
-      "path": "tools/git/basic/git-basic.md"
-    },
-    {
-      "basename": "blog-base",
-      "path": "tools/blog/blog-base.md"
-    },
-    {
-      "basename": "blog-decorate",
-      "path": "tools/blog/blog-decorate.md"
-    },
-    {
-      "basename": "README",
-      "path": "tools/blog/README.md"
-    },
-    {
-      "basename": "my-blogs",
-      "path": "tools/blog/my-blogs.md"
-    },
-    {
-      "basename": "markdown-blog",
-      "path": "tools/blog/markdown-blog.md"
-    },
-    {
-      "basename": "README",
-      "path": "tools/README.md"
-    },
-    {
-      "basename": "git-resolve",
-      "path": "tools/git/git-resolve.md"
-    },
-    {
-      "basename": "README",
-      "path": "tools/git/README.md"
-    },
-    {
-      "basename": "git-submodule",
-      "path": "tools/git/git-submodule.md"
     }
   ],
   "omittedPaths": [],

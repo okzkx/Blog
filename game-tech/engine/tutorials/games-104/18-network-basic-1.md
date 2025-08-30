@@ -12,11 +12,11 @@
   - 热更新
 - Complexities 复杂性
 
-![image.png](online-outline.png)
+![image.png](https://image-1253155090.cos.ap-nanjing.myqcloud.com/202508292007019.png)
 
 #### OSI Model
 
-![image.png](osi.png)
+![image.png](https://image-1253155090.cos.ap-nanjing.myqcloud.com/202508292007394.png)
 
 Network Socket-based Communication
 
@@ -34,7 +34,7 @@ Tcp congestion control
 
 ### Compare
 
-![image.png](network-protocol-compare.png)
+![image.png](https://image-1253155090.cos.ap-nanjing.myqcloud.com/202508292007891.png)
 
 UDP 快速实时响应，其他用 TCP
 
@@ -44,11 +44,11 @@ TCP is not time critical
 
 基于 udp 构建可靠链接，自己写或者使用第三方
 
-![image.png](need.png)
+![image.png](https://image-1253155090.cos.ap-nanjing.myqcloud.com/202508292007323.png)
 
 如何建立可靠通讯
 
-![image.png](udp-custom.png)
+![image.png](https://image-1253155090.cos.ap-nanjing.myqcloud.com/202508292007906.png)
 
 1. 确认收到
 2. 什么没有收到
@@ -65,13 +65,13 @@ Sliding window protocol
 
 xor-fec
 
-![image.png](xor-fec.png)
+![image.png](https://image-1253155090.cos.ap-nanjing.myqcloud.com/202508292007782.png)
 
 异或出唯一缺失的包，并重传
 
 #### Reed-Solomon Codes 多包恢复
 
-![image.png](reed-solomon.png)
+![image.png](https://image-1253155090.cos.ap-nanjing.myqcloud.com/202508292007454.png)
 
 构建 B 矩阵
 
@@ -79,7 +79,7 @@ B 矩阵任意抽调 3 行，都是可逆矩阵
 
 通过冗余数据 C，和抽调后的逆矩阵 B'，可以恢复原始信息
 
-![image.png](custom-udp.png)
+![image.png](https://image-1253155090.cos.ap-nanjing.myqcloud.com/202508292007164.png)
 
 ## Clock Synchronization
 
@@ -87,13 +87,13 @@ B 矩阵任意抽调 3 行，都是可逆矩阵
 
 RTT
 
-![image.png](RTT.png)
+![image.png](https://image-1253155090.cos.ap-nanjing.myqcloud.com/202508292007059.png)
 
 ### Network Time Protocol
 
 NTP Algorithm
 
-![image.png](ntp-algorithm.png)
+![image.png](https://image-1253155090.cos.ap-nanjing.myqcloud.com/202508292007256.png)
 
 多次 RTT，丢弃不可靠 RTT，计算 Offset，对其时钟
 

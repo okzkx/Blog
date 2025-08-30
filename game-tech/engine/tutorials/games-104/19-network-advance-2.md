@@ -8,7 +8,7 @@ Game Sub-System
 
 MMO Architecture
 
-![image.png](mmo-architecture.png)
+![image.png](https://image-1253155090.cos.ap-nanjing.myqcloud.com/202508292008788.png)
 
 - Services of Link Layer : Gate way 账号服务器
 - Lobby ：大厅，做一个游戏前的等待缓冲
@@ -27,7 +27,7 @@ MMO Architecture
   - 复杂系统的震荡
   - 数据一致性
   - Load Balance 负载均衡
-    - Consistent Hashing 一致性哈希![image.png](consistent-hashing.png)
+    - Consistent Hashing 一致性哈希![image.png](https://image-1253155090.cos.ap-nanjing.myqcloud.com/202508292008247.png)
   - Servers Management
     - 服务发现 etcd
     - 其他服务能够监视别的服务的状态
@@ -110,7 +110,7 @@ Overwatch 监察者：靠人力判断
 
 开放世界构建
 
-![image.png](scalable-game-server.png)
+![image.png](https://image-1253155090.cos.ap-nanjing.myqcloud.com/202508292008096.png)
 
 1. zoning 平面空间分割
 2. 副本

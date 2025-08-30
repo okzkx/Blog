@@ -11,52 +11,52 @@
 
 #### viewport transform
 
-![](viewport-transform.jpg)
+![](https://image-1253155090.cos.ap-nanjing.myqcloud.com/202508291954649.jpg)
 
 #### frontFace
 
 `configInfo.rasterizationInfo.frontFace`
 
-![](clockwise.jpg)
+![](https://image-1253155090.cos.ap-nanjing.myqcloud.com/202508291954002.jpg)
 
 #### Depth Buffer explained
 
-![](color-depth-duffer.jpg)
+![](https://image-1253155090.cos.ap-nanjing.myqcloud.com/202508291954854.jpg)
 
 #### MSAA
 
-![](msaa.jpg)
+![](https://image-1253155090.cos.ap-nanjing.myqcloud.com/202508291957563.jpg)
 
 ## 5. Swap Chain
 
-![](swap-chain.jpg)
+![](https://image-1253155090.cos.ap-nanjing.myqcloud.com/202508291954139.jpg)
 
 1. We will have multiple framebuffers
 2. We can use wapChain.acquireNextImage() to get the next index of our framebuffers
 
 ### flow
 
-![](flow.jpg)
+![](https://image-1253155090.cos.ap-nanjing.myqcloud.com/202508291954912.jpg)
 
 ### Double buffer vs Triple buffer
 
-![](double-buffering.jpg)
+![](https://image-1253155090.cos.ap-nanjing.myqcloud.com/202508291954414.jpg)
 
-![](triple-buffering.jpg)
+![](https://image-1253155090.cos.ap-nanjing.myqcloud.com/202508291954554.jpg)
 
-![](triple-buffering-2.jpg)
+![](https://image-1253155090.cos.ap-nanjing.myqcloud.com/202508291954708.jpg)
 
-![](vsync.jpg)
+![](https://image-1253155090.cos.ap-nanjing.myqcloud.com/202508291957199.jpg)
 
 ### Swap chain present modes explained
 
 #### fifo
 
-![](fifo.jpg)
+![](https://image-1253155090.cos.ap-nanjing.myqcloud.com/202508291954223.jpg)
 
 #### Mailbox
 
-![](mailbox.jpg)
+![](https://image-1253155090.cos.ap-nanjing.myqcloud.com/202508291954586.jpg)
 
 #### Present Modes Comparison
 
@@ -85,34 +85,32 @@
 
 ### Render pass
 
-![](render-pass.jpg)
+![](https://image-1253155090.cos.ap-nanjing.myqcloud.com/202508291955704.jpg)
 
 ## 5.2 Command Buffer Overview
-
-![](brendan-galea.assets\command-buffer.png)
+![command-buffer](https://image-1253155090.cos.ap-nanjing.myqcloud.com/202508291956061.png)
 
 1. Record commands buffers once at initialization and then reuse for each frame
 2. Record command buffer every frame, just before submitting
 
-![](cmb-lifecycle.png)
+![](https://image-1253155090.cos.ap-nanjing.myqcloud.com/202508291955074.png)
 
 ### Secondary command buffer
 
-![](secondary-cmd.png)
+![](https://image-1253155090.cos.ap-nanjing.myqcloud.com/202508291956701.png)
 
 ## Vertex buffers
 
-![](vertex-buffer.jpg)
+![](https://image-1253155090.cos.ap-nanjing.myqcloud.com/202508291955972.jpg)
 
-![](iamges/../brendan-galea.assets/saperate-vertex-buffer.jpg)
-
+![](https://image-1253155090.cos.ap-nanjing.myqcloud.com/202508291956760.jpg)
 vertex binding descriptions
 
-![](vertex-binding-descriptions.jpg)
+![](https://image-1253155090.cos.ap-nanjing.myqcloud.com/202508291955684.jpg)
 
 vertex attribute descriptions
 
-![](vertex-attribute-description.jpg)
+![](https://image-1253155090.cos.ap-nanjing.myqcloud.com/202508291955748.jpg)
 
 - float:VK_FORMAT_R32_SFLOAT
 - vec2:VK_FORMAT_R32G32_SFLOAT
@@ -122,10 +120,10 @@ vertex attribute descriptions
 - uvec2:VK_FORMAT_R32G32_UINT (unsigned integer)
 - double:VK_FORMAT_R32_SFLOAT (double precision float)
 
-![](binding-buffer.jpg)
+![](https://image-1253155090.cos.ap-nanjing.myqcloud.com/202508291955695.jpg)
 
 暂时没有那种更好的结论，一般使用交叉的大 vertex buffer 而不是 binding
 
 ### Host & device memory
 
-![](data-transfer.jpg)
+![](https://image-1253155090.cos.ap-nanjing.myqcloud.com/202508291955606.jpg)

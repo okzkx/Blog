@@ -12,7 +12,7 @@ Reinforcement learning - 强化学习
 
 马尔可夫链
 
-![image.png](markov.png))
+![image.png](https://image-1253155090.cos.ap-nanjing.myqcloud.com/202508292006855.png))
 
 动作，改变环境状态，奖励，循环
 
@@ -42,7 +42,7 @@ States
 - Multi-Layer Perceptron : MLP
 - 卷积神经网络 Convolutional Neural Network CNN
 - Transformer
-- Long-Short Tern Memory (LSTM) 记忆功![image.png](lstm.png))
+- Long-Short Tern Memory (LSTM) 记忆功![image.png](https://image-1253155090.cos.ap-nanjing.myqcloud.com/202508292006902.png))
 - NN Architecture Selection
 
 先用监督学习法，训练出还可以的 AI

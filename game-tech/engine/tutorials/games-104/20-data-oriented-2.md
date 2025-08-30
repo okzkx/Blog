@@ -24,7 +24,7 @@ Problem of OOP
 
 多级缓存
 
-![image.png](memory-cache.png)
+![image.png](https://image-1253155090.cos.ap-nanjing.myqcloud.com/202508292008116.png)
 
 高性能编程，要关注是否 Cache 友好
 
@@ -48,14 +48,14 @@ Cache line，CPU 加载内存一次性加载一行，而不是一个一个。
 
 大型代码切换，也会耗费加载时间，所以尽量让代码在同一个块内重复执行，减少 if else
 
-![image.png](existential-processing.png)
+![image.png](https://image-1253155090.cos.ap-nanjing.myqcloud.com/202508292009754.png)
 
 ## Performance-Sensitive Data Arrangements
 
-![image.png](aos-soa.png)
+![image.png](https://image-1253155090.cos.ap-nanjing.myqcloud.com/202508292009330.png)
 
 ## Entity Component System
 
-![image.png](ecs.png)
+![image.png](https://image-1253155090.cos.ap-nanjing.myqcloud.com/202508292009676.png)
 
-![image.png](cpu-operation.png)
+![image.png](https://image-1253155090.cos.ap-nanjing.myqcloud.com/202508292009751.png)

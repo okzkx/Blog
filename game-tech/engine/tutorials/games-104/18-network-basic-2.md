@@ -1,4 +1,4 @@
-﻿# 网络架构基础 下
+# 网络架构基础 下
 
 ## Network topology
 
@@ -35,7 +35,8 @@
 #### Lockstep Origin
 
 帧同步，类似回合制游戏，服务器同步所有客户都安，每帧收集所有客户端的输入，再统一分发给所有的客户端，让他们各自进行模拟。
-![image.png](lookstep.png))
+
+![image.png](https://image-1253155090.cos.ap-nanjing.myqcloud.com/202508292008479.png))
 
 1. 每帧会被最慢的玩家卡到
 2. Bucket Synchronization，设定最长的等待时间
@@ -112,7 +113,8 @@ Reconnection Problem
 ### Dumb Client Problem
 
 本地角色的移动需要服务端同步下来造成延时
-![image.png](dumb-client-problem.png))
+
+![image.png](https://image-1253155090.cos.ap-nanjing.myqcloud.com/202508292008653.png))
 
 #### client side prediction
 
@@ -123,4 +125,5 @@ Reconnection Problem
 #### Packet Loss 丢包问题
 
 和解决帧同步 Leg 一样,服务端也缓存客户端的输入,防止网络波动,同时还不会影响实时性
-![image.png](net-sync-vs.png))
+
+![image.png](https://image-1253155090.cos.ap-nanjing.myqcloud.com/202508292008602.png))

@@ -17,7 +17,7 @@ Mesh card - 六面正交
 
 Surface cache 照亮 voxel，每帧对上间接光做一次 bounce，用直接光补充光线衰减，相当于时序上的无限次弹射
 
-![image.png](lighting-cache-pipeline.png)
+![image.png](https://image-1253155090.cos.ap-nanjing.myqcloud.com/202508292009844.png)
 
 获取空间的 Voxel 光照信息表达
 
@@ -31,7 +31,7 @@ Surface cache 照亮 voxel，每帧对上间接光做一次 bounce，用直接�
 
 八面体映射
 
-![image.png](oct-mapping.png)
+![image.png](https://image-1253155090.cos.ap-nanjing.myqcloud.com/202508292009195.png)
 
 在像素点在世界空间中相距过的地方，放置 Light probe 更密，存在方形纹理无用的下面。
 
@@ -55,4 +55,4 @@ Screen Probe Jitter
 
 是自然的低通滤波
 
-![image.png](metherds.png)
+![image.png](https://image-1253155090.cos.ap-nanjing.myqcloud.com/202508292009452.png)

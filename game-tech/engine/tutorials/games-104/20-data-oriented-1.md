@@ -34,7 +34,7 @@ Lock-free Programming 无锁编程
 
 ## Parallel Framework of Game Engine
 
-![image.png](fixed-multi-thread.png)
+![image.png](https://image-1253155090.cos.ap-nanjing.myqcloud.com/202508292008621.png)
 
 - Fixed multi-thread
 - Thread Fork-Join （树结构）

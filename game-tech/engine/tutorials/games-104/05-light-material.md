@@ -4,7 +4,7 @@
 
 #### The Rendering Equation
 
-![image-20220413220314499](image-20220413220314499.png)
+![image-20220413220314499](https://image-1253155090.cos.ap-nanjing.myqcloud.com/202508292000254.png)
 
 实时解渲染方程
 
@@ -93,23 +93,23 @@
 #### BRDF Model Based on Microfacet
 
 - 常用 GGX 模型
-- ![image-20220414183745137](image-20220414183745137.png)
+- ![image-20220414183745137](https://image-1253155090.cos.ap-nanjing.myqcloud.com/202508292000149.png)
 
 #### Normal Distribution Function : D 法线分布函数，表示高光强度曲线
 
 - 相比 Phone 高光，高频波峰足够抖，高光逐渐消失的时候是柔和过度
 
-![image-20220414184304102](image-20220414184304102.png)
+![image-20220414184304102](https://image-1253155090.cos.ap-nanjing.myqcloud.com/202508292000994.png)
 
 #### Geometric attenuation term (self-shadowing) ：G，几何遮挡，表示能量损失
 
-![image-20220414184837548](image-20220414184837548.png)
+![image-20220414184837548](https://image-1253155090.cos.ap-nanjing.myqcloud.com/202508292000705.png)
 
 #### Fresnel Equation :
 
 F 菲涅尔现象，视线越垂直，折射越明显，反之反射越明显
 
-![image-20220414185056386](image-20220414185056386.png)
+![image-20220414185056386](https://image-1253155090.cos.ap-nanjing.myqcloud.com/202508292001753.png)
 
 #### Physical Measured Material 实际上去测量真实物理材质的 BRDF
 
@@ -126,11 +126,11 @@ F 菲涅尔现象，视线越垂直，折射越明显，反之反射越明显
 
 SG 模型，全部参数都用纹理表达
 
-![image-20220414190145246](image-20220414190145246.png)
+![image-20220414190145246](https://image-1253155090.cos.ap-nanjing.myqcloud.com/202508292001144.png)
 
 #### PBR Metallic Roughness
 
-![image-20220414190714663](image-20220414190714663.png)
+![image-20220414190714663](https://image-1253155090.cos.ap-nanjing.myqcloud.com/202508292001717.png)
 
 convert MR to SG，MR 是对于 SG 的封装，依赖 SG，参数相对 SG 对艺术家更友好
 
@@ -153,11 +153,11 @@ cube map，提前预处理环境光
 - 使用 MipMap 存储不同粗糙度的 Specular
 - LUT，提前存储这个 BRDF roughness 和 cosθ 的关系
 
-![image-20220415103912206](image-20220415103912206.png)
+![image-20220415103912206](https://image-1253155090.cos.ap-nanjing.myqcloud.com/202508292001022.png)
 
 #### Quick shading with precomputation
 
-![image-20220415104120942](image-20220415104120942.png)
+![image-20220415104120942](https://image-1253155090.cos.ap-nanjing.myqcloud.com/202508292001692.png)
 
 ### Classis Shadow Solution
 
@@ -165,7 +165,7 @@ cube map，提前预处理环境光
 
 级联阴影，视线所达到的地方，用多张 ShadowMap 表示，分辨率一样，表示的范围越来越大，精度越来越低
 
-![image-20220415104525286](image-20220415104525286.png)
+![image-20220415104525286](https://image-1253155090.cos.ap-nanjing.myqcloud.com/202508292001938.png)
 
 阴影是渲染管线中的最耗时的部分，场景中每个物体需要重画，同时存储量高
 

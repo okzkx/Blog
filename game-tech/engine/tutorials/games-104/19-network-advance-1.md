@@ -1,4 +1,4 @@
-﻿# 网络架构进阶 上
+# 网络架构进阶 上
 
 ## Movement Replication
 
@@ -27,7 +27,8 @@
 不要立即瞬移位置，而是要先计算出如果按照主机位置的未来位置。
 
 然后缓慢插值到这个未来位置。
-![image.png](PVB.png))
+
+![image.png](https://image-1253155090.cos.ap-nanjing.myqcloud.com/202508292008999.png))
 
 实际运行的时候，蓝色曲线是本地预测运行线总是和追绿色曲线在未来交汇，当前永远交汇不了。
 
@@ -44,7 +45,8 @@
 ## Hit Registration
 
 命中判定
-![image.png](how-to-make-headshot.png))
+
+![image.png](https://image-1253155090.cos.ap-nanjing.myqcloud.com/202508292008785.png))
 
 - Client-side hit-detection
 - rver-side hit-registration
@@ -88,7 +90,8 @@
 所以服务端需要猜测补偿半个 RTT 时间 + 内插值时间给客户端
 
 需要服务器有快照 Buffer
-![image.png](lag-compensatin-image.png))
+
+![image.png](https://image-1253155090.cos.ap-nanjing.myqcloud.com/202508292008735.png))
 
 延时补偿没法解决掩体问题
 

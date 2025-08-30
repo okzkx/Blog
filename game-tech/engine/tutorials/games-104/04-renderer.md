@@ -7,9 +7,9 @@
 1. Complex render objects
 2. Deal with architecture of modern computer with a complex combination of CPU and GPU
 3. Commit a bullet-proof framerate,
-   1. 30 or 60 or 120 fps
-   2. HD, 1080p, 4k, 8k
-4. CPU memory
+   4. 30 or 60 or 120 fps
+   5. HD, 1080p, 4k, 8k
+6. CPU memory
 
 #### Rendering on Game Engine
 
@@ -79,7 +79,7 @@ The dedicated hardware to solve massive jobs
 
 cpu 到 gpu 的高延迟
 
-![image-20220413212434311](image-20220413212434311.png)
+![image-20220413212434311](https://image-1253155090.cos.ap-nanjing.myqcloud.com/202508292000758.png)
 
 多级缓存，数据尽量要放在一起
 

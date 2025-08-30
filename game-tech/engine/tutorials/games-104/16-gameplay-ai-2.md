@@ -2,7 +2,7 @@
 
 ## Steering 指导行为
 
-![image.png](Steering.png))
+![image.png](https://image-1253155090.cos.ap-nanjing.myqcloud.com/202508292006531.png))
 
 ### Seek / Flee
 
