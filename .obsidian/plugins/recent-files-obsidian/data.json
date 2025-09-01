@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "2d-post-processing-lighting",
+      "path": "game-tech/engine/render/render-pipeline/2d-post-processing-lighting.md"
+    },
+    {
       "basename": "05-light-material",
       "path": "game-tech/engine/tutorials/games-104/05-light-material.md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "ps-skill",
       "path": "game-tech/art/image/ui/ui-tutorials/xiao-long-bao/ps-skill.md"
-    },
-    {
-      "basename": "game-ui",
-      "path": "game-tech/art/image/ui/ui-tutorials/xiao-long-bao/game-ui.md"
     }
   ],
   "omittedPaths": [],
