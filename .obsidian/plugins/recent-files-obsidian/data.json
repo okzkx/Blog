@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "project-structure",
+      "path": "game-tech/languages/cpp/project-structure.md"
+    },
+    {
       "basename": "2d-post-processing-lighting",
       "path": "game-tech/engine/render/render-pipeline/2d-post-processing-lighting.md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "bean-studio",
       "path": "game-tech/art/image/ui/ui-tutorials/bean-studio.md"
-    },
-    {
-      "basename": "ps-skill",
-      "path": "game-tech/art/image/ui/ui-tutorials/xiao-long-bao/ps-skill.md"
     }
   ],
   "omittedPaths": [],
