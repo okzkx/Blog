@@ -1,6 +1,30 @@
 {
   "recentFiles": [
     {
+      "basename": "command-buffer.png",
+      "path": "brendan-galea.assets/command-buffer.png.md"
+    },
+    {
+      "basename": "Untitled 3",
+      "path": "Untitled 3.base"
+    },
+    {
+      "basename": "Untitled 2",
+      "path": "Untitled 2.base"
+    },
+    {
+      "basename": "模型加载数据流",
+      "path": "game-tech/engine/renderer/模型加载数据流.canvas"
+    },
+    {
+      "basename": "Untitled 1",
+      "path": "Untitled 1.base"
+    },
+    {
+      "basename": "Untitled",
+      "path": "Untitled.base"
+    },
+    {
       "basename": "project-structure",
       "path": "game-tech/languages/cpp/project-structure.md"
     },
@@ -117,20 +141,12 @@
       "path": "game-tech/engine/gpu/vulkan/vulkan-learn/vulkan-tutorials/brendan-galea/brendan-galea.md"
     },
     {
-      "basename": "模型加载数据流",
-      "path": "game-tech/engine/renderer/模型加载数据流.canvas"
-    },
-    {
       "basename": "texture-compress",
       "path": "game-tech/engine/render/engine/texture-compress.md"
     },
     {
       "basename": "msaa",
       "path": "game-tech/engine/gpu/vulkan/vulkan-learn/vulkan-tutorials/brendan-galea/brendan-galea.assets/msaa.jpg"
-    },
-    {
-      "basename": "command-buffer.png",
-      "path": "brendan-galea.assets/command-buffer.png.md"
     },
     {
       "basename": "Vulkan-objects",
@@ -183,22 +199,6 @@
     {
       "basename": "procedural-terrain",
       "path": "game-tech/engine/model/mesh/procedural-terrain.md"
-    },
-    {
-      "basename": "meeting-xiamen",
-      "path": "tools/game-engine/unity/others/meetings/meeting-xiamen.md"
-    },
-    {
-      "basename": "gpu-driven",
-      "path": "tools/game-engine/unity/render/gpu-driven.md"
-    },
-    {
-      "basename": "README",
-      "path": "game-tech/art/image/ui/ui-tutorials/README.md"
-    },
-    {
-      "basename": "bean-studio",
-      "path": "game-tech/art/image/ui/ui-tutorials/bean-studio.md"
     }
   ],
   "omittedPaths": [],
