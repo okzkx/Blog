@@ -1,6 +1,14 @@
 {
   "recentFiles": [
     {
+      "basename": "unitask",
+      "path": "tools/game-engine/unity/client/code/multi-threads/unitask.md"
+    },
+    {
+      "basename": "game-framework",
+      "path": "tools/game-engine/unity/client/code/game-framework.md"
+    },
+    {
       "basename": "command-buffer.png",
       "path": "brendan-galea.assets/command-buffer.png.md"
     },
@@ -191,14 +199,6 @@
     {
       "basename": "renderer",
       "path": "game-tech/engine/render/renderer.md"
-    },
-    {
-      "basename": "README",
-      "path": "game-tech/game-design/README.md"
-    },
-    {
-      "basename": "procedural-terrain",
-      "path": "game-tech/engine/model/mesh/procedural-terrain.md"
     }
   ],
   "omittedPaths": [],
